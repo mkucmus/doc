@@ -7,5 +7,8 @@ The REST API Reference
     introduction
     authorization
     admin_users
+    analytics
+    audit
+    campaign
 
 .. include:: map.rst.inc
