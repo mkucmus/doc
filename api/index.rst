@@ -2,7 +2,7 @@ The REST API Reference
 ======================
 
 .. toctree::
-:hidden:
+        :hidden:
 
         introduction
         authorization
