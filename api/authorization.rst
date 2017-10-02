@@ -1,5 +1,5 @@
 .. index::
-single: Authorization
+   single: Authorization
 
 Authorization
 =============
