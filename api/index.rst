@@ -2,10 +2,10 @@ The REST API Reference
 ======================
 
 .. toctree::
-        :hidden:
+    :hidden:
 
-        introduction
-        authorization
-        admin_users
+    introduction
+    authorization
+    admin_users
 
 .. include:: map.rst.inc
