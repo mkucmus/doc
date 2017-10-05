@@ -16,7 +16,7 @@ The REST API Reference
 :doc:`The API guide </api/index>` covers the REST API of Open Loyalty platform.
 
 .. toctree::
-:hidden:
+    :hidden:
 
        api/index
 
