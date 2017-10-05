@@ -96,7 +96,9 @@
 
           {% if logo %}
             {# Not strictly valid HTML, but it's the only way to display/scale it properly, without weird scripting or heaps of work #}
-            <img src="{{ pathto('_static/' + logo, 1) }}" class="logo" />
+            <a href="/">
+              <img src="{{ pathto('_static/' + logo, 1) }}" class="logo" />
+            </a>
           {% endif %}
           </a>
 
@@ -177,7 +179,7 @@
   {% endif %}
 
   {# RTD hosts this file, so just load on non RTD builds #}
-  <script type="text/javascript" src="{{ pathto('_static/js/theme.js', 1) }}"></script>
+
 
   {# STICKY NAVIGATION #}
   {% if theme_sticky_navigation %}
