@@ -112,7 +112,7 @@
               toctree is empty. Skip building this for now.
             #}
             {% if 'singlehtml' not in builder %}
-              {% set global_toc = toctree(maxdepth=2, collapse=false, includehidden=True) %}
+              {% set global_toc = toctree(maxdepth=1, collapse=false, includehidden=True) %}
             {% endif %}
             {% if global_toc %}
               {{ global_toc }}
