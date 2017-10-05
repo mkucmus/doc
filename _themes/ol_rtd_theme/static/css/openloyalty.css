@@ -30,9 +30,11 @@
     padding: 20px;
     background-color: #fff;
     text-align: center;
+    background: rgba(87,214,141,1);
 }
 .wy-side-nav-search {
     margin-bottom: 30px;
+    background: rgba(87,214,141,1);
 }
 .wy-side-nav-search input[type=text] {
     border-color: #eee;
@@ -42,8 +44,4 @@
 }
 .wy-menu-vertical li.toctree-l2.current > a:hover {
     background-color: #333;
-}
-
-.wy-side-nav-logo {
-    background: rgba(87,214,141,1);
 }
