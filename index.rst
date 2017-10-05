@@ -22,5 +22,6 @@ The REST API Reference
 
 .. include:: /api/map.rst.inc
 
+.. _Open Loyalty:: http://openloyalty.io
 .. _`Symfony Framework`: http://symfony.com
 .. _`Quick Tour`: http://symfony.com/doc/current/quick_tour
