@@ -1,7 +1,7 @@
 Open Loyalty Documentation
 ==========================
 
-`Open Loyalty`_ Open Loyalty is technology for loyalty solutions for starting new loyalty projects
+`Open Loyalty`_ is technology for loyalty solutions for starting new loyalty projects
 based on the `Symfony Framework`_.
 
 .. note::
@@ -22,6 +22,7 @@ The REST API Reference
 
 .. include:: /api/map.rst.inc
 
-.. _Open Loyalty:: http://openloyalty.io
+.. _OL: http://openloyalty.io
+.. _`Open Loyalty`: http://openloyalty.io
 .. _`Symfony Framework`: http://symfony.com
 .. _`Quick Tour`: http://symfony.com/doc/current/quick_tour
