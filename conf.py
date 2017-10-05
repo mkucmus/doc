@@ -10,6 +10,9 @@ project = 'Open Loyalty'
 copyright = u'2011-2017, Divante Ltd'
 version = ''
 release = ''
+html_theme = 'ol_rtd_theme'
+html_theme_path = ["_themes"]
+htmlhelp_basename = 'Openloyaltydocs'
 man_pages = [
     ('index', 'open-loyalty', u'Open Loyalty Documentation',
      [u'Divante Ltd'], 1)
