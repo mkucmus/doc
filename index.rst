@@ -1,6 +1,9 @@
 Open Loyalty Documentation
 ==========================
 
+.. image:: /_images/logo.png
+   :alt:   Open Loyalty Documentation
+
 `Open Loyalty`_ is technology for loyalty solutions for starting new loyalty projects
 based on the `Symfony Framework`_.
 
@@ -16,9 +19,9 @@ The REST API Reference
 :doc:`The API guide </api/index>` covers the REST API of Open Loyalty platform.
 
 .. toctree::
-    :hidden:
+   :hidden:
 
-    api/index
+   api/index
 
 .. include:: /api/map.rst.inc
 
