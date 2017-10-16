@@ -18,7 +18,7 @@ The REST API Reference
 .. toctree::
     :hidden:
 
-       api/index
+    api/index
 
 .. include:: /api/map.rst.inc
 
