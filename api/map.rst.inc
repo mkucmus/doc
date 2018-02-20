@@ -6,3 +6,5 @@
 * :doc:`/api/campaign`
 * :doc:`/api/customer`
 * :doc:`/api/customer_campaign`
+* :doc:`/api/customer_earning_rule
+* :doc:`/api/customer_points_transfers
