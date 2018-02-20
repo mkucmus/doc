@@ -8,3 +8,5 @@
 * :doc:`/api/customer_campaign`
 * :doc:`/api/customer_earning_rule
 * :doc:`/api/customer_points_transfers
+* :doc:`/api/earning_rule
+
