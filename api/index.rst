@@ -15,5 +15,6 @@ The REST API Reference
    customer_earning_rule
    customer_points_transfers
    earning_rule
+   invitation
 
 .. include:: map.rst.inc
