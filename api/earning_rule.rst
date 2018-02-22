@@ -297,6 +297,7 @@ Exemplary Response
 	  ],
 	  "total": 2
 	  
+	  
 Method will return earning rule details (seller)
 ------------------------------------------------
 
@@ -316,6 +317,7 @@ Definition
 +-------------------------------------+----------------+---------------------------------------------------+
 | earningRule                         | query          | earningRule ID                                    |
 +-------------------------------------+----------------+---------------------------------------------------+
+
 Example
 ^^^^^^^
 
@@ -444,7 +446,7 @@ Example
 
 .. code-block:: bash
 
-    curl http://localhost:8181/api/earningRule/00000000-0000-474c-b092-b0dd880c0121 \
+    curl http://localhost:8181/api/earningRule \
         -X "POST" \
         -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
@@ -483,7 +485,17 @@ Example
     The *000096cf-32a3-43bd-9034-4df343e5fd93* or *00000000-0000-474c-b092-b0dd880c0121* id are an exemplary values.
     Your value can be different. Check in the list of all levels if you are not sure which id should be used.
 
+Exemplary Response
+^^^^^^^^^^^^^^^^^^
 
+.. code-block:: text
+
+    STATUS: 200 OK
+	
+.. code-block:: json
+	{
+	  "earningRuleId": "3e3d8a3a-2efb-4283-87c4-20b286bde19c"
+	}
 	
 Edit existing earning rule.
 ---------------------------
@@ -704,7 +716,6 @@ Definition
 +-------------------------------------+----------------+---------------------------------------------------+	
 | version                             | query          | api version, v1 required                          |
 +-------------------------------------+----------------+---------------------------------------------------+	
-
 
 
 Example
