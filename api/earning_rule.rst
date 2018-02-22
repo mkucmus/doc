@@ -14,7 +14,7 @@ Definition
 
 .. code-block:: text
 
-    GET  /api/earningRule?active=1&page=1&perPage=3&sort=name&direction=asc
+    GET  /api/earningRule
 
 +-------------------------------------+----------------+---------------------------------------------------+
 | Parameter                           | Parameter type | Description                                       |
