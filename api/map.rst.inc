@@ -11,3 +11,4 @@
 * :doc:`/api/earning_rule
 * :doc:`/api/invitation
 * :doc:`/api/invitation/points_transfers
+* :doc:`/api/invitation/security

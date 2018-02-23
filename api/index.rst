@@ -17,5 +17,6 @@ The REST API Reference
    earning_rule
    invitation
    points_transfers
+   security
 
 .. include:: map.rst.inc
