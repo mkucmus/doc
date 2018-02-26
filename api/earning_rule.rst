@@ -694,7 +694,7 @@ Exemplary Response
 	
 	
 This method allows to use a custom event earning rule.
------------------------------------------------
+------------------------------------------------------
 
 To use a custom event earning rule for a specific customer you will need to call the ``/api/{version}/earnRule/{eventName}/customer/{customer}`` endpoint with the ``POST`` method.
 
