@@ -12,3 +12,4 @@
 * :doc:`/api/invitation
 * :doc:`/api/invitation/points_transfers
 * :doc:`/api/invitation/security
+* :doc:`/api/invitation/transactions

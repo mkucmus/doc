@@ -18,5 +18,6 @@ The REST API Reference
    invitation
    points_transfers
    security
+   transactions
 
 .. include:: map.rst.inc
