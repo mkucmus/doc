@@ -4,11 +4,64 @@ Settings API
 These endpoints will allow you to see the list of settings taken in the Open Loyalty.
 
 
+Method will return list of available customer statuses.
+-------------------------------------------------------
+
+To return list of available customer statuses you will need to call the ``/api/admin/customer-statuses`` endpoint with the ``GET`` method.
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    GET /api/admin/customer-statuses
+
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+| Parameter                                      | Parameter type |  Description                                                               |
++================================================+================+============================================================================+
+| Authorization                                  | header         | Token received during authentication                                       |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+	
+
+Example
+^^^^^^^
+
+.. code-block:: bash
+
+curl http://localhost:8181/api/admin/translations \
+	    -X "GET" \
+	    -H "Accept: application/json" \
+	    -H "Content-type: application/x-www-form-urlencoded" \
+	    -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+		
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+
+Exemplary Response
+^^^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
+
+.. code-block:: json
+
+	{
+	  "statuses": [
+		"new",
+		"active",
+		"blocked",
+		"deleted"
+	  ],
+	  "total": 4
+	}
+
 
 Get list of translations
 ------------------------
 
-To retrieve a paginated list of translations you will need to call the ``/api/admin/translations`` endpoint with the ``GET`` method.
+To retrieve a paginated list of available translations you will need to call the ``/api/admin/translations`` endpoint with the ``GET`` method.
 
 
 Definition
@@ -50,12 +103,65 @@ Exemplary Response
 		  "name": "english",
 		  "key": "english.json",
 		  "updatedAt": "2018-02-19T11:59:27+0100"
+		},
+		{
+		  "name": "german",
+		  "key": "german.json",
+		  "updatedAt": "2018-02-26T12:43:01+0100"
 		}
 	  ],
-	  "total": 1
+	  "total": 2
 	}	
 
 
+Method will return translations. <br/> You must provide translation key, available keys can be obtained by /admin/translations endpoint.
+----------------------------------------------------------------------------------------------------------------------------------------
+
+To return list of translations you will need to call the ``/api/admin/translations/{key}`` endpoint with the ``GET`` method.
+
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    GET /api/admin/translations/{key}
+	
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+| Parameter                                      | Parameter type |  Description                                                               |
++================================================+================+============================================================================+
+| Authorization                                  | header         | Token received during authentication                                       |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+	
+| key                                            | header         | Translation key                                                            |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+	
+
+Example
+^^^^^^^
+
+.. code-block:: bash
+
+curl http://localhost:8181/api/admin/translations/{key} \
+	    -X "GET" \
+	    -H "Accept: application/json" \
+	    -H "Content-type: application/x-www-form-urlencoded" \
+	    -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+
+Exemplary Response
+^^^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
+
+.. code-block:: json
+
+
+	{
+	  "name": "german",
+	  "key": "german.json",
+	  "content": "{   \"global\": {     \"configuration\": \"Configuration\",       \"emails\": \"Transaction emails\",     \"static_content\": {       \"benefits\": {         \"title\": \"My benefits\",         \"content\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget tincidunt est. Sed fringilla dapibus venenatis.\"       },       \"connect_online_stores\": {         \"title\": \"Match witch eCommerce\",         \"content\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget tincidunt est. Sed fringilla dapibus venenatis.\"       },       \"contact\": {         \"title\": \"Contact\",         \"content\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget tincidunt est. Sed fringilla dapibus venenatis.\"       },       \"faq\": {         \"title\": \"FAQ\",         \"content\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget tincidunt est. Sed fringilla dapibus venenatis.\"       },       \"how_to_earn\": {         \"title\": \"How to earn points?\",         \"content\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget tincidunt est. Sed fringilla dapibus venenatis.\"       },       \"rules\": {         \"title\": \"Terms and conditions\",         \"content\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget tincidunt est. Sed fringilla dapibus venenatis.\"       },       \"visit_offline\": {         \"title\": \"Visit offline stores\",         \"content\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget tincidunt est. Sed fringilla dapibus venenatis.\"       },       \"match_with_ecommerce\": {         \"title\": \"Match with eCommerce\",         \"content\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget tincidunt est. Sed fringilla dapibus venenatis.\"       }     }   },     \"customer_earning_rules\": {       \"custom_event\": \"Custom event\",       \"points\": \"Each {{pointsValue}}{{currency}} = 1 point\",       \"product_purchase\": \"Additional points for purchase of {{sku}}\",       \"title\": \"How to earn points?\",       \"table\": {         \"name\": \"How?\",         \"type\": \"Type\",         \"description\": \"Description\",         \"points\": \"Points\",         \"start_at\": \"Start at\",         \"end_at\": \"End at\"       }     },     \"customer_nav\": {       \"logo1\": \"Loyalty\",       \"logo2\": \"Program\",       \"copyrights\": \"\",       \"home\": \"Home\",       \"my_rewards\": \"My rewards\",       \"earning_points\": \"My points\",       \"my_transactions\": \"My transactions\",       \"match_with_ecommerce\": \"Match with eCommerce\",       \"my_profile\": \"My profile\"     },     \"customer_campaign\": {       \"more_information\": {         \"button\": \"Click here for more info\"       },       \"coupon_used\": \"This coupon has been used\",       \"not_enough_points\": \"Not enough points\",       \"will_be_active_dates\": \"This reward campaign will be active from {{from}} to {{to}}\",       \"will_be_active_all_time\": \"This campaign will be active all time\",       \"will_be_active_soon\": \"Not active yet\",       \"list\": \"My rewards\",       \"bought_list\": \"My redeemed rewards\",       \"points\": \"Points\",       \"redeem\": \"Redeem reward\",       \"footer\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget tincidunt est. Sed fringilla dapibus venenatis.\",       \"no_rewards\": \"There are no available rewards\",       \"no_bought_rewards\": \"There are no redeemed rewards\",       \"all_time_Active\": \"All time active\",       \"see_bought\": \"See rewards you have already redeemed\",       \"reward_congratulations\": \"Congratulations!\",       \"reward_ready\": \"Your reward is ready to receive.\",       \"reward_code\": \"CODE OF REWARD\",       \"active_points\": \"Redeem new rewards, you can use <b>{{points}}</b> active points\",       \"reward_footer\": \"Instruction for reward, lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget tincidunt est. Sed fringilla dapibus venenatis.\",       \"no_desc\": \"Reward description is not set\",       \"no_name\": \"No name of reward campaign\",       \"used_confirmation\": \"Confirm reward usage\",       \"used_confirmation_description\": \"Please confirm reward usage\",       \"singleCoupon_prompt\": \"To redeem customers will be able to use the same coupon\"     },     \"customer_transaction\": {       \"customer_loyalty_card_number\": \"Loyalty card number\",       \"customer_phone_number\": \"Phone number\",       \"empty_transactions\": \"There is no transactions to display\",       \"list\": \"Transactions list\",       \"id\": \"Transaction ID\",       \"document_number\": \"Document number\",       \"document_type\": \"Document type\",       \"revised_document\": \"Revised document\",       \"purchase_date\": \"Purchase date\",       \"purchase_place\": \"POS\",       \"actions\": \"Actions\",       \"details\": \"Transaction details\",       \"customer_name\": \"Customer name\",       \"phone\": \"Phone\",       \"email\": \"E-mail\",       \"loyaltyCardNumber\": \"Loyalty card number\",       \"city\": \"City\",       \"state\": \"State\",       \"street\": \"Street\",       \"building_name\": \"Building name\",       \"unit_name\": \"Flat/Unit name\",       \"postal_code\": \"Postal code\",       \"country\": \"Country\",       \"item_details\": \"Item details\",       \"name\": \"Name\",       \"quantity\": \"Quantity\",       \"sku\": \"SKU\",       \"category\": \"Category\",       \"gross\": \"Gross value\",       \"labels\": \"Labels\",       \"maker\": \"Brand\",       \"link_modal\": \"Match customer with transaction\",       \"customer_email\": \"E-mail\",       \"customer_id\": \"Customer ID\",       \"transaction_document_number\": \"Document number\",       \"customer_email_prompt\": \"Find customer by e-mail\",       \"transaction_document_number_prompt\": \"Find transaction by document number\",       \"customer_id_prompt\": \"Put customer unique ID\",       \"link\": \"Match with customer\",       \"heading\": \"Transactions\",       \"transaction_id\": \"Transaction id\",       \"points_earned\": \"Points earned\",       \"pos_name\": \"POS name\",       \"sum\": \"SUM\",       \"amount\": \"Amount\",       \"document_types\": {         \"return\": \"Return\",         \"sell\": \"Sell\",         \"both\": \"Both\"       }     },     \"Your password must be at least 8 characters long.\": \"Your password must be at least 8 characters long\",     \"Your password must include both upper and lower case letters.\": \"Your password must include both upper and lower case letters\",     \"Your password must include at least one number.\": \"Your password must include at least one number\",     \"Your password must contain at least one special character.\": \"Your password must contain at least one special character\",     \"Your password must include at least one letter.\": \"Your password must include at least one letter\",     \"Ta wartość nie powinna być pusta.\": \"This value should not be empty\",     \"Plik nie mógł zostać odnaleziony.\": \"File could not be found\",     \"Ten plik nie jest obrazem.\": \"This file is not image\",     \"customer with such phone already exists\": \"Customer with such phone already exists\",     \"customer with such loyalty card number already exists\": \"Customer with such loyalty card number already exists\",     \"Bad credentials\": \"Bad credentials\"   }",
+	  "updatedAt": "2018-02-26T12:43:01+0100"
+	}
 
 
 Create new translations
@@ -152,10 +258,8 @@ Exemplary Response
 	}
 	
 	
-	
-	
-Get list of settings
---------------------
+Method will return all system settings.
+---------------------------------------
 
 To retrieve a paginated list of settings you will need to call the ``/api/settings`` endpoint with the ``GET`` method.
 
@@ -237,7 +341,181 @@ Exemplary Response
 	
 
 	
+Method allow to update system settings.
+---------------------------------------
+
+To update system settings you will need to call the ``/api/settings`` endpoint with the ``POST`` method.
+
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    POST /api/settings
+
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+| Parameter                                      | Parameter type |  Description                                                               |
++================================================+================+============================================================================+
+| Authorization                                  | header         | Token received during authentication                                       |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+|                                                | header         |                                                                            |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+|                                                | header         |                                                                            |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+|                                                | header         |                                                                            |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+|                                                | header         |                                                                            |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+|                                                | header         |                                                                            |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+|                                                | header         |                                                                            |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+|                                                | header         |                                                                            |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+|                                                | header         |                                                                            |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+|                                                | header         |                                                                            |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+|                                                | header         |                                                                            |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+|                                                | header         |                                                                            |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+|                                                | header         |                                                                            |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+|                                                | header         |                                                                            |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+|                                                | header         |                                                                            |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+|                                                | header         |                                                                            |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+|                                                | header         |                                                                            |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+|                                                | header         |                                                                            |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+|                                                | header         |                                                                            |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+|                                                | header         |                                                                            |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+|                                                | header         |                                                                            |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+|                                                | header         |                                                                            |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+
+Example
+^^^^^^^
+
+.. code-block:: bash
+
+curl http://localhost:8181/api/settings \
+	    -X "POST" \
+	    -H "Accept: application/json" \
+	    -H "Content-type: application/x-www-form-urlencoded" \
+	    -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+
+Exemplary Response
+^^^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
+
+.. code-block:: json
+
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+Method will return some data needed for specific select fields.
+---------------------------------------------------------------
+
+To return list of translations you will need to call the ``/api/settings/choices/language`` endpoint with the ``GET`` method.
+
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    GET /api/settings/choices/language
+	
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+| Parameter                                      | Parameter type |  Description                                                               |
++================================================+================+============================================================================+
+| Authorization                                  | header         | Token received during authentication                                       |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+	
+| type                                           | header         | Allowed types: timezone, language, country, availableFrontendTranslations, |
+|                                                |                | earningRuleLimitPeriod, availableCustomerStatuses                          |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+	
+
+Example
+^^^^^^^
+
+.. code-block:: bash
+
+curl http://localhost:8181/api/settings/choices/language \
+	    -X "GET" \
+	    -H "Accept: application/json" \
+	    -H "Content-type: application/x-www-form-urlencoded" \
+	    -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+
+Exemplary Response
+^^^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
+
+.. code-block:: json	
+
+	{
+	  "choices": {
+		"Abkhazian": "ab",
+		"Achinese": "ace",
+		"Angika": "anp",
+		"Ao Naga": "njo",
+		"Arabic": "ar",
+		"Aromanian": "rup",
+		"Brazilian Portuguese": "pt_BR",
+		"Breton": "br",
+		"British English": "en_GB",
+		"Buginese": "bug",
+		"Bulgarian": "bg",
+		"Bulu": "bum",
+		"Buriat": "bua",
+		"Burmese": "my",
+		"Caddo": "cad",
+		"Cajun French": "frc",
+		"Canadian English": "en_CA",
+		"Canadian French": "fr_CA",
+		"Cantonese": "yue",
+		(...)
+		"Capiznon": "cps",
+		"Zaza": "zza",
+		"Zeelandic": "zea",
+		"Zenaga": "zen",
+		"Zhuang": "za",
+		"Zoroastrian Dari": "gbz",
+		"Zulu": "zu",
+		"Zuni": "zun"
+	  }
+	}
 	
 Get list of available email settings
 ------------------------------------
@@ -576,3 +854,242 @@ Exemplary Response
 .. code-block:: json
 
 	No Content
+
+	
+Method will return current translations.
+----------------------------------------
+
+To return current translations you will need to call the ``/api/translations`` endpoint with the ``GET`` method.
+
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    GET /api/translations
+	
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+| Parameter                                      | Parameter type |  Description                                                               |
++================================================+================+============================================================================+
+| Authorization                                  | header         | Token received during authentication                                       |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+	
+
+Example
+^^^^^^^
+
+.. code-block:: bash
+
+curl http://localhost:8181/api/translations \
+	    -X "GET" \
+	    -H "Accept: application/json" \
+	    -H "Content-type: application/x-www-form-urlencoded" \
+	    -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+
+Exemplary Response
+^^^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
+
+.. code-block:: json
+	
+	{
+	  "global": {
+		"configuration": "Configuration",
+		"users": "Users",
+		"cancel": "Cancel",
+		"save": "Save",
+		"yes": "Yes",
+		"no": "No",
+		"admin_footer": "2016 Open Loyalty",
+		"true": "True",
+		"false": "False",
+		"edit": "Edit",
+		"change": "Change",
+		"show": "Show",
+		"not_set": "Not set",
+		"settings": "Settings",
+		"logout": "Logout",
+		"menu": "Menu",
+		"and": "AND",
+		"or": "OR",
+		"logs": "System logs",
+		"confirm": "Yes",
+		"active": "Active",
+		"inactive": "Inactive",
+		"translations": "Translations",
+		"emails": "Emails",
+		"account": "Account",
+		"unlimited": "Unlimited",
+		"search": "Search",
+		"no_rows_to_display": "There is no rows to display",
+		"all_time_active": "Is all time active",
+		"level": "Level",
+		"segment": "Segment",
+		"start_typing_an_email": "enter email to search",
+		"loading": "loading",
+		"home": "Home",
+		"upload": "Upload",
+		"remove": "Remove"
+	  },
+	  "users": {
+		"heading": "Users",
+		"list": "Users list",
+		"name": "Name",
+		"surname": "Surname",
+		"email": "E-mail",
+		"active": "Active",
+		"actions": "Actions",
+		"external": "External",
+		"add": "Add",
+		"create_heading": "Add user",
+		"first_name": "Name",
+		"last_name": "Surname",
+		"phone": "Phone",
+		"edit": "Editing user",
+		"create": "Create user",
+		"password": "Password",
+		"api_key": "Api key",
+		"active_prompt": "",
+		"edit_heading": "Edit user"
+	  },
+	  "nav": {
+		"referred_customer": "Referred customers",
+		"home": "Home",
+		"customers": "Customers",
+		"all_customers": "All customers",
+		"add_customer": "Add customer",
+		"levels": "Levels",
+		"all_levels": "All levels",
+		"add_level": "Add level",
+		"transfers": "Points transfers",
+		"all_transfers": "All points transfers",
+		"transactions": "Transactions",
+		"all_transactions": "All transactions",
+		"earning_rules": "Earning points rules",
+		"all_earning_rules": "All earning points rules",
+		"add_earning_rule": "Add earning points rule",
+		"pos": "POS",
+		"all_pos": "All POS",
+		"add_pos": "Add POS",
+		"sellers": "Merchants",
+		"all_sellers": "All merchants",
+		"add_seller": "Add merchant",
+		"segments": "Segments",
+		"all_segments": "All segments",
+		"add_segment": "Add segment",
+		"campaigns": "Reward campaigns",
+		"all_campaigns": "All reward campaigns",
+		"add_campaign": "Add reward campaign",
+		"support": "Support",
+		"guide": "Guide",
+		"retention_matrix": "Retention matrix",
+		"dashboard": "Dashboard"
+		  },
+	  "customer_nav": {
+		"logo1": "Loyalty",
+		"logo2": "Program",
+		"copyrights": "",
+		"home": "Home",
+		"my_rewards": "My rewards",
+		"earning_points": "My points",
+		"my_transactions": "My transactions",
+		"match_with_ecommerce": "Match with eCommerce",
+		"my_profile": "My profile"
+	  },
+	  "customer_campaign": {
+		"more_information": {
+		  "button": "Click here for more info"
+		},
+		"coupon_used": "This coupon has been used",
+		"not_enough_points": "Not enough points",
+		"will_be_active_dates": "This reward campaign will be active from {{from}} to {{to}}",
+		"will_be_active_all_time": "This campaign will be active all time",
+		"will_be_active_soon": "Not active yet",
+		"list": "My rewards",
+		"bought_list": "My redeemed rewards",
+		"points": "Points",
+		"redeem": "Redeem reward",
+		"footer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget tincidunt est. Sed fringilla dapibus venenatis.",
+		"no_rewards": "There are no available rewards",
+		"no_bought_rewards": "There are no redeemed rewards",
+		"all_time_Active": "All time active",
+		"see_bought": "See rewards you have already redeemed",
+		"reward_congratulations": "Congratulations!",
+		"reward_ready": "Your reward is ready to receive.",
+		"reward_code": "CODE OF REWARD",
+		"active_points": "Redeem new rewards, you can use <b>{{points}}</b> active points",
+		"reward_footer": "Instruction for reward, lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget tincidunt est. Sed fringilla dapibus venenatis.",
+		"no_desc": "Reward description is not set",
+		"no_name": "No name of reward campaign",
+		"used_confirmation": "Confirm reward usage",
+		"used_confirmation_description": "Please confirm reward usage",
+		"singleCoupon_prompt": "To redeem customers will be able to use the same coupon"
+	  },
+	  "customer_transaction": {
+		"customer_loyalty_card_number": "Loyalty card number",
+		"customer_phone_number": "Phone number",
+		"empty_transactions": "There is no transactions to display",
+		"list": "Transactions list",
+		"id": "Transaction ID",
+		"document_number": "Document number",
+		"document_type": "Document type",
+		"revised_document": "Revised document",
+		"purchase_date": "Purchase date",
+		"purchase_place": "POS",
+		"actions": "Actions",
+		"details": "Transaction details",
+		"customer_name": "Customer name",
+		"phone": "Phone",
+		"email": "E-mail",
+		"loyaltyCardNumber": "Loyalty card number",
+		"city": "City",
+		"state": "State",
+		"street": "Street",
+		"building_name": "Building name",
+		"unit_name": "Flat/Unit name",
+		"postal_code": "Postal code",
+		"country": "Country",
+		"item_details": "Item details",
+		"name": "Name",
+		"quantity": "Quantity",
+		"sku": "SKU",
+		"category": "Category",
+		"gross": "Gross value",
+		"labels": "Labels",
+		"maker": "Brand",
+		"link_modal": "Match customer with transaction",
+		"customer_email": "E-mail",
+		"customer_id": "Customer ID",
+		"transaction_document_number": "Document number",
+		"customer_email_prompt": "Find customer by e-mail",
+		"transaction_document_number_prompt": "Find transaction by document number",
+		"customer_id_prompt": "Put customer unique ID",
+		"link": "Match with customer",
+		"heading": "Transactions",
+		"transaction_id": "Transaction id",
+		"points_earned": "Points earned",
+		"pos_name": "POS name",
+		"sum": "SUM",
+		"amount": "Amount",
+		"document_types": {
+		  "return": "Return",
+		  "sell": "Sell",
+		  "both": "Both"
+		}
+	  },
+	  "Your password must be at least 8 characters long.": "Your password must be at least 8 characters long",
+	  "Your password must include both upper and lower case letters.": "Your password must include both upper and lower case letters",
+	  "Your password must include at least one number.": "Your password must include at least one number",
+	  "Your password must contain at least one special character.": "Your password must contain at least one special character",
+	  "Your password must include at least one letter.": "Your password must include at least one letter",
+	  "Ta wartość nie powinna być pusta.": "This value should not be empty",
+	  "Plik nie mógł zostać odnaleziony.": "File could not be found",
+	  "Ten plik nie jest obrazem.": "This file is not image",
+	  "customer with such phone already exists": "Customer with such phone already exists",
+	  "customer with such loyalty card number already exists": "Customer with such loyalty card number already exists",
+	  "Bad credentials": "Bad credentials"
+	}
+
