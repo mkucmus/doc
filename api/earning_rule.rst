@@ -500,7 +500,7 @@ Exemplary Response
 Edit existing earning rule.
 ---------------------------
 
-To fully update an earning rule user you will need to call the ``/api/earningRule/{earningRule}`` endpoint with the ``PUT`` method.
+To edit existing earning rule you will need to call the ``/api/earningRule/{earningRule}`` endpoint with the ``PUT`` method.
 
 Definition
 ^^^^^^^^^^
@@ -638,7 +638,7 @@ Exemplary Response
 Change earning rule's status
 ----------------------------
 
-To make earningRule active or inactive you will need to call the ``/api/earningRule/{earningRule}/activate`` endpoint with the ``POST`` method.
+To make earning rule active or inactive you will need to call the ``/api/earningRule/{earningRule}/activate`` endpoint with the ``POST`` method.
 
 Definition
 ^^^^^^^^^^
@@ -661,7 +661,7 @@ Definition
 Example
 ^^^^^^^
 
-To make earningRule active ``earningRule = 7d482776-318a-48dd-90cd-6b3f06a3f4e8`` use the below method:
+To make earning rule active ``earningRule = 7d482776-318a-48dd-90cd-6b3f06a3f4e8`` use the below method:
 
 .. code-block:: bash
 
