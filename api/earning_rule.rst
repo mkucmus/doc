@@ -385,7 +385,7 @@ Definition
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
 | Parameter                                      | Parameter type |  Description                                                               |
 +================================================+================+============================================================================+
-| Authorization                                  | header         | Token received during authentication                                       |
+| Authorization                                  | header         |  Token received during authentication                                      |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
 | earningRule[type]                              | request        |  The type of earning points. Possible types: Custom event rule, Customer   |
 |                                                |                |	 Referral, Event Rule, General spending rule, Multiple earned points,      |
@@ -398,7 +398,7 @@ Definition
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
 | earningRule[description]                       | request        |  A short description.                                                      |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
-|earningRule[endAt]                              | request        | earningRule visible to YYYY-MM-DD HH:mm, e.g.: ``2019-10-05 10:59``.       |
+| earningRule[endAt]                             | request        |  earningRule visible to YYYY-MM-DD HH:mm, e.g.: ``2019-10-05 10:59``.      |
 |                                                |                |  *(required only if ``allTimeActive=0``)*                                  |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
 | earningRule[startAt]                           | request        |  earningRule visible from YYYY-MM-DD HH:mm, e.g.: ``2017-10-05 10:59``.    |
