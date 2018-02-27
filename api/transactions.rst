@@ -39,7 +39,11 @@ Example
         -X "POST" \
         -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
-        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
+		-d "assign[transactionDocumentNumber]=888 \
+		-d "assign[customerId]=57524216-c059-405a-b951-3ab5c49bae14 \
+		-d "assign[customerLoyaltyCardNumber]=333 \
+		-d "assign[customerPhoneNumber]=333333"
 
 .. note::
 
@@ -121,7 +125,11 @@ Example
         -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
-
+		-d "assign[transactionDocumentNumber]=123 \
+		-d "assign[customerId]=57524216-c059-405a-b951-3ab5c49bae14 \
+		-d "assign[customerLoyaltyCardNumber]=333 \
+		-d "assign[customerPhoneNumber]=333333"
+		
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
@@ -1165,7 +1173,18 @@ Example
         -X "POST" \
         -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
-        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
+		-d "transaction=00000000-0000-1111-0000-000000000099 \
+		-d "transaction[items][0][sku][code]=SKU1 \
+		-d "transaction[items][0][name]=item+8 \
+		-d "transaction[items][0][quantity]=1 \
+		-d "transaction[items][0][grossValue]=1 \
+		-d "transaction[items][0][category]=aaa \
+		-d "transaction[items][0][maker]=sss \
+		-d "transaction[items][0][labels][0]=labels \
+		-d "transaction[items][0][labels][0][key]=test \
+		-d "transaction[items][0][labels][0][value]=label \
+		-d "transaction[purchaseDate]=2022-02-20T09:45:04+0100"
 		
 .. note::
 
