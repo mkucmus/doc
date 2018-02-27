@@ -523,7 +523,7 @@ Definition
 | earningRule[rewardType]                        | request        |  Who will be rewarded. Possible types:                                     |
 |                                                |                |  referred,referrer, both                                                   |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
-| earningRule[name]                              | request        |  Earning Rule name.                                                         |
+| earningRule[name]                              | request        |  Earning Rule name.                                                        |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
 | earningRule[description]                       | request        |  A short description.                                                      |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
@@ -668,7 +668,8 @@ To make earningRule active ``earningRule = 7d482776-318a-48dd-90cd-6b3f06a3f4e8`
     curl http://localhost:8181/api/earningRule/7d482776-318a-48dd-90cd-6b3f06a3f4e8/active \
         -X "POST" \
         -H "Accept: application/json" \
-        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
+		-d "active=1"
 
 .. note::
 
@@ -727,7 +728,8 @@ Example
         -X "POST" \
         -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
-        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
+		-d "event_name=event"
 
 
 .. note::
