@@ -63,7 +63,6 @@ Exemplary Response
     STATUS: 200 OK
 
 .. code-block:: json
-
 	{
 	  "invitations": [
 		{
@@ -89,6 +88,16 @@ Exemplary Response
 		{
 		  "referrerId": "00000000-0000-474c-b092-b0dd880c07e1",
 		  "recipientId": "",
+		  "invitationId": "22200000-0000-474c-b092-b0dd880c07e1",
+		  "referrerEmail": "user@oloy.com",
+		  "referrerName": "John Doe",
+		  "recipientEmail": "test1@oloy.com",
+		  "status": "invited",
+		  "token": "ebea0309e2ca40f45b11537694270df8fc7161b7"
+		},
+		{
+		  "referrerId": "00000000-0000-474c-b092-b0dd880c07e1",
+		  "recipientId": "",
 		  "invitationId": "22200000-0000-474c-b092-b0dd880c07e4",
 		  "referrerEmail": "user@oloy.com",
 		  "referrerName": "John Doe",
@@ -97,5 +106,5 @@ Exemplary Response
 		  "token": "1042654f4acd5099f54286acbb10d668173a95d0"
 		}
 	  ],
-	  "total": 3
-	}	
+	  "total": 4
+	}
