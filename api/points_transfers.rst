@@ -73,55 +73,57 @@ Exemplary Response
 
 .. code-block:: json
 
-{
-  "transfers": [
-    {
-      "pointsTransferId": "e82c96cf-32a3-43bd-9034-4df343e5f433",
-      "accountId": "e4c4b479-be5f-44cd-bbaa-7d6a90e53564",
-      "customerId": "00000000-0000-474c-b092-b0dd880c07e2",
-      "customerFirstName": "Jane",
-      "customerLastName": "Doe",
-      "customerLoyaltyCardNumber": "0000",
-      "customerEmail": "user-temp@oloy.com",
-      "customerPhone": "111112222",
-      "createdAt": "2018-01-21T09:45:06+0100",
-      "value": 100,
-      "state": "expired",
-      "type": "adding",
-      "issuer": "system",
-      "expireAt": "2018-02-20T09:45:06+0100"
-    },
-    {
-      "pointsTransferId": "40922a3e-c0dd-4c69-87be-613fafe5076c",
-      "accountId": "adbdb586-317b-4bed-8cc0-346199064d45",
-      "customerId": "00000000-0000-474c-b092-b0dd880c07e1",
-      "customerFirstName": "John",
-      "customerLastName": "Doe",
-      "customerEmail": "user@oloy.com",
-      "customerPhone": "11111",
-      "createdAt": "2018-02-22T09:54:28+0100",
-      "value": 5,
-      "state": "active",
-      "type": "adding",
-      "issuer": "system",
-      "expireAt": "2018-03-24T09:54:28+0100"
-    },
-    {
-      "pointsTransferId": "37a248d8-a3ee-40a6-a491-513210557573",
-      "accountId": "f6c87121-942e-4f79-9734-0fe863ee9fee",
-      "customerId": "57524216-c059-405a-b951-3ab5c49bae14",
-      "customerFirstName": "Tomasz",
-      "customerLastName": "Test80",
-      "customerEmail": "tomasztest80@wp.pl",
-      "createdAt": "2018-02-22T08:45:22+0100",
-      "value": 1,
-      "state": "active",
-      "type": "adding",
-      "issuer": "system",
-      "expireAt": "2018-03-24T08:45:22+0100"
-    }
-  ],
-  "total": 3
+	{
+	  "transfers": [
+		{
+		  "pointsTransferId": "e82c96cf-32a3-43bd-9034-4df343e5f433",
+		  "accountId": "e4c4b479-be5f-44cd-bbaa-7d6a90e53564",
+		  "customerId": "00000000-0000-474c-b092-b0dd880c07e2",
+		  "customerFirstName": "Jane",
+		  "customerLastName": "Doe",
+		  "customerLoyaltyCardNumber": "0000",
+		  "customerEmail": "user-temp@oloy.com",
+		  "customerPhone": "111112222",
+		  "createdAt": "2018-01-21T09:45:06+0100",
+		  "value": 100,
+		  "state": "expired",
+		  "type": "adding",
+		  "issuer": "system",
+		  "expireAt": "2018-02-20T09:45:06+0100"
+		},
+		{
+		  "pointsTransferId": "40922a3e-c0dd-4c69-87be-613fafe5076c",
+		  "accountId": "adbdb586-317b-4bed-8cc0-346199064d45",
+		  "customerId": "00000000-0000-474c-b092-b0dd880c07e1",
+		  "customerFirstName": "John",
+		  "customerLastName": "Doe",
+		  "customerEmail": "user@oloy.com",
+		  "customerPhone": "11111",
+		  "createdAt": "2018-02-22T09:54:28+0100",
+		  "value": 5,
+		  "state": "active",
+		  "type": "adding",
+		  "issuer": "system",
+		  "expireAt": "2018-03-24T09:54:28+0100"
+		},
+		{
+		  "pointsTransferId": "bd96e322-ae75-4d38-a99b-65a68dada55a",
+		  "accountId": "e0491d59-1c76-4c24-b2c3-db48a9e07e10",
+		  "customerId": "b9af6a8c-9cc5-4924-989c-e4af614ab2a3",
+		  "customerFirstName": "alina",
+		  "customerLastName": "test",
+		  "customerEmail": "qwe@test.pl",
+		  "customerPhone": "1212121212",
+		  "createdAt": "2018-02-23T08:24:46+0100",
+		  "value": 55,
+		  "state": "active",
+		  "type": "adding",
+		  "issuer": "admin",
+		  "expireAt": "2018-03-25T08:24:46+0200"
+		}
+	  ],
+	  "total": 3
+	}
   
   	
 Method will return a complete list of Points transfers (seller)
@@ -192,60 +194,60 @@ Exemplary Response
 
 .. code-block:: json
 
-{
-  "transfers": [
-    {
-      "pointsTransferId": "e82c96cf-32a3-43bd-9034-4df343e5f433",
-      "accountId": "e4c4b479-be5f-44cd-bbaa-7d6a90e53564",
-      "customerId": "00000000-0000-474c-b092-b0dd880c07e2",
-      "customerFirstName": "Jane",
-      "customerLastName": "Doe",
-      "customerLoyaltyCardNumber": "0000",
-      "customerEmail": "user-temp@oloy.com",
-      "customerPhone": "111112222",
-      "createdAt": "2018-01-21T09:45:06+0100",
-      "value": 100,
-      "state": "expired",
-      "type": "adding",
-      "issuer": "system",
-      "expireAt": "2018-02-20T09:45:06+0100"
-    },
-    {
-      "pointsTransferId": "e82c96cf-32a3-43bd-9034-4df343e5f333",
-      "accountId": "e4c4b479-be5f-44cd-bbaa-7d6a90e53564",
-      "customerId": "00000000-0000-474c-b092-b0dd880c07e2",
-      "customerFirstName": "Jane",
-      "customerLastName": "Doe",
-      "customerLoyaltyCardNumber": "0000",
-      "customerEmail": "user-temp@oloy.com",
-      "customerPhone": "111112222",
-      "createdAt": "2018-02-19T09:45:06+0100",
-      "value": 100,
-      "state": "active",
-      "type": "spending",
-      "comment": "Example comment",
-      "issuer": "system",
-      "expireAt": "2018-03-21T09:45:06+0100"
-    },
-    {
-      "pointsTransferId": "e82c96cf-32a3-43bd-9034-4df343e5f111",
-      "accountId": "e4c4b479-be5f-44cd-bbaa-7d6a90e53564",
-      "customerId": "00000000-0000-474c-b092-b0dd880c07e2",
-      "customerFirstName": "Jane",
-      "customerLastName": "Doe",
-      "customerLoyaltyCardNumber": "0000",
-      "customerEmail": "user-temp@oloy.com",
-      "customerPhone": "111112222",
-      "createdAt": "2018-01-21T09:45:05+0100",
-      "value": 100,
-      "state": "expired",
-      "type": "adding",
-      "issuer": "system",
-      "expireAt": "2018-02-20T09:45:05+0100"
-    }
-  ],
-  "total": 3
-}
+	{
+	  "transfers": [
+		{
+		  "pointsTransferId": "e82c96cf-32a3-43bd-9034-4df343e5f433",
+		  "accountId": "e4c4b479-be5f-44cd-bbaa-7d6a90e53564",
+		  "customerId": "00000000-0000-474c-b092-b0dd880c07e2",
+		  "customerFirstName": "Jane",
+		  "customerLastName": "Doe",
+		  "customerLoyaltyCardNumber": "0000",
+		  "customerEmail": "user-temp@oloy.com",
+		  "customerPhone": "111112222",
+		  "createdAt": "2018-01-21T09:45:06+0100",
+		  "value": 100,
+		  "state": "expired",
+		  "type": "adding",
+		  "issuer": "system",
+		  "expireAt": "2018-02-20T09:45:06+0100"
+		},
+		{
+		  "pointsTransferId": "e82c96cf-32a3-43bd-9034-4df343e5f333",
+		  "accountId": "e4c4b479-be5f-44cd-bbaa-7d6a90e53564",
+		  "customerId": "00000000-0000-474c-b092-b0dd880c07e2",
+		  "customerFirstName": "Jane",
+		  "customerLastName": "Doe",
+		  "customerLoyaltyCardNumber": "0000",
+		  "customerEmail": "user-temp@oloy.com",
+		  "customerPhone": "111112222",
+		  "createdAt": "2018-02-19T09:45:06+0100",
+		  "value": 100,
+		  "state": "active",
+		  "type": "spending",
+		  "comment": "Example comment",
+		  "issuer": "system",
+		  "expireAt": "2018-03-21T09:45:06+0100"
+		},
+		{
+		  "pointsTransferId": "e82c96cf-32a3-43bd-9034-4df343e5f111",
+		  "accountId": "e4c4b479-be5f-44cd-bbaa-7d6a90e53564",
+		  "customerId": "00000000-0000-474c-b092-b0dd880c07e2",
+		  "customerFirstName": "Jane",
+		  "customerLastName": "Doe",
+		  "customerLoyaltyCardNumber": "0000",
+		  "customerEmail": "user-temp@oloy.com",
+		  "customerPhone": "111112222",
+		  "createdAt": "2018-01-21T09:45:05+0100",
+		  "value": 100,
+		  "state": "expired",
+		  "type": "adding",
+		  "issuer": "system",
+		  "expireAt": "2018-02-20T09:45:05+0100"
+		}
+	  ],
+	  "total": 3
+	}
 
 
 Method allows to add points to customer.
@@ -273,6 +275,11 @@ Definition
 +-------------------------------------+----------------+---------------------------------------------------+
 | transfer                            | query          | *(optional)* Points transfer ID                   |
 +-------------------------------------+----------------+---------------------------------------------------+
+
+Example
+^^^^^^^
+
+.. code-block:: bash
 
     curl http://localhost:8181/api/points/transfer/add \
         -X "POST" \
@@ -328,7 +335,11 @@ Definition
 +-------------------------------------+----------------+---------------------------------------------------+
 | transfer                            | query          | *(optional)* Points transfer ID                   |
 +-------------------------------------+----------------+---------------------------------------------------+
-	
+
+Example
+^^^^^^^
+
+.. code-block:: bash	
 
     curl http://localhost:8181/api/points/transfer/spend \
         -X "POST" \
