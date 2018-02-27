@@ -972,33 +972,33 @@ Definition
 +----------------------------------------------+----------------+---------------------------------------------------+
 | transaction                      			   | query          | Transaction ID                                    |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[transactionData]	    		   | query          | ?_TO_DO_?                                         |
+| transaction[transactionData]	    		   | query          | _TO_DO_                                           |
 +----------------------------------------------+----------------+---------------------------------------------------+
 | transaction[revisedDocument]	               | query          | *(optional)* ?_TO_DO_?                            |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[items][]	                       | query          | ?_TO_DO_?                                         |
+| transaction[items][]	                       | query          | _TO_DO_                                           |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[items][][sku]	                   | query          | ?_TO_DO_?                                         |
+| transaction[items][][sku]	                   | query          | _TO_DO_                                           |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[items][][sku][code]              | query          | ?_TO_DO_?                                         |
+| transaction[items][][sku][code]              | query          | _TO_DO_                                           |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[items][][name]	               | query          | ?_TO_DO_?                                         |
+| transaction[items][][name]	               | query          | _TO_DO_                                           |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[items][][quantity]	           | query          | ?_TO_DO_?                                         |
+| transaction[items][][quantity]	           | query          | _TO_DO_                                           |
 +----------------------------------------------+----------------+---------------------------------------------------+
 | transaction[items][][grossValue]	           | query          | Gross value                                       |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[items][][category]	           | query          | ?_TO_DO_?                                         |
+| transaction[items][][category]	           | query          | _TO_DO_                                           |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[items][][maker]	               | query          | *(optional)* ?_TO_DO_?                            |
+| transaction[items][][maker]	               | query          | *(optional)* _TO_DO_                              |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[items][][labels][]               | query          | ?_TO_DO_?                                         |
+| transaction[items][][labels][]               | query          | _TO_DO_                                           |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[items][][labels][][key]          | header         | ?_TO_DO_?                                         |
+| transaction[items][][labels][][key]          | header         | _TO_DO_                                           |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[items][][labels][][value]        | query          | ?_TO_DO_?                                         |
+| transaction[items][][labels][][value]        | query          | _TO_DO_                                           |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[customerData]	                   | query          | ?_TO_DO_?                                         |
+| transaction[customerData]	                   | query          | _TO_DO_                                           |
 +----------------------------------------------+----------------+---------------------------------------------------+
 | transaction[customerData][name]	           | query          | Customer name                                     |
 +----------------------------------------------+----------------+---------------------------------------------------+
@@ -1008,21 +1008,21 @@ Definition
 +----------------------------------------------+----------------+---------------------------------------------------+
 | transaction[customerData][loyaltyCardNumber] | query          | *(optional)* Customer Loyalty card number         |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[customerData][nip]	           | query          | *(optional)* Customer NIP                          |
+| transaction[customerData][nip]	           | query          | *(optional)* Customer NIP                         |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[customerData][address]	       | query          | ?_TO_DO_?                                         |
+| transaction[customerData][address]	       | query          | _TO_DO_                                           |
 +----------------------------------------------+----------------+---------------------------------------------------+
 | transaction[customerData][address][street]   | query          | *(optional)* Street                               |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[customerData][address][address1] | query          | *(optional)* ?_TO_DO_?                            |
+| transaction[customerData][address][address1] | query          | *(optional)* _TO_DO_                              |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[customerData][address][address2] | query          | *(optional)* ?_TO_DO_?                            |
+| transaction[customerData][address][address2] | query          | *(optional)* _TO_DO_                              |
 +----------------------------------------------+----------------+---------------------------------------------------+
 | transaction[customerData][address][postal]   | query          | *(optional)* Postal code                          |
 +----------------------------------------------+----------------+---------------------------------------------------+
 | transaction[customerData][address][city]	   | query          | *(optional)* City                                 |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[customerData][address][province] | query          | *(optional)* ?_TO_DO_?                            |
+| transaction[customerData][address][province] | query          | *(optional)* _TO_DO_                              |
 +----------------------------------------------+----------------+---------------------------------------------------+
 | transaction[customerData][address][country]  | query          | *(optional)* Country                              |
 +----------------------------------------------+----------------+---------------------------------------------------+
@@ -1122,8 +1122,8 @@ Exemplary Response
 	}
 
 
-Method will return number of points which can be obtained after registering such transaction.<br/> It will not change anything in the system.
----------------------------------------------------------------------------------------------------------------------------------------------
+Method will return number of points which can be obtained after registering such transaction. It will not change anything in the system.
+----------------------------------------------------------------------------------------------------------------------------------------
 
 To return number of points which can be obtained after registering such transaction you will need to call the ``/api/transaction/simulate`` endpoint with the ``POST`` method.
 
