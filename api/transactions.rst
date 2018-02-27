@@ -1122,9 +1122,8 @@ Exemplary Response
 	}
 
 
-Method will return number of points which can be obtained after registering such transaction.<br/>
-It will not change anything in the system.
----------------------------------------------------------------------------------------------------
+Method will return number of points which can be obtained after registering such transaction.<br/> It will not change anything in the system.
+---------------------------------------------------------------------------------------------------------------------------------------------
 
 To return number of points which can be obtained after registering such transaction you will need to call the ``/api/transaction/simulate`` endpoint with the ``POST`` method.
 
@@ -1144,17 +1143,17 @@ Definition
 +----------------------------------------------+----------------+---------------------------------------------------+
 | transaction[items][0][sku][code]             | query          | SKU code                                          |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[items][0][name]              	   | query          | ?_TO_DO_?                                         |
+| transaction[items][0][name]              	   | query          | _TO_DO_                                           |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[items][0][quantity]       	   | query          | ?_TO_DO_?                                         |
+| transaction[items][0][quantity]       	   | query          | _TO_DO_                                           |
 +----------------------------------------------+----------------+---------------------------------------------------+
 | transaction[items][0][grossValue]       	   | query          | Gross value                                       |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[items][0][category]        	   | query          | ?_TO_DO_?                                         |
+| transaction[items][0][category]        	   | query          | _TO_DO_                                           |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[items][0][maker]            	   | query          | ?_TO_DO_?                                         |
+| transaction[items][0][maker]            	   | query          | _TO_DO_                                           |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[items][0][labels][0]    		   | query          | ?_TO_DO_?                                         |
+| transaction[items][0][labels][0]    		   | query          | _TO_DO_                                           |
 +----------------------------------------------+----------------+---------------------------------------------------+
 | transaction[items][0][labels][0][key]        | query          | Label key                                         |
 +----------------------------------------------+----------------+---------------------------------------------------+
