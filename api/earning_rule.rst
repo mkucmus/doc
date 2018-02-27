@@ -574,7 +574,7 @@ Definition
 Example
 ^^^^^^^
 
- To fully update a earningRule with ``id = 00000000-0000-474c-b092-b0dd880c0121`` use the below method:
+To fully update a earningRule with ``id = 00000000-0000-474c-b092-b0dd880c0121`` use the below method:
 
 .. code-block:: bash
 
