@@ -63,6 +63,7 @@ Exemplary Response
     STATUS: 200 OK
 
 .. code-block:: json
+
 	{
 	  "invitations": [
 		{
