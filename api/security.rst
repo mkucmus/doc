@@ -246,9 +246,8 @@ Exemplary Response
 	}
 	
 	
-Purpose of this method is to provide "Forgot password" functionality.<br/>
-Invoking this method will send message tot he user with password reset url.
----------------------------------------------------------------------------
+Purpose of this method is to provide "Forgot password" functionality.<br/> Invoking this method will send message tot he user with password reset url.
+------------------------------------------------------------------------------------------------------------------------------------------------------
 
 To provide "Forgot password" functionality you will need to call the ``/api/password/reset/request`` endpoint with the ``POST`` method.
 
@@ -299,9 +298,8 @@ Exemplary Response
 	}
 	
 	
-This method can be used to log out current user.<br/>
-It will revoke all refresh tokens assigned to current user so it will not be possible to obtain new token based on stored refresh token.
-----------------------------------------------------------------------------------------------------------------------------------------
+This method can be used to log out current user.<br/> It will revoke all refresh tokens assigned to current user so it will not be possible to obtain new token based on stored refresh token.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 To log out current user you will need to call the ``/api/token/revoke`` endpoint with the ``GET`` method.
 
