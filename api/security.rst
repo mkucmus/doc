@@ -35,7 +35,9 @@ Example
         -X "POST" \
         -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
-        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
+		-d "currentPassword=example123!@# \
+		-d "plainPassword=example321!@#"
 		
 .. note::
 
@@ -93,7 +95,9 @@ Example
         -X "POST" \
         -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
-        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
+		-d "currentPassword=example123!@# \
+		-d "plainPassword=example321!@#"
 		
 .. note::
 
@@ -151,7 +155,9 @@ Example
         -X "POST" \
         -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
-        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
+		-d "currentPassword=example123!@# \
+		-d "plainPassword=example321!@#"
 		
 .. note::
 
@@ -177,6 +183,7 @@ Exemplary Response
 	{
 	  "success": true
 	}
+
 	
 Method allows to set new password after reset password requesting.
 ------------------------------------------------------------------
@@ -209,11 +216,13 @@ Example
         -X "POST" \
         -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
-        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
+		-d "reset[plainPassword]=example123!@# \
+		-d "token=AIENe11JjR2kj3XGiWuZmQ88gZYAgM7VR5inxtbswaY"
 		
 .. note::
 
-    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* or *AIENe11JjR2kj3XGiWuZmQ8...* authorization token are an exemplary value.
     Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
 	
 .. note::
@@ -235,6 +244,7 @@ Exemplary Response
 	{
 	  "success": true
 	}
+	
 	
 Purpose of this method is to provide "Forgot password" functionality.<br/>
 Invoking this method will send message tot he user with password reset url.
@@ -266,7 +276,8 @@ Example
         -X "POST" \
         -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
-        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
+		-d "username=admin"
 		
 .. note::
 
@@ -292,7 +303,7 @@ This method can be used to log out current user.<br/>
 It will revoke all refresh tokens assigned to current user so it will not be possible to obtain new token based on stored refresh token.
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-To log out current user you will need to call the ``/api/token/revoke`` endpoint with the ``POST`` method.
+To log out current user you will need to call the ``/api/token/revoke`` endpoint with the ``GET`` method.
 
 Definition
 ^^^^^^^^^^
