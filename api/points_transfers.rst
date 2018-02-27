@@ -278,7 +278,10 @@ Definition
         -X "POST" \
         -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
-        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
+		-d "transfer=8947546c-c2a4-4ef2-9271-47b3fc28f663 \
+		-d "transfer[customer]=b9af6a8c-9cc5-4924-989c-e4af614ab2a3 \
+		-d "transfer[points]=9"
 		
 .. note::
 
@@ -331,7 +334,10 @@ Definition
         -X "POST" \
         -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
-        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
+		-d "transfer=8947546c-c2a4-4ef2-9271-47b3fc28f663 \
+		-d "transfer[customer]=b9af6a8c-9cc5-4924-989c-e4af614ab2a3 \
+		-d "transfer[points]=1"
 		
 .. note::
 
