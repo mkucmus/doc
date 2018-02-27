@@ -55,7 +55,7 @@ Exemplary Response
 
 .. code-block:: json
 
-		{
+	{
 	  "earningRules": [
 		{
 		  "levels": [
@@ -74,7 +74,7 @@ Exemplary Response
 		  "pointsAmount": 100,
 		  "limit": {},
 		  "type": "custom_event",
-		  "usageUrl": "http://localhost:8181/api/v1/earnRule/facebook_like/customer/:customerId",
+		  "usageUrl": "http://backend.openloyalty.test.openloyalty.io/api/v1/earnRule/facebook_like/customer/:customerId",
 		  "segmentNames": [],
 		  "levelNames": {
 			"000096cf-32a3-43bd-9034-4df343e5fd93": "level0"
@@ -97,7 +97,7 @@ Exemplary Response
 			"active": false
 		  },
 		  "type": "custom_event",
-		  "usageUrl": "http://localhost:8181/api/v1/earnRule/custom_event_name/customer/:customerId",
+		  "usageUrl": "http://backend.openloyalty.test.openloyalty.io/api/v1/earnRule/custom_event_name/customer/:customerId",
 		  "segmentNames": [],
 		  "levelNames": {
 			"000096cf-32a3-43bd-9034-4df343e5fd93": "level0"
@@ -120,7 +120,7 @@ Exemplary Response
 			"active": false
 		  },
 		  "type": "custom_event",
-		  "usageUrl": "http://localhost:8181/api/v1/earnRule/custom_event_name_1/customer/:customerId",
+		  "usageUrl": "http://backend.openloyalty.test.openloyalty.io/api/v1/earnRule/custom_event_name_1/customer/:customerId",
 		  "segmentNames": [],
 		  "levelNames": {
 			"000096cf-32a3-43bd-9034-4df343e5fd93": "level0"
