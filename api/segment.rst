@@ -39,7 +39,7 @@ Example
 
 .. code-block:: bash
 
-curl http://localhost:8181/api/segment \
+	curl http://localhost:8181/api/segment \
 	    -X "GET" \
 	    -H "Accept: application/json" \
 	    -H "Content-type: application/x-www-form-urlencoded" \
@@ -179,7 +179,7 @@ Example
 .. code-block:: bash	
 
 
-curl http://localhost:8181/api/segment/00000000-0000-0000-0000-000000000002` \
+	curl http://localhost:8181/api/segment/00000000-0000-0000-0000-000000000002` \
 	    -X "POST" \
 	    -H "Accept: application/json" \
 	    -H "Content-type: application/x-www-form-urlencoded" \
@@ -285,7 +285,7 @@ To see the details of the customer user with ``segment = 00000000-0000-0000-0000
 .. code-block:: bash	
 
 
-curl http://localhost:8181/api/segment/00000000-0000-0000-0000-000000000002` \
+	curl http://localhost:8181/api/segment/00000000-0000-0000-0000-000000000002` \
 	    -X "GET" \
 	    -H "Accept: application/json" \
 	    -H "Content-type: application/x-www-form-urlencoded" \
@@ -392,7 +392,7 @@ To see the details of the admin user with ``level = 17347292-0aaf-4c25-9118-17eb
 
 .. code-block:: bash
 
-curl http://localhost:8181/api/segment/17347292-0aaf-4c25-9118-17eb2c55b58b \
+	curl http://localhost:8181/api/segment/17347292-0aaf-4c25-9118-17eb2c55b58b \
 	    -X "POST" \
 		-H "Accept:\ application/json" \ 
 		-H "Content-type:\ application/x-www-form-urlencoded" \
@@ -451,10 +451,10 @@ Example
 .. code-block:: bash
 
 	curl http://localhost:8181/api/segment/63afec60-5e74-43fc-a5e1-81bbc03421ca/activate \
-				-X "POST" \
-				-H "Accept:\ application/json" \ 
-				-H "Content-type:\ application/x-www-form-urlencoded" \
-				-H "Authorization:\ Bearer\ eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
+		-X "POST" \
+		-H "Accept:\ application/json" \ 
+		-H "Content-type:\ application/x-www-form-urlencoded" \
+		-H "Authorization:\ Bearer\ eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
 	
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
@@ -511,7 +511,7 @@ Example
 
 .. code-block:: bash
 
-curl http://localhost:8181/api/segment/63afec60-5e74-43fc-a5e1-81bbc03421ca/customers \
+	curl http://localhost:8181/api/segment/63afec60-5e74-43fc-a5e1-81bbc03421ca/customers \
 	    -X "GET" \
 	    -H "Accept: application/json" \
 	    -H "Content-type: application/x-www-form-urlencoded" \
@@ -603,10 +603,10 @@ Example
 .. code-block:: bash
 
 	curl http://localhost:8181/api/segment/63afec60-5e74-43fc-a5e1-81bbc03421ca/deactivate \
-				-X "POST" \
-				-H "Accept:\ application/json" \ 
-				-H "Content-type:\ application/x-www-form-urlencoded" \
-				-H "Authorization:\ Bearer\ eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
+		-X "POST" \
+		-H "Accept:\ application/json" \ 
+		-H "Content-type:\ application/x-www-form-urlencoded" \
+		-H "Authorization:\ Bearer\ eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
 	
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
