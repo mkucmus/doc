@@ -139,9 +139,9 @@ Definition
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
 | pos[location][country]                         | request        |  Country for POS Location                                                  |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
-| pos[location][lat]                             | request        |  *(optional)* Latitude for POS Location                                    |             |
+| pos[location][lat]                             | request        |  *(optional)* Latitude for POS Location                                    |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
-| pos[location][long]                            | request        |  *(optional)* Longitude for POS Location                                   |            |
+| pos[location][long]                            | request        |  *(optional)* Longitude for POS Location                                   |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
 	
 Example
@@ -521,7 +521,7 @@ To see the details of the customer user with ``pos = 857b2a26-b490-4356-8828-e13
 
 .. code-block:: bash
 
-	curl http://localhost:8181/api/seller/pos/857b2a26-b490-4356-8828-e138deaf7912 \
+ curl http://localhost:8181/api/seller/pos/857b2a26-b490-4356-8828-e138deaf7912 \
 	    -X "GET" \
 	    -H "Accept: application/json" \
 	    -H "Content-type: application/x-www-form-urlencoded" \
