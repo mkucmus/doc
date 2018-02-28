@@ -142,24 +142,24 @@ Example
 .. code-block:: bash
 
 	curl http://localhost:8181/api/level/create \
-			-X "POST" \
-			-H "Accept: application/json" \
-			-H "Content-type: application/x-www-form-urlencoded" \
-			-H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
-			-d "level[name]=level4" \
-			-d "level[active]=1" \
-			-d "level[conditionValue]=4" \
-			-d "level[minOrder]=1" \
-			-d "level[description]=level4description" \
-			-d "level[reward][name]=reward4name" \
-			-d "level[reward][value]=4" \
-			-d "level[reward][code]=4" \
-			-d "level[specialRewards][0][name]=specialreward4" \
-			-d &level[specialRewards][0][value]=4" \
-			-d &level[specialRewards][0][code]=4" \
-			-d &level[specialRewards][0][active]=1" \
-			-d &level[specialRewards][0][startAt]=2018-02-01+08:33" \
-			-d &level[specialRewards][0][endAt]=2018-02-15+11:27" 
+		-X "POST" \
+		-H "Accept: application/json" \
+		-H "Content-type: application/x-www-form-urlencoded" \
+		-H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
+		-d "level[name]=level4" \
+		-d "level[active]=1" \
+		-d "level[conditionValue]=4" \
+		-d "level[minOrder]=1" \
+		-d "level[description]=level4description" \
+		-d "level[reward][name]=reward4name" \
+		-d "level[reward][value]=4" \
+		-d "level[reward][code]=4" \
+		-d "level[specialRewards][0][name]=specialreward4" \
+		-d "level[specialRewards][0][value]=4" \
+		-d "level[specialRewards][0][code]=4" \
+		-d "level[specialRewards][0][active]=1" \
+		-d "level[specialRewards][0][startAt]=2018-02-01+08:33" \
+		-d "level[specialRewards][0][endAt]=2018-02-15+11:27" 
 
 .. note::
     To add new special reward for level you will need to add special reward.
@@ -206,7 +206,7 @@ To see the details of the admin user with ``level = 000096cf-32a3-43bd-9034-4df3
 
 .. code-block:: bash
 
-curl http://localhost:8181/api/level/000096cf-32a3-43bd-9034-4df343e5fd93 \
+	curl http://localhost:8181/api/level/000096cf-32a3-43bd-9034-4df343e5fd93 \
         -X "GET" -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
@@ -292,7 +292,7 @@ To see the details of the admin user with ``level = c343a12d-b4dd-4dee-b2cd-d6fe
 
 .. code-block:: bash
 
-curl http://localhost:8181/api/level/c343a12d-b4dd-4dee-b2cd-d6fe1b021115 \
+	curl http://localhost:8181/api/level/c343a12d-b4dd-4dee-b2cd-d6fe1b021115 \
 	    -X "PUT" \
 		-H "Accept:\ application/json" \ 
 		-H "Content-type:\ application/x-www-form-urlencoded" \
@@ -358,10 +358,10 @@ To see the activated user with ``level = c343a12d-b4dd-4dee-b2cd-d6fe1b021115`` 
 .. code-block:: bash
 
 	curl http://localhost:8181/api/level/c343a12d-b4dd-4dee-b2cd-d6fe1b021115/activate \
-			-X "POST" \
-			-H "Accept:\ application/json" \ 
-			-H "Content-type:\ application/x-www-form-urlencoded" \
-			-H "Authorization:\ Bearer\ eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
+		-X "POST" \
+		-H "Accept:\ application/json" \ 
+		-H "Content-type:\ application/x-www-form-urlencoded" \
+		-H "Authorization:\ Bearer\ eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
 	
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
@@ -485,7 +485,7 @@ Example
 
 .. code-block:: bash
 
-curl http://localhost:8181/api/seller/level \
+	curl http://localhost:8181/api/seller/level \
 	    -X "GET" \
 	    -H "Accept: application/json" \
 	    -H "Content-type: application/x-www-form-urlencoded" \
@@ -585,7 +585,7 @@ To see the details of the customer user with ``level = 000096cf-32a3-43bd-9034-4
 
 .. code-block:: bash
 
-curl http://localhost:8181/api/seller/level/000096cf-32a3-43bd-9034-4df343e5fd94 \
+	curl http://localhost:8181/api/seller/level/000096cf-32a3-43bd-9034-4df343e5fd94 \
 	    -X "GET" \
 	    -H "Accept: application/json" \
 	    -H "Content-type: application/x-www-form-urlencoded" \
