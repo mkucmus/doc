@@ -654,6 +654,8 @@ Definition
 Example
 ^^^^^^^
 
+.. code-block:: bash
+
 	curl http://localhost:8181/api/settings/emails/c60f1033-b1d0-4033-b9fe-7a3c230c4479 \
 		-X "GET" \
 		-H "Accept: application/json" \
