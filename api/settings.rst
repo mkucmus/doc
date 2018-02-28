@@ -196,7 +196,7 @@ Example
 	    -H "Accept: application/json" \
 	    -H "Content-type: application/x-www-form-urlencoded" \
 	    -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
-		-d "translation[name]=english123 \
+		-d "translation[name]=english123" \
 		-d translation[content]={+++++\"key.confirmation.title\":+{+++++++++\"description\":+\"{variable}+Title+for+that+dialog\",+++++++++\"message\":+\"Hello\"+++++}+}"
 
 Exemplary Response
@@ -728,11 +728,11 @@ Example
 	    -H "Accept: application/json" \
 	    -H "Content-type: application/x-www-form-urlencoded" \
 	    -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
-		-d "email[key]=OpenLoyaltyUserBundle:email:registration.html.twig \
-		-d "email[subject]=Account+created \
-		-d "email[content]=test \
-		-d "email[sender_name]=testol@divante.pl \
-		-d "email[sender_email]=testol@divante.pl \
+		-d "email[key]=OpenLoyaltyUserBundle:email:registration.html.twig" \
+		-d "email[subject]=Account+created" \
+		-d "email[content]=test" \
+		-d "email[sender_name]=testol@divante.pl" \
+		-d "email[sender_email]=testol@divante.pl" \
 		
 
 Exemplary Response
@@ -863,7 +863,7 @@ Example
 	    -H "Accept: application/json" \
 	    -H "Content-type: application/x-www-form-urlencoded" \
 	    -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
-		-d "photo[file]=C:\fakepath\Photo.png
+		-d "photo[file]=C:\fakepath\Photo.png"
 
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
