@@ -38,7 +38,7 @@ Example
 
 .. code-block:: bash
 
-curl http://localhost:8181/api/pos \
+	curl http://localhost:8181/api/pos \
 	    -X "GET" \
 	    -H "Accept: application/json" \
 	    -H "Content-type: application/x-www-form-urlencoded" \
@@ -208,7 +208,7 @@ To see the details of the admin user with ``pos = testid9`` use the below method
 
 .. code-block:: bash
 
-curl http://localhost:8181/api/identifier/testid9 \
+	curl http://localhost:8181/api/identifier/testid9 \
         -X "GET" -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
@@ -270,7 +270,7 @@ To see the details of the admin user with ``pos = 00000000-0000-474c-1111-b0dd88
 
 .. code-block:: bash
 
-curl http://localhost:8181/api/pos/00000000-0000-474c-1111-b0dd880c07e3 \
+	curl http://localhost:8181/api/pos/00000000-0000-474c-1111-b0dd880c07e3 \
         -X "GET" -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
@@ -360,22 +360,22 @@ Example
 .. code-block:: bash
 
 	curl http://localhost:8181/api/pos/857b2a26-b490-4356-8828-e138deaf7912 \
-			-X "PUT" \
-			-H "Accept: application/json" \
-			-H "Content-type: application/x-www-form-urlencoded" \
-			-H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
-		    -d "pos[name]=test8" \
-			-d "pos[identifier]=testid8" \
-			-d "pos[description]=test8description" \
-			-d "pos[location][street]=kwiatowa" \
-			-d "pos[location][address1]=66" \
-			-d "pos[location][address2]=33" \
-			-d "pos[location][postal]=666-333" \
-			-d "pos[location][city]=Honolulu" \
-			-d "pos[location][province]=HonululuProvince" \
-			-d "pos[location][country]=USA" \
-			-d "pos[location][lat]=latitude8" \
-			-d "pos[location][long]=longitude8"
+		-X "PUT" \
+		-H "Accept: application/json" \
+		-H "Content-type: application/x-www-form-urlencoded" \
+		-H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
+	    -d "pos[name]=test8" \
+		-d "pos[identifier]=testid8" \
+		-d "pos[description]=test8description" \
+		-d "pos[location][street]=kwiatowa" \
+		-d "pos[location][address1]=66" \
+		-d "pos[location][address2]=33" \
+		-d "pos[location][postal]=666-333" \
+		-d "pos[location][city]=Honolulu" \
+		-d "pos[location][province]=HonululuProvince" \
+		-d "pos[location][country]=USA" \
+		-d "pos[location][lat]=latitude8" \
+		-d "pos[location][long]=longitude8"
 			
 
 Exemplary Response
@@ -428,7 +428,7 @@ Example
 .. code-block:: bash
 
 
-curl http://localhost:8181/api/seller/pos \
+	curl http://localhost:8181/api/seller/pos \
 	    -X "GET" \
 	    -H "Accept: application/json" \
 	    -H "Content-type: application/x-www-form-urlencoded" \
@@ -521,7 +521,7 @@ To see the details of the customer user with ``pos = 857b2a26-b490-4356-8828-e13
 
 .. code-block:: bash
 
-curl http://localhost:8181/api/seller/pos/857b2a26-b490-4356-8828-e138deaf7912 \
+	curl http://localhost:8181/api/seller/pos/857b2a26-b490-4356-8828-e138deaf7912 \
 	    -X "GET" \
 	    -H "Accept: application/json" \
 	    -H "Content-type: application/x-www-form-urlencoded" \
