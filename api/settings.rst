@@ -4,8 +4,8 @@ Settings API
 These endpoints will allow you to see the list of settings taken in the Open Loyalty.
 
 
-Method will return list of available customer statuses.
--------------------------------------------------------
+Get list of available customer statuses
+---------------------------------------
 
 To return list of available customer statuses you will need to call the ``/api/admin/customer-statuses`` endpoint with the ``GET`` method.
 
@@ -197,7 +197,7 @@ Example
 	    -H "Content-type: application/x-www-form-urlencoded" \
 	    -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
 		-d "translation[name]=english123" \
-		-d translation[content]={+++++\"key.confirmation.title\":+{+++++++++\"description\":+\"{variable}+Title+for+that+dialog\",+++++++++\"message\":+\"Hello\"+++++}+}"
+		-d "translation[content]={+++++\"key.confirmation.title\":+{+++++++++\"description\":+\"{variable}+Title+for+that+dialog\",+++++++++\"message\":+\"Hello\"+++++}+}"
 
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
@@ -265,8 +265,8 @@ Exemplary Response
 	}
 	
 	
-Method will return all system settings.
----------------------------------------
+Get all system settings
+-----------------------
 
 To retrieve a paginated list of settings you will need to call the ``/api/settings`` endpoint with the ``GET`` method.
 
@@ -348,8 +348,8 @@ Exemplary Response
 	
 
 	
-Method allow to update system settings.
----------------------------------------
+Update system settings
+----------------------
 
 To update system settings you will need to call the ``/api/settings`` endpoint with the ``POST`` method.
 
@@ -425,18 +425,18 @@ Example
 	    -H "Accept: application/json" \
 	    -H "Content-type: application/x-www-form-urlencoded" \
 	    -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
-		-d "settings[currency]=PLN \
+		-d "settings[currency]=PLN" \
 		-d "settings[defaultFrontendTranslations]=english.json \
-		-d "settings[customerStatusesEarning][0]=active \
-		-d "settings[customerStatusesSpending][0]=active \
-		-d "settings[timezone]=Europe/Warsaw \
-		-d "settings[programName]=Loyalty+Program
-		-d "settings[programPointsSingular]=point \
-		-d "settings[programPointsPlural]=points \
-		-d "settings[returns]=0&settings[allTimeActive]=1 \
-		-d "settings[customersIdentificationPriority][0][priority]=1 \
-		-d "settings[customersIdentificationPriority][0][field]=email \
-		-d "settings[tierAssignType]=transactions \
+		-d "settings[customerStatusesEarning][0]=active" \
+		-d "settings[customerStatusesSpending][0]=active" \
+		-d "settings[timezone]=Europe/Warsaw" \
+		-d "settings[programName]=Loyalty+Program" \
+		-d "settings[programPointsSingular]=point" \
+		-d "settings[programPointsPlural]=points" \
+		-d "settings[returns]=0&settings[allTimeActive]=1" \
+		-d "settings[customersIdentificationPriority][0][priority]=1" \
+		-d "settings[customersIdentificationPriority][0][field]=email" \
+		-d "settings[tierAssignType]=transactions" \
 		-d "settings[excludeDeliveryCostsFromTierAssignment]=0"
 
 Exemplary Response
@@ -879,8 +879,8 @@ Exemplary Response
 	No Content
 
 	
-Method will return current translations.
-----------------------------------------
+Get current translations
+------------------------
 
 To return current translations you will need to call the ``/api/translations`` endpoint with the ``GET`` method.
 
