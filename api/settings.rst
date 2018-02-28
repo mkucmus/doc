@@ -27,7 +27,7 @@ Example
 
 .. code-block:: bash
 
-curl http://localhost:8181/api/admin/translations \
+	curl http://localhost:8181/api/admin/translations \
 	    -X "GET" \
 	    -H "Accept: application/json" \
 	    -H "Content-type: application/x-www-form-urlencoded" \
@@ -82,7 +82,7 @@ Example
 
 .. code-block:: bash
 
-curl http://localhost:8181/api/admin/translations \
+	curl http://localhost:8181/api/admin/translations \
 	    -X "GET" \
 	    -H "Accept: application/json" \
 	    -H "Content-type: application/x-www-form-urlencoded" \
@@ -114,8 +114,8 @@ Exemplary Response
 	}	
 
 
-Method will return translations. <br/> You must provide translation key, available keys can be obtained by /admin/translations endpoint.
-----------------------------------------------------------------------------------------------------------------------------------------
+Method will return translations. You must provide translation key, available keys can be obtained by /admin/translations endpoint.
+----------------------------------------------------------------------------------------------------------------------------------
 
 To return list of translations you will need to call the ``/api/admin/translations/{key}`` endpoint with the ``GET`` method.
 
@@ -140,7 +140,7 @@ Example
 
 .. code-block:: bash
 
-curl http://localhost:8181/api/admin/translations/{key} \
+	curl http://localhost:8181/api/admin/translations/{key} \
 	    -X "GET" \
 	    -H "Accept: application/json" \
 	    -H "Content-type: application/x-www-form-urlencoded" \
@@ -154,7 +154,6 @@ Exemplary Response
     STATUS: 200 OK
 
 .. code-block:: json
-
 
 	{
 	  "name": "german",
@@ -182,9 +181,9 @@ Definition
 +================================================+================+============================================================================+
 | Authorization                                  | header         | Token received during authentication                                       |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
-| translation[name]                              | query          |  Translation name                                                          |
+| translation[name]                              | query          | Translation name                                                           |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
-| translation[content]                           | query          |  Translation content                                                       |
+| translation[content]                           | query          | Translation content                                                        |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
 
 Example
@@ -192,16 +191,24 @@ Example
 
 .. code-block:: bash
 
-curl http://localhost:8181/api/admin/translations \
+	curl http://localhost:8181/api/admin/translations \
 	    -X "POST" \
 	    -H "Accept: application/json" \
 	    -H "Content-type: application/x-www-form-urlencoded" \
-	    -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+	    -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
+		-d "translation[name]=english123 \
+		-d translation[content]={+++++\"key.confirmation.title\":+{+++++++++\"description\":+\"{variable}+Title+for+that+dialog\",+++++++++\"message\":+\"Hello\"+++++}+}"
 
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
 
 .. code-block:: json
+
+	{
+	  "name": "english123",
+	  "key": "english123.json",
+	  "content": "{     \"key.confirmation.title\": {         \"description\": \"{variable} Title for that dialog\",         \"message\": \"Hello\"     } }"
+	}
 
 	
 Get translations based on the key
@@ -222,7 +229,7 @@ Definition
 +================================================+================+============================================================================+
 | Authorization                                  | header         | Token received during authentication                                       |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
-| <key>                                          | query          |  Translation key                                                           |
+| <key>                                          | query          | Translation key                                                            |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+	
  	
 Example
@@ -230,7 +237,7 @@ Example
 
 .. code-block:: bash
 
-curl http://localhost:8181/api/admin/translations/english.json \
+	curl http://localhost:8181/api/admin/translations/english.json \
 	    -X "GET" \
 	    -H "Accept: application/json" \
 	    -H "Content-type: application/x-www-form-urlencoded" \
@@ -282,7 +289,7 @@ Example
 
 .. code-block:: bash
 
-curl http://localhost:8181/api/settings \
+	curl http://localhost:8181/api/settings \
 	    -X "GET" \
 	    -H "Accept: application/json" \
 	    -H "Content-type: application/x-www-form-urlencoded" \
@@ -371,29 +378,29 @@ Definition
 +-------------------------------------------------------+----------------+----------------------------------------------------------------------------+
 | settings[programName]                                 | request        | Program name                                                               |
 +-------------------------------------------------------+----------------+----------------------------------------------------------------------------+
-| settings[programConditionsUrl]                        | request        | *(optional)*    TO_DO                                                      |
+| settings[programConditionsUrl]                        | request        | *(optional)*    TO DO                                                      |
 +-------------------------------------------------------+----------------+----------------------------------------------------------------------------+
-| settings[programFaqUrl]                               | request        | *(optional)*    TO_DO                                                      |
+| settings[programFaqUrl]                               | request        | *(optional)*    TO DO                                                      |
 +-------------------------------------------------------+----------------+----------------------------------------------------------------------------+
-| settings[programUrl]                                  | request        | *(optional)*    TO_DO                                                      |
+| settings[programUrl]                                  | request        | *(optional)*    TO DO                                                      |
 +-------------------------------------------------------+----------------+----------------------------------------------------------------------------+
-| settings[programPointsSingular]                       | request        | TO_DO                                                                      |
+| settings[programPointsSingular]                       | request        | TO DO                                                                      |
 +-------------------------------------------------------+----------------+----------------------------------------------------------------------------+
-| settings[programPointsPlural]                         | request        | TO_DO                                                                      |
+| settings[programPointsPlural]                         | request        | TO DO                                                                      |
 +-------------------------------------------------------+----------------+----------------------------------------------------------------------------+
-| settings[helpEmailAddress]                            | request        | *(optional)*    TO_DO                                                      |
+| settings[helpEmailAddress]                            | request        | *(optional)*    TO DO                                                      |
 +-------------------------------------------------------+----------------+----------------------------------------------------------------------------+
-| settings[returns]                                     | request        | *(optional)*    TO_DO                                                      |
+| settings[returns]                                     | request        | *(optional)*    TO DO                                                      |
 +-------------------------------------------------------+----------------+----------------------------------------------------------------------------+
 | settings[pointsDaysActive]                            | request        | Required when allTimeActive=false. Points will expire after [days]         |
 +-------------------------------------------------------+----------------+----------------------------------------------------------------------------+
 | settings[allTimeActive]                               | request        | *(optional)* Is always active: true/false                                  |
 +-------------------------------------------------------+----------------+----------------------------------------------------------------------------+
-| settings[customersIdentificationPriority][]           | request        | TO_DO                                                                      |
+| settings[customersIdentificationPriority][]           | request        | TO DO                                                                      |
 +-------------------------------------------------------+----------------+----------------------------------------------------------------------------+
-| settings[customersIdentificationPriority][][priority] | request        | TO_DO                                                                      |
+| settings[customersIdentificationPriority][][priority] | request        | TO DO                                                                      |
 +-------------------------------------------------------+----------------+----------------------------------------------------------------------------+
-| settings[customersIdentificationPriority][][field]    | request        | TO_DO                                                                      |
+| settings[customersIdentificationPriority][][field]    | request        | TO DO                                                                      |
 +-------------------------------------------------------+----------------+----------------------------------------------------------------------------+
 | settings[tierAssignType]                              | request        | Levels will be calculated with: transactions/points                        |
 +-------------------------------------------------------+----------------+----------------------------------------------------------------------------+
@@ -403,7 +410,7 @@ Definition
 +-------------------------------------------------------+----------------+----------------------------------------------------------------------------+
 | settings[excludedLevelSKUs][]                         | request        | *(optional)* SKUs excluded from levels ...                                 |
 +-------------------------------------------------------+----------------+----------------------------------------------------------------------------+
-| settings[excludedLevelCategories][]                   | request        | TO_DO                                                                      |
+| settings[excludedLevelCategories][]                   | request        | TO DO                                                                      |
 +-------------------------------------------------------+----------------+----------------------------------------------------------------------------+
 | settings[logo]                                        | request        | Absolute path to the photo                                                 |
 +-------------------------------------------------------+----------------+----------------------------------------------------------------------------+   
@@ -413,7 +420,7 @@ Example
 
 .. code-block:: bash
 
-curl http://localhost:8181/api/settings \
+	curl http://localhost:8181/api/settings \
 	    -X "POST" \
 	    -H "Accept: application/json" \
 	    -H "Content-type: application/x-www-form-urlencoded" \
@@ -437,7 +444,7 @@ Exemplary Response
 
 .. code-block:: text
 
-    STATUS: 200 OK
+    STATUS: 500 Internal Server Error
 
 .. code-block:: json
 
@@ -477,7 +484,7 @@ Example
 
 .. code-block:: bash
 
-curl http://localhost:8181/api/settings/choices/language \
+	curl http://localhost:8181/api/settings/choices/language \
 	    -X "GET" \
 	    -H "Accept: application/json" \
 	    -H "Content-type: application/x-www-form-urlencoded" \
@@ -549,7 +556,7 @@ Example
 
 .. code-block:: bash
 
-curl http://localhost:8181/api/settings/emails \
+	curl http://localhost:8181/api/settings/emails \
 	    -X "GET" \
 	    -H "Accept: application/json" \
 	    -H "Content-type: application/x-www-form-urlencoded" \
@@ -647,7 +654,7 @@ Definition
 Example
 ^^^^^^^
 
-curl http://localhost:8181/api/settings/emails/c60f1033-b1d0-4033-b9fe-7a3c230c4479 \
+	curl http://localhost:8181/api/settings/emails/c60f1033-b1d0-4033-b9fe-7a3c230c4479 \
 	    -X "GET" \
 	    -H "Accept: application/json" \
 	    -H "Content-type: application/x-www-form-urlencoded" \
@@ -681,7 +688,7 @@ Exemplary Response
 	}
 
 	
-Update email details ???
+Update email details
 --------------------
 
 To remove a logo you will need to call the ``/api/settings/emails/<email>`` endpoint with the ``PUT`` method.
@@ -716,7 +723,7 @@ Example
 		
 .. code-block:: bash
 
-curl http://localhost:8181/api/settings/emails/f4f0e1f9-3677-4bdb-9685-416a961bc319 \
+	curl http://localhost:8181/api/settings/emails/f4f0e1f9-3677-4bdb-9685-416a961bc319 \
 	    -X "PUT" \
 	    -H "Accept: application/json" \
 	    -H "Content-type: application/x-www-form-urlencoded" \
@@ -766,7 +773,7 @@ Example
 		
 .. code-block:: bash
 
-curl http://localhost:8181/api/settings/logo \
+	curl http://localhost:8181/api/settings/logo \
 	    -X "DELETE" \
 	    -H "Accept: application/json" \
 	    -H "Content-type: application/x-www-form-urlencoded" \
@@ -809,7 +816,7 @@ Example
 
 .. code-block:: bash
 
-curl http://localhost:8181/api/settings/logo \
+	curl http://localhost:8181/api/settings/logo \
 	    -X "GET" \
 	    -H "Accept: application/json" \
 	    -H "Content-type: application/x-www-form-urlencoded" \
@@ -824,8 +831,7 @@ Exemplary Response
 
 .. code-block:: json
 
-<svg version="1.1" id="openLoyaltyLogo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 200 70" style="enable-background:new 0 0 200 70;" xml:space="preserve"><style type="text/css">	.st0{fill:#FFFFFF;}	.st1{opacity:0.7;}</style><g>	<path class="st0" d="M109.2,27.4c3.9,0,7,3.2,7,7c0,3.9-3.2,7-7,7c-3.9,0-7-3.2-7-7S105.3,27.4,109.2,27.4 M109.2,26.4		c-4.5,0-8.1,3.6-8.1,8.1s3.6,8.1,8.1,8.1s8.1-3.6,8.1-8.1C117.3,30,113.6,26.4,109.2,26.4"></path>	<path class="st0" d="M55.4,31.2c0,1.7-0.6,3-1.7,3.9C52.6,36,51,36.4,49,36.4h-1.7v6h-2.6v-16h4.6c2,0,3.5,0.4,4.5,1.2		C54.9,28.4,55.4,29.6,55.4,31.2 M47.4,34.2h1.4c1.4,0,2.3-0.2,3-0.7c0.6-0.5,0.9-1.2,0.9-2.2c0-0.9-0.3-1.6-0.8-2.1		c-0.6-0.5-1.4-0.7-2.6-0.7h-1.8v5.7C47.5,34.2,47.4,34.2,47.4,34.2z"></path>	<polygon class="st0" points="67.8,42.5 58.7,42.5 58.7,26.4 67.8,26.4 67.8,28.6 61.3,28.6 61.3,33 67.4,33 67.4,35.2 61.3,35.2 		61.3,40.2 67.8,40.2 	"></polygon>	<path class="st0" d="M85.4,42.5h-3.2l-7.9-12.9h-0.1l0.1,0.7c0.1,1.4,0.2,2.6,0.2,3.8v8.4h-2.4V26.4h3.2l7.9,12.8h0.1		c0-0.2,0-0.8-0.1-1.8c0-1.1-0.1-1.9-0.1-2.5v-8.5h2.4L85.4,42.5L85.4,42.5z"></path>	<polygon class="st0" points="92,42.5 92,26.4 93.1,26.4 93.1,41.4 100.8,41.4 100.8,42.5 	"></polygon>	<polygon class="st0" points="124.5,35.2 129.2,26.4 130.5,26.4 125.1,36.3 125.1,42.5 123.9,42.5 123.9,36.4 118.5,26.4 		119.8,26.4 	"></polygon>	<path class="st0" d="M140.5,36.8H134l-2.3,5.7h-1.2l6.5-16.2h0.7l6.4,16.2h-1.3L140.5,36.8z M134.4,35.8h5.8L138,30		c-0.2-0.5-0.4-1.1-0.7-1.9c-0.2,0.7-0.4,1.3-0.7,1.9L134.4,35.8z"></path>	<polygon class="st0" points="147.6,42.5 147.6,26.4 148.8,26.4 148.8,41.4 156.5,41.4 156.5,42.5 	"></polygon>	<polygon class="st0" points="162.1,42.5 161,42.5 161,27.4 155.7,27.4 155.7,26.4 167.3,26.4 167.3,27.4 162.1,27.4 	"></polygon>	<polygon class="st0" points="174.8,35.2 179.5,26.4 180.7,26.4 175.3,36.3 175.3,42.5 174.2,42.5 174.2,36.4 168.8,26.4 		170.1,26.4 	"></polygon>	<g class="st1">		<circle class="st0" cx="30.3" cy="33" r="1.7"></circle>	</g>	<g class="st1">		<path class="st0" d="M22.6,42.2l1.3-2.2c-1.3-1.5-2.1-3.5-2.1-5.6c0-4.7,3.9-8.6,8.6-8.6s8.6,3.9,8.6,8.6c0,2.2-0.8,4.1-2.1,5.6			l1.3,2.2c2-2,3.3-4.8,3.3-7.8c0-6.1-4.9-11-11-11s-11,4.9-11,11C19.3,37.4,20.5,40.2,22.6,42.2z"></path>	</g>	<g class="st1">		<polygon class="st0" points="35.6,46.6 30.8,38.2 29.8,38.2 25,46.6 22.9,45.4 28.4,35.8 32.2,35.8 37.7,45.4 		"></polygon>	</g></g></svg>
-
+	<svg version="1.1" id="openLoyaltyLogo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 200 70" style="enable-background:new 0 0 200 70;" xml:space="preserve"><style type="text/css">	.st0{fill:#FFFFFF;}	.st1{opacity:0.7;}</style><g>	<path class="st0" d="M109.2,27.4c3.9,0,7,3.2,7,7c0,3.9-3.2,7-7,7c-3.9,0-7-3.2-7-7S105.3,27.4,109.2,27.4 M109.2,26.4		c-4.5,0-8.1,3.6-8.1,8.1s3.6,8.1,8.1,8.1s8.1-3.6,8.1-8.1C117.3,30,113.6,26.4,109.2,26.4"></path>	<path class="st0" d="M55.4,31.2c0,1.7-0.6,3-1.7,3.9C52.6,36,51,36.4,49,36.4h-1.7v6h-2.6v-16h4.6c2,0,3.5,0.4,4.5,1.2		C54.9,28.4,55.4,29.6,55.4,31.2 M47.4,34.2h1.4c1.4,0,2.3-0.2,3-0.7c0.6-0.5,0.9-1.2,0.9-2.2c0-0.9-0.3-1.6-0.8-2.1		c-0.6-0.5-1.4-0.7-2.6-0.7h-1.8v5.7C47.5,34.2,47.4,34.2,47.4,34.2z"></path>	<polygon class="st0" points="67.8,42.5 58.7,42.5 58.7,26.4 67.8,26.4 67.8,28.6 61.3,28.6 61.3,33 67.4,33 67.4,35.2 61.3,35.2 		61.3,40.2 67.8,40.2 	"></polygon>	<path class="st0" d="M85.4,42.5h-3.2l-7.9-12.9h-0.1l0.1,0.7c0.1,1.4,0.2,2.6,0.2,3.8v8.4h-2.4V26.4h3.2l7.9,12.8h0.1		c0-0.2,0-0.8-0.1-1.8c0-1.1-0.1-1.9-0.1-2.5v-8.5h2.4L85.4,42.5L85.4,42.5z"></path>	<polygon class="st0" points="92,42.5 92,26.4 93.1,26.4 93.1,41.4 100.8,41.4 100.8,42.5 	"></polygon>	<polygon class="st0" points="124.5,35.2 129.2,26.4 130.5,26.4 125.1,36.3 125.1,42.5 123.9,42.5 123.9,36.4 118.5,26.4 		119.8,26.4 	"></polygon>	<path class="st0" d="M140.5,36.8H134l-2.3,5.7h-1.2l6.5-16.2h0.7l6.4,16.2h-1.3L140.5,36.8z M134.4,35.8h5.8L138,30		c-0.2-0.5-0.4-1.1-0.7-1.9c-0.2,0.7-0.4,1.3-0.7,1.9L134.4,35.8z"></path>	<polygon class="st0" points="147.6,42.5 147.6,26.4 148.8,26.4 148.8,41.4 156.5,41.4 156.5,42.5 	"></polygon>	<polygon class="st0" points="162.1,42.5 161,42.5 161,27.4 155.7,27.4 155.7,26.4 167.3,26.4 167.3,27.4 162.1,27.4 	"></polygon>	<polygon class="st0" points="174.8,35.2 179.5,26.4 180.7,26.4 175.3,36.3 175.3,42.5 174.2,42.5 174.2,36.4 168.8,26.4 		170.1,26.4 	"></polygon>	<g class="st1">		<circle class="st0" cx="30.3" cy="33" r="1.7"></circle>	</g>	<g class="st1">		<path class="st0" d="M22.6,42.2l1.3-2.2c-1.3-1.5-2.1-3.5-2.1-5.6c0-4.7,3.9-8.6,8.6-8.6s8.6,3.9,8.6,8.6c0,2.2-0.8,4.1-2.1,5.6			l1.3,2.2c2-2,3.3-4.8,3.3-7.8c0-6.1-4.9-11-11-11s-11,4.9-11,11C19.3,37.4,20.5,40.2,22.6,42.2z"></path>	</g>	<g class="st1">		<polygon class="st0" points="35.6,46.6 30.8,38.2 29.8,38.2 25,46.6 22.9,45.4 28.4,35.8 32.2,35.8 37.7,45.4 		"></polygon>	</g></g></svg>
 
 Add logo
 --------
@@ -852,7 +858,7 @@ Example
 
 .. code-block:: bash
 
-curl http://localhost:8181/api/settings/logo \
+	curl http://localhost:8181/api/settings/logo \
 	    -X "POST" \
 	    -H "Accept: application/json" \
 	    -H "Content-type: application/x-www-form-urlencoded" \
@@ -895,7 +901,7 @@ Example
 
 .. code-block:: bash
 
-curl http://localhost:8181/api/translations \
+	curl http://localhost:8181/api/translations \
 	    -X "GET" \
 	    -H "Accept: application/json" \
 	    -H "Content-type: application/x-www-form-urlencoded" \
