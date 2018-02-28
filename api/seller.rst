@@ -46,7 +46,7 @@ Example
 
 .. code-block:: bash
 
-curl http://localhost:8181/api/seller \
+	curl http://localhost:8181/api/seller \
 	    -X "GET" \
 	    -H "Accept: application/json" \
 	    -H "Content-type: application/x-www-form-urlencoded" \
@@ -134,17 +134,17 @@ Example
 .. code-block:: bash
 		
 	curl http://localhost:8181/api/seller/register \
-			-X "POST" \
-			-H "Accept: application/json" \
-			-H "Content-type: application/x-www-form-urlencoded" \
-			-H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
-			-d "seller[firstName]=John" \
-			-d "seller[lastName]=Travolta" \
-			-d "seller[active]=1" \
-			-d "seller[email]=john@travolta.com" \
-			-d "seller[phone]=999888777" \
-			-d "seller[posId]=00000000-0000-474c-1111-b0dd880c07e3" \
-			-d "seller[plainPassword]=admin123"
+		-X "POST" \
+		-H "Accept: application/json" \
+		-H "Content-type: application/x-www-form-urlencoded" \
+		-H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
+		-d "seller[firstName]=John" \
+		-d "seller[lastName]=Travolta" \
+		-d "seller[active]=1" \
+		-d "seller[email]=john@travolta.com" \
+		-d "seller[phone]=999888777" \
+		-d "seller[posId]=00000000-0000-474c-1111-b0dd880c07e3" \
+		-d "seller[plainPassword]=admin123"
 
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
@@ -190,7 +190,7 @@ To see the details of the customer user with ``seller = 00000000-0000-474c-b092-
 
 .. code-block:: bash
 
-curl http://localhost:8181/api/seller/00000000-0000-474c-b092-b0dd880c07e4` \
+	curl http://localhost:8181/api/seller/00000000-0000-474c-b092-b0dd880c07e4` \
 	    -X "GET" \
 	    -H "Accept: application/json" \
 	    -H "Content-type: application/x-www-form-urlencoded" \
@@ -263,7 +263,7 @@ Example
 
 .. code-block:: bash
 
-curl http://localhost:8181/api/seller/00000000-0000-474c-b092-b0dd880c07e4 \
+	curl http://localhost:8181/api/seller/00000000-0000-474c-b092-b0dd880c07e4 \
 	    -X "PUT" \
 		-H "Accept:\ application/json" \ 
 		-H "Content-type:\ application/x-www-form-urlencoded" \
@@ -320,10 +320,10 @@ To see the deactivated user with ``seller = 00000000-0000-474c-b092-b0dd880c07e4
 .. code-block:: bash	
 
 	curl http://localhost:8181/api/seller/00000000-0000-474c-b092-b0dd880c07e4/activate \
-			-X "POST" \
-			-H "Accept:\ application/json" \ 
-			-H "Content-type:\ application/x-www-form-urlencoded" \
-			-H "Authorization:\ Bearer\ eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
+		-X "POST" \
+		-H "Accept:\ application/json" \ 
+		-H "Content-type:\ application/x-www-form-urlencoded" \
+		-H "Authorization:\ Bearer\ eyJhbGciOiJSUzI1NiIsInR5cCI6..."
 	
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
@@ -366,10 +366,10 @@ To see the deactivated user with ``seller = 00000000-0000-474c-b092-b0dd880c07e4
 .. code-block:: bash	
 
 	curl http://localhost:8181/api/seller/00000000-0000-474c-b092-b0dd880c07e4/deactivate \
-			-X "POST" \
-			-H "Accept:\ application/json" \ 
-			-H "Content-type:\ application/x-www-form-urlencoded" \
-			-H "Authorization:\ Bearer\ eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
+		-X "POST" \
+		-H "Accept:\ application/json" \ 
+		-H "Content-type:\ application/x-www-form-urlencoded" \
+		-H "Authorization:\ Bearer\ eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
 	
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
@@ -411,10 +411,10 @@ To see the deactivated user with ``seller = 00000000-0000-474c-b092-b0dd880c07e4
 .. code-block:: bash	
 
 	curl http://localhost:8181/api/seller/00000000-0000-474c-b092-b0dd880c07e4/delete \
-			-X "POST" \
-			-H "Accept:\ application/json" \ 
-			-H "Content-type:\ application/x-www-form-urlencoded" \
-			-H "Authorization:\ Bearer\ eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
+		-X "POST" \
+		-H "Accept:\ application/json" \ 
+		-H "Content-type:\ application/x-www-form-urlencoded" \
+		-H "Authorization:\ Bearer\ eyJhbGciOiJSUzI1NiIsInR5cCI6..."
 	
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
