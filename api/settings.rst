@@ -647,7 +647,7 @@ Definition
 +================================================+================+============================================================================+
 | Authorization                                  | header         | Token received during authentication                                       |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
-| <emailId>                                      | query          |  Email ID                                                                  |
+| <emailId>                                      | query          | Email ID                                                                   |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+	
 	
 	
@@ -655,10 +655,10 @@ Example
 ^^^^^^^
 
 	curl http://localhost:8181/api/settings/emails/c60f1033-b1d0-4033-b9fe-7a3c230c4479 \
-	    -X "GET" \
-	    -H "Accept: application/json" \
-	    -H "Content-type: application/x-www-form-urlencoded" \
-	    -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+		-X "GET" \
+		-H "Accept: application/json" \
+		-H "Content-type: application/x-www-form-urlencoded" \
+		-H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
 
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^		
