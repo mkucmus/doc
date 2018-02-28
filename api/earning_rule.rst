@@ -635,8 +635,8 @@ Exemplary Response
 	  "earningRuleId": "00000000-0000-474c-b092-b0dd880c0121"
 	}
 
-Change earning rule's status
-----------------------------
+Change earning rule status
+--------------------------
 
 To make earning rule active or inactive you will need to call the ``/api/earningRule/{earningRule}/activate`` endpoint with the ``POST`` method.
 
