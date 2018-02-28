@@ -29,7 +29,7 @@ Example
 
 .. code-block:: bash
 
-curl http://localhost:8181/api/csv/level/000096cf-32a3-43bd-9034-4df343e5fd93 \
+	curl http://localhost:8181/api/csv/level/000096cf-32a3-43bd-9034-4df343e5fd93 \
 	    -X "GET" \
 	    -H "Accept: application/json" \
 	    -H "Content-type: application/x-www-form-urlencoded" \
@@ -79,7 +79,7 @@ Example
 
 .. code-block:: bash
 
-curl http://localhost:8181/api/csv/segment/63afec60-5e74-43fc-a5e1-81bbc03421ca \
+	curl http://localhost:8181/api/csv/segment/63afec60-5e74-43fc-a5e1-81bbc03421ca \
 	    -X "GET" \
 	    -H "Accept: application/json" \
 	    -H "Content-type: application/x-www-form-urlencoded" \
@@ -94,4 +94,4 @@ Exemplary Response
 
 .. code-block:: json
 
-"First name","Last name","E-mail address",Gender,Telephone,"Loyalty card number",Birthdate,"Created at","Legal agreement","Marketing agreement","Data processing agreement"	
+	"First name","Last name","E-mail address",Gender,Telephone,"Loyalty card number",Birthdate,"Created at","Legal agreement","Marketing agreement","Data processing agreement"	
