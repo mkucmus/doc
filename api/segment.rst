@@ -244,7 +244,11 @@ Example
 	    -H "Content-type: application/x-www-form-urlencoded" \
 	    -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
 		
-		
+.. note::
+
+    The *f9a64320-0e93-42b9-882c-43cd477156cf* segment ID is an exemplary value.
+    Your value can be different. Check in the list of all segments if you are not sure which id should be used.
+			
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
 
@@ -254,6 +258,7 @@ Exemplary Response
 
 .. code-block:: json
 
+	No Content
 
 
 Get segment details
