@@ -4,8 +4,8 @@ Transactions
 These endpoints will allow you to easily manage transactions.
 
 	
-Method allows to assign customer to specific transaction.
----------------------------------------------------------
+Assign customer to specific transaction
+---------------------------------------
 
 To assign customer to specific transaction you will need to call the ``/api/admin/transaction/customer/assign`` endpoint with the ``POST`` method.
 
@@ -89,8 +89,8 @@ Exemplary Response
 	}
 	
 	
-Method allows to assign customer to specific transaction (seller).
-------------------------------------------------------------------
+Assign customer to specific transaction (seller)
+------------------------------------------------
 
 To assign customer to specific transaction you will need to call the ``/api/seller/transaction/customer/assign`` endpoint with the ``POST`` method.
 
@@ -149,8 +149,8 @@ Exemplary Response
 	}
 
 	
-Method will return complete list of all transactions (customer).
-----------------------------------------------------------------
+Get complete list of all transactions (customer)
+------------------------------------------------
 
 To return complete list of all transactions you will need to call the ``/api/customer/transaction`` endpoint with the ``GET`` method.
 
@@ -343,24 +343,24 @@ Exemplary Response
 	  "total": 2
 	}
 	
-Method will return transaction details.
----------------------------------------
+Get transaction details
+-----------------------
 
-To return transaction details you will need to call the ``/api/customer/transaction/{transaction}`` endpoint with the ``GET`` method.
+To return transaction details you will need to call the ``/api/customer/transaction/<transaction>`` endpoint with the ``GET`` method.
 
 Definition
 ^^^^^^^^^^
 
 .. code-block:: text
 
-    GET /api/customer/transaction/{transaction}
+    GET /api/customer/transaction/<transaction>
 	
 +-------------------------------------+----------------+---------------------------------------------------+
 | Parameter                           | Parameter type | Description                                       |
 +=====================================+================+===================================================+
 | Authorization                       | header         | Token received during authentication              |
 +-------------------------------------+----------------+---------------------------------------------------+
-| transaction                         | query          | Transaction ID                                    |
+| <transaction>                       | query          | Transaction ID                                    |
 +-------------------------------------+----------------+---------------------------------------------------+
 
 Example
@@ -368,7 +368,7 @@ Example
 
 .. code-block:: bash
 
-    curl http://localhost:8181/api/customer/transaction/{transaction} \
+    curl http://localhost:8181/api/customer/transaction/00000000-0000-1111-0000-000000000003 \
         -X "GET" \
         -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
@@ -450,10 +450,10 @@ Exemplary Response
 	}
 	
 	
-Method will return complete list of all transactions (seller).
-----------------------------------------------------------------
+Get complete list of all transactions (seller)
+----------------------------------------------
 
-To return complete list of all transactions you will need to call the ``/api/seller/transaction`` endpoint with the ``GET`` method.
+To get complete list of all transactions you will need to call the ``/api/seller/transaction`` endpoint with the ``GET`` method.
 
 Definition
 ^^^^^^^^^^
@@ -499,7 +499,7 @@ Example
 
 .. code-block:: bash
 
-    curl http://localhost:8181/api/customer/transaction\
+    curl http://localhost:8181/api/seller/transaction\
         -X "GET" \
         -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
@@ -643,22 +643,24 @@ Exemplary Response
 	  "total": 2
 	}
 
-Method will return logged in customer transactions (seller).
-------------------------------------------------------------
+Get logged in customer transactions (seller)
+--------------------------------------------
 
-To return logged in customer transactions you will need to call the ``/api/seller/transaction/customer/{customer}`` endpoint with the ``GET`` method.
+To return logged in customer transactions you will need to call the ``/api/seller/transaction/customer/<customer>`` endpoint with the ``GET`` method.
 
 Definition
 ^^^^^^^^^^
 
 .. code-block:: text
 
-     GET  /api/seller/transaction/customer/{customer}
+     GET  /api/seller/transaction/customer/<customer>
 
 +-------------------------------------+----------------+---------------------------------------------------+
 | Parameter                           | Parameter type | Description                                       |
 +=====================================+================+===================================================+
 | Authorization                       | header         | Token received during authentication              |
++-------------------------------------+----------------+---------------------------------------------------+
+| <customer>                          | query          | Customer ID                                       |
 +-------------------------------------+----------------+---------------------------------------------------+
 | documentNumber                      | query          | *(optional)* Document Number                      |
 +-------------------------------------+----------------+---------------------------------------------------+
@@ -703,24 +705,24 @@ Exemplary Response
 
 
 
-Method will return transactions with provided document number (seller).
------------------------------------------------------------------------
+Get transactions with provided document number (seller)
+-------------------------------------------------------
 
-To return transactions with provided document number you will need to call the ``/api/seller/transaction/{documentNumber}`` endpoint with the ``GET`` method.
+To return transactions with provided document number you will need to call the ``/api/seller/transaction/<documentNumber>`` endpoint with the ``GET`` method.
 
 Definition
 ^^^^^^^^^^
 
 .. code-block:: text
 
-	GET /api/seller/transaction/{documentNumber}
+	GET /api/seller/transaction/<documentNumber>
 	
 +-------------------------------------+----------------+---------------------------------------------------+
 | Parameter                           | Parameter type | Description                                       |
 +=====================================+================+===================================================+
 | Authorization                       | header         | Token received during authentication              |
 +-------------------------------------+----------------+---------------------------------------------------+
-| documentNumber                      | query          | *(optional)* Document Number                      |
+| <documentNumber>                    | query          | Document Number ID                                |
 +-------------------------------------+----------------+---------------------------------------------------+
 
 
@@ -755,8 +757,8 @@ Exemplary Response
 
 
 
-Method will return complete list of all transactions.
------------------------------------------------------
+Get complete list of all transactions
+-------------------------------------
 
 To return complete list of all transactions you will need to call the ``/api/transaction`` endpoint with the ``GET`` method.
 
@@ -950,8 +952,8 @@ Exemplary Response
 	}
 
 
-Method allows to register new transaction in system.
-----------------------------------------------------
+Register new transaction in system
+----------------------------------
 
 To register new transaction in system you will need to call the ``/api/transaction`` endpoint with the ``POST`` method.
 
@@ -1057,8 +1059,8 @@ Exemplary Response
 
 
 
-Method will return available labels.
-------------------------------------
+Get available labels
+--------------------
 
 To return available labels you will need to call the ``/api/transaction/item/labels`` endpoint with the ``GET`` method.
 
@@ -1114,8 +1116,8 @@ Exemplary Response
 	}
 
 
-Method will return number of points which can be obtained after registering such transaction. It will not change anything in the system.
-----------------------------------------------------------------------------------------------------------------------------------------
+Number of points which can be obtained after registering such transaction
+-------------------------------------------------------------------------
 
 To return number of points which can be obtained after registering such transaction you will need to call the ``/api/transaction/simulate`` endpoint with the ``POST`` method.
 
@@ -1165,7 +1167,7 @@ Example
         -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
-		-d "transaction=00000000-0000-1111-0000-000000000099 \
+		-d "transaction=00000000-0000-1111-0000-000000000099" \
 		-d "transaction[items][0][sku][code]=SKU1" \
 		-d "transaction[items][0][name]=item+8" \
 		-d "transaction[items][0][quantity]=1" \
@@ -1197,32 +1199,34 @@ Exemplary Response
 	}		
 
 
-Method will return transaction details.
----------------------------------------
+Get transaction details
+-----------------------
 
-To return transaction details you will need to call the ``/api/transaction/{transaction}`` endpoint with the ``GET`` method.
+To get transaction details you will need to call the ``/api/transaction/<transaction>`` endpoint with the ``GET`` method.
 
 Definition
 ^^^^^^^^^^
 
 .. code-block:: text
 
-    GET  /api/transaction/{transaction}
+    GET  /api/transaction/<transaction>
 
 +----------------------------------------------+----------------+---------------------------------------------------+
 | Parameter                                    | Parameter type | Description                                       |
 +==============================================+================+===================================================+
 | Authorization                                | header         | Token received during authentication              |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction                      			   | query          | Transaction ID                                    |
+| <transaction>                      		   | query          | Transaction ID                                    |
 +----------------------------------------------+----------------+---------------------------------------------------+
 
 Example
 ^^^^^^^
 
+ To see details of ``transaction = 00000000-0000-1111-0000-000000000005``email use the below method:
+
 .. code-block:: bash
 
-    curl http://localhost:8181/api/transaction/{transaction} \
+    curl http://localhost:8181/api/transaction/00000000-0000-1111-0000-000000000005 \
         -X "GET" \
         -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
