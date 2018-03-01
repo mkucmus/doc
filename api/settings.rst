@@ -27,7 +27,7 @@ Example
 
 .. code-block:: bash
 
-	curl http://localhost:8181/api/admin/translations \
+	curl http://localhost:8181/api/admin/customer-statuses \
 	    -X "GET" \
 	    -H "Accept: application/json" \
 	    -H "Content-type: application/x-www-form-urlencoded" \
@@ -114,53 +114,6 @@ Exemplary Response
 	}	
 
 
-Method will return translations. You must provide translation key, available keys can be obtained by /admin/translations endpoint.
-----------------------------------------------------------------------------------------------------------------------------------
-
-To return list of translations you will need to call the ``/api/admin/translations/{key}`` endpoint with the ``GET`` method.
-
-
-Definition
-^^^^^^^^^^
-
-.. code-block:: text
-
-    GET /api/admin/translations/{key}
-	
-+------------------------------------------------+----------------+----------------------------------------------------------------------------+
-| Parameter                                      | Parameter type |  Description                                                               |
-+================================================+================+============================================================================+
-| Authorization                                  | header         | Token received during authentication                                       |
-+------------------------------------------------+----------------+----------------------------------------------------------------------------+	
-| key                                            | header         | Translation key                                                            |
-+------------------------------------------------+----------------+----------------------------------------------------------------------------+	
-
-Example
-^^^^^^^
-
-.. code-block:: bash
-
-	curl http://localhost:8181/api/admin/translations/{key} \
-	    -X "GET" \
-	    -H "Accept: application/json" \
-	    -H "Content-type: application/x-www-form-urlencoded" \
-	    -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
-
-Exemplary Response
-^^^^^^^^^^^^^^^^^^
-
-.. code-block:: text
-
-    STATUS: 200 OK
-
-.. code-block:: json
-
-	{
-	  "name": "german",
-	  "key": "german.json",
-	  "content": "{   \"global\": {     \"configuration\": \"Configuration\",       \"emails\": \"Transaction emails\",     \"static_content\": {       \"benefits\": {         \"title\": \"My benefits\",         \"content\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget tincidunt est. Sed fringilla dapibus venenatis.\"       },       \"connect_online_stores\": {         \"title\": \"Match witch eCommerce\",         \"content\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget tincidunt est. Sed fringilla dapibus venenatis.\"       },       \"contact\": {         \"title\": \"Contact\",         \"content\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget tincidunt est. Sed fringilla dapibus venenatis.\"       },       \"faq\": {         \"title\": \"FAQ\",         \"content\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget tincidunt est. Sed fringilla dapibus venenatis.\"       },       \"how_to_earn\": {         \"title\": \"How to earn points?\",         \"content\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget tincidunt est. Sed fringilla dapibus venenatis.\"       },       \"rules\": {         \"title\": \"Terms and conditions\",         \"content\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget tincidunt est. Sed fringilla dapibus venenatis.\"       },       \"visit_offline\": {         \"title\": \"Visit offline stores\",         \"content\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget tincidunt est. Sed fringilla dapibus venenatis.\"       },       \"match_with_ecommerce\": {         \"title\": \"Match with eCommerce\",         \"content\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget tincidunt est. Sed fringilla dapibus venenatis.\"       }     }   },     \"customer_earning_rules\": {       \"custom_event\": \"Custom event\",       \"points\": \"Each {{pointsValue}}{{currency}} = 1 point\",       \"product_purchase\": \"Additional points for purchase of {{sku}}\",       \"title\": \"How to earn points?\",       \"table\": {         \"name\": \"How?\",         \"type\": \"Type\",         \"description\": \"Description\",         \"points\": \"Points\",         \"start_at\": \"Start at\",         \"end_at\": \"End at\"       }     },     \"customer_nav\": {       \"logo1\": \"Loyalty\",       \"logo2\": \"Program\",       \"copyrights\": \"\",       \"home\": \"Home\",       \"my_rewards\": \"My rewards\",       \"earning_points\": \"My points\",       \"my_transactions\": \"My transactions\",       \"match_with_ecommerce\": \"Match with eCommerce\",       \"my_profile\": \"My profile\"     },     \"customer_campaign\": {       \"more_information\": {         \"button\": \"Click here for more info\"       },       \"coupon_used\": \"This coupon has been used\",       \"not_enough_points\": \"Not enough points\",       \"will_be_active_dates\": \"This reward campaign will be active from {{from}} to {{to}}\",       \"will_be_active_all_time\": \"This campaign will be active all time\",       \"will_be_active_soon\": \"Not active yet\",       \"list\": \"My rewards\",       \"bought_list\": \"My redeemed rewards\",       \"points\": \"Points\",       \"redeem\": \"Redeem reward\",       \"footer\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget tincidunt est. Sed fringilla dapibus venenatis.\",       \"no_rewards\": \"There are no available rewards\",       \"no_bought_rewards\": \"There are no redeemed rewards\",       \"all_time_Active\": \"All time active\",       \"see_bought\": \"See rewards you have already redeemed\",       \"reward_congratulations\": \"Congratulations!\",       \"reward_ready\": \"Your reward is ready to receive.\",       \"reward_code\": \"CODE OF REWARD\",       \"active_points\": \"Redeem new rewards, you can use <b>{{points}}</b> active points\",       \"reward_footer\": \"Instruction for reward, lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget tincidunt est. Sed fringilla dapibus venenatis.\",       \"no_desc\": \"Reward description is not set\",       \"no_name\": \"No name of reward campaign\",       \"used_confirmation\": \"Confirm reward usage\",       \"used_confirmation_description\": \"Please confirm reward usage\",       \"singleCoupon_prompt\": \"To redeem customers will be able to use the same coupon\"     },     \"customer_transaction\": {       \"customer_loyalty_card_number\": \"Loyalty card number\",       \"customer_phone_number\": \"Phone number\",       \"empty_transactions\": \"There is no transactions to display\",       \"list\": \"Transactions list\",       \"id\": \"Transaction ID\",       \"document_number\": \"Document number\",       \"document_type\": \"Document type\",       \"revised_document\": \"Revised document\",       \"purchase_date\": \"Purchase date\",       \"purchase_place\": \"POS\",       \"actions\": \"Actions\",       \"details\": \"Transaction details\",       \"customer_name\": \"Customer name\",       \"phone\": \"Phone\",       \"email\": \"E-mail\",       \"loyaltyCardNumber\": \"Loyalty card number\",       \"city\": \"City\",       \"state\": \"State\",       \"street\": \"Street\",       \"building_name\": \"Building name\",       \"unit_name\": \"Flat/Unit name\",       \"postal_code\": \"Postal code\",       \"country\": \"Country\",       \"item_details\": \"Item details\",       \"name\": \"Name\",       \"quantity\": \"Quantity\",       \"sku\": \"SKU\",       \"category\": \"Category\",       \"gross\": \"Gross value\",       \"labels\": \"Labels\",       \"maker\": \"Brand\",       \"link_modal\": \"Match customer with transaction\",       \"customer_email\": \"E-mail\",       \"customer_id\": \"Customer ID\",       \"transaction_document_number\": \"Document number\",       \"customer_email_prompt\": \"Find customer by e-mail\",       \"transaction_document_number_prompt\": \"Find transaction by document number\",       \"customer_id_prompt\": \"Put customer unique ID\",       \"link\": \"Match with customer\",       \"heading\": \"Transactions\",       \"transaction_id\": \"Transaction id\",       \"points_earned\": \"Points earned\",       \"pos_name\": \"POS name\",       \"sum\": \"SUM\",       \"amount\": \"Amount\",       \"document_types\": {         \"return\": \"Return\",         \"sell\": \"Sell\",         \"both\": \"Both\"       }     },     \"Your password must be at least 8 characters long.\": \"Your password must be at least 8 characters long\",     \"Your password must include both upper and lower case letters.\": \"Your password must include both upper and lower case letters\",     \"Your password must include at least one number.\": \"Your password must include at least one number\",     \"Your password must contain at least one special character.\": \"Your password must contain at least one special character\",     \"Your password must include at least one letter.\": \"Your password must include at least one letter\",     \"Ta wartość nie powinna być pusta.\": \"This value should not be empty\",     \"Plik nie mógł zostać odnaleziony.\": \"File could not be found\",     \"Ten plik nie jest obrazem.\": \"This file is not image\",     \"customer with such phone already exists\": \"Customer with such phone already exists\",     \"customer with such loyalty card number already exists\": \"Customer with such loyalty card number already exists\",     \"Bad credentials\": \"Bad credentials\"   }",
-	  "updatedAt": "2018-02-26T12:43:01+0100"
-	}
 
 
 Create new translations
@@ -201,6 +154,10 @@ Example
 
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
 
 .. code-block:: json
 
@@ -253,15 +210,10 @@ Exemplary Response
 .. code-block:: json	
 	
 	{
-  "name": "english",
-  "key": "english.json",
-  "content": "
-      {\n  \"global\": 
-	  {\n    \"configuration\": \"Configuration\",
-	  \n    \"users\": \"Users\",
-	  \n   
-	  }
-	...
+      "name": "english",
+      "key": "english.json",
+      "content": "{   \"global\": {     \"configuration\": \"Configuration\",       \"emails\": \"Transaction emails\",     \"static_content\": {       \"benefits\": {         \"title\": \"My benefits\",         \"content\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget tincidunt est. Sed fringilla dapibus venenatis.\"       },       \"connect_online_stores\": {         \"title\": \"Match witch eCommerce\",         \"content\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget tincidunt est. Sed fringilla dapibus venenatis.\"       },       \"contact\": {         \"title\": \"Contact\",         \"content\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget tincidunt est. Sed fringilla dapibus venenatis.\"       },       \"faq\": {         \"title\": \"FAQ\",         \"content\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget tincidunt est. Sed fringilla dapibus venenatis.\"       },       \"how_to_earn\": {         \"title\": \"How to earn points?\",         \"content\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget tincidunt est. Sed fringilla dapibus venenatis.\"       },       \"rules\": {         \"title\": \"Terms and conditions\",         \"content\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget tincidunt est. Sed fringilla dapibus venenatis.\"       },       \"visit_offline\": {         \"title\": \"Visit offline stores\",         \"content\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget tincidunt est. Sed fringilla dapibus venenatis.\"       },       \"match_with_ecommerce\": {         \"title\": \"Match with eCommerce\",         \"content\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget tincidunt est. Sed fringilla dapibus venenatis.\"       }     }   },     \"customer_earning_rules\": {       \"custom_event\": \"Custom event\",       \"points\": \"Each {{pointsValue}}{{currency}} = 1 point\",       \"product_purchase\": \"Additional points for purchase of {{sku}}\",       \"title\": \"How to earn points?\",       \"table\": {         \"name\": \"How?\",         \"type\": \"Type\",         \"description\": \"Description\",         \"points\": \"Points\",         \"start_at\": \"Start at\",         \"end_at\": \"End at\"       }     },     \"customer_nav\": {       \"logo1\": \"Loyalty\",       \"logo2\": \"Program\",       \"copyrights\": \"\",       \"home\": \"Home\",       \"my_rewards\": \"My rewards\",       \"earning_points\": \"My points\",       \"my_transactions\": \"My transactions\",       \"match_with_ecommerce\": \"Match with eCommerce\",       \"my_profile\": \"My profile\"     },     \"customer_campaign\": {       \"more_information\": {         \"button\": \"Click here for more info\"       },       \"coupon_used\": \"This coupon has been used\",       \"not_enough_points\": \"Not enough points\",       \"will_be_active_dates\": \"This reward campaign will be active from {{from}} to {{to}}\",       \"will_be_active_all_time\": \"This campaign will be active all time\",       \"will_be_active_soon\": \"Not active yet\",       \"list\": \"My rewards\",       \"bought_list\": \"My redeemed rewards\",       \"points\": \"Points\",       \"redeem\": \"Redeem reward\",       \"footer\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget tincidunt est. Sed fringilla dapibus venenatis.\",       \"no_rewards\": \"There are no available rewards\",       \"no_bought_rewards\": \"There are no redeemed rewards\",       \"all_time_Active\": \"All time active\",       \"see_bought\": \"See rewards you have already redeemed\",       \"reward_congratulations\": \"Congratulations!\",       \"reward_ready\": \"Your reward is ready to receive.\",       \"reward_code\": \"CODE OF REWARD\",       \"active_points\": \"Redeem new rewards, you can use <b>{{points}}</b> active points\",       \"reward_footer\": \"Instruction for reward, lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget tincidunt est. Sed fringilla dapibus venenatis.\",       \"no_desc\": \"Reward description is not set\",       \"no_name\": \"No name of reward campaign\",       \"used_confirmation\": \"Confirm reward usage\",       \"used_confirmation_description\": \"Please confirm reward usage\",       \"singleCoupon_prompt\": \"To redeem customers will be able to use the same coupon\"     },     \"customer_transaction\": {       \"customer_loyalty_card_number\": \"Loyalty card number\",       \"customer_phone_number\": \"Phone number\",       \"empty_transactions\": \"There is no transactions to display\",       \"list\": \"Transactions list\",       \"id\": \"Transaction ID\",       \"document_number\": \"Document number\",       \"document_type\": \"Document type\",       \"revised_document\": \"Revised document\",       \"purchase_date\": \"Purchase date\",       \"purchase_place\": \"POS\",       \"actions\": \"Actions\",       \"details\": \"Transaction details\",       \"customer_name\": \"Customer name\",       \"phone\": \"Phone\",       \"email\": \"E-mail\",       \"loyaltyCardNumber\": \"Loyalty card number\",       \"city\": \"City\",       \"state\": \"State\",       \"street\": \"Street\",       \"building_name\": \"Building name\",       \"unit_name\": \"Flat/Unit name\",       \"postal_code\": \"Postal code\",       \"country\": \"Country\",       \"item_details\": \"Item details\",       \"name\": \"Name\",       \"quantity\": \"Quantity\",       \"sku\": \"SKU\",       \"category\": \"Category\",       \"gross\": \"Gross value\",       \"labels\": \"Labels\",       \"maker\": \"Brand\",       \"link_modal\": \"Match customer with transaction\",       \"customer_email\": \"E-mail\",       \"customer_id\": \"Customer ID\",       \"transaction_document_number\": \"Document number\",       \"customer_email_prompt\": \"Find customer by e-mail\",       \"transaction_document_number_prompt\": \"Find transaction by document number\",       \"customer_id_prompt\": \"Put customer unique ID\",       \"link\": \"Match with customer\",       \"heading\": \"Transactions\",       \"transaction_id\": \"Transaction id\",       \"points_earned\": \"Points earned\",       \"pos_name\": \"POS name\",       \"sum\": \"SUM\",       \"amount\": \"Amount\",       \"document_types\": {         \"return\": \"Return\",         \"sell\": \"Sell\",         \"both\": \"Both\"       }     },     \"Your password must be at least 8 characters long.\": \"Your password must be at least 8 characters long\",     \"Your password must include both upper and lower case letters.\": \"Your password must include both upper and lower case letters\",     \"Your password must include at least one number.\": \"Your password must include at least one number\",     \"Your password must contain at least one special character.\": \"Your password must contain at least one special character\",     \"Your password must include at least one letter.\": \"Your password must include at least one letter\",     \"Ta wartość nie powinna być pusta.\": \"This value should not be empty\",     \"Plik nie mógł zostać odnaleziony.\": \"File could not be found\",     \"Ten plik nie jest obrazem.\": \"This file is not image\",     \"customer with such phone already exists\": \"Customer with such phone already exists\",     \"customer with such loyalty card number already exists\": \"Customer with such loyalty card number already exists\",     \"Bad credentials\": \"Bad credentials\"   }",
+	  "updatedAt": "2018-02-26T12:43:01+0100"
 	}
 	
 	
@@ -426,7 +378,7 @@ Example
 	    -H "Content-type: application/x-www-form-urlencoded" \
 	    -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
 		-d "settings[currency]=PLN" \
-		-d "settings[defaultFrontendTranslations]=english.json \
+		-d "settings[defaultFrontendTranslations]=english.json" \
 		-d "settings[customerStatusesEarning][0]=active" \
 		-d "settings[customerStatusesSpending][0]=active" \
 		-d "settings[timezone]=Europe/Warsaw" \
@@ -457,30 +409,34 @@ Exemplary Response
 	}	
 	
 		
-Method will return some data needed for specific select fields.
----------------------------------------------------------------
+Get data needed for specific select fields
+------------------------------------------
 
-To return list of translations you will need to call the ``/api/settings/choices/language`` endpoint with the ``GET`` method.
+To return list of translations you will need to call the ``/api/settings/choices/<type>`` endpoint with the ``GET`` method.
 
 
 Definition
 ^^^^^^^^^^
 
+  To see list of translations use the below method:
+
 .. code-block:: text
 
-    GET /api/settings/choices/language
+    GET /api/settings/choices/<type>
 	
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
 | Parameter                                      | Parameter type |  Description                                                               |
 +================================================+================+============================================================================+
 | Authorization                                  | header         | Token received during authentication                                       |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+	
-| type                                           | header         | Allowed types: timezone, language, country, availableFrontendTranslations, |
+| <type>                                         | query          | Allowed types: timezone, language, country, availableFrontendTranslations, |
 |                                                |                | earningRuleLimitPeriod, availableCustomerStatuses                          |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+	
 
 Example
 ^^^^^^^
+
+ To see list of language translations use the below method: 
 
 .. code-block:: bash
 
@@ -564,6 +520,10 @@ Example
 
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
 
 .. code-block:: json
 
@@ -654,6 +614,8 @@ Definition
 Example
 ^^^^^^^
 
+ To see details of ``emailId = c60f1033-b1d0-4033-b9fe-7a3c230c4479``email use the below method:
+ 
 .. code-block:: bash
 
 	curl http://localhost:8181/api/settings/emails/c60f1033-b1d0-4033-b9fe-7a3c230c4479 \
@@ -693,7 +655,7 @@ Exemplary Response
 Update email details
 --------------------
 
-To remove a logo you will need to call the ``/api/settings/emails/<email>`` endpoint with the ``PUT`` method.
+To update email details you will need to call the ``/api/settings/emails/<email>`` endpoint with the ``PUT`` method.
 
 Definition
 ^^^^^^^^^^
