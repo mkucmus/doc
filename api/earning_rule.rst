@@ -4,8 +4,8 @@ Earning Rule
 These endpoints will allow you to easily manage Earning Rule.
 
 	
-Method will return a complete list of earning rules
----------------------------------------------------
+Get a complete list of earning rules
+------------------------------------
 
 To retrieve a paginated list of earning rules you will need to call the ``/api/earningRule`` endpoint with the ``GET`` method.
 
@@ -113,8 +113,8 @@ Exemplary Response
 	}
 
 
-Method will return earning rule details.
-----------------------------------------
+Get earning rule details
+------------------------
 
 To retrieve a page of earning rule details you will need to call the ``/api/earningRule/{earningRule}`` endpoint with the ``GET`` method.
 
@@ -188,8 +188,8 @@ Exemplary Response
 	
 	
 		
-Method will return a complete list of earning rules (seller)
-------------------------------------------------------------
+Get a complete list of earning rules (seller)
+---------------------------------------------
 
 To retrieve a paginated list of earning rules you will need to call the ``/api/seller/earningRule`` endpoint with the ``GET`` method.
 
@@ -298,32 +298,33 @@ Exemplary Response
 	  "total": 2
 	  
 	  
-Method will return earning rule details (seller)
-------------------------------------------------
+Get earning rule details (seller)
+---------------------------------
 
-To retrieve a page of earning rule details you will need to call the ``/api/seller/earningRule/{earningRule}`` endpoint with the ``GET`` method.
+To retrieve a page of earning rule details you will need to call the ``/api/seller/earningRule/<earningRule>`` endpoint with the ``GET`` method.
 
 Definition
 ^^^^^^^^^^
 
 .. code-block:: text
 
-    GET  /api/seller/earningRule/00000000-0000-474c-b092-b0dd880c0725
+    GET  /api/seller/earningRule/<earningRule>
 
 +-------------------------------------+----------------+---------------------------------------------------+
 | Parameter                           | Parameter type | Description                                       |
 +=====================================+================+===================================================+
 | Authorization                       | header         | Token received during authentication              |
 +-------------------------------------+----------------+---------------------------------------------------+
-| earningRule                         | query          | earningRule ID                                    |
+| <earningRule>                       | query          | earningRule ID                                    |
 +-------------------------------------+----------------+---------------------------------------------------+
 
 Example
 ^^^^^^^
+ To see earning rule with ``earningRule = 00000000-0000-474c-b092-b0dd880c0725`` use the below method:
 
 .. code-block:: bash
 
-    curl http://localhost:8181/api/earningRule/{earningRule} \
+    curl http://localhost:8181/api/earningRule/00000000-0000-474c-b092-b0dd880c0725 \
         -X "GET" -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
@@ -370,8 +371,8 @@ Exemplary Response
 	}
 
 
-Create a new earning rule.
---------------------------
+Create a new earning rule
+-------------------------
 
 To create a new earning rule you will need to call the ``/api/earningRule`` endpoint with the ``POST`` method.
 
@@ -497,24 +498,24 @@ Exemplary Response
 	  "earningRuleId": "3e3d8a3a-2efb-4283-87c4-20b286bde19c"
 	}
 	
-Edit existing earning rule.
----------------------------
+Edit existing earning rule
+--------------------------
 
-To edit existing earning rule you will need to call the ``/api/earningRule/{earningRule}`` endpoint with the ``PUT`` method.
+To edit existing earning rule you will need to call the ``/api/earningRule/<earningRule>`` endpoint with the ``PUT`` method.
 
 Definition
 ^^^^^^^^^^
 
 .. code-block:: text
 
-    PUT  /api/earningRule/{earningRule}
+    PUT  /api/earningRule/<earningRule>
 
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
 | Parameter                                      | Parameter type |  Description                                                               |
 +================================================+================+============================================================================+
 | Authorization                                  | header         |  Token received during authentication                                      |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
-| {earningRule}                                  | query          |  earningRule ID                                                            |
+| <earningRule>                                  | query          |  earningRule ID                                                            |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
 | earningRule[type]                              | request        |  The type of earning points. Possible types: Custom event rule, Customer   |
 |                                                |                |	 Referral, Event Rule, General spending rule, Multiple earned points,      |
@@ -574,7 +575,7 @@ Definition
 Example
 ^^^^^^^
 
-To fully update a earningRule with ``id = 00000000-0000-474c-b092-b0dd880c0121`` use the below method:
+To fully update a earningRule with ``earningRule = 00000000-0000-474c-b092-b0dd880c0121`` use the below method:
 
 .. code-block:: bash
 
@@ -638,21 +639,21 @@ Exemplary Response
 Change earning rule status
 --------------------------
 
-To make earning rule active or inactive you will need to call the ``/api/earningRule/{earningRule}/activate`` endpoint with the ``POST`` method.
+To make earning rule active or inactive you will need to call the ``/api/earningRule/<earningRule>/activate`` endpoint with the ``POST`` method.
 
 Definition
 ^^^^^^^^^^
 
 .. code-block:: text
 
-    POST  /api/earningRule/{earningRule}/activate
+    POST  /api/earningRule/<earningRule>/activate
 	
 +---------------+----------------+--------------------------------------+
 | Parameter     | Parameter type | Description                          |
 +===============+================+======================================+
 | Authorization | header         | Token received during authentication |
 +---------------+----------------+--------------------------------------+
-| earningRule   | query          | earningRule ID                       |
+| <earningRule> | query          | earningRule ID                       |
 +---------------+----------------+--------------------------------------+
 | active        | query          | Possible values: active, inactive    |
 +---------------+----------------+--------------------------------------+
@@ -694,28 +695,28 @@ Exemplary Response
 	
 	
 	
-This method allows to use a custom event earning rule.
-------------------------------------------------------
+Use a custom event earning rule
+-------------------------------
 
-To use a custom event earning rule for a specific customer you will need to call the ``/api/{version}/earnRule/{eventName}/customer/{customer}`` endpoint with the ``POST`` method.
+To use a custom event earning rule for a specific customer you will need to call the ``/api/<version>/earnRule/<eventName>/customer/<customer>`` endpoint with the ``POST`` method.
 
 Definition
 ^^^^^^^^^^
 
 .. code-block:: text
 
-    POST /api/{version}/earnRule/{eventName}/customer/{customer}
+    POST /api/<version>/earnRule/<eventName>/customer/<customer>
 
 +-------------------------------------+----------------+---------------------------------------------------+
 | Parameter                           | Parameter type | Description                                       |
 +=====================================+================+===================================================+
 | Authorization                       | header         | Token received during authentication              |
 +-------------------------------------+----------------+---------------------------------------------------+
-| customer                            | query          | Customer ID                                       |
+| <customer>                          | query          | Customer ID                                       |
 +-------------------------------------+----------------+---------------------------------------------------+
-| eventName                           | query          | Custom Event name                                 |
+| <eventName>                         | query          | Custom Event name                                 |
 +-------------------------------------+----------------+---------------------------------------------------+	
-| version                             | query          | api version, v1 required                          |
+| <version>                           | query          | api version, v1 required                          |
 +-------------------------------------+----------------+---------------------------------------------------+	
 
 
