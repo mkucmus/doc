@@ -4,8 +4,8 @@ Security
 These endpoints will allow you to easily manage password.
 
 	
-Method will change logged user password.
-----------------------------------------
+Change logged user password
+---------------------------
 
 To change logged user password you will need to call the ``/api/admin/password/change`` endpoint with the ``POST`` method.
 
@@ -36,7 +36,7 @@ Example
         -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
-		-d "currentPassword=example123!@# \
+		-d "currentPassword=example123!@#" \
 		-d "plainPassword=example321!@#"
 		
 .. note::
@@ -64,8 +64,8 @@ Exemplary Response
 	  "success": true
 	}
 	
-Method will change logged user password (customer).
----------------------------------------------------
+Change logged user password (customer)
+--------------------------------------
 
 To change logged customer password you will need to call the ``/api/customer/password/change`` endpoint with the ``POST`` method.
 
@@ -96,7 +96,7 @@ Example
         -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
-		-d "currentPassword=example123!@# \
+		-d "currentPassword=example123!@#" \
 		-d "plainPassword=example321!@#"
 		
 .. note::
@@ -124,8 +124,8 @@ Exemplary Response
 	  "success": true
 	}
 	
-Method will change logged user password (seller).
--------------------------------------------------
+Change logged user password (seller)
+------------------------------------
 
 To change logged seller password you will need to call the ``/api/seller/password/change`` endpoint with the ``POST`` method.
 
@@ -156,7 +156,7 @@ Example
         -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
-		-d "currentPassword=example123!@# \
+		-d "currentPassword=example123!@#" \
 		-d "plainPassword=example321!@#"
 		
 .. note::
@@ -185,8 +185,8 @@ Exemplary Response
 	}
 
 	
-Method allows to set new password after reset password requesting.
-------------------------------------------------------------------
+Set new password after reset password requesting
+------------------------------------------------
 
 To reset logged user password you will need to call the ``/api/password/reset`` endpoint with the ``POST`` method.
 
@@ -212,12 +212,12 @@ Example
 
 .. code-block:: bash
 
-    curl http://localhost:8181/api/admin/password/change \
+    curl http://localhost:8181/api/password/reset \
         -X "POST" \
         -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
-		-d "reset[plainPassword]=example123!@# \
+		-d "reset[plainPassword]=example123!@#" \
 		-d "token=AIENe11JjR2kj3XGiWuZmQ88gZYAgM7VR5inxtbswaY"
 		
 .. note::
@@ -246,8 +246,8 @@ Exemplary Response
 	}
 	
 	
-Purpose of this method is to provide "Forgot password" functionality. Invoking this method will send message tot he user with password reset url.
--------------------------------------------------------------------------------------------------------------------------------------------------
+"Forgot password" functionality
+-------------------------------
 
 To provide "Forgot password" functionality you will need to call the ``/api/password/reset/request`` endpoint with the ``POST`` method.
 
@@ -298,8 +298,8 @@ Exemplary Response
 	}
 	
 	
-This method can be used to log out current user. It will revoke all refresh tokens assigned to current user so it will not be possible to obtain new token based on stored refresh token.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Log out current user
+--------------------
 
 To log out current user you will need to call the ``/api/token/revoke`` endpoint with the ``GET`` method.
 
