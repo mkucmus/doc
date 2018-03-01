@@ -116,7 +116,7 @@ Exemplary Response
 Get earning rule details
 ------------------------
 
-To retrieve a page of earning rule details you will need to call the ``/api/earningRule/{earningRule}`` endpoint with the ``GET`` method.
+To retrieve a page of earning rule details you will need to call the ``/api/earningRule/<earningRule>`` endpoint with the ``GET`` method.
 
 Definition
 ^^^^^^^^^^
@@ -137,7 +137,7 @@ Example
 
 .. code-block:: bash
 
-    curl http://localhost:8181/api/earningRule/{earningRule} \
+    curl http://localhost:8181/api/earningRule/00000000-0000-474c-b092-b0dd880c0121 \
         -X "GET" -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
