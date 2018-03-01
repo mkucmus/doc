@@ -254,7 +254,7 @@ Exemplary Response
 
 .. code-block:: text
 
-    STATUS: 200 OK
+    STATUS: 204 OK
 
 .. code-block:: json
 
@@ -466,7 +466,7 @@ Exemplary Response
 
 .. code-block:: text
 
-    STATUS: 200 OK
+    STATUS: 204 OK
 
 .. code-block:: json
 	
@@ -618,7 +618,7 @@ Exemplary Response
 
 .. code-block:: text
 
-    STATUS: 200 OK
+    STATUS: 204 OK
 
 .. code-block:: json
 	
