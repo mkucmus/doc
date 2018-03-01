@@ -114,8 +114,6 @@ Exemplary Response
 	}	
 
 
-
-
 Create new translations
 -----------------------
 
@@ -216,6 +214,56 @@ Exemplary Response
 	  "updatedAt": "2018-02-26T12:43:01+0100"
 	}
 	
+
+Update translations based on the key
+------------------------------------
+
+To update specific translations you will need to call the ``/api/admin/translations/<key>`` endpoint with the ``PUT`` method.
+
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    PUT /api/admin/translations/<key>
+
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+| Parameter                                      | Parameter type |  Description                                                               |
++================================================+================+============================================================================+
+| Authorization                                  | header         | Token received during authentication                                       |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+| <key>                                          | query          | Translation key                                                            |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+	
+| content                                        | query          | Translation content                                                        |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+	
+
+
+Example
+^^^^^^^
+
+.. code-block:: bash
+
+	curl http://localhost:8181/api/admin/translations/english.json \
+	    -X "PUT" \
+	    -H "Accept: application/json" \
+	    -H "Content-type: application/x-www-form-urlencoded" \
+	    -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+		
+		
+
+Exemplary Response
+^^^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
+
+.. code-block:: json
+    ??????????????!!!!!!!_TO_DO_!!!!!!!??????????
+
+
+
 	
 Get all system settings
 -----------------------
