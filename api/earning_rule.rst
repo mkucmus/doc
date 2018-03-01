@@ -123,17 +123,20 @@ Definition
 
 .. code-block:: text
 
-    GET  /api/earningRule/00000000-0000-474c-b092-b0dd880c0121
+    GET  /api/earningRule/<earningRule>
 
 +-------------------------------------+----------------+---------------------------------------------------+
 | Parameter                           | Parameter type | Description                                       |
 +=====================================+================+===================================================+
 | Authorization                       | header         | Token received during authentication              |
 +-------------------------------------+----------------+---------------------------------------------------+
-| earningRule                         | query          | earningRule ID                                    |
+| <earningRule>                       | query          | earningRule ID                                    |
 +-------------------------------------+----------------+---------------------------------------------------+
+
 Example
 ^^^^^^^
+
+ To see details of ``earningRule = 00000000-0000-474c-b092-b0dd880c0121``email use the below method:
 
 .. code-block:: bash
 
@@ -320,6 +323,7 @@ Definition
 
 Example
 ^^^^^^^
+
  To see earning rule with ``earningRule = 00000000-0000-474c-b092-b0dd880c0725`` use the below method:
 
 .. code-block:: bash
