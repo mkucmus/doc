@@ -4,10 +4,10 @@ Invitation
 These endpoints will allow you to easily manage Invitations.
 
 	
-Method will return a complete list of invitations
--------------------------------------------------
+Get a complete list of invitations
+----------------------------------
 
-To retrieve a paginated list of invitations you will need to call the ``/api/earningRule`` endpoint with the ``GET`` method.
+To retrieve a paginated list of invitations you will need to call the ``/api/invitations`` endpoint with the ``GET`` method.
 
 Definition
 ^^^^^^^^^^
