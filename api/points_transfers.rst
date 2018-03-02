@@ -4,8 +4,8 @@ Points transfers
 These endpoints will allow you to easily manage Points transfers.
 
 	
-Method will return a complete list of Points transfers
-------------------------------------------------------
+Get a complete list of Points transfers
+---------------------------------------
 
 To retrieve a paginated list of Points transfers you will need to call the ``/api/points/transfer`` endpoint with the ``GET`` method.
 
@@ -126,8 +126,8 @@ Exemplary Response
 	}
   
   	
-Method will return a complete list of Points transfers (seller)
----------------------------------------------------------------
+Get a complete list of Points transfers (seller)
+------------------------------------------------
 
 To retrieve a paginated list of Points transfers you will need to call the ``/api/seller/points/transfer`` endpoint with the ``GET`` method.
 
@@ -173,7 +173,7 @@ Example
 
 .. code-block:: bash
 
-    curl http://localhost:8181/api/points/transfer \
+    curl http://localhost:8181/api/seller/points/transfer \
         -X "GET" \
         -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
@@ -250,8 +250,8 @@ Exemplary Response
 	}
 
 
-Method allows to add points to customer.
-----------------------------------------
+Add points to customer
+----------------------
 
 To add a new points you will need to call the ``/api/points/transfer/add`` endpoint with the ``POST`` method.
 
@@ -310,8 +310,8 @@ Exemplary Response
 	}
 
 
-Method allows to spend customer points.
----------------------------------------
+Spend customer points
+---------------------
 
 To spend customer points you will need to call the ``/api/points/transfer/spend`` endpoint with the ``POST`` method.
 
@@ -370,24 +370,24 @@ Exemplary Response
 	}
 	
 	
-Method allows to cancel specific points transfer.
--------------------------------------------------
+Cancel specific points transfer
+-------------------------------
 
-To cancel specific points transfer you will need to call the ``/api/points/transfer/{transfer}/cancel`` endpoint with the ``POST`` method.
+To cancel specific points transfer you will need to call the ``/api/points/transfer/<transfer>/cancel`` endpoint with the ``POST`` method.
 
 Definition
 ^^^^^^^^^^
 
 .. code-block:: text
 
-    POST /api/points/transfer/{transfer}/cancel
+    POST /api/points/transfer/<transfer>/cancel
 	
 +-------------------------------------+----------------+---------------------------------------------------+
 | Parameter                           | Parameter type | Description                                       |
 +=====================================+================+===================================================+
 | Authorization                       | header         | Token received during authentication              |
 +-------------------------------------+----------------+---------------------------------------------------+
-| transfer                            | query          | Points transfer ID                                |
+| <transfer>                          | query          | Points transfer ID                                |
 +-------------------------------------+----------------+---------------------------------------------------+
 
 Example
@@ -395,7 +395,7 @@ Example
 
 .. code-block:: bash
 	
-    curl http://localhost:8181/api/points/transfer/{transfer}/cancel \
+    curl http://localhost:8181/api/points/transfer/313cf0c1-5376-4f66-9de3-77943760423a/cancel \
         -X "POST" \
         -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
