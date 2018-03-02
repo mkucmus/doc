@@ -3,8 +3,8 @@ Customer Points transfers
 
 These endpoints will allow you to see Customer Points transfers list.
 
-List of all logged in customer points transfer.
------------------------------------------------
+List of all logged in customer points transfer
+----------------------------------------------
 
 To retrieve list of points transfer by a specific customer use ``/api/customer/points/transfer`` endpoint with the ``GET`` method.
 
