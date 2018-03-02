@@ -680,7 +680,7 @@ Example
 
 .. code-block:: bash
 
-    curl http://localhost:8181/api/seller/transaction/customer/{customer} \
+    curl http://localhost:8181/api/seller/transaction/customer/4b32a723-9923-46fc-a2bc-d09767e5e59b \
         -X "GET" \
         -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
@@ -700,7 +700,56 @@ Exemplary Response
 
 .. code-block:: json
 	
-	??????????????!!!!!!!_TO_DO_!!!!!!!??????????
+	{
+	  "transactions": [
+		{
+		  "grossValue": 2200,
+		  "transactionId": "c13e4e89-2e9a-482d-8ab0-41a8eb9927ed",
+		  "documentNumber": "214124124130",
+		  "purchaseDate": "2017-08-23T00:00:00+0200",
+		  "documentType": "return",
+		  "customerId": "4b32a723-9923-46fc-a2bc-d09767e5e59b",
+		  "customerData": {
+			"email": "tomasztest8@wp.pl",
+			"name": "Firstname+Lastname",
+			"nip": "00000000000000",
+			"phone": "00000000000000",
+			"loyaltyCardNumber": "11111111111",
+			"address": {
+			  "street": "Street+name",
+			  "address1": "123",
+			  "province": "Dolnoslaskie",
+			  "city": "Wroclaw",
+			  "postal": "00-000",
+			  "country": "PL"
+			}
+		  },
+		  "items": [
+			{
+			  "sku": {
+				"code": "test0101"
+			  },
+			  "name": "Product+name",
+			  "quantity": 1,
+			  "grossValue": 2200,
+			  "category": "Category+Name",
+			  "maker": "Marker+name",
+			  "labels": [
+				{
+				  "key": "Label+key",
+				  "value": "Label+value"
+				}
+			  ]
+			}
+		  ],
+		  "excludedLevelCategories": [
+			"category_excluded_from_level"
+		  ],
+		  "currency": "eur"
+		}
+	  ],
+	  "total": 1
+	}
 
 
 
@@ -731,7 +780,7 @@ Example
 
 .. code-block:: bash
 
-    curl http://localhost:8181/api/seller/transaction/{documentNumber} \
+    curl http://localhost:8181/api/seller/transaction/214124124125 \
         -X "GET" \
         -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
@@ -751,7 +800,56 @@ Exemplary Response
 
 .. code-block:: json
 	
-	??????????????!!!!!!!_TO_DO_!!!!!!!??????????
+	{
+	  "transactions": [
+		{
+		  "grossValue": 1500,
+		  "transactionId": "d5b1119a-698b-40b4-9ac4-8ef704fa4433",
+		  "documentNumber": "214124124125",
+		  "purchaseDate": "2017-08-22T00:00:00+0200",
+		  "documentType": "sell",
+		  "customerId": "4b32a723-9923-46fc-a2bc-d09767e5e59b",
+		  "customerData": {
+			"email": "tomasztest8@wp.pl",
+			"name": "Firstname+Lastname",
+			"nip": "00000000000000",
+			"phone": "00000000000000",
+			"loyaltyCardNumber": "11111111111",
+			"address": {
+			  "street": "Street+name",
+			  "address1": "123",
+			  "province": "Dolnoslaskie",
+			  "city": "Wroclaw",
+			  "postal": "00-000",
+			  "country": "PL"
+			}
+		  },
+		  "items": [
+			{
+			  "sku": {
+				"code": "test0101"
+			  },
+			  "name": "Product+name",
+			  "quantity": 1,
+			  "grossValue": 1500,
+			  "category": "Category+Name",
+			  "maker": "Marker+name",
+			  "labels": [
+				{
+				  "key": "Label+key",
+				  "value": "Label+value"
+				}
+			  ]
+			}
+		  ],
+		  "excludedLevelCategories": [
+			"category_excluded_from_level"
+		  ],
+		  "currency": "eur"
+		}
+	  ],
+	  "total": 1
+	}
 
 
 
