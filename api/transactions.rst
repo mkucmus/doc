@@ -969,6 +969,9 @@ Definition
 +==============================================+================+===================================================+
 | Authorization                                | header         | Token received during authentication              |
 +----------------------------------------------+----------------+---------------------------------------------------+
+| transaction[transactionData][documentType]   | query          | Document type for Transaction Data, 2 possible    | 
+|                                              |                | values: return, sell                              |
++----------------------------------------------+----------------+---------------------------------------------------+
 | transaction[transactionData][documentNumber] | query          | Document number                                   |
 +----------------------------------------------+----------------+---------------------------------------------------+
 | transaction[transactionData][purchaseDate]   | query          | *(optional)* Purchase date                        |
@@ -1041,8 +1044,9 @@ Example
 		-d "transaction[customerData][address][city]=Wroclaw" \
 		-d "transaction[customerData][address][province]=Dolnoslaskie" \
 		-d "transaction[customerData][address][country]=PL" \
-		-d "transaction[transactionData][documentNumber]=214124124125"
-		-d "transaction[transactionData][purchaseDate]=2017-08-22"
+		-d "transaction[transactionData][documentNumber]=214124124125" \
+		-d "transaction[transactionData][purchaseDate]=2017-08-22" \
+		-d "transaction[transactionData][documentType]=return"
 		
 .. note::
 
