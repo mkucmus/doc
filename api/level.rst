@@ -121,19 +121,19 @@ Definition
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
 | level[reward][code]                            | request        |  Reward code                                                               |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
-| level[specialRewards][0][active]               | request        |  *(optional)* Set 1 if active, otherwise 0                                 |
+| level[specialRewards][][active]                | request        |  *(optional)* Set 1 if active, otherwise 0                                 |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
-| level[specialRewards][0][code]                 | request        |  First special reward code                                                 |
+| level[specialRewards][][code]                  | request        |  First special reward code                                                 |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
-| level[specialRewards][0][name]                 | request        |  First special reward name                                                 |
+| level[specialRewards][][name]                  | request        |  First special reward name                                                 |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
-| level[specialRewards][0][startAt]              | request        |  First special reward visible from YYYY-MM-DD HH:mm, for example           | 
+| level[specialRewards][][startAt]               | request        |  First special reward visible from YYYY-MM-DD HH:mm, for example           | 
 |                                                |                |   ``2018-02-01 8:33``. *(required only if ``allTimeVisible=0``)*           |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
-| level[specialRewards][0][endAt]                | request        |  First special reward visible to YYYY-MM-DD HH:mm, for example             |
+| level[specialRewards][][endAt]                 | request        |  First special reward visible to YYYY-MM-DD HH:mm, for example             |
 |                                                |                |   ``2017-10-15 11:07``. *(required only if ``allTimeVisible=0``)*          |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
-| level[specialRewards][0][value]                | request        |  First special reward value                                                |
+| level[specialRewards][][value]                 | request        |  First special reward value                                                |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
 
 Example
@@ -271,19 +271,19 @@ Definition
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
 | level[reward][code]                            | request        |  Reward code                                                               |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
-| level[specialRewards][0][active]               | request        |  *(optional)* Set 1 if active, otherwise 0                                 |
+| level[specialRewards][][active]                | request        |  *(optional)* Set 1 if active, otherwise 0                                 |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
-| level[specialRewards][0][code]                 | request        |  First special reward code                                                 |
+| level[specialRewards][][code]                  | request        |  First special reward code                                                 |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
-| level[specialRewards][0][name]                 | request        |  First special reward name                                                 |
+| level[specialRewards][][name]                  | request        |  First special reward name                                                 |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
-| level[specialRewards][0][startAt]              | request        |  First special reward visible from YYYY-MM-DD HH:mm, for example           | 
+| level[specialRewards][][startAt]               | request        |  First special reward visible from YYYY-MM-DD HH:mm, for example           | 
 |                                                |                |  ``2018-02-01 8:33``. *(required only if ``allTimeVisible=0``)*            |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
-| level[specialRewards][0][endAt]                | request        |  First special reward visible to YYYY-MM-DD HH:mm, for example             |
+| level[specialRewards][][endAt]                 | request        |  First special reward visible to YYYY-MM-DD HH:mm, for example             |
 |                                                |                |    ``2017-10-15 11:07``. *(required only if ``allTimeVisible=0``)*         |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
-| level[specialRewards][0][value]                | request        |  First special reward value                                                |
+| level[specialRewards][][value]                 | request        |  First special reward value                                                |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
 	
 Example
