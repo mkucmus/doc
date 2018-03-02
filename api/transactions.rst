@@ -969,35 +969,25 @@ Definition
 +==============================================+================+===================================================+
 | Authorization                                | header         | Token received during authentication              |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction                      			   | query          | Transaction ID                                    |
+| transaction[transactionData][documentNumber] | query          | Document number                                   |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[transactionData]	    		   | query          | TO DO                                             |
+| transaction[transactionData][purchaseDate]   | query          | *(optional)* Purchase date                        |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[revisedDocument]	               | query          | *(optional)*  TO DO                               |
+| transaction[items][][sku][code]              | query          | SKU Code                                          |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[items][]	                       | query          | TO DO                                             |
+| transaction[items][][name]	               | query          | Product name                                      |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[items][][sku]	                   | query          | TO DO                                             |
-+----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[items][][sku][code]              | query          | TO DO                                             |
-+----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[items][][name]	               | query          | TO DO                                             |
-+----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[items][][quantity]	           | query          | TO DO                                             |
+| transaction[items][][quantity]	           | query          | Quantity                                          |
 +----------------------------------------------+----------------+---------------------------------------------------+
 | transaction[items][][grossValue]	           | query          | Gross value                                       |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[items][][category]	           | query          | TO DO                                             |
+| transaction[items][][category]	           | query          | Category Name                                     |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[items][][maker]	               | query          | *(optional)*  TO DO                               |
+| transaction[items][][maker]	               | query          | Brand name                                        |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[items][][labels][]               | query          | TO DO                                             |
+| transaction[items][][labels][][key]          | query          | Label key                                         |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[items][][labels][][key]          | header         | TO DO                                             |
-+----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[items][][labels][][value]        | query          | TO DO                                             |
-+----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[customerData]	                   | query          | TO DO                                             |
+| transaction[items][][labels][][value]        | query          | Label value                                       |
 +----------------------------------------------+----------------+---------------------------------------------------+
 | transaction[customerData][name]	           | query          | Customer name                                     |
 +----------------------------------------------+----------------+---------------------------------------------------+
@@ -1009,23 +999,17 @@ Definition
 +----------------------------------------------+----------------+---------------------------------------------------+
 | transaction[customerData][nip]	           | query          | *(optional)* Customer NIP                         |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[customerData][address]	       | query          | TO DO                                             |
-+----------------------------------------------+----------------+---------------------------------------------------+
 | transaction[customerData][address][street]   | query          | *(optional)* Street                               |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[customerData][address][address1] | query          | *(optional)*  Customer address1                   |
-+----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[customerData][address][address2] | query          | *(optional)*  Customer address2                   |
+| transaction[customerData][address][address1] | query          | *(optional)* Customer address1                    |
 +----------------------------------------------+----------------+---------------------------------------------------+
 | transaction[customerData][address][postal]   | query          | *(optional)* Postal code                          |
 +----------------------------------------------+----------------+---------------------------------------------------+
 | transaction[customerData][address][city]	   | query          | *(optional)* City                                 |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[customerData][address][province] | query          | *(optional)*  Province                            |
+| transaction[customerData][address][province] | query          | *(optional)* Province                             |
 +----------------------------------------------+----------------+---------------------------------------------------+
 | transaction[customerData][address][country]  | query          | *(optional)* Country                              |
-+----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[pos]	                           | query          | *(optional)* POS name                             |
 +----------------------------------------------+----------------+---------------------------------------------------+
 
 Example
@@ -1037,7 +1021,28 @@ Example
         -X "POST" \
         -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
-        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
+		-d "transaction[items][0][sku][code]=test0101" \
+		-d "transaction[items][0][name]=Product+name" \
+		-d "transaction[items][0][quantity]=1" \
+		-d "transaction[items][0][grossValue]=1500.00" \
+		-d "transaction[items][0][category]=Category+Name" \
+		-d "transaction[items][0][maker]=Marker+name" \
+		-d "transaction[items][0][labels][0][key]=Label+key" \
+		-d "transaction[items][0][labels][0][value]=Label+value" \
+		-d "transaction[customerData][name]=Firstname+Lastname" \
+		-d "transaction[customerData][email]=tomasztest8@wp.pl" \
+		-d "transaction[customerData][phone]=00000000000000" \
+		-d "transaction[customerData][loyaltyCardNumber]=11111111111" \
+		-d "transaction[customerData][nip]=00000000000000" \
+		-d "transaction[customerData][address][street]=Street+name" \
+		-d "transaction[customerData][address][address1]=123" \
+		-d "transaction[customerData][address][postal]=00-000" \
+		-d "transaction[customerData][address][city]=Wroclaw" \
+		-d "transaction[customerData][address][province]=Dolnoslaskie" \
+		-d "transaction[customerData][address][country]=PL" \
+		-d "transaction[transactionData][documentNumber]=214124124125"
+		-d "transaction[transactionData][purchaseDate]=2017-08-22"
 		
 .. note::
 
@@ -1053,12 +1058,10 @@ Exemplary Response
     STATUS: 200 OK
 
 .. code-block:: json
-
-	??????????????!!!!!!!_TO_DO_!!!!!!!??????????
-
-
-
-
+	{
+	  "transactionId": "d5b1119a-698b-40b4-9ac4-8ef704fa4433"
+	}
+	
 Get available labels
 --------------------
 
@@ -1137,17 +1140,15 @@ Definition
 +----------------------------------------------+----------------+---------------------------------------------------+
 | transaction[items][][sku][code]              | query          | SKU code                                          |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[items][][name]              	   | query          | TO DO                                             |
+| transaction[items][][name]              	   | query          | Product name                                      |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[items][][quantity]       	       | query          | TO DO                                             |
+| transaction[items][][quantity]       	       | query          | Quantity                                          |
 +----------------------------------------------+----------------+---------------------------------------------------+
 | transaction[items][][grossValue]       	   | query          | Gross value                                       |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[items][][category]        	   | query          | TO DO                                             |
+| transaction[items][][category]        	   | query          | Category name                                     |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[items][][maker]            	   | query          | TO DO                                             |
-+----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[items][][labels][]    		   | query          | TO DO                                             |
+| transaction[items][][maker]            	   | query          | Brand name                                        |
 +----------------------------------------------+----------------+---------------------------------------------------+
 | transaction[items][][labels][][key]          | query          | Label key                                         |
 +----------------------------------------------+----------------+---------------------------------------------------+
@@ -1195,7 +1196,7 @@ Exemplary Response
 .. code-block:: json	
 		
 	{
-	  "points": 2
+	  "points": 2.3
 	}		
 
 
