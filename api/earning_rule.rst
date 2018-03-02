@@ -42,7 +42,8 @@ Example
 .. code-block:: bash
 
     curl http://localhost:8181/api/earningRule \
-        -X "GET" -H "Accept: application/json" \
+        -X "GET" \
+		-H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
 
@@ -141,7 +142,8 @@ Example
 .. code-block:: bash
 
     curl http://localhost:8181/api/earningRule/00000000-0000-474c-b092-b0dd880c0121 \
-        -X "GET" -H "Accept: application/json" \
+        -X "GET" \
+		-H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
 
@@ -229,7 +231,8 @@ Example
 .. code-block:: bash
 
     curl http://localhost:8181/api/seller/earningRule \
-        -X "GET" -H "Accept: application/json" \
+        -X "GET" \
+		-H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
 
@@ -329,7 +332,8 @@ Example
 .. code-block:: bash
 
     curl http://localhost:8181/api/earningRule/00000000-0000-474c-b092-b0dd880c0725 \
-        -X "GET" -H "Accept: application/json" \
+        -X "GET" \ 
+		-H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
 
@@ -399,9 +403,9 @@ Definition
 | earningRule[rewardType]                        | request        |  Who will be rewarded. Possible types:                                     |
 |                                                |                |  referred,referrer, both                                                   |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
-| earningRule[name]                              | request        |  earningRule name.                                                         |
+| earningRule[name]                              | request        |  EarningRule name                                                          |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
-| earningRule[description]                       | request        |  A short description.                                                      |
+| earningRule[description]                       | request        |  A short description                                                       |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
 | earningRule[endAt]                             | request        |  earningRule visible to YYYY-MM-DD HH:mm, e.g.: ``2019-10-05 10:59``.      |
 |                                                |                |  *(required only if ``allTimeActive=0``)*                                  |
@@ -436,12 +440,12 @@ Definition
 | earningRule[excludedSKUs]                      | request        |  Excluding products with the given SKU                                     |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
 | earningRule[minOrderValue]                     | request        |  Points will not be calculated for whole purchase if its value will be     |
-|                                                |                |  below value.                                                              |
+|                                                |                |  below value                                                               |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
 | earningRule[excludedLabels]                    | request        |  Points will not be calculated for the purchase of products with defined   |
-|                                                |                |  labels.                                                                   |
+|                                                |                |  labels                                                                    |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
-| earningRule[multiplier]                        | request        |  Points gained for purchase product will be multiplied by this factor.     |
+| earningRule[multiplier]                        | request        |  Points gained for purchase product will be multiplied by this factor      |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
 | earningRule[skuIds][0]                         | request        |  Refers to products with the given SKU                                     |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
@@ -519,7 +523,7 @@ Definition
 +================================================+================+============================================================================+
 | Authorization                                  | header         |  Token received during authentication                                      |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
-| <earningRule>                                  | query          |  earningRule ID                                                            |
+| <earningRule>                                  | query          |  EarningRule ID                                                            |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
 | earningRule[type]                              | request        |  The type of earning points. Possible types: Custom event rule, Customer   |
 |                                                |                |	 Referral, Event Rule, General spending rule, Multiple earned points,      |
@@ -528,9 +532,9 @@ Definition
 | earningRule[rewardType]                        | request        |  Who will be rewarded. Possible types:                                     |
 |                                                |                |  referred,referrer, both                                                   |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
-| earningRule[name]                              | request        |  Earning Rule name.                                                        |
+| earningRule[name]                              | request        |  Earning Rule name                                                         |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
-| earningRule[description]                       | request        |  A short description.                                                      |
+| earningRule[description]                       | request        |  A short description                                                       |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
 | earningRule[endAt]                             | request        |  earningRule visible to YYYY-MM-DD HH:mm, e.g.: ``2019-10-05 10:59``.      |
 |                                                |                |  *(required only if ``allTimeActive=0``)*                                  |
@@ -565,12 +569,12 @@ Definition
 | earningRule[excludedSKUs]                      | request        |  Excluding products with the given SKU                                     |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
 | earningRule[minOrderValue]                     | request        |  Points will not be calculated for whole purchase if its value will be     |
-|                                                |                |  below value.                                                              |
+|                                                |                |  below value                                                              |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
 | earningRule[excludedLabels]                    | request        |  Points will not be calculated for the purchase of products with defined   |
-|                                                |                |  labels.                                                                   |
+|                                                |                |  labels                                                                    |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
-| earningRule[multiplier]                        | request        |  Points gained for purchase product will be multiplied by this factor.     |
+| earningRule[multiplier]                        | request        |  Points gained for purchase product will be multiplied by this factor      |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
 | earningRule[skuIds][0]                         | request        |  Refers to products with the given SKU                                     |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
