@@ -1050,10 +1050,10 @@ Exemplary Response
 	}
 
 
-Register new transaction in system
-----------------------------------
+Register new transaction
+------------------------
 
-To register new transaction in system you will need to call the ``/api/transaction`` endpoint with the ``POST`` method.
+To register new transaction you will need to call the ``/api/transaction`` endpoint with the ``POST`` method.
 
 Definition
 ^^^^^^^^^^
