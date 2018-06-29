@@ -50,4 +50,4 @@ Let’s verify that bundle has been registered properly. I assume you use docker
 And you should see at the top of table our AppBundle
 
 .. image:: _images/check_used_bundles.png
-    :scale: 55%
+    :scale: 100%

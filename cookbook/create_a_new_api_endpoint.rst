@@ -4,16 +4,13 @@ How to add a new API endpoint
 Let’s say you want to add a new endpoint that will return just another list of earning points rules.
 Here is a step-by-step guid how to achieve this.
 
-First of all, you need to create a new controller in existing ``AppBundle`` in ``Controller``”`` directory.
+First of all, you need to create a new controller in existing ``AppBundle`` in ``Controller`` directory.
 Here is a sample code
 
 .. code-block:: php
 
     <?php
-    /**
-     * Copyright © 2018 Divante, Inc. All rights reserved.
-     * See LICENSE for license details.
-     */
+
     namespace AppBundle\Controller;
     use FOS\RestBundle\Controller\Annotations\Route;
     use FOS\RestBundle\View\View;
@@ -21,6 +18,7 @@ Here is a sample code
     use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
     use Symfony\Component\HttpFoundation\Request;
     use FOS\RestBundle\Controller\FOSRestController;
+
     class EarningRuleController extends FOSRestController
     {
         /**
@@ -45,8 +43,7 @@ Here is a sample code
         }
     }
 
-@Route is an annotation to create a new route in Symfony Framework. Name is useful for creating links and redirection
- but not used as we’re implementing RESTful API. Path is an enpoint URI.
+@Route is an annotation to create a new route in Symfony Framework. Name is useful for creating links and redirection but not used as we’re implementing RESTful API. Path is an enpoint URI.
 
 If you’re not familiar with it check `documentation <https://symfony.com/doc/3.4/routing.html>`_.
 

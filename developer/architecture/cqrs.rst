@@ -6,4 +6,4 @@ heart is the notion that you can use a different model to update information tha
 information.
 
 .. image:: _images/cqrs.png
-    :scale: 55%
+    :scale: 100%

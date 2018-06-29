@@ -31,7 +31,7 @@ Architecture
 ============
 
 .. image:: _images/overview.png
-   :scale: 55%
+   :scale: 100%
 
 Admin cockpit
 -------------
