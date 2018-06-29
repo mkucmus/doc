@@ -2,7 +2,7 @@ Upgrading
 =========
 
 Open Loyalty core team releases a new version every two weeks. Each new release
-has a `CHANGELOG.md <https://github.com/DivanteLtd/open-loyalty/blob/master/CHANGELOG.md>_` and sometimes, when
+has a `CHANGELOG.md <https://github.com/DivanteLtd/open-loyalty/blob/master/CHANGELOG.md>`_ and sometimes, when
 upgrading may be difficult it has a file `UPGRADE.md <https://github.com/DivanteLtd/open-loyalty/blob/master/UPGRADE-2.2.md>`_.
 
 To update your project you need to update ``divante-lts/open-loyalty-framework`` library in ``composer.json`` file

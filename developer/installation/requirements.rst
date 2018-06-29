@@ -25,6 +25,7 @@ In the production environment we do recommend using Nginx web server
 
 PHP Configuration
 ----------------
+
 +-------------+---------+
 | PHP version | >= 7.1  |
 +-------------+---------+
@@ -33,6 +34,7 @@ PHP Configuration
 +----------------+-------+
 
 PHP configuration settings
+
 +---------------------------------+----------------+
 | memory_limit                    | 1024M          |
 +---------------------------------+----------------+
