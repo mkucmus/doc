@@ -10,7 +10,7 @@ Introduction
 .. toctree::
    :hidden:
 
-       introduction/index
+   introduction/index
 
 .. include:: /developer/introduction/map.rst.inc
 
@@ -20,7 +20,7 @@ Installation
 .. toctree::
    :hidden:
 
-        installation/index
+   installation/index
 
 .. include:: /developer/installation/map.rst.inc
 
@@ -30,7 +30,7 @@ Architecture
 .. toctree::
    :hidden:
 
-        architecture/index
+   architecture/index
 
 .. include:: /developer/architecture/map.rst.inc
 
@@ -40,6 +40,6 @@ Configuration
 .. toctree::
    :hidden:
 
-        configuration/index
+   configuration/index
 
 .. include:: /developer/configuration/map.rst.inc

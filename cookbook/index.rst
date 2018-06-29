@@ -7,7 +7,7 @@ Introduction
 ------------
 
 .. toctree::
-:hidden:
+   :hidden:
 
        create_a_new_bundle
        create_a_new_api_endpoint

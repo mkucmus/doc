@@ -22,7 +22,7 @@ Open Loyalty architecture and used concepts. This guide helps to understand how 
 .. toctree::
    :hidden:
 
-         developer/index
+   developer/index
 
 The Cookbook
 ------------
@@ -33,7 +33,7 @@ specific, narrow problems.
 .. toctree::
    :hidden:
 
-      cookbook/index
+   cookbook/index
 
 The REST API Reference
 ----------------------
