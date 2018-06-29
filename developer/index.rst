@@ -8,7 +8,7 @@ Introduction
 ------------
 
 .. toctree::
-:hidden:
+   :hidden:
 
        introduction/index
 
@@ -18,17 +18,17 @@ Installation
 ------------
 
 .. toctree::
-:hidden:
+   :hidden:
 
         installation/index
 
-.. include:: /book/installation/map.rst.inc
+.. include:: /developer/installation/map.rst.inc
 
 Architecture
 ------------
 
 .. toctree::
-:hidden:
+   :hidden:
 
         architecture/index
 
@@ -38,7 +38,7 @@ Configuration
 -------------
 
 .. toctree::
-:hidden:
+   :hidden:
 
         configuration/index
 
