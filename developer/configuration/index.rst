@@ -2,7 +2,7 @@ Configuration
 =============
 
 .. toctree::
-:hidden:
+   :hidden:
 
         channels
         locales

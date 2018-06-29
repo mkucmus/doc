@@ -2,7 +2,7 @@ Installation
 ============
 
 .. toctree::
-:hidden:
+   :hidden:
 
         requirements
         installation

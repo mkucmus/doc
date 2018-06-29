@@ -2,7 +2,7 @@ Introduction
 ============
 
 .. toctree::
-:hidden:
+   :hidden:
 
         about
         used_concepts

@@ -2,7 +2,7 @@ Architecture
 ============
 
 .. toctree::
-:hidden:
+   :hidden:
 
         overview
         domain_driven_design
