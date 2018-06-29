@@ -25,22 +25,33 @@ In the production environment we do recommend using Nginx web server
 
 PHP Configuration
 ----------------
++-------------+---------+
+| PHP version | >= 7.1  |
++-------------+---------+
++----------------+-------+
+| PHP extensions | APCU  |
++----------------+-------+
 
-PHP version: >= 7.1
-
-PHP extensions:
-APCU
-
-PHP configuration settings:
-memory_limit >=1024M
-date.timezone Europe/Warsaw
-upload_max_filesize = 10M
-post_max_size = 10M
-short_open_tag = Off
-opcache.validate_timestamps=0
-opcache.memory_consumption=256
-opcache.max_accelerated_files=20000
-realpath_cache_size=600
+PHP configuration settings
++---------------------------------+----------------+
+| memory_limit                    | 1024M          |
++---------------------------------+----------------+
+| date.timezone                   | Europe/Warsaw  |
++---------------------------------+----------------+
+| upload_max_filesize             | 10M            |
++---------------------------------+----------------+
+| post_max_size                   | 10M            |
++---------------------------------+----------------+
+| short_open_tag                  | Off            |
++---------------------------------+----------------+
+| opcache.validate_timestamps     | 0              |
++---------------------------------+----------------+
+| opcache.memory_consumption      | 256            |
++---------------------------------+----------------+
+| opcache.max_accelerated_files   | 20000          |
++---------------------------------+----------------+
+| realpath_cache_size             | 600            |
++---------------------------------+----------------+
 
 Database
 --------
