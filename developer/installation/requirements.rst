@@ -1,8 +1,8 @@
 Requirements
 ============
 
-Here you will find the list requirements that have to be meet to be able to use Open Loyalty.
-Before you start reading, have a look at the `Symfony requirements <http://symfony.com/doc/3.4/reference/requirements.html>`_.
+Here you will find the list of requirements that have to be met to be able to use Open Loyalty.
+Before you start reading, take a look at the `Symfony requirements <http://symfony.com/doc/3.4/reference/requirements.html>`_.
 
 Operating Systems
 -----------------
@@ -12,16 +12,16 @@ The recommended operating systems for running Open Loyalty are Unix systems - **
 Running Open Loyalty
 --------------------
 
-We recommend to use docker as an abstraction layer to run Open Loyalty. Also, we do recommend to use Kubernetes for
+We recommend using Docker as an abstraction layer to run Open Loyalty. Also, we do recommend to use Kubernetes for
 production purpose.
 
 If you don’t want to use Docker or Kubernetes and you want to run Open Loyalty on the server, you need to prepare and
-configure all software that’s required to run OL correctly.
+configure all the software that’s required to run OL correctly.
 
 Web server configuration
 ------------------------
 
-In the production environment we do recommend using Nginx web server
+In the production environment, we recommend using the Nginx web server.
 
 PHP Configuration
 ----------------
@@ -59,9 +59,9 @@ PHP configuration settings
 Database
 --------
 
-We recommend to use PostgreSQL database in version 9.x
+We recommend using PostgreSQL database in version 9.x
 
-As we use Doctrine, it should be possible to run Open Loyalty on any SQL compliant database, however it may
+As we use Doctrine, it should be possible to run Open Loyalty on any SQL compliant database, however, it may
 require additional development from your side.
 
 
@@ -72,4 +72,4 @@ We designed our software with scalability and performance in mind. That’s why 
 To read data we use Elasticsearch that contains projections of data stored in the write database optimized for reading
 and views that loyalty program needs.
 
-We recommend to use Elasticsearch in version 2.x
+We recommend using Elasticsearch in version 2.x
