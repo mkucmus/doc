@@ -10,4 +10,4 @@ adjust the state to cope with retroactive changes.
 
 To implement event sourcing we use an external library called `Broadway <https://github.com/broadway/broadway>`_.
 
-No everything in Open Loyalty is event sourced. And that’s fine.
+Not everything in Open Loyalty is event sourced. And that’s fine.
