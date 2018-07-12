@@ -5,7 +5,7 @@ Open Loyalty core team releases a new version every two weeks. Each new release
 has a `CHANGELOG.md <https://github.com/DivanteLtd/open-loyalty/blob/master/CHANGELOG.md>`_ and sometimes, when
 upgrading may be difficult it has a file `UPGRADE.md <https://github.com/DivanteLtd/open-loyalty/blob/master/UPGRADE-2.2.md>`_.
 
-To update your project you need to update ``divante-lts/open-loyalty-framework`` library in ``composer.json`` file
+To update your project, you need to update ``divante-lts/open-loyalty-framework`` library in ``composer.json`` file
 
 .. code-block:: yaml
 
@@ -45,13 +45,13 @@ It's a command to update scheme in PostgreSQL without losing data.
 
     $ bin/console oloy:user:projections:index:create --drop-old -n
 
-It deletes all indexes in ElasticSearch and creates a new one.
+It deletes all the indexes in ElasticSearch and creates a new one.
 
 .. code-block:: bash
 
     $ bin/console oloy:utility:read-models:recreate
 
-It recreates all data from event store to ElasticSearch, so the read model is up-to-date.
+It recreates all data from the event store to ElasticSearch, so the read model is up-to-date.
 
-Now you should have all required updates to run a new version in Open Loyalty.
+Now you should have all the required updates to run a new version in Open Loyalty.
 Sometimes we release a new version with BC breaks so please look at the ``UPGRADE-..md`` files.
