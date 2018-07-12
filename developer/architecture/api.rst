@@ -4,17 +4,17 @@ API
 Used library
 ------------
 We’re using a few libraries to serve RESTful API, it’s automatically generated documentation and JWT Tokens used
-to authenticate a user. More information about API, requests and response is available at
+to authenticate a user. More information about API, requests and response is available
 `here <http://open-loyalty.readthedocs.io/en/latest/api/index.html>`_.
 
 **FOSRestBundle**
 
 This bundle provides various tools to rapidly develop RESTful API's & applications with Symfony. Features include:
-A View layer to enable output and format agnostic Controllers
-A custom route loader to generate url's following REST conventions
-Accept header format negotiation including handling for custom mime types
-RESTful decoding of HTTP request body and Accept headers
-Exception controller for sending appropriate HTTP status codes
+A View layer to enable output and format agnostic Controllers;
+A custom route loader to generate URL's following REST conventions;
+Accept header format negotiation including handling for custom mime types;
+RESTful decoding of HTTP request body and Accept headers;
+Exception controller for sending appropriate HTTP status codes.
 
 https://symfony.com/doc/master/bundles/FOSRestBundle/index.html
 
@@ -32,7 +32,7 @@ https://github.com/lexik/LexikJWTAuthenticationBundle/blob/master/Resources/doc/
 
 **JWTRefreshTokenBundle**
 
-The purpose of this bundle is manage refresh tokens with JWT (Json Web Tokens) in an easy way. This bundles uses LexikJWTAuthenticationBundle. At the moment only supports Doctrine ORM.
+The purpose of this bundle is to manage refresh tokens with JWT (Json Web Tokens) in an easy way. This bundle uses LexikJWTAuthenticationBundle. At the moment supports only Doctrine ORM.
 
 https://github.com/gesdinet/JWTRefreshTokenBundle
 
@@ -59,14 +59,14 @@ Not described yet.
 Contexts
 --------
 
-Open Loyalty has context which is basically three different types of users.
+Open Loyalty has a context which is basically three different types of users.
 
-There is an admin context who is responsible for managing whole loyalty platform.
+There is an admin context who is responsible for managing the whole loyalty platform.
 
-Second context is a customer context, a person who registered to the loyalty program and the third last context is a
-seller. It’s usually a merchant with physical store that is handling customer.
+The second context is a customer context, a person who registered to the loyalty program and the third last context is a
+seller. It’s usually a merchant with a physical store that is handling customer.
 
-Each context, an therefore each user, has different permissions and can use different API endpoints.
+Each context, therefore each user has different permissions and can use different API endpoints.
 
 API assumptions
 ---------------
@@ -79,12 +79,12 @@ for an administrator.
 
 However, there are some exceptions from this convention. The best examples are endpoints from the UserBundle and
 prefixed with ``/api/customer``. Most of them are available only in the administrator context,
-but some of them are also available for a customer like endpoint ``/api/customer/{customer}``.
+but some of them are also available for a customer like an endpoint ``/api/customer/{customer}``.
 It’s available for an administrator to view any customer but it’s also available for a customer to view only
 his own data. It’s restricted in the code.
 
 Why I see 404?
 --------------
 
-Open Loyalty uses ``/api`` for all API endpoints so there is no ``/`` route in application. If route is not found,
+Open Loyalty uses ``/api`` for all API endpoints so there is no ``/`` route in the application. If the route is not found,
 then by default 404 is returned.
