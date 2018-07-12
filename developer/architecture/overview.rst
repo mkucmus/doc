@@ -5,14 +5,14 @@ Fullstack Symfony
 -----------------
 
 Open Loyalty is based on Symfony, which is a leading PHP framework to create web applications. Using Symfony
-allows developers to work better and faster by providing them with certainty of developing an application that
+allows developers to work better and faster by providing them with a certainty of developing an application that
 is fully compatible with the business rules, that is structured, maintainable and upgradable, but also it allows
 to save time by providing generic re-usable modules.
 
 Doctrine
 --------
 
-Doctrine is a family of PHP libraries focused on providing data persistence layer. The most important are the
+Doctrine is a family of PHP libraries focused on providing data persistence layer. The most important is the
 object-relational mapper (ORM) and the database abstraction layer (DBAL). One of Doctrine’s key features is the
 possibility to write database queries in Doctrine Query Language (DQL) - an object-oriented dialect of SQL.
 
@@ -44,10 +44,10 @@ and redeem reward.
 
 POS Cockpit
 POS stands for Point-of-sale. It’s a physical store where you can buy stuff. This cockpit is a user interface for
-merchants to register a customer in loyalty program or spend points to reduce purchase amount.
+merchants to register a customer in the loyalty program or spend points to reduce purchase amount.
 
 3rd party software
-Thanks to the separation between frontend and backend any third party software can integrate with Open Loyalty and
+Thanks to the separation between frontend and backend, any third party software can integrate with Open Loyalty and
 benefit from it. You can even replace existing cockpits with your own solution like mobile application for end customers.
 
 API
@@ -57,11 +57,11 @@ Our API uses the REST approach.
 Bundles
 -------
 It’s a place where a business logic from the components is integrated with used Symfony Framework. By separating
-business logic from the framework, it’s easily to focus and maintain business aspects of the application and the
-integration with framework.
+business logic from the framework, it’s easier to focus and maintain business aspects of the application and the
+integration with the framework.
 
 Components
 ----------
-It’s a heart of our software. Here lies are business rules of the loyalty program. Components have been created
-with Domain Driven Design in mind. So if you’re familiar with this concept you can find here know to you patterns
+It’s a heart of our software. Here, lies are business rules of the loyalty program. Components have been created
+with Domain Driven Design in mind. So if you’re familiar with this concept, you can find here to know your patterns
 like domain models and infrastructure objects.
