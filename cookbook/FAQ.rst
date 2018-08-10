@@ -21,15 +21,7 @@ After registration form fullfillment by customer from client cockpit, on the ema
 Note, if you register customer from Admin or POS Cockpit activation link is not sent. Customer account is active instantly. 
 
 
-
-2. A complaint from the customer (exisitng loyalty programe member) has been received. To calm the angry I want to give him a coupon. How can I do this in Open Loyalty?
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-*An Instant reward description will be added.*
-
-
-
-3. We need to verify end-to-end earning mechanism is working properly. How can we emulate transaction without have a real POS in our testing environment?
+2. We need to verify end-to-end earning mechanism is working properly. How can we emulate transaction without have a real POS in our testing environment?
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **XML File Upload** 
@@ -37,14 +29,7 @@ Note, if you register customer from Admin or POS Cockpit activation link is not 
 The first option is to import transaction from XML file. In OL user guide please find chapter  "Import transaction" (p.107). Here you will find description of transaction import process and example of XML file structure.
 
 
-
-**API** 
-
-*Api access description will be added.*
-
-
-
-4. In "Points Transfer" section, admin wants to batch import the "points transfer" list. What is the required format of the XML file? Is it the only supported file format, how about .csv file format?
+3. In "Points Transfer" section, admin wants to batch import the "points transfer" list. What is the required format of the XML file? Is it the only supported file format, how about .csv file format?
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 CSV file format is not supported. 
 
@@ -52,14 +37,14 @@ In OL user guide please find chapter "Creating points transfer" (p.92). Here you
 
 
 
-5. In "Customers" section, admin wants to batch import the "customer" list. What is the required format of the XML file? Is it the only supported file format, how about .csv file format?
+4. In "Customers" section, admin wants to batch import the "customer" list. What is the required format of the XML file? Is it the only supported file format, how about .csv file format?
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 CSV file format is not supported. 
 
 In OL user guide please find chapter "Creating customer account" (p.46). Here you will find description of customer import process and example of XML file structure.
 
 
-6. Is there a way to 'preview' campaign before publishing to live view?
+5. Is there a way to 'preview' campaign before publishing to live view?
 ---------------------------------------------------------------------------
 There is no possibility to “preview” campaign before publishing. 
 
@@ -69,7 +54,7 @@ In OL user guide please find chapter “Creating reward campaign” (p. 177). He
 
 
 
-7. If the customer used available points to redeem a coupon, what would happen to the customer level?
+6. If the customer used available points to redeem a coupon, what would happen to the customer level?
 --------------------------------------------------------------------------------------------------------
 
 **Active Points**
@@ -96,13 +81,13 @@ Each level entitled the customer with specific rewards or benefits. (e.g. 20% of
 Upon the accumulation of earned points reached a certain amount, the customer level will be upgraded.
 
 
-8. What is Open Loyalty approach for admin access right? Any preset admin account type?
+7. What is Open Loyalty approach for admin access right? Any preset admin account type?
 -----------------------------------------------------------------------------------------
 Single level access in current offering.
 
 
 
-9. Admin wants to create birthday offer campaign which target for user who born on each months. How could the admin define those birthday segment for each 12 month?
+8. Admin wants to create birthday offer campaign which target for user who born on each months. How could the admin define those birthday segment for each 12 month?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 In current offering it's not possible to define a date range. 
 
@@ -110,7 +95,7 @@ OL standard gives an option to create a segment with customers whose have a birt
 
 
 
-10. When customer visit an offline store, coupon may be used during transaction. Is there a way to view records of used coupon per POS?
+9. When customer visit an offline store, coupon may be used during transaction. Is there a way to view records of used coupon per POS?
 -------------------------------------------------------------------------------------------------------------------------------------------
 In current offering there is no option to see records of used coupon per POS. 
 
@@ -118,7 +103,7 @@ From All  reward campaigns view you can see how many times this reward was used 
 
 
 
-11. Which one would be the expected bahviour of InstantRewards?
+10. Which one would be the expected bahviour of InstantRewards?
 -------------------------------------------------------------------
 1) the customer could get the reward coupon instantly.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -136,7 +121,7 @@ From the Admin you will be able to see status of this reward:
 - used - customer used reward 
 
 
-12. I want to know how Earning points rule mechanism work, from developer perspective. Where can I find developer documentation?
+11. I want to know how Earning points rule mechanism work, from developer perspective. Where can I find developer documentation?
 ------------------------------------------------------------------------------------------------------------------------------------
 Open Loyalty  Developer Documentation is published for everyone `here <http://open-loyalty.readthedocs.io/en/latest/>`_. 
 
