@@ -13,3 +13,11 @@ Introduction
        create_a_new_api_endpoint
 
 .. include:: /cookbook/map.rst.inc
+
+
+Introduction
+------------
+
+dsfsdfsdfs
+
+`here </cookbook/openloyalty_user_guide.pdf>`_.
