@@ -19,14 +19,14 @@ Note, if you register customer from Admin or POS Cockpit activation code is not 
 After registration form fullfillment by customer from client cockpit, on the email address provided in the form activation link will be sent. If for some reason customer will lost this link/email, his account can be activated manually by Admin on your side. Customer can send a message on help email or call to customer care department. 
  
 Note, if you register customer from Admin or POS Cockpit activation link is not sent. Customer account is active instantly. 
-/
+
 
 
 2. A complaint from the customer (exisitng loyalty programe member) has been received. To calm the angry I want to give him a coupon. How can I do this in Open Loyalty?
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 *An Instant reward description will be added.*
-//
+
 
 
 3. We need to verify end-to-end earning mechanism is working properly. How can we emulate transaction without have a real POS in our testing environment?
