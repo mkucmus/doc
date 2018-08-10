@@ -19,5 +19,7 @@ The REST API Reference
    points_transfers
    security
    transactions
-
+   FAQ
+   
+   
 .. include:: map.rst.inc
