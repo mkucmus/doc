@@ -11,6 +11,8 @@ Introduction
 
        create_a_new_bundle
        create_a_new_api_endpoint
+       how_to_change_domain
+       FAQ
 
 .. include:: /cookbook/map.rst.inc
 
