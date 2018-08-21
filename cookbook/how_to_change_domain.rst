@@ -1,4 +1,4 @@
-How to change domain
+How to change the domain
 ====================
 
 There are many possible ways to run Open Loyalty as a production instance. The preferred way by Open Loyalty's core
