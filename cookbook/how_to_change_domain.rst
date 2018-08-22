@@ -65,6 +65,77 @@ Then change "openloyalty.dev" with your custom domain or public IP address. The 
 
 That's it.
 
+But how to create different domains for admin, client and pos?
+--------------------------------------------------------------
+
+First of all, remove from the docker-compose follow ports for Nginx container and leave only port 80.
+
+.. code-block:: yml
+
+    ports:
+      - "8182:3001"
+      - "8183:3002"
+      - "8184:3003"
+
+The next step is to add a volume to the nginx container so it will mount virtual hosts files to the Nginx configuration directory.
+
+.. code-block:: yml
+
+    volumes:
+      - './prod/web:/etc/nginx/conf.d'
+
+Final configuration for Nginx container should look like
+
+.. code-block:: yml
+
+      nginx:
+        container_name: openloyalty_frontend
+        image: divante/open-loyalty-web
+        links:
+          - php
+        ports:
+          - "80:80"
+        volumes:
+          - './prod/web:/etc/nginx/conf.d'
+        command: bash -c "sed -i -e 's@"http://openloyalty.localhost/api"@'\"http://openloyalty.dev/api\"'@g' /var/www/openloyalty/front/config.js && nginx -g 'daemon off;'"
+
+The last step is to adjust frontend.conf configuration file
+
+.. code-block:: json
+
+    server {
+        listen 80;
+        listen [::]:80;
+        server_name admin.openloyalty.localhost www.admin.openloyalty.localhost;
+
+        root /var/www/openloyalty/front;
+        index admin/index.html;
+        location ~* \.(?:js|css|jpg|jpeg|gif|png|svg|ico|pdf|html|htm)$ {
+        }
+    }
+
+    server {
+        listen 80;
+        listen [::]:80;
+        server_name client.openloyalty.localhost www.client.openloyalty.localhost;
+
+        root /var/www/openloyalty/front;
+        index client/index.html;
+        location ~* \.(?:js|css|jpg|jpeg|gif|png|svg|ico|pdf|html|htm)$ {
+        }
+    }
+
+    server {
+        listen 80;
+        listen [::]:80;
+        server_name pos.openloyalty.localhost www.pos.openloyalty.localhost;
+
+        root /var/www/openloyalty/front;
+        index pos/index.html;
+        location ~* \.(?:js|css|jpg|jpeg|gif|png|svg|ico|pdf|html|htm)$ {
+        }
+    }
+
 Using k8s cluster
 -----------------
 
