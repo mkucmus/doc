@@ -1,17 +1,17 @@
-How to change domain
+How to change the domain
 ====================
 
 There are many possible ways to run Open Loyalty as a production instance. The preferred way by Open Loyalty's core
-team is running Open Loyalty on Kubernetes cluster. It doesn't matter is it Amazon ESK, Google Kubernetes Engine or
+team is running Open Loyalty on Kubernetes cluster. It doesn't matter if it is Amazon ESK, Google Kubernetes Engine or
 your own k8s cluster. The idea is the same. The second way, is just to run Open Loyalty as fast as it can be and
-make it available for anyone. I will focus on both options.
+make it available for everyone. I will focus on both options.
 
 
 Using Docker and Docker Compose
 -------------------------------
 
 The easiest way is to use Docker Compose and provided docker images with Open Loyalty's code and infrastructure.
-To change domain, just copy below docker-compose configuration and paste it to the docker-compose.yml file.
+To change the domain, just copy below docker-compose configuration and paste it to the docker-compose.yml file.
 
 .. code-block:: yaml
 
@@ -215,7 +215,7 @@ This content will be used in the deployment file to replace existing files with 
             earning_rule_photos_adapter_env: EARNING_RULE_PHOTOS_ADAPTER
         ---
 
-Now we can create a deployment for PHP container. Most of configuration is related to run image as a container and k8s
+Now we can create a deployment for PHP container. Most of the configuration is related to run image as a container and k8s
 polices but take a look at volumeMounts and volumes. volumneMounts is where we mount volume named "parameters" to the
 specific file in the container. In the volumne section, volume name "parameters" is defined and it's content is
 get from ConfigMap at key "parameters.yml".
@@ -316,5 +316,4 @@ to the config.js file.
                     path: config.js
     ---
 
-This is general idea how to change domain using k8s and implementing it may be a little bit different depending on which provider do
-you use: Amazon, Google, Alibaba or your own k8s instance.
+This is the general idea of how to change the domain using k8s and implementing it may be a little bit different depending on which provider do you use: Amazon, Google, Alibaba or your own k8s instance.
