@@ -1,7 +1,7 @@
 .. index::
    single: customers_in_level
 
-CUSTOMERS ASSIGNED TO LEVEL LIST
+Customers assigned to level list
 ================================
 
 You can simply view not only the number but also the list of customers with details assigned to particular level. 
