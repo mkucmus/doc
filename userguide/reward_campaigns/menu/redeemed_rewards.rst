@@ -1,7 +1,7 @@
 .. index::
    single: redeemed_rewards
 
-REDEEMED REWARDS
+Redeemed rewards
 ================
 
 | Redeemed reward is an instance of reward that Customer has bought with Points or earned for performing specified action.
@@ -43,56 +43,56 @@ On the Admin sidebar, tap ``Reward campaigns``, then choose **Redeemed rewards**
 Field description
 *****************
 
-+----------------------------+-------------------------------------------------------------------------------------+
-|   Field                    |  Description                                                                        |
-+============================+=====================================================================================+
-|   Date and time            | Date when reward was redeemed                                                       |
-+----------------------------+-------------------------------------------------------------------------------------+
-|   Cost in points           | Number of points that customer spent for this reward (define during reward creation)|
-+----------------------------+-------------------------------------------------------------------------------------+
-|   Tax value                | Value of tax for reward                                                             |
-+----------------------------+-------------------------------------------------------------------------------------+
-|   Customer e-mail          | | Email address of customer who redeemed reward.                                    |
-|                            | | E-mail address is used as an identification factor to verify which customer choose|
-|                            |   particular reward.                                                                |   
-+----------------------------+-------------------------------------------------------------------------------------+
-|   Phone                    | | The customer’s phone number.                                                      |
-|                            | | Can be used also as an identification factor.                                     |
-+----------------------------+-------------------------------------------------------------------------------------+
-|   Reward                   | Name of the reward with coupon code number in round brackets                        |
-+----------------------------+-------------------------------------------------------------------------------------+
-|   Type                     | | Reward type.                                                                      |
-|                            | | **Options include**:                                                              |
-|                            |                                                                                     |
-|                            |   - Percentage discount code                                                        |
-|                            |   - Cashback                                                                        |
-|                            |   - Discount code                                                                   |
-|                            |   - Free delivery                                                                   |
-|                            |   - Gift                                                                            |
-|                            |   - Invitation for the event                                                        |
-|                            |   - Value code                                                                      |
-|                            |   - Custom campaign                                                                 |
-|                            |                                                                                     |
-|                            | | To learn more about the rule types, please see                                    |
-|                            |   :doc:`Reward campaigns Types </userguide/reward_campaigns/creation/reward_type>`            |
-+----------------------------+-------------------------------------------------------------------------------------+
-|   Customer’s first name    | First name of customer who redeemed reward                                          |
-+----------------------------+-------------------------------------------------------------------------------------+
-|   Customer’s surname       | Last name of customer who redeemed reward                                           |
-+----------------------------+-------------------------------------------------------------------------------------+
-|   Customer active points   | | Amount of customer active points after he redeemed reward.                        |
-|   amount                   | | From customer Active points pool, redeemed reward Cost in points value is deducted|
-+----------------------------+-------------------------------------------------------------------------------------+
-|   Delivered / Used         | | Redeemed reward statuses.                                                         |
-|                            | | **Options include**:                                                              |
-|                            |                                                                                     |
-|                            |   - Delivered                                                                       |
-|                            |   - Used                                                                            |
-|                            |                                                                                     |
-|                            | To learn how to select reward as a used, see                                        |
-|                            | :doc:`Redeemed rewards </userguide/customers/profile_details/loyalty/redeemed_rewards>` in    |
-|                            | profile detail section                                                              |
-+----------------------------+-------------------------------------------------------------------------------------+
++----------------------------+----------------------------------------------------------------------------------------+
+|   Field                    |  Description                                                                           |
++============================+========================================================================================+
+|   Date and time            | Date when reward was redeemed                                                          |
++----------------------------+----------------------------------------------------------------------------------------+
+|   Cost in points           | Number of points that customer spent for this reward (define during reward creation)   |
++----------------------------+----------------------------------------------------------------------------------------+
+|   Tax value                | Value of tax for reward                                                                |
++----------------------------+----------------------------------------------------------------------------------------+
+|   Customer e-mail          | | Email address of customer who redeemed reward.                                       |
+|                            | | E-mail address is used as an identification factor to verify which customer choose   |
+|                            |   particular reward.                                                                   |   
++----------------------------+----------------------------------------------------------------------------------------+
+|   Phone                    | | The customer’s phone number.                                                         |
+|                            | | Can be used also as an identification factor.                                        |
++----------------------------+----------------------------------------------------------------------------------------+
+|   Reward                   | Name of the reward with coupon code number in round brackets                           |
++----------------------------+----------------------------------------------------------------------------------------+
+|   Type                     | | Reward type.                                                                         |
+|                            | | **Options include**:                                                                 |
+|                            |                                                                                        |
+|                            |   - Percentage discount code                                                           |
+|                            |   - Cashback                                                                           |
+|                            |   - Discount code                                                                      |
+|                            |   - Free delivery                                                                      |
+|                            |   - Gift                                                                               |
+|                            |   - Invitation for the event                                                           |
+|                            |   - Value code                                                                         |
+|                            |   - Custom campaign                                                                    |
+|                            |                                                                                        |
+|                            | | To learn more about the rule types, please see                                       |
+|                            |   :doc:`Reward campaigns Types </userguide/reward_campaigns/creation/reward_type>`     |
++----------------------------+----------------------------------------------------------------------------------------+
+|   Customer’s first name    | First name of customer who redeemed reward                                             |
++----------------------------+----------------------------------------------------------------------------------------+
+|   Customer’s surname       | Last name of customer who redeemed reward                                              |
++----------------------------+----------------------------------------------------------------------------------------+
+|   Customer active points   | | Amount of customer active points after he redeemed reward.                           |
+|   amount                   | | From customer Active points pool, redeemed reward Cost in points value is deducted   |
++----------------------------+----------------------------------------------------------------------------------------+
+|   Delivered / Used         | | Redeemed reward statuses.                                                            |
+|                            | | **Options include**:                                                                 |
+|                            |                                                                                        |
+|                            |   - Delivered                                                                          |
+|                            |   - Used                                                                               |
+|                            |                                                                                        |
+|                            | To learn how to select reward as a used, see                                           |
+|                            | :doc:`Redeemed rewards </userguide/customers/profile_details/loyalty/redeemed_rewards>`|
+|                            | in profile detail section                                                              |
++----------------------------+----------------------------------------------------------------------------------------+
 
 Content
 ^^^^^^^
