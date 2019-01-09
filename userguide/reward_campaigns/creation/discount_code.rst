@@ -1,7 +1,7 @@
 .. index::
    single: discount_code
 
-DISCOUNT CODE
+Discount code
 =============
 
 Customer can get percentage discount that can be applied to reduce future order amount, e.g. 25% off for next purchase. Customer need to "buy" reward, using his Active points pool. Cost of this reward is specified during creation in **Cost in points** field.
