@@ -1,10 +1,10 @@
 .. index::
    single: multiply_labels
 
-MULTIPLY EARNED POINTS BY PRODUCT LABELS
+Multiply earned points by product labels
 ========================================
 
-Multiple points that customer receive for purchase products with specified labels. The rule is related to General spending rule. The rule defines for which purchased products, points (defined in rules above) are to be multiplied. 
+Multiply points that customer receive for purchase products with specified labels. The rule is related to General spending rule. The rule defines for which purchased products, points (defined in rules above) are to be multiplied. 
 
 Rule can contains more than one product label. Different **Labels** are linked with OR condition - at least one of labels linked with this rule must be true to let customer earn points. If more than one is true, points are multiply in order by all multipliers.
 
