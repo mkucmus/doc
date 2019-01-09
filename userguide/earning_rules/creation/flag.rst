@@ -1,7 +1,7 @@
 .. index::
    single: flag
 
-SET RULE AS THE LAST ONE
+Set rule as the last one
 ========================
 
 .. note:: 
