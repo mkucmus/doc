@@ -1,4 +1,4 @@
-CUSTOMER PROFILE DETAILS
+Customer Profile details 
 ========================
 
 | The Customer Profile Detail Page is used to hold all the details of your customers. 
