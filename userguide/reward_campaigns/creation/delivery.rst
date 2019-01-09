@@ -1,7 +1,7 @@
 .. index::
    single: delivery
 
-FREE DELIVERY
+Free delivery
 =============
 
 Customer can get free shipping coupon that can be applied to reduce delivery cost for next purchase. Customer need to "buy" reward, using his Active points pool. Cost of this reward is specified during creation in **Cost in points** field.
