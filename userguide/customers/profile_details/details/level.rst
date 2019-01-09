@@ -1,7 +1,7 @@
 .. index::
    single: level
 
-CURRENT LEVEL
+Current level
 =============
 
 **Current level** section provides information about current (assigned to customer) level and rewards if available.
