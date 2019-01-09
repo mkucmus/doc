@@ -1,4 +1,4 @@
-EARNING RULES
+Earning rules
 =============
 
 | This section of the guide provides an overview of the ways for customers to earn points – the engine of your Loyalty Program.
@@ -19,8 +19,8 @@ Earning Rules creation
 ----------------------
 You can create unlimited amount customizable ways for customers to earn points within Loyalty Program based on various conditions
 
-- :doc:`EARNING RULES TYPES </userguide/userguide/earning_rules/creation/rule_type>`
-- :doc:`SET EARNING RULE AS THE LAST ONE </userguide/userguide/earning_rules/creation/flag>`
+- :doc:`Earning rules types </userguide/userguide/earning_rules/creation/rule_type>`
+- :doc:`Set earning rule as the last one </userguide/userguide/earning_rules/creation/flag>`
 
 **Transactional rules**:
    
