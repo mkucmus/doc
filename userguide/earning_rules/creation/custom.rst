@@ -1,7 +1,7 @@
 .. index::
    single: custom
 
-CUSTOM EVENT RULE
+Custom event rule
 =================
 
 Reward customer with defined amount of points for his action in external system. For example, share account with Facebook, add review for a product etc. If needed, you can also add repeatability limit to this rule type. 
