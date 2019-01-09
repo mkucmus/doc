@@ -1,7 +1,7 @@
 .. index::
    single: merchant
 
-ASSIGNED MERCHANT
+Assigned Merchant
 =================
 
 | **Assigned Merchant** section provide information to which merchant customer is assigned. 
