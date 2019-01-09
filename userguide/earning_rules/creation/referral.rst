@@ -1,7 +1,7 @@
 .. index::
    single: referral
 
-CUSTOMER REFERRAL
+Customer referral
 =================
 
 Referral (refer a friend, member get member) functionality allow to reward Customers for invitation other Customers to Loyalty program. 
