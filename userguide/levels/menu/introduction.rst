@@ -1,7 +1,7 @@
 .. index::
    single: introduction 
    
-INTRODUCTION
+Introduction
 ============
 
 | Levels are used to categorize customers based on the value of their transactions (orders) - 
