@@ -1,10 +1,10 @@
 .. index::
    single: campaign_categories
 
-ALL CAMPAIGN CATEGORIES
+All campaign categories
 =======================
 
-| The **All campaign** categories grid allows you to manage reward campaign category to facilitate their identification. 
+| The **All campaign categories** grid allows you to manage reward campaign category to facilitate their identification. 
 
 | Grid provide information about all categories that can be assign to particular reward (during it’s creation/edition) with information about status. 
 
