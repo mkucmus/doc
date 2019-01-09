@@ -1,7 +1,7 @@
 .. index::
    single: event
 
-EVENT RULE
+Event rule
 ==========
 
 Reward customer with defined amount of points for his action. Actions for which customer can get points are predefined in the Open Loyalty and related to events of your loyalty program. 
