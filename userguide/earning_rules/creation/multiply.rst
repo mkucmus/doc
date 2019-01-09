@@ -1,10 +1,10 @@
 .. index::
    single: multiply
 
-MULTIPLY EARNED POINTS
+Multiply earned points
 ======================
 
-Multiple points that customer receive for purchase products with specified SKU. The rule is related to General spending rule. 
+Multiply points that customer receive for purchase products with specified SKU. The rule is related to General spending rule. 
 
 The rule defines for which purchase products, points (defined in General spending rule) are to be multiplied. 
 
