@@ -1,7 +1,7 @@
 .. index::
    single: product_labels
 
-BOUGHT PRODUCTS WITH LABELS
+Bought products with labels
 ===========================
 
 | Segment of customers who bought products where label on product is one of the list. Labels are key-value pairs that you can attach to a products.  
