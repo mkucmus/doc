@@ -1,7 +1,7 @@
 .. index::
    single: introduction 
    
-INTRODUCTION
+Introduction
 ============
 
 Customer segments allow you to e.g. dynamically count points, levels and display rewards to specific customers, based on properties such as system events, transactions history, purchasing activity, and so on. 
