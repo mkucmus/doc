@@ -1,7 +1,7 @@
 .. index::
    single: all_rewards
 
-ALL REWARD CAMPAIGNS
+All Reward campaigns
 ====================
 
 | The All reward campaigns grid provide information about all rewards within your Loyalty Program with information about type, status, cost in points, limits of use, if and how many times reward has been used by customers and time boundaries of activity. 
@@ -40,7 +40,7 @@ Field description
 |                            |   - Custom campaign                                                                 |
 |                            |                                                                                     |
 |                            | | To learn more about the rule types, please see                                    |
-|                            |   :doc:`Reward campaigns Types </userguide/reward_campaigns/creation/reward_type>`            |
+|                            |   :doc:`Reward campaigns Types </userguide/reward_campaigns/creation/reward_type>`  |
 +----------------------------+-------------------------------------------------------------------------------------+
 |   Cost in points           | How many points Customer must spend to redeem reward                                |
 +----------------------------+-------------------------------------------------------------------------------------+
