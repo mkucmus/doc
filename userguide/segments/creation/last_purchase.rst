@@ -1,7 +1,7 @@
 .. index::
    single: last_purchase
 
-LAST PURCHASE WAS N DAYS AGO
+Last purchase was n days ago
 ============================
 
 | Segment of customers who have made their last purchase n-days ago.     
