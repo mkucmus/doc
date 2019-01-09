@@ -1,7 +1,7 @@
 .. index::
    single: general
 
-GENERAL SPENDING RULE
+General spending rule
 =====================
 
 Reward customer with defined amount of points for his order value. Allows to specify how many points customer can earn from 1 amount of currency. 
