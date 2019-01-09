@@ -1,7 +1,7 @@
 .. index::
    single: emails
 
-EMAILS
+Emails
 ======
 
 | Email templates define the layout, content, and formatting of automated messages sent from Open Loyalty. 
