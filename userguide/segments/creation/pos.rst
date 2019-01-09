@@ -1,7 +1,7 @@
 .. index::
    single: pos
 
-BOUGHT IN SPECIFIC POS
+Bought in specific POS
 ======================
 
 | Segment of customers who have made purchase (at least one) in selected POS. 
