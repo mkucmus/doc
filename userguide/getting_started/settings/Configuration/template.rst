@@ -1,8 +1,9 @@
 .. index::
    single: template 
 
-TEMPLATE
+Template
 ========
+
 Template management determines the logo, as well as the other content elements e.g. fonts, headers, colors, that are used for all pages within Open Loyalty. 
 
 .. image:: /userguide/_images/template.png
