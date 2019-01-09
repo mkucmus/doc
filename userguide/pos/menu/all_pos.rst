@@ -1,7 +1,7 @@
 .. index::
    single: all_pos 
    
-ALL POS
+All POS
 =======
 
 The All POS grid provide information about all stores, which transactions made by customers will be registered and count within Loyalty Program. 
