@@ -1,7 +1,7 @@
 .. index::
    single: invitation
 
-INVITATION FOR THE EVENT
+Invitation for the event
 ========================
 
 You can offer for your customer as a reward invitation for business & corporate events or other depending on your business, e.g. conference. Customer need to "buy" reward, using his Active points pool. Cost of this reward is specified during creation in **Cost in points** field.
