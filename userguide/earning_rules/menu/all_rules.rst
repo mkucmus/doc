@@ -46,7 +46,7 @@ Field description
 |                            |   - QRCode                                                                          |
 |                            |                                                                                     |
 |                            | | To learn more about the rule types, please see                                    |
-|                            |   :doc:`Rule Types </userguide/userguide/earning_rules/creation/rule_type>`                             |
+|                            |   :doc:`Rule Types </userguide/earning_rules/creation/rule_type>`                   |
 +----------------------------+-------------------------------------------------------------------------------------+
 |   Actions                  | | The operations that can be applied to selected rule.                              |
 |                            | | **Options include**:                                                              |
