@@ -1,7 +1,7 @@
 .. index::
    single: account_deactivate
 
-DEACTIVATE A CUSTOMER'S ACCOUNT
+Deactivate a Customer's account
 ===============================
 
 | Any customer account that is currently inactive appears in the Customers list as grayed-out. 
