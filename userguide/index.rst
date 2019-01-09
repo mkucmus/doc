@@ -1,8 +1,8 @@
 .. user_guide_doc Documentation master file.
 
-#####################################
-WELCOME TO THE OPEN LOYALTY PLATFORM!
-#####################################
+##############
+The User Guide
+##############
 
 **Congratulations on your new Loyalty Platform. This manual is intended to help you get the most out of your Loyalty program in your day-to-day use.**
 
