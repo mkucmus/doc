@@ -1,7 +1,7 @@
 .. index::
    single: instant
 
-INSTANT REWARD
+Instant reward
 ==============
 
 Reward customer with defined reward campaign for his order. Rule can be related with any active Reward campaign, but only one at once. 
