@@ -1,8 +1,8 @@
 .. index::
    single: rule_activate
 
-ACTIVATE/DEACTIVATE EARNING RULE
-================================
+Activate / Deactivate earning rule 
+===================================
 
 Any rule from the list  can be activated and deactivated by Admin user.
 
