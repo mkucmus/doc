@@ -1,7 +1,7 @@
 .. index::
    single: transfer_import
 
-IMPORT POINTS TRANSFERS
+Import points transfers
 =======================
 
 If you have a customer list that you want to add points within your Loyalty Program, you can enter it into a Points transfer XML file and then import it in your Open Loyalty Admin. 
