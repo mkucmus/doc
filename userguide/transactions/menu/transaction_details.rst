@@ -1,7 +1,7 @@
 .. index::
    single: transaction_details
 
-TRANSACTION DETAILS
+Transaction details
 ===================
 
 Click **View** icon |view| in the Action column to open the transaction details – customer detail information and purchased items
@@ -53,7 +53,7 @@ Field description
 |                            |  - **sell** - customer buy products                                                  |
 |                            |  - **return** - customer return bought products                                      |
 +----------------------------+--------------------------------------------------------------------------------------+
-|   Labels                   | Assign :doc:`transaction labels </userguide/transactions/menu/transaction_labels>`             |
+|   Labels                   | Assign :doc:`transaction labels </userguide/transactions/menu/transaction_labels>`   |
 +----------------------------+--------------------------------------------------------------------------------------+
 |   **ITEM DETAILS**                                                                                                |
 +----------------------------+--------------------------------------------------------------------------------------+
