@@ -1,7 +1,7 @@
 .. index::
    single: all_merchants 
    
-ALL MERCHANTS
+All merchants
 =============
 
 The All merchants grid provide information about all merchants and its assigned to a POS, which transactions made by customers will be registered and count within Loyalty Program. 
