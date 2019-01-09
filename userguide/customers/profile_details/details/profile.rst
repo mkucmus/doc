@@ -1,7 +1,7 @@
 .. index::
    single: profile
 
-PROFILE DETAILS
+Profile details
 ===============
 
 | The Customer Profile details section provides the short customer account summary and information of customer provided during registration.
