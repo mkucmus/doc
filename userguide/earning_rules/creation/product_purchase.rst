@@ -1,7 +1,7 @@
 .. index::
    single: product_purchase
 
-PRODUCT PURCHASE
+Product purchase
 ================
 
 Reward customer with defined amount of points for purchase specified products. Rule can be related to Multiply earned points rule and General spending rule. 
