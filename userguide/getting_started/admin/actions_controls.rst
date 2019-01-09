@@ -1,7 +1,7 @@
 .. index::
    single: actions_controls
 
-ACTIONS CONTROLS
+Actions controls
 ================
 
 | When working with a collection of records in the grid, you can use the Actions control to apply an operation to the records. The **Actions** control lists each operation that is available for the specific type of data. 
