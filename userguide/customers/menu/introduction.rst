@@ -1,7 +1,7 @@
 .. index::
    single: introduction 
    
-INTRODUCTION
+Introduction
 ============
 
 | The Customers menu provides access to all customer information required for its existence in your Loyalty Program. 
