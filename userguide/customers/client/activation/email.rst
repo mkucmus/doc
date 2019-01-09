@@ -1,7 +1,7 @@
 .. index::
    single: email
 
-ACCOUNT ACTIVATION VIA E-MAIL
+Account activation via E-mail
 =============================
 
 On the email address provided by customer in the registration form activation link will be sent. 
