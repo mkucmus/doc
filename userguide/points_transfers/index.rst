@@ -1,4 +1,4 @@
-POINTS TRANSFERS
+Points transfers
 ================
 
 | This section of the guide walks you through the basic points transfer information. 
