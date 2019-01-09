@@ -1,4 +1,4 @@
-CUSTOMER ACCOUNT ACTIVATION
+Customer account activation
 ===========================
 
 When customer complete registration form directly from the Client cockpit, depending on the settings, to activate the account he will receive: 
