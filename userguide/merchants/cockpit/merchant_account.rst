@@ -1,7 +1,7 @@
 .. index::
    single: merchant_account
 
-MERCHANT ACCOUNT
+Merchant account
 ================
 
 Merchant through theirs account can view basic customer data and activity within Loyalty Program, and manage their own personal information.
