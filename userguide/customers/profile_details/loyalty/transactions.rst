@@ -1,7 +1,7 @@
 .. index::
    single: transactions
 
-TRANSACTIONS
+Transactions
 ============
 
 Transactions is a tab which contain latest transaction data such as type, place and date of transaction, value of earned points etc. linked with Customer
