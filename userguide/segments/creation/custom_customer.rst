@@ -1,7 +1,7 @@
 .. index::
    single: custom_customer
 
-CUSTOM CUSTOMER LIST
+Custom customer list
 ====================
 
 | Segment of customers chose by admin user on demand. 
