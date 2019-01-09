@@ -1,7 +1,7 @@
 .. index::
    single: pos
 
-ASSIGNED POS
+Assigned POS
 ============
 
 | **Assigned POS** section include information about customer account assignment to the offline or online store. 
