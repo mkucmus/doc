@@ -1,7 +1,7 @@
 .. index::
    single: all_customers
 
-ALL CUSTOMERS
+All customers
 =============
 
 | The Customers page lists all customers who have registered for an account with your loyalty program, or were added by the administrator (manually or imported from XML file).
