@@ -23,27 +23,27 @@ Open Loyalty offer following standard types:
 1. **General spending rule** 
     Customer could receive points for order value
     
-    More information about rule creation :doc:`here </earning_rules/creation/general>`
+    More information about rule creation :doc:`here </userguide/userguide/earning_rules/creation/general>`
 
 2. **Multiply earned points**
     Customer could receive multiple points for product with specified SKU
     
-    More information about rule creation :doc:`here </earning_rules/creation/multiply>`
+    More information about rule creation :doc:`here </userguide/userguide/earning_rules/creation/multiply>`
 
 3. **Multiply earned points by product labels**
     Customer could receive multiple points for product with specified labels
     
-    More information about rule creation :doc:`here </earning_rules/creation/multiply_labels>`
+    More information about rule creation :doc:`here </userguide/userguide/earning_rules/creation/multiply_labels>`
 
 4. **Instant reward**
     Customer could receive any reward campaign for his transaction registered within Loyalty Program
     
-    More information about rule creation :doc:`here </earning_rules/creation/instant>` 
+    More information about rule creation :doc:`here </userguide/userguide/earning_rules/creation/instant>`
 
 5. **Product purchase**
     Customer could receive given amount of points for specified product
     
-    More information about rule creation :doc:`here </earning_rules/creation/product_purchase>`
+    More information about rule creation :doc:`here </userguide/userguide/earning_rules/creation/product_purchase>`
 
 
 
@@ -76,25 +76,25 @@ Open Loyalty offer following standard types:
 1. **Custom event rule** 
     Customer could receive points for external actions
     
-    More information about rule creation :doc:`here </earning_rules/creation/custom>`  
+    More information about rule creation :doc:`here </userguide/userguide/earning_rules/creation/custom>`
    
 2. **Customer referral**
     Referred and/or Referrer customer receive points for his action
     
-    More information about rule creation :doc:`here </earning_rules/creation/referral>`
+    More information about rule creation :doc:`here </userguide/userguide/earning_rules/creation/referral>`
    
 3. **Event rule**
     Customer could receive points for specified actions
     
-    More information about rule creation :doc:`here </earning_rules/creation/event>`
+    More information about rule creation :doc:`here </userguide/userguide/earning_rules/creation/event>`
       
 4. **Geolocation**
     Customer could receive points for his location
     
-    More information about rule creation :doc:`here </earning_rules/creation/geolocation>`
+    More information about rule creation :doc:`here </userguide/userguide/earning_rules/creation/geolocation>`
    
 5. **QRcode**  
     Customer could receive points for scanning define QR codes 
     
-    More information about rule creation :doc:`here </earning_rules/creation/qrcode>`
+    More information about rule creation :doc:`here </userguide/userguide/earning_rules/creation/qrcode>`
 

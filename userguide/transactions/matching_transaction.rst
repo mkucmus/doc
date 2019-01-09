@@ -6,7 +6,7 @@ MATCH TRANSACTION WITH CUSTOMER
 
 Usually, transaction come from your store system with information about customer related with. However, you can link transaction with Customer Account directly from the Admin in Open Loyalty, which is useful when you send to Open Loyalty only transactions. 
 
-Depending on Matching transaction with customer identification factors priority (set up in Configuration) customer email, phone number or/and loyalty card number can be used. To remain about identification factors please see  :doc:`Configuration </getting_started/settings/Configuration/identification_factors>`
+Depending on Matching transaction with customer identification factors priority (set up in Configuration) customer email, phone number or/and loyalty card number can be used. To remain about identification factors please see  :doc:`Configuration </userguide/getting_started/settings/Configuration/identification_factors>`
 
 .. image:: /userguide/_images/match_transaction.png
    :alt:   Match Customer Account with Transaction

@@ -8,7 +8,7 @@ ALL CAMPAIGN CATEGORIES
 
 | Grid provide information about all categories that can be assign to particular reward (during it’s creation/edition) with information about status. 
 
-| Depending on the Translations settings, **Basic information’s** can be provided in different language versions (listed in :doc:`Translations </getting_started/settings/translations>`). Information from that section can be display on a Client cockpit depending on a chosen from the admin cockpit default language version.
+| Depending on the Translations settings, **Basic information’s** can be provided in different language versions (listed in :doc:`Translations </userguide/getting_started/settings/translations>`). Information from that section can be display on a Client cockpit depending on a chosen from the admin cockpit default language version.
 
 .. code-block:: text
 
@@ -47,4 +47,4 @@ Field description
 
 Content
 ^^^^^^^
-- :doc:`Creating new campaign category </reward_campaigns/menu/new_campaign_category>`    
+- :doc:`Creating new campaign category </userguide/reward_campaigns/menu/new_campaign_category>`

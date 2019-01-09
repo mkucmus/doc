@@ -53,7 +53,7 @@ Field description
 |                            |  - **sell** - customer buy products                                                  |
 |                            |  - **return** - customer return bought products                                      |
 +----------------------------+--------------------------------------------------------------------------------------+
-|   Labels                   | Assign :doc:`transaction labels </transactions/menu/transaction_labels>`             |                                                
+|   Labels                   | Assign :doc:`transaction labels </userguide/transactions/menu/transaction_labels>`             |
 +----------------------------+--------------------------------------------------------------------------------------+
 |   **ITEM DETAILS**                                                                                                |
 +----------------------------+--------------------------------------------------------------------------------------+

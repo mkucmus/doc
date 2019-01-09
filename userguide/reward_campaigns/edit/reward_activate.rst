@@ -11,7 +11,7 @@ To activate / deactivate reward:
 
 1. On the Admin sidebar, tap **Reward campaigns**. Then, choose **All reward campaign**. 
 
-   You can also deactivate/activate reward from :doc:`Edit mode </reward_campaigns/edit/reward_updating>` 
+   You can also deactivate/activate reward from :doc:`Edit mode </userguide/reward_campaigns/edit/reward_updating>`
 
 2. In the Reward campaign list, find the reward to be deactivated and click ``Active`` in the **Active** column. 
 

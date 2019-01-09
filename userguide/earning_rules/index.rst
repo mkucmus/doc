@@ -12,24 +12,24 @@ Earning Rules menu
 
    menu/index
    
-.. include:: /earning_rules/menu/map.rst.inc
+.. include:: /userguide/userguide/earning_rules/menu/map.rst.inc
 
 
 Earning Rules creation
 ----------------------
 You can create unlimited amount customizable ways for customers to earn points within Loyalty Program based on various conditions
 
-- :doc:`EARNING RULES TYPES </earning_rules/creation/rule_type>`
-- :doc:`SET EARNING RULE AS THE LAST ONE </earning_rules/creation/flag>`
+- :doc:`EARNING RULES TYPES </userguide/userguide/earning_rules/creation/rule_type>`
+- :doc:`SET EARNING RULE AS THE LAST ONE </userguide/userguide/earning_rules/creation/flag>`
 
 **Transactional rules**:
    
-.. include:: /earning_rules/creation/map1.rst.inc
+.. include:: /userguide/userguide/earning_rules/creation/map1.rst.inc
 
 
 **Non-transactional rules**: 
 
-.. include:: /earning_rules/creation/map2.rst.inc
+.. include:: /userguide/userguide/earning_rules/creation/map2.rst.inc
 
 
 Earning Rules modification
@@ -39,4 +39,4 @@ Earning Rules modification
 
    edit/index
    
-.. include:: /earning_rules/edit/map.rst.inc
+.. include:: /userguide/userguide/earning_rules/edit/map.rst.inc

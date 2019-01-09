@@ -4,7 +4,7 @@
 CUSTOM CAMPAIGN
 ===============
 
-Receiving reward by customer may be linked with :doc:`geolocation </earning_rules/creation/geolocation>` or :doc:`QR code </earning_rules/creation/qrcode>` earning rule. Rule to which reward will be assigned is specified in **Connect type** field. 
+Receiving reward by customer may be linked with :doc:`geolocation </userguide/userguide/earning_rules/creation/geolocation>` or :doc:`QR code </userguide/userguide/earning_rules/creation/qrcode>` earning rule. Rule to which reward will be assigned is specified in **Connect type** field.
 
 If customer redeemed reward, and conditions of linked rule will be met, additional points will be assign to his account. 
 

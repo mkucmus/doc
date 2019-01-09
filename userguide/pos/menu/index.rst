@@ -9,6 +9,6 @@ POS Menu
    pos_details
      
    
-.. include:: /pos/menu/map.rst.inc
+.. include:: /userguide/pos/menu/map.rst.inc
 
 

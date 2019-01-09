@@ -13,4 +13,4 @@ Open Loyalty Admin
    grid_controls
    actions_controls
 
-.. include:: /getting_started/admin/map.rst.inc
+.. include:: /userguide/getting_started/admin/map.rst.inc

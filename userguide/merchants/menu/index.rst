@@ -8,6 +8,6 @@ Merchants Menu
    all_merchants
      
    
-.. include:: /merchants/menu/map.rst.inc
+.. include:: /userguide/merchants/menu/map.rst.inc
 
 

@@ -12,7 +12,7 @@ To activate/deactivate level:
 
 1. On the Admin sidebar, tap **Merchants**. Then, choose **All merchants**. 
    
-   You can also deactivate/activate level from :doc:`Edit mode </merchants/account/account_updating>`
+   You can also deactivate/activate level from :doc:`Edit mode </userguide/merchants/account/account_updating>`
 
 2. In the merchants list, find the merchant to be deactivated and click ``Active`` in the **Active** column. 
 

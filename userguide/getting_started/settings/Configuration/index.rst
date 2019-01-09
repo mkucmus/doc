@@ -14,6 +14,6 @@ CONFIGURATION
    webhooks
   
    
-.. include:: /getting_started/settings/Configuration/map.rst.inc
+.. include:: /userguide/getting_started/settings/Configuration/map.rst.inc
 
 

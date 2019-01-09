@@ -21,5 +21,5 @@ To change the POS to which the customer is assigned click Edit icon |edit| in th
    :alt:   Change of POS assignment from Profile Detail Page
 
 
-To learn more about offline stores, see :doc:`POS </pos/index>`
+To learn more about offline stores, see :doc:`POS </userguide/pos/index>`
 

@@ -11,6 +11,6 @@ Customers account creation
    account_deactivate
   
    
-.. include:: /customers/account/map.rst.inc
+.. include:: /userguide/customers/account/map.rst.inc
 
 

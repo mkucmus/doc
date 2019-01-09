@@ -72,7 +72,7 @@ To configure Open Loyalty:
 12. If you marked **Returns** checkbox, then after Return process completed amount of points earned for a returned transaction will be subtracted
 
 13. If you want to get a webhook notification about the customer earned points expiration you can define in **Days before expiring points to notify user** field number of days when notification will be sent.
-  For proper operation, it **is necessary to activate the webhook** and provide the URL address to which the information will be sent (more in :doc:`Webhook section </getting_started/settings/Configuration/webhooks>`)
+  For proper operation, it **is necessary to activate the webhook** and provide the URL address to which the information will be sent (more in :doc:`Webhook section </userguide/getting_started/settings/Configuration/webhooks>`)
 
 .. image:: /userguide/_images/webhook_notification.png
    :alt:   Webhook notification option – points expiration
@@ -86,7 +86,7 @@ To configure Open Loyalty:
 
    
 14. If you want to get a webhook notification about the customer coupon expiration you can define in **Days before expiring coupons to notify user** field number of days when notification will be sent. 
-   For proper operation, it **is necessary to activate the webhook** and provide the URL address to which the information will be sent (more in :doc:`Webhook section </getting_started/settings/Configuration/webhooks>`)   
+   For proper operation, it **is necessary to activate the webhook** and provide the URL address to which the information will be sent (more in :doc:`Webhook section </userguide/getting_started/settings/Configuration/webhooks>`)
 
 .. image:: /userguide/_images/webhook_notification2.png
    :alt:   Webhook notification option – coupons expiration 
@@ -105,7 +105,7 @@ To configure Open Loyalty:
    - **Transactions** 
       current level assignment will be calculated on the basis of the summary value of all transactions
 
-   When **Points** is selected additional section appears below. Please see :doc:`Level downgrade settings </getting_started/settings/Configuration/level_downgrade_settings>` to learn how to configure reset points after a selected time period and level expiration
+   When **Points** is selected additional section appears below. Please see :doc:`Level downgrade settings </userguide/getting_started/settings/Configuration/level_downgrade_settings>` to learn how to configure reset points after a selected time period and level expiration
 
 16. When **Delivery costs** checkbox is selected then delivery cost will not be included in order value used for earned points calculation
 

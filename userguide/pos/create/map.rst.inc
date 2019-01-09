@@ -1,5 +1,5 @@
-* :doc:`/pos/create/add_pos`
-* :doc:`/pos/create/update_pos`
+* :doc:`/userguide/pos/create/add_pos`
+* :doc:`/userguide/pos/create/update_pos`
 
 
 

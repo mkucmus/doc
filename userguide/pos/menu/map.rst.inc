@@ -1,6 +1,6 @@
-* :doc:`/pos/menu/introduction`
-* :doc:`/pos/menu/all_pos`
-* :doc:`/pos/menu/pos_details`
+* :doc:`/userguide/pos/menu/introduction`
+* :doc:`/userguide/pos/menu/all_pos`
+* :doc:`/userguide/pos/menu/pos_details`
 
 
 

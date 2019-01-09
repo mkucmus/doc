@@ -1,6 +1,6 @@
-* :doc:`/segments/edit/segment_updating`
-* :doc:`/segments/edit/segment_activate`
-* :doc:`/segments/edit/segment_remove`
+* :doc:`/userguide/segments/edit/segment_updating`
+* :doc:`/userguide/segments/edit/segment_activate`
+* :doc:`/userguide/segments/edit/segment_remove`
 
 
 

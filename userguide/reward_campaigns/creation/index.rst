@@ -20,6 +20,6 @@ Segments creation
    transaction_value
   
    
-.. include:: /segments/creation/map.rst.inc
+.. include:: /userguide/segments/creation/map.rst.inc
 
 

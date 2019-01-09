@@ -9,6 +9,6 @@ Points transfer creation
    xml_points
   
    
-.. include:: /points_transfers/creation/map.rst.inc
+.. include:: /userguide/points_transfers/creation/map.rst.inc
 
 

@@ -12,7 +12,7 @@ Merchant menu
 
    menu/index
    
-.. include:: /merchants/menu/map.rst.inc
+.. include:: /userguide/merchants/menu/map.rst.inc
 
 
 Merchant account Creation & Management
@@ -22,7 +22,7 @@ Merchant account Creation & Management
 
    account/index
    
-.. include:: /merchants/account/map.rst.inc
+.. include:: /userguide/merchants/account/map.rst.inc
 
 
 POS cockpit
@@ -32,4 +32,4 @@ POS cockpit
 
    cockpit/index
    
-.. include:: /merchants/cockpit/map.rst.inc
+.. include:: /userguide/merchants/cockpit/map.rst.inc

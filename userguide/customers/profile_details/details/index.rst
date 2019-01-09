@@ -12,6 +12,6 @@ Account
    merchant
   
    
-.. include:: /customers/profile_details/details/map.rst.inc
+.. include:: /userguide/customers/profile_details/details/map.rst.inc
 
 

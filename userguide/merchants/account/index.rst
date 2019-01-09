@@ -10,6 +10,6 @@ Merchant account
    account_remove
      
    
-.. include:: /merchants/account/map.rst.inc
+.. include:: /userguide/merchants/account/map.rst.inc
 
 

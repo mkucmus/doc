@@ -8,6 +8,6 @@ Reward Modification
    reward_activate
    
    
-.. include:: /reward_campaigns/edit/map.rst.inc
+.. include:: /userguide/reward_campaigns/edit/map.rst.inc
 
 

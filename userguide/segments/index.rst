@@ -12,14 +12,14 @@ Segments menu
 
    menu/index
    
-.. include:: /segments/menu/map.rst.inc
+.. include:: /userguide/segments/menu/map.rst.inc
 
 
 Segments creation
 -----------------
 You can create unlimited amount customizable customers segments for your loyalty program based on various criteria’s. 
 
-- :doc:`SEGMENT PARTS TYPES  </segments/creation/segment_type>` 
+- :doc:`SEGMENT PARTS TYPES  </userguide/segments/creation/segment_type>`
 
 **Segments**
 
@@ -28,7 +28,7 @@ You can create unlimited amount customizable customers segments for your loyalty
 
    creation/index
    
-.. include:: /segments/creation/map.rst.inc
+.. include:: /userguide/segments/creation/map.rst.inc
 
 
 Segments modification
@@ -38,4 +38,4 @@ Segments modification
 
    edit/index
    
-.. include:: /segments/edit/map.rst.inc
+.. include:: /userguide/segments/edit/map.rst.inc

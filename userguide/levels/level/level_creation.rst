@@ -6,7 +6,7 @@ CREATING CUSTOMER LEVEL
 
 | You can create unlimited amount customizable customers levels for your loyalty program based on various conditions. 
 
-| Depending on the Translations settings, **Basic information’s** can be provided in different language versions (listed in :doc:`Translations </getting_started/settings/translations>`). Information from that section can be display on a Client cockpit depending on a chosen from the admin cockpit default language version.
+| Depending on the Translations settings, **Basic information’s** can be provided in different language versions (listed in :doc:`Translations </userguide/getting_started/settings/translations>`). Information from that section can be display on a Client cockpit depending on a chosen from the admin cockpit default language version.
 
 | **For example**, when default language is English, information are display in English, but when we change it on polish as a default language, all basic information will be displayed in polish (if provided).   
 
@@ -34,7 +34,7 @@ To create a New Customer Level:
 3. In **Reward detail** section do the following:
 
  - To activate the customer level, in **Active** field select "**Active**" from the dropdown list
- - Depending on the :doc:`Configuration </getting_started/settings/Configuration/settings>`, set **Condition value** as a minimum points value or minimum transaction amount needed to be achieved to be assigned to this level
+ - Depending on the :doc:`Configuration </userguide/getting_started/settings/Configuration/settings>`, set **Condition value** as a minimum points value or minimum transaction amount needed to be achieved to be assigned to this level
  - Field **Min order value** is currently not used so you don’t have to fill it in 
  - In **Reward name** provide a brief description that explain purpose of the reward. For example, 15% off for every purchase
  - In **Reward value** field enter a discount value for level reward. For example, value 15 means 15% discount 
@@ -42,7 +42,7 @@ To create a New Customer Level:
 
 4. If you want to give special discount for Customer but only in limited time, complete the **Special reward details** section.
 
-   To learn how to assigned special reward to particular level, see :doc:`Special rewards </levels/special_rewards>`
+   To learn how to assigned special reward to particular level, see :doc:`Special rewards </userguide/levels/special_rewards>`
 
 5. If applicable, upload a **Level photo** that will be displayed on a storefront 
 

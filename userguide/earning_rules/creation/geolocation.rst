@@ -39,7 +39,7 @@ To add new Geolocation rule:
    Customer can get points only when he is in radius area 
  - Amount of **Points** that will be earned for this event rule
 
-   See :doc:`Rule Types </earning_rules/creation/rule_type>` to learn more about Earning rules types 
+   See :doc:`Rule Types </userguide/userguide/earning_rules/creation/rule_type>` to learn more about Earning rules types
 
 .. note:: 
 

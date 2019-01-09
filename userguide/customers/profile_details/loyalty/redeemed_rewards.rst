@@ -29,7 +29,7 @@ To mark coupon as used:
 
 To see the list of all redeemed rewards by customer within Loyalty Program click ``All Rewards`` below the tab.
 
-To learn more about rewards, see :doc:`Redeemed rewards </reward_campaigns/redeemed_rewards>` 
+To learn more about rewards, see :doc:`Redeemed rewards </userguide/reward_campaigns/redeemed_rewards>`
 
 +-------------------+-----------------------------------------------------------------------------------------------------------------------------+
 | Field             | Description                                                                                                                 |

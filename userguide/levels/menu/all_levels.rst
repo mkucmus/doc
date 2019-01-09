@@ -43,7 +43,7 @@ Field description
 |   Special rewards          | | Show Special Reward data related to Level, available when additional conditions   |
 |                            |   will be met. If Level has not defined Special Reward then "Not set" will be shown |                                                           
 |                            | | To learn more about special rewards, see                                          |
-|                            |   :doc:`Special rewards </levels/special_rewards>` section                          |
+|                            |   :doc:`Special rewards </userguide/levels/special_rewards>` section                          |
 +----------------------------+-------------------------------------------------------------------------------------+
 |   Actions                  | | The operations that can be applied to selected level record.                      |
 |                            | | **Options include**:                                                              |

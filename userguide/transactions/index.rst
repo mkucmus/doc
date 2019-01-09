@@ -10,13 +10,13 @@ Transactions menu
 
    menu/index
    
-.. include:: /transactions/menu/map.rst.inc
+.. include:: /userguide/transactions/menu/map.rst.inc
 
 
 Transactions matching
 ---------------------
 
-- :doc:`MATCH TRANSACTION WITH CUSTOMER </transactions/matching_transaction>`
+- :doc:`MATCH TRANSACTION WITH CUSTOMER </userguide/transactions/matching_transaction>`
  
 
 Transactions import
@@ -26,4 +26,4 @@ Transactions import
 
    import/index
    
-.. include:: /transactions/import/map.rst.inc
+.. include:: /userguide/transactions/import/map.rst.inc

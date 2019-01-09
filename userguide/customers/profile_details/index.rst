@@ -15,7 +15,7 @@ Customer Account details
 
    details/index
 
-.. include:: /customers/profile_details/details/map.rst.inc 
+.. include:: /userguide/customers/profile_details/details/map.rst.inc
 
 Customer Loyalty Activity
 -------------------------
@@ -24,4 +24,4 @@ Customer Loyalty Activity
 
    loyalty/index
 
-.. include:: /customers/profile_details/loyalty/map.rst.inc
+.. include:: /userguide/customers/profile_details/loyalty/map.rst.inc

@@ -18,7 +18,7 @@ Levels menu
 
    menu/index
    
-.. include:: /levels/menu/map.rst.inc
+.. include:: /userguide/levels/menu/map.rst.inc
 
 Customer level creation & edition
 ---------------------------------
@@ -27,11 +27,11 @@ Customer level creation & edition
 
    level/index
    
-.. include:: /levels/level/map.rst.inc
+.. include:: /userguide/levels/level/map.rst.inc
 
 
 
 Special rewards
 ---------------
 
-- :doc:`SPECIAL REWARDS </levels/special_rewards>`
+- :doc:`SPECIAL REWARDS </userguide/levels/special_rewards>`

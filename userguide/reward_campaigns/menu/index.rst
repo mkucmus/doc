@@ -11,6 +11,6 @@ Reward Campaigns Menu
    campaign_categories
   
    
-.. include:: /reward_campaigns/menu/map.rst.inc
+.. include:: /userguide/reward_campaigns/menu/map.rst.inc
 
 

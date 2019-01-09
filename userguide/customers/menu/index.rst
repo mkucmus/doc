@@ -9,6 +9,6 @@ Customers Menu
    referred_customers
   
    
-.. include:: /customers/menu/map.rst.inc
+.. include:: /userguide/customers/menu/map.rst.inc
 
 

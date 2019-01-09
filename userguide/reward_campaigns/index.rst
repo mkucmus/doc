@@ -14,15 +14,15 @@ Reward campaigns menu
 
    menu/index
    
-.. include:: /reward_campaigns/menu/map.rst.inc
+.. include:: /userguide/reward_campaigns/menu/map.rst.inc
 
 
 Reward campaigns creation
 -------------------------
 You can create unlimited amount customizable customers segments for your loyalty program based on various criteria’s. 
 
-- :doc:`REWARD CAMPAIGNS TYPES  </reward_campaigns/creation/reward_type>` 
-- :doc:`CONDITIONS OF REWARD AVAILABILITY TO CUSTOMER  </reward_campaigns/reward_availability>` 
+- :doc:`REWARD CAMPAIGNS TYPES  </userguide/reward_campaigns/creation/reward_type>`
+- :doc:`CONDITIONS OF REWARD AVAILABILITY TO CUSTOMER  </userguide/reward_campaigns/reward_availability>`
 
 **Reward campaigns**
 
@@ -31,7 +31,7 @@ You can create unlimited amount customizable customers segments for your loyalty
 
    creation/index
    
-.. include:: /reward_campaigns/creation/map.rst.inc
+.. include:: /userguide/reward_campaigns/creation/map.rst.inc
 
 
 Reward campaigns modification
@@ -41,4 +41,4 @@ Reward campaigns modification
 
    edit/index
    
-.. include:: /reward_campaigns/edit/map.rst.inc
+.. include:: /userguide/reward_campaigns/edit/map.rst.inc

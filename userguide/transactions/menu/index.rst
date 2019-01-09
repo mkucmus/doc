@@ -11,6 +11,6 @@ Transactions Menu
    returns
   
    
-.. include:: /transactions/menu/map.rst.inc
+.. include:: /userguide/transactions/menu/map.rst.inc
 
 

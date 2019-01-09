@@ -11,7 +11,7 @@ To activate / deactivate segment:
 
 1. On the Admin sidebar, tap **Segments**. Then, choose **All segments**. 
 
-   You can also deactivate/activate segment from :doc:`Edit mode </segments/edit/segment_updating>` 
+   You can also deactivate/activate segment from :doc:`Edit mode </userguide/segments/edit/segment_updating>`
 
 2. In the Segments list, find the segment to be deactivated and click ``Active`` in the **Active** column. 
 

@@ -9,6 +9,6 @@ Transactions Menu
 
   
    
-.. include:: /transactions/import/map.rst.inc
+.. include:: /userguide/transactions/import/map.rst.inc
 
 

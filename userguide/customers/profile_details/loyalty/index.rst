@@ -13,6 +13,6 @@ CUSTOMER LOYALTY ACTIVITY
    redeemed_rewards
   
    
-.. include:: /customers/profile_details/loyalty/map.rst.inc
+.. include:: /userguide/customers/profile_details/loyalty/map.rst.inc
 
 

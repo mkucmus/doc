@@ -21,7 +21,7 @@ To assigned a status:
 3. Set the **Customer earning statuses** field to one of the following: 
 
   - **New**  
-      Customer creates an account in your Loyalty Program but didn’t activate it. A customer is displaying in Customer grid from the Admin cockpit as a grayed-out. To learn more about account activation, see :doc:`Account Activation </getting_started/settings/Configuration/account_activation>`
+      Customer creates an account in your Loyalty Program but didn’t activate it. A customer is displaying in Customer grid from the Admin cockpit as a grayed-out. To learn more about account activation, see :doc:`Account Activation </userguide/getting_started/settings/Configuration/account_activation>`
   - **Active**  
       Customer creates and activates an account in your Loyalty Program. Customer is displaying in Customer grid from the Admin cockpit.
   - **Blocked**  
@@ -33,7 +33,7 @@ To assigned a status:
 4. Set the **Customer spending statuses** field to one of the following: 
 
   - **New**  
-      Customer creates an account in your Loyalty Program but didn’t activate it. Customer is displaying in Customer grid from the Admin cockpit as a grayed-out. To learn more about account activation, see :doc:`Account Activation </getting_started/settings/Configuration/account_activation>`
+      Customer creates an account in your Loyalty Program but didn’t activate it. Customer is displaying in Customer grid from the Admin cockpit as a grayed-out. To learn more about account activation, see :doc:`Account Activation </userguide/getting_started/settings/Configuration/account_activation>`
   - **Active**  
       Customer creates and activates an account in your Loyalty Program. Customer is displaying in Customer grid from the Admin cockpit.
   - **Blocked**  

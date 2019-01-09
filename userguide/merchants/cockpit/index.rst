@@ -9,6 +9,6 @@ Merchant account
    merchant_account
      
    
-.. include:: /merchants/cockpit/map.rst.inc
+.. include:: /userguide/merchants/cockpit/map.rst.inc
 
 

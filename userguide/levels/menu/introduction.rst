@@ -12,7 +12,7 @@ INTRODUCTION
 
 | Depending on the Configuration, customer can also return to previous level e.g. when order, which caused this promotion, will be returned by him or his accumulated points will be not enough to stay at the current level at the end of specified period. 
 
-| More in :doc:`level downgrade settings </getting_started/settings/Configuration/level_downgrade_settings>` section.  
+| More in :doc:`level downgrade settings </userguide/getting_started/settings/Configuration/level_downgrade_settings>` section.
 
 | Customer level can be also changed to higher or lower manually by the Admin user. If you move a customer to a level manually, they are excluded from any automatic levels upgrades or downgrades
 

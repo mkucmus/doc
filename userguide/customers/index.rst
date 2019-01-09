@@ -10,7 +10,7 @@ Customers menu
 
    menu/index
    
-.. include:: /customers/menu/map.rst.inc
+.. include:: /userguide/customers/menu/map.rst.inc
 
 
 Customers account creation
@@ -20,19 +20,19 @@ Customers account creation
 
    account/index
 
-.. include:: /customers/account/map.rst.inc
+.. include:: /userguide/customers/account/map.rst.inc
 
 Customer Profile details
 ------------------------
 
-- :doc:`CUSTOMER PROFILE & ACTIVITY DETAILS </customers/profile_details/index>`
+- :doc:`CUSTOMER PROFILE & ACTIVITY DETAILS </userguide/customers/profile_details/index>`
 
 
 Customers Accounts
 ------------------
 
-- :doc:`CUSTOMER ACCOUNT ACTIVATION </customers/client/activation/index>`
+- :doc:`CUSTOMER ACCOUNT ACTIVATION </userguide/customers/client/activation/index>`
 
-- :doc:`CUSTOMER SIGN IN </customers/client/sign_in>`
+- :doc:`CUSTOMER SIGN IN </userguide/customers/client/sign_in>`
 
-- :doc:`CUSTOMER ACCOUNT </customers/client/account>`
+- :doc:`CUSTOMER ACCOUNT </userguide/customers/client/account>`

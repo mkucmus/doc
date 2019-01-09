@@ -12,7 +12,7 @@ Points transfers menu
 
    menu/index
    
-.. include:: /points_transfers/menu/map.rst.inc
+.. include:: /userguide/points_transfers/menu/map.rst.inc
 
 Points transfer creation
 ------------------------
@@ -21,4 +21,4 @@ Points transfer creation
 
    creation/index
    
-.. include:: /points_transfers/creation/map.rst.inc
+.. include:: /userguide/points_transfers/creation/map.rst.inc

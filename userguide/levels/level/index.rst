@@ -9,6 +9,6 @@ Customer level creation & edition
    level_activate
    
    
-.. include:: /levels/level/map.rst.inc
+.. include:: /userguide/levels/level/map.rst.inc
 
 

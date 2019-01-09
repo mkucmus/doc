@@ -19,4 +19,4 @@ To activate customer account using link:
 
 | If for some reason customer will lost this email/link his account can be activated manually by Admin. 
 
-| To learn more about manually customer account activation please see :doc:`Deactivate a customer’s account </customers/account/account_deactivate>`
+| To learn more about manually customer account activation please see :doc:`Deactivate a customer’s account </userguide/customers/account/account_deactivate>`

@@ -12,7 +12,7 @@ Open Loyalty Settings
    System logs
   
    
-.. include:: /getting_started/settings/configuration/map.rst.inc
+.. include:: /userguide/getting_started/settings/configuration/map.rst.inc
 
-.. include:: /getting_started/settings/map.rst.inc
+.. include:: /userguide/getting_started/settings/map.rst.inc
 

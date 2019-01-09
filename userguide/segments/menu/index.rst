@@ -10,6 +10,6 @@ Segments Menu
    customers_download
   
    
-.. include:: /segments/menu/map.rst.inc
+.. include:: /userguide/segments/menu/map.rst.inc
 
 

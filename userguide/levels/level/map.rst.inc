@@ -1,6 +1,6 @@
-* :doc:`/levels/level/level_creation`
-* :doc:`/levels/level/level_updating`
-* :doc:`/levels/level/level_activate`
+* :doc:`/userguide/levels/level/level_creation`
+* :doc:`/userguide/levels/level/level_updating`
+* :doc:`/userguide/levels/level/level_activate`
 
 
 

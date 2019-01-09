@@ -18,7 +18,7 @@ Click **View** icon |view| in the Action column to open the Reward Campaign deta
 
 To see the list of  all rewards available for customer within Loyalty Program click ``All Reward Campaigns`` below the tab
 
-To learn more about Points transfers, see :doc:`Reward campaigns </reward_campaigns/index>`
+To learn more about Points transfers, see :doc:`Reward campaigns </userguide/reward_campaigns/index>`
 
 Field description
 *****************

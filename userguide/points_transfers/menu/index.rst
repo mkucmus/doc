@@ -10,6 +10,6 @@ Points Transfers Menu
    transfer_details
   
    
-.. include:: /points_transfers/menu/map.rst.inc
+.. include:: /userguide/points_transfers/menu/map.rst.inc
 
 

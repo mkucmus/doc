@@ -9,6 +9,6 @@ Segments Modification
    segment_remove
    
    
-.. include:: /segments/edit/map.rst.inc
+.. include:: /userguide/segments/edit/map.rst.inc
 
 

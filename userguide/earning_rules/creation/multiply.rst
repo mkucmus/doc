@@ -38,7 +38,7 @@ To add new Multiply earned points rule:
  
    It means, that if more than this transactional rule can be applied, next transactional Earning Rule will be skipped (product purchase, multiply earned points by product labels) and Multiply earned points rule will be used as the last one (according to the sequence). 
 
-   See :doc:`Rule Types </earning_rules/creation/rule_type>` to learn more about Earning rules types 
+   See :doc:`Rule Types </userguide/userguide/earning_rules/creation/rule_type>` to learn more about Earning rules types
 
 .. note:: 
 

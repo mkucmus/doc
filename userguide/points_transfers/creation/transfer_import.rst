@@ -37,7 +37,7 @@ Priorities are as follows:
 
 | If any of this four listed value will not give a result an error message occurred. 
  
-| Mechanism of matching the customer with points transfer basing on priorities is the same like in :doc:`Identification factors </getting_started/settings/Configuration/identification_factors>` description (number 1 has the highest priority).
+| Mechanism of matching the customer with points transfer basing on priorities is the same like in :doc:`Identification factors </userguide/getting_started/settings/Configuration/identification_factors>` description (number 1 has the highest priority).
 
 .. code-block:: text
 

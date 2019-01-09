@@ -27,6 +27,6 @@ Blocks below, show some factors describing the current state of **referral progr
 The chart shows the number of **new customer accounts within last 30 days** in the timeline. You can view the amount of member by hovering your mouse over any day.
 
 
-The tabs at the bottom provide a quick **overview of your Customer Levels** list, associated to various benefits such as discounted fees and credentials for the customer to reach this value. To learn more about customer Levels, see :doc:`Levels </levels/index>` 
+The tabs at the bottom provide a quick **overview of your Customer Levels** list, associated to various benefits such as discounted fees and credentials for the customer to reach this value. To learn more about customer Levels, see :doc:`Levels </userguide/levels/index>`
 
 

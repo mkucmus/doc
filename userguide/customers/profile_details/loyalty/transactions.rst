@@ -42,7 +42,7 @@ Click **View** icon |view| in the Action column to open the transaction details 
 
 To see the list of all your customer transaction (not only the latest) click ``All Transactions`` below the tab.
 
-To learn more about Transactions, see :doc:`Transactions </transactions/index>`
+To learn more about Transactions, see :doc:`Transactions </userguide/transactions/index>`
 
 
 

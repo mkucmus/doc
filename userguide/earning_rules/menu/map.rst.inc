@@ -1,4 +1,4 @@
-* :doc:`/earning_rules/menu/introduction`
-* :doc:`/earning_rules/menu/all_rules`
+* :doc:`/userguide/userguide/earning_rules/menu/introduction`
+* :doc:`/userguide/userguide/earning_rules/menu/all_rules`
 
 

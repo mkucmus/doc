@@ -10,7 +10,7 @@ POS menu
 
    menu/index
    
-.. include:: /pos/menu/map.rst.inc
+.. include:: /userguide/pos/menu/map.rst.inc
 
 
 POS Creation & Edition
@@ -20,4 +20,4 @@ POS Creation & Edition
 
    create/index
    
-.. include:: /pos/create/map.rst.inc
+.. include:: /userguide/pos/create/map.rst.inc

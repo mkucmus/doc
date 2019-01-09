@@ -45,7 +45,7 @@ To add new QR code rule:
 
    Provided number defines how many times customer could be rewarded for this rule in specified period of time. 
 
-   See :doc:`Rule Types </earning_rules/creation/rule_type>` to learn more about Earning rules types 
+   See :doc:`Rule Types </userguide/userguide/earning_rules/creation/rule_type>` to learn more about Earning rules types
    
 .. note:: 
 

@@ -1,8 +1,8 @@
-* :doc:`/transactions/menu/introduction`
-* :doc:`/transactions/menu/all_transactions`
-* :doc:`/transactions/menu/transaction_details`
-* :doc:`/transactions/menu/transaction_labels`
-* :doc:`/transactions/menu/returns`
+* :doc:`/userguide/transactions/menu/introduction`
+* :doc:`/userguide/transactions/menu/all_transactions`
+* :doc:`/userguide/transactions/menu/transaction_details`
+* :doc:`/userguide/transactions/menu/transaction_labels`
+* :doc:`/userguide/transactions/menu/returns`
 
 
 

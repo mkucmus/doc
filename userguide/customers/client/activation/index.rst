@@ -21,6 +21,6 @@ When customer complete registration form directly from the Client cockpit, depen
     **If you register customer from Admin or POS Cockpit activation code or link is not sent. Customer account become active instantly.** 
 
 
-- :doc:`ACCOUNT ACTIVATION VIA SMS </customers/client/activation/sms>`
+- :doc:`ACCOUNT ACTIVATION VIA SMS </userguide/customers/client/activation/sms>`
 
-- :doc:`ACCOUNT ACTIVATION VIA E-MAIL </customers/client/activation/email>`
+- :doc:`ACCOUNT ACTIVATION VIA E-MAIL </userguide/customers/client/activation/email>`

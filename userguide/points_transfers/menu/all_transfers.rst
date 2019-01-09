@@ -6,7 +6,7 @@ ALL POINTS TRANSFERS
 
 | The Points transfers lists gives you information about value of earned and spent points by particular customer with details regarding customers and transfer process. Moreover, list contains information whether points are the result of Earning Rules (system) or they have been manually set by the Admin user (admin).
 
-| To learn more about Earning Rules, see :doc:`Rules details </earning_rules/index>` 
+| To learn more about Earning Rules, see :doc:`Rules details </userguide/userguide/earning_rules/index>`
 
 .. image:: /userguide/_images/points_transfers.png
    :alt:   Points Transfers List
@@ -38,7 +38,7 @@ Field description
 |                            |    - **Pending**                                                                     |
 |                            |       points are locked and cannot be used to redeem reward until locked time will   | 
 |                            |       be passing. Locked time is set in                                              |
-|                            |       :doc:`Configuration </getting_started/settings/Configuration/settings>`        |
+|                            |       :doc:`Configuration </userguide/getting_started/settings/Configuration/settings>`        |
 |                            |    - **Canceled**                                                                    |
 |                            |       points are subtracted from the pool of Active Points as a result of            |
 |                            |       canceling the points transfer                                                  |

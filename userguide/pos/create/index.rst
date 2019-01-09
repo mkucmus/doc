@@ -8,6 +8,6 @@ POS Creation & Edition
    update_pos
      
    
-.. include:: /pos/create/map.rst.inc
+.. include:: /userguide/pos/create/map.rst.inc
 
 

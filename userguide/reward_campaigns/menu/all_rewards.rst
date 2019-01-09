@@ -40,7 +40,7 @@ Field description
 |                            |   - Custom campaign                                                                 |
 |                            |                                                                                     |
 |                            | | To learn more about the rule types, please see                                    |
-|                            |   :doc:`Reward campaigns Types </reward_campaigns/creation/reward_type>`            |
+|                            |   :doc:`Reward campaigns Types </userguide/reward_campaigns/creation/reward_type>`            |
 +----------------------------+-------------------------------------------------------------------------------------+
 |   Cost in points           | How many points Customer must spend to redeem reward                                |
 +----------------------------+-------------------------------------------------------------------------------------+
@@ -70,7 +70,7 @@ Field description
 
 Content
 ^^^^^^^
-- :doc:`List of customers able to redeem reward </reward_campaigns/menu/customers_reward>` 
-- :doc:`Reward campaign details preview </reward_campaigns/menu/reward_details>` 
-- :doc:`Buy reward campaign for customer </reward_campaigns/menu/buy_reward>` 
+- :doc:`List of customers able to redeem reward </userguide/reward_campaigns/menu/customers_reward>`
+- :doc:`Reward campaign details preview </userguide/reward_campaigns/menu/reward_details>`
+- :doc:`Buy reward campaign for customer </userguide/reward_campaigns/menu/buy_reward>`
 

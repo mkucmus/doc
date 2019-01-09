@@ -6,7 +6,7 @@ This section of the guide introduces your Loyalty Platform Admin and walks you t
 Welcome
 -------
 
-- :doc:`WELCOME </getting_started/Welcome>`
+- :doc:`WELCOME </userguide/getting_started/Welcome>`
 
 
 Open Loyalty Admin
@@ -16,7 +16,7 @@ Open Loyalty Admin
 
    admin/index
 
-.. include:: /getting_started/admin/map.rst.inc
+.. include:: /userguide/getting_started/admin/map.rst.inc
 
 Open Loyalty Settings
 ---------------------
@@ -25,4 +25,4 @@ Open Loyalty Settings
 
    settings/index
 
-.. include:: /getting_started/settings/map.rst.inc
+.. include:: /userguide/getting_started/settings/map.rst.inc

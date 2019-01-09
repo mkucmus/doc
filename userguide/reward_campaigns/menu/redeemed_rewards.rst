@@ -74,7 +74,7 @@ Field description
 |                            |   - Custom campaign                                                                 |
 |                            |                                                                                     |
 |                            | | To learn more about the rule types, please see                                    |
-|                            |   :doc:`Reward campaigns Types </reward_campaigns/creation/reward_type>`            |
+|                            |   :doc:`Reward campaigns Types </userguide/reward_campaigns/creation/reward_type>`            |
 +----------------------------+-------------------------------------------------------------------------------------+
 |   Customer’s first name    | First name of customer who redeemed reward                                          |
 +----------------------------+-------------------------------------------------------------------------------------+
@@ -90,13 +90,13 @@ Field description
 |                            |   - Used                                                                            |
 |                            |                                                                                     |
 |                            | To learn how to select reward as a used, see                                        |
-|                            | :doc:`Redeemed rewards </customers/profile_details/loyalty/redeemed_rewards>` in    | 
+|                            | :doc:`Redeemed rewards </userguide/customers/profile_details/loyalty/redeemed_rewards>` in    |
 |                            | profile detail section                                                              |
 +----------------------------+-------------------------------------------------------------------------------------+
 
 Content
 ^^^^^^^
-- :doc:`Download redeemed rewards report </reward_campaigns/menu/reward_report>` 
+- :doc:`Download redeemed rewards report </userguide/reward_campaigns/menu/reward_report>`
 
 
 

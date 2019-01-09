@@ -27,7 +27,7 @@ You can also simply **Unlink manually assignment** also from All customers list 
 .. image:: /userguide/_images/customer_unlink.png
    :alt:   Unlink manual assignment
 
-To learn more about levels and special rewards, see :doc:`Levels </levels/index>`
+To learn more about levels and special rewards, see :doc:`Levels </userguide/levels/index>`
 
 +-------------------+-----------------------------------------------------------------------------------------------------------------------------+
 | Field             | Description                                                                                                                 |

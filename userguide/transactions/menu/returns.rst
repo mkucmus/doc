@@ -23,7 +23,7 @@ To display Return transactions:
 .. image:: /userguide/_images/return.png
    :alt:   Return and Sell Transactions Filter
 
-When Returns are enable (see :doc:`Configuration section </getting_started/settings/Configuration/settings>`), if the customer made a Return, in addition to subtracting the transaction value from the total value of transactions assigned to Customer, the number of earned points assigned to a given sell transaction is also reversed.
+When Returns are enable (see :doc:`Configuration section </userguide/getting_started/settings/Configuration/settings>`), if the customer made a Return, in addition to subtracting the transaction value from the total value of transactions assigned to Customer, the number of earned points assigned to a given sell transaction is also reversed.
 
 The reversed points will be listed in **All points transfers** menu with **Type spending**.  
 
@@ -67,7 +67,7 @@ For better understanding please see **Example** below
     **Note, that the transaction value also affects to the Levels and Segments, which criteria are based on this value. Customer can return to previous level or not be included in a given segment when transaction, which caused this promotion, will be returned**
 
 
-For more information please see :doc:`Levels </levels/index>` and :doc:`Segments </segments/index>` chapters. 
+For more information please see :doc:`Levels </userguide/levels/index>` and :doc:`Segments </userguide/segments/index>` chapters.
 
      
 

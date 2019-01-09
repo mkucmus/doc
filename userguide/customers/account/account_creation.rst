@@ -51,7 +51,7 @@ To create a New Customer Account:
 
 4. If applicable, create **Label(s)** you want refer to customer. Labels are intended to be used to specify identifying attributes of customer. 
   
-   Labels can be used to organize and to select subsets of customers at customer segmentation process. To learn more about Customer segmentation, see :doc:`Segments </segments/index>`
+   Labels can be used to organize and to select subsets of customers at customer segmentation process. To learn more about Customer segmentation, see :doc:`Segments </userguide/segments/index>`
 
  - To create Label, tap ``Add Label`` and do the following: 
     - Type label **Key**, which is a label name

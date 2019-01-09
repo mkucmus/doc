@@ -1,5 +1,5 @@
-* :doc:`/merchants/menu/introduction`
-* :doc:`/merchants/menu/all_merchants`
+* :doc:`/userguide/merchants/menu/introduction`
+* :doc:`/userguide/merchants/menu/all_merchants`
 
 
 

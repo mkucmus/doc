@@ -30,7 +30,7 @@ Field description
 +----------------------------+----------------------------------------------------------------------------------------+
 |   Expires at               | | Date when points earned by customer expire.                                          |
 |                            | | Number of days after points expire is set up in                                      |
-|                            |   :doc:`Open Loyalty Configuration </getting_started/settings/Configuration/settings>` |
+|                            |   :doc:`Open Loyalty Configuration </userguide/getting_started/settings/Configuration/settings>` |
 +----------------------------+----------------------------------------------------------------------------------------+
 
 

@@ -8,6 +8,6 @@ Customers Menu
    all_rules
   
    
-.. include:: /earning_rules/menu/map.rst.inc
+.. include:: /userguide/userguide/earning_rules/menu/map.rst.inc
 
 

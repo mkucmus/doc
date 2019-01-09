@@ -30,9 +30,9 @@ To add new Instant reward:
 
  - If you marked **Is last executed rule** checkbox, then you add a "stoppable" flag to this rule.
  
-   The behavior of the flag is the same like in :doc:`Multiply earned points rule </earning_rules/creation/multiply>`  
+   The behavior of the flag is the same like in :doc:`Multiply earned points rule </userguide/userguide/earning_rules/creation/multiply>`
 
-   See :doc:`Rule Types </earning_rules/creation/rule_type>` to learn more about Earning rules types 
+   See :doc:`Rule Types </userguide/userguide/earning_rules/creation/rule_type>` to learn more about Earning rules types
    
 .. note:: 
 
@@ -85,7 +85,7 @@ To add new Instant reward:
     
     If any of conditions is not met, rule is not used and customer doesn’t receive reward. 
     
-    Please see :doc:`Reward campaigns </reward_campaigns/index>` for more information. 
+    Please see :doc:`Reward campaigns </userguide/reward_campaigns/index>` for more information.
 
 9. When complete, tap ``SAVE`` 
 

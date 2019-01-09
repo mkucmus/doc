@@ -15,6 +15,6 @@ Rewards creation
 
   
    
-.. include:: /reward_campaigns/creation/map.rst.inc
+.. include:: /userguide/reward_campaigns/creation/map.rst.inc
 
 

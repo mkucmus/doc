@@ -36,7 +36,7 @@ To configure level downgrade options:
 |                          | | The only scenarios when customer can return to previous level is when transaction (order), which caused this promotion, | 
 |                          |   will be returned or his level will be changed manually by Admin.                                                        |
 |                          | | His accumulated points are not reset – Loyalty points pool based on                                                     |
-|                          |   :doc:`Points transfers </points_transfers/index>`.                                                      |
+|                          |   :doc:`Points transfers </userguide/points_transfers/index>`.                                                      |
 |                          | | No additional settings to configure here                                                                                |
 +--------------------------+---------------------------------------------------------------------------------------------------------------------------+
 |   Every x number of days | | Customer level will be recalculated every provided number of days based on accumulated points                           |

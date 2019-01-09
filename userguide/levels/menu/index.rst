@@ -10,6 +10,6 @@ Levels Menu
    customers_download
   
    
-.. include:: /levels/menu/map.rst.inc
+.. include:: /userguide/levels/menu/map.rst.inc
 
 

@@ -50,7 +50,7 @@ To create only Bought specific SKU type segment:
     
          **For example** you can create segment with a list of customers who made purchase in specific POS or bought specific SKU. List will contain customer who met only the 1st condition, who met only the 2nd condition and met both conditions.
   
-To learn more about conditions type, see :doc:`Segment parts types </segments/creation/segment_type>`
+To learn more about conditions type, see :doc:`Segment parts types </userguide/segments/creation/segment_type>`
 
 4. You can simply **remove condition** by clicking **bin** icon |bin| in a particular row
 

@@ -24,21 +24,21 @@ Getting started
 .. toctree::
    :hidden:
 
-   getting_started/index
+   userguide/getting_started/index
 
 
 Customers
 ---------
-:doc:`The Customers </customers/index>` section become you familiar with the customer account menu, and learn to manage customer accounts according to adding, deleting and modifying data. You will also learn how to create customer account that can be referenced in customer levels and segments. 
+:doc:`The Customers </userguide/customers/index>` section become you familiar with the customer account menu, and learn to manage customer accounts according to adding, deleting and modifying data. You will also learn how to create customer account that can be referenced in customer levels and segments.
 
 .. toctree::
    :hidden:
 
-   customers/index
+   userguide/customers/index
 
 Levels
 ------
-In :doc:`the Levels </levels/index>` section of the guide,you will learn how to create and use customer levels to create opportunities for customer engagement and how to set up targeted discounts and rewards based on a variety of conditions. The more points customers receive, the higher level they'll reach. And, the higher level of loyalty, the more rewards customers will get.
+In :doc:`the Levels </userguide/levels/index>` section of the guide,you will learn how to create and use customer levels to create opportunities for customer engagement and how to set up targeted discounts and rewards based on a variety of conditions. The more points customers receive, the higher level they'll reach. And, the higher level of loyalty, the more rewards customers will get.
 
 You can use levels to offer customer incentives, such as: 
 
@@ -48,52 +48,52 @@ You can use levels to offer customer incentives, such as:
 .. toctree::
    :hidden:
 
-   levels/index
+   userguide/levels/index
  
 Points transfers
 ----------------
-:doc:`The points transfers </points_transfers/index>` section of the guide walks you through the basic points transfer information. You will learn how to add and manage transfer of loyalty points records and finally better understand all terms related to points transfer.
+:doc:`The points transfers </userguide/points_transfers/index>` section of the guide walks you through the basic points transfer information. You will learn how to add and manage transfer of loyalty points records and finally better understand all terms related to points transfer.
 
 .. toctree::
    :hidden:
 
-   points_transfers/index
+   userguide/points_transfers/index
 
 Transactions
 ------------
-In :doc:`the Transaction </transactions/index>` section of the guide, you’ll learn how to manage all aspects of the transaction, including matching transaction with customer and better understanding of terms and transaction process. 
+In :doc:`the Transaction </userguide/transactions/index>` section of the guide, you’ll learn how to manage all aspects of the transaction, including matching transaction with customer and better understanding of terms and transaction process.
 
 .. toctree::
    :hidden:
 
-   transactions/index  
+   userguide/transactions/index
 
 Earning rules
 -------------
-:doc:`The Earning rules </earning_rules/index>` section of the guide provides an overview of the ways for customers to earn points – the engine of your Loyalty Program. You’ll learn how to create and manage Earning Rule to accomplish many things, from rewarding high-value customers, to stopping points earning all together.
+:doc:`The Earning rules </userguide/earning_rules/index>` section of the guide provides an overview of the ways for customers to earn points – the engine of your Loyalty Program. You’ll learn how to create and manage Earning Rule to accomplish many things, from rewarding high-value customers, to stopping points earning all together.
 
 .. toctree::
    :hidden:
 
-   earning_rules/index 
+   userguide/earning_rules/index
 
 POS
 ---
-In :doc:`the POS </pos/index>` section of the guide, you’ll learn how to set up a stores – online and offline, and manage their data.
+In :doc:`the POS </userguide/pos/index>` section of the guide, you’ll learn how to set up a stores – online and offline, and manage their data.
 
 .. toctree::
    :hidden:
 
-   pos/index
+   userguide/pos/index
 
 Merchants
 ---------
-:doc:`The Merchants </merchants/index>` section of the guide provides an overview of the all merchants working in yours stores and involve with Loyalty Program. You’ll learn how to add and manage merchant data, including assigning to particular store. 
+:doc:`The Merchants </userguide/merchants/index>` section of the guide provides an overview of the all merchants working in yours stores and involve with Loyalty Program. You’ll learn how to add and manage merchant data, including assigning to particular store.
 
 .. toctree::
    :hidden:
 
-   merchants/index
+   userguide/merchants/index
 
 Segments
 --------
@@ -102,16 +102,16 @@ In :doc:`the Segments </segments/index>` section of the guide, you’ll become f
 .. toctree::
    :hidden:
 
-   segments/index
+   userguide/segments/index
 
 Reward Campaigns
 ----------------
-In :doc:`the Reward campaigns </reward_campaigns/index>` section of the guide, you’ll familiar with creating and managing rewards available within your Loyalty Program. You will learn what type of rewards can be choose, how to assigned reward to specify customers, define activity time and manage reward details. You will also learn how to verify which rewards have been already redeemed and by which customers. 
+In :doc:`the Reward campaigns </userguide/reward_campaigns/index>` section of the guide, you’ll familiar with creating and managing rewards available within your Loyalty Program. You will learn what type of rewards can be choose, how to assigned reward to specify customers, define activity time and manage reward details. You will also learn how to verify which rewards have been already redeemed and by which customers.
 
 .. toctree::
    :hidden:
 
-   reward_campaigns/index
+   userguide/reward_campaigns/index
 
 
 
@@ -119,4 +119,3 @@ Indices and tables
 ==================
 
 * :ref:`genindex`
-* :ref:`search`
