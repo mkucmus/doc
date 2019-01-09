@@ -60,7 +60,7 @@ To add new General spending rule:
    It means, that if more than this transactional rule can be applied, any next transactional Earning Rules will be skipped (other general spending rules, multiply points rules, product purchase rule). 
  
  
-   See :doc:`Rule Types </userguide/userguide/earning_rules/creation/rule_type>` to learn more about Earning rules types
+   See :doc:`Rule Types </userguide/earning_rules/creation/rule_type>` to learn more about Earning rules types
 
 .. note:: 
 

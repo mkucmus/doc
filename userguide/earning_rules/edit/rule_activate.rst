@@ -11,7 +11,7 @@ To activate/deactivate rule:
 
 1. On the Admin sidebar, tap **Earning rules**. Then, choose **All earning rules**. 
 
-   You can also deactivate/activate the rule from :doc:`Edit mode </userguide/userguide/earning_rules/edit/updating>`
+   You can also deactivate/activate the rule from :doc:`Edit mode </userguide/earning_rules/edit/updating>`
 
 2. In the Earning rules list, find the rule to be deactivated and click ``Active`` in the **Active** column. 
 

@@ -36,7 +36,7 @@ To add new Product purchase rule:
  
    It means, that if more than this transactional rule can be applied, next transactional Earning Rule will be skipped and Product purchase will be used as the last one (according to the sequence). 
 
-   See :doc:`Rule Types </userguide/userguide/earning_rules/creation/rule_type>` to learn more about Earning rules types
+   See :doc:`Rule Types </userguide/earning_rules/creation/rule_type>` to learn more about Earning rules types
    
 .. note:: 
 

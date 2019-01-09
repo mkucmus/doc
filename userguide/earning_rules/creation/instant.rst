@@ -30,9 +30,9 @@ To add new Instant reward:
 
  - If you marked **Is last executed rule** checkbox, then you add a "stoppable" flag to this rule.
  
-   The behavior of the flag is the same like in :doc:`Multiply earned points rule </userguide/userguide/earning_rules/creation/multiply>`
+   The behavior of the flag is the same like in :doc:`Multiply earned points rule </userguide/earning_rules/creation/multiply>`
 
-   See :doc:`Rule Types </userguide/userguide/earning_rules/creation/rule_type>` to learn more about Earning rules types
+   See :doc:`Rule Types </userguide/earning_rules/creation/rule_type>` to learn more about Earning rules types
    
 .. note:: 
 

@@ -6,7 +6,7 @@ ALL POINTS TRANSFERS
 
 | The Points transfers lists gives you information about value of earned and spent points by particular customer with details regarding customers and transfer process. Moreover, list contains information whether points are the result of Earning Rules (system) or they have been manually set by the Admin user (admin).
 
-| To learn more about Earning Rules, see :doc:`Rules details </userguide/userguide/earning_rules/index>`
+| To learn more about Earning Rules, see :doc:`Rules details </userguide/earning_rules/index>`
 
 .. image:: /userguide/_images/points_transfers.png
    :alt:   Points Transfers List

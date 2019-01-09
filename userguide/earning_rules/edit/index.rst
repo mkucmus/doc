@@ -8,6 +8,6 @@ Customer level creation & edition
    rule_activate
    
    
-.. include:: /userguide/userguide/earning_rules/edit/map.rst.inc
+.. include:: /userguide/earning_rules/edit/map.rst.inc
 
 
