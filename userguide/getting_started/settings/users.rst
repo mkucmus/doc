@@ -1,7 +1,7 @@
 .. index::
    single: users 
 
-USERS
+Users
 =====
 
 | When your store is first set up, you receive a set of login credentials for the Administrator role that has full permissions. If there are others on your team or service providers who need access, you can create a separate user account for each from this section.
