@@ -1,7 +1,7 @@
 .. index::
    single: referred_customers
 
-REFERRED CUSTOMERS
+Referred customers
 ==================
 
 Referral (refer a friend, member get member) functionality allow to reward Customers for invitation other Customers to Loyalty program. It allows to give prize either referrer (Customer who send invitation) and recipient (Customer who respond with action to invitation). 
