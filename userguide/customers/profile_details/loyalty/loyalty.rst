@@ -1,7 +1,7 @@
 .. index::
    single: loyalty
 
-LOYALTY
+Loyalty
 =======
 
 | In **Loyalty** section you can view Loyalty Points balance in the customer’s account. 
