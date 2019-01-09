@@ -1,7 +1,7 @@
 .. index::
    single: agreements
 
-AGREEMENTS
+Agreements
 ==========
 
 **Agreements** section is a list of consents and include information about their acceptance by customer. If the customer has accepted the agreement, the checkbox in the name record is marked.
