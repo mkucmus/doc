@@ -1,7 +1,7 @@
 .. index::
    single: returns
 
-RETURNS
+Returns
 =======
 
 If for any reason the customer returns the purchased products and claims a refund a Return transaction is created. Customer can request a return from both, online and offline stores and both, partial or full refund. 
