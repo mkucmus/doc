@@ -1,7 +1,7 @@
 .. index::
    single: sign_in
 
-CUSTOMER SIGN IN
+Customer Sign in
 ================
 
 Customer have easy access to their account from main page of your website. Depending on the configuration, customers can be redirected to customer cockpit as subdomain (like club.yourbrand.com) or as loyalty module within your website. 
