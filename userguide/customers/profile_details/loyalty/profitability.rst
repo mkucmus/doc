@@ -1,7 +1,7 @@
 .. index::
    single: profitability
 
-PROFITABILITY
+Profitability
 =============
 
 **Profitability** include information about basic factors regarding customer transactions within the loyalty program.
