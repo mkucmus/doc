@@ -8,7 +8,7 @@ ALL POINTS TRANSFERS
 
 | To learn more about Earning Rules, see :doc:`Rules details </earning_rules/index>` 
 
-.. image:: /_images/points_transfers.png
+.. image:: /userguide/_images/points_transfers.png
    :alt:   Points Transfers List
 
 | Use the standard controls to sort the list, filter and search transfers by typing in the field under column header value you want to find, and apply actions to selected transfers records. 

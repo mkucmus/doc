@@ -12,7 +12,7 @@ To configure level downgrade options:
 
 1. In the upper-right corner, tap the **Settings** icon |settings| . Then on the menu, choose **Configuration**. 
 
-.. |settings| image:: /_images/icon.png
+.. |settings| image:: /userguide/_images/icon.png
 
 2. Scroll down to **Level downgrade settings** section 
 
@@ -22,7 +22,7 @@ To configure level downgrade options:
   - Automatic
   - Every x number of days
   
-.. image:: /_images/mode.png
+.. image:: /userguide/_images/mode.png
    :alt:   Mode options
 
 
@@ -56,7 +56,7 @@ To configure level downgrade options:
        - Earned points since last level change
        
 	 
-.. image:: /_images/downgrade.png
+.. image:: /userguide/_images/downgrade.png
    :alt:   Level downgrade points pool options
    
 
@@ -83,7 +83,7 @@ To configure level downgrade options:
 
 5. **Reset points** checkbox appears only when Active points are selected. When you mark it, Open Loyalty resets all Active and Locked points and move it to Expired points pool after specified **Downgrade every** number of days.     
   
-.. image:: /_images/reset_points.png
+.. image:: /userguide/_images/reset_points.png
    :alt:   Reset points checkbox
 
 

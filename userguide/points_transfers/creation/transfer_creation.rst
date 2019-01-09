@@ -8,7 +8,7 @@ CREATING POINTS TRANSFER FROM ADMIN
 
 | However, you can also create customer points transfer directly from the Admin, which is useful in case of ad-hoc special situation e.g. long delivery delay, the biggest purchase among customers in year etc.
 
-.. image:: /_images/add_transfer.png
+.. image:: /userguide/_images/add_transfer.png
    :alt:   Add Points Transfer
 
 To add points transfer manually:
@@ -28,7 +28,7 @@ To add points transfer manually:
  - In **Points to add/spend** field enter amount of points that will be added to / subtracted from Customer Account active Points
  - If needed, provide a **Comment** for operation as a brief description that explain purpose of the transfer e.g. information on what they were spent or why they were subtracted 
 
-.. image:: /_images/add_transfer2.png
+.. image:: /userguide/_images/add_transfer2.png
    :alt:   Select Customer to add Points Transfer
 
 3. When complete, tap ``SAVE``

@@ -6,7 +6,7 @@ REDEEMED REWARDS
 
 **Redeemed rewards** tab provide information about rewards (Reward Campaigns) that customer has redeemed, divided into used and delivered.
 
-.. image:: /_images/redeemed_rewards.png
+.. image:: /userguide/_images/redeemed_rewards.png
    :alt:   Redeemed Rewards
 
 | All rewards that customer redeemed appears in this tab as a "**delivered**". 
@@ -24,7 +24,7 @@ To mark coupon as used:
 
 1. In the Redeemed reward list, find the reward you want to mark as Used and click checkbox in the **Use of coupons count** column 
 
-.. image:: /_images/used_reward.png
+.. image:: /userguide/_images/used_reward.png
    :alt:   Used/Delivered reward
 
 To see the list of all redeemed rewards by customer within Loyalty Program click ``All Rewards`` below the tab.

@@ -6,11 +6,11 @@ POINTS TRANSFER DETAILS PREVIEW
 
 | To see more information related with particular point transfer click **View** icon |view| in the Action column.
 
-.. |view| image:: /_images/view.png 
+.. |view| image:: /userguide/_images/view.png
 
 | System will display a popup with additional information, with *comment* and points *expires date*. 
 
-.. image:: /_images/transfer_details.png
+.. image:: /userguide/_images/transfer_details.png
    :alt:   Points transfer details
 
 Field description
@@ -34,4 +34,3 @@ Field description
 +----------------------------+----------------------------------------------------------------------------------------+
 
 
-  

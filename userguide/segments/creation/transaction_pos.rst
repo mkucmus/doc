@@ -13,7 +13,7 @@ To create only Transaction percent in POS type segment:
 
 1. On the Admin sidebar, tap **Segments**. Then, choose **Add segment**. You can also add rule directly from **All segments** list by clicking ``Add segment`` at the top of the page 
 
-.. image:: /_images/add_segment_button.png
+.. image:: /userguide/_images/add_segment_button.png
    :alt:   Add Segment Options  
 
 
@@ -24,14 +24,14 @@ To create only Transaction percent in POS type segment:
  - To activate the customer segment, in **Active** field select "**Active**" from the dropdown list
 
    
-.. image:: /_images/basic_segment.png
+.. image:: /userguide/_images/basic_segment.png
    :alt:   Basic Informations Section
 
 3. In **Segment Parts** set the conditions that must be met to assign the customer to *only* **Transaction percent in POS** segment. 
 
    During creation, you must specify (select name from a dropdown) one **POS** (store) which transaction will be included and transaction percentage in **Percent** field to be analyzed within that POS. 
 
-.. image:: /_images/transaction_pos.png
+.. image:: /userguide/_images/transaction_pos.png
    :alt:   Transaction Percent Type 
 
 .. note:: 
@@ -54,8 +54,7 @@ To learn more about conditions type, see :doc:`Segment parts types </segments/cr
 
 4. You can simply **remove condition** by clicking **bin** icon |bin| in a particular row
 
-.. |bin| image:: /_images/bin.png
+.. |bin| image:: /userguide/_images/bin.png
 
 5. When complete, tap ``SAVE``  
     
-   

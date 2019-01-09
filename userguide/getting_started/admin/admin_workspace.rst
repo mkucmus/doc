@@ -6,7 +6,7 @@ ADMIN WORKSPACE
 
 The Admin workspace provides access to all the tools, data, and content that you need to run your loyalty platform. The main pages have a grid that lists the data for the section, with a set of tools to search, sort, filter, select, and apply actions.
 
-.. image:: /_images/workspace.png
+.. image:: /userguide/_images/workspace.png
    :alt:   Admin workspace
 
    

@@ -17,7 +17,7 @@ ALL CAMPAIGN CATEGORIES
     when default language is English, information are display in English, but when we change it on polish as a default language, all basic information will be displayed in polish (if provided).  
 
 
-.. image:: /_images/campaign_categories2.png
+.. image:: /userguide/_images/campaign_categories2.png
    :alt:   All Campaign categories
 
 | Use the standard controls to sort the list in Sort order column, filter and search categories by typing in the field under Name column header value you want to find, and apply actions to selected rewards record (modify). 

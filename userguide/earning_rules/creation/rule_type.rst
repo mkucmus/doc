@@ -13,7 +13,7 @@ In general, Earning rules can be divided into two types:
 
 During creation of rule you must specify its type, describing conditions for awarding points. Every rule type has its own required fields (conditions) that must be filled. 
 
-.. image:: /_images/rule_types.png
+.. image:: /userguide/_images/rule_types.png
    :alt:   Rule Types
 
 Transactional rules

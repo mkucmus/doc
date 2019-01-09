@@ -17,7 +17,7 @@ To activate / deactivate reward:
 
    The button in the column change to Inactive and appear as a grey-out.
 
-.. image:: /_images/active.png
+.. image:: /userguide/_images/active.png
    :alt:   Active Column
 
 .. warning:: 

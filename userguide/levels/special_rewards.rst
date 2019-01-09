@@ -6,7 +6,7 @@ SPECIAL REWARDS
 
 Special reward should be set if you want to give special discount for customer but only limited in time. 
 
-.. image:: /_images/special_reward.png
+.. image:: /userguide/_images/special_reward.png
    :alt:   Add Special Reward
 
 
@@ -25,7 +25,7 @@ To assigned special rewards to level:
  - Enter a **Reward code** to be used by customers assigned to this level authorizing to special reward **Value**
  - In **Start at** and **End at** fields specify time boundaries when special reward will be visible and active
 
-.. image:: /_images/special_reward_details.png
+.. image:: /userguide/_images/special_reward_details.png
    :alt:   Special Reward Details
 
 3. Repeat the steps for all special rewards you want to assigned to this level 
@@ -34,5 +34,5 @@ To assigned special rewards to level:
 
 5. You can simply remove special reward by clicking bin icon |remove| in a particular box
 
-.. |remove| image:: /_images/remove.png
+.. |remove| image:: /userguide/_images/remove.png
 

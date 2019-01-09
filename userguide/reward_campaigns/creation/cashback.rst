@@ -22,7 +22,7 @@ To create Cashback reward:
 
 1. On the Admin sidebar, tap **Reward campaigns**. Then, choose **Add reward campaign**. You can also add new reward directly from **All reward campaigns** list by clicking ``Add reward campaign`` at the top of the page 
 
-.. image:: /_images/add_reward_button.png
+.. image:: /userguide/_images/add_reward_button.png
    :alt:   Add Reward Options  
 
 2. Scroll down to **Campaign type** section and select a **Cashback** reward type from a dropdown list (by default Discount code is displaying)
@@ -34,7 +34,7 @@ To create Cashback reward:
     Different fields are required for *Cashback, Custom reward and Percentage discount code* , than for other types i.e. discount code, free delivery etc.  
 
 
-.. image:: /_images/cashback_basic.png
+.. image:: /userguide/_images/cashback_basic.png
    :alt:   Cashback Basic Information
 
 3. When you choose *Cashback*, in the **Basic information** section related to the default language version do the following
@@ -46,7 +46,7 @@ To create Cashback reward:
  - If applicable, fulfill the same fields in other language version e.g. polish as on a screen above
 
 
-.. image:: /_images/cashback_details.png
+.. image:: /userguide/_images/cashback_details.png
    :alt:   Cashback Campaign Details 
 
 4. In the **Campaign details** section do the following
@@ -71,7 +71,7 @@ To create Cashback reward:
           
  - Repeat the process for all labels you want to used in your Loyalty Program
   
-.. image:: /_images/reward_label.png
+.. image:: /userguide/_images/reward_label.png
    :alt:   Reward Campaign Labels    
    
 .. note:: 
@@ -84,12 +84,12 @@ To create Cashback reward:
 
 6. In the same **Campaign details** section, in **Categories** field, select campaign category or categories to be assign to this reward campaign. You can assign more than one campaign category. 
 
-.. image:: /_images/reward_category.png
+.. image:: /userguide/_images/reward_category.png
    :alt:   Campaign category    
 
 7. **Brand info** section allow to upload an image of the reward brand, that will be display in Client cockpit
 
-.. image:: /_images/reward_brand.png
+.. image:: /userguide/_images/reward_brand.png
    :alt:   Brand info 
 
 8. A reward can be extended to members of a specific customer group. In the **Target** section identify the customer group that qualifies to receive the reward
@@ -97,7 +97,7 @@ To create Cashback reward:
  - In **Target type** field, select from dropdown list Level or Segment to specify whether the reward will be available for customers assigned to particular level or segment
  - Depending on selected *Target type*, field **Segments** to specify segments or **Levels** to specify levels appear.  You can choose one or more levels/segments to used
 
-.. image:: /_images/reward_target.png
+.. image:: /userguide/_images/reward_target.png
    :alt:   Target
 
 9. **Activity** section define time boundaries when reward can be used by customers. To make the reward *available for a limited period of time*, complete the **From and To dates** in Activity section:  
@@ -106,7 +106,7 @@ To create Cashback reward:
  - In **Active to** field set the last date the reward is available. You can either enter the date or select it from the calendar
  - If you want the reward to be active all the time mark **All time active** checkbox. When you choose that option *Active from and Active to fields will not be available*.
  
-.. image:: /_images/reward_activity.png
+.. image:: /userguide/_images/reward_activity.png
    :alt:   Activity
 
 .. note:: 

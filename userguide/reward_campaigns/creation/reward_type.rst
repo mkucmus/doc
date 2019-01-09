@@ -13,7 +13,7 @@ REWARD CAMPAIGNS TYPES
     when default language is English, information are display in English, but when we change it on polish as a default language, all basic information will be displayed in polish (if provided).  
 
 
-.. image:: /_images/campaign_types .png
+.. image:: /userguide/_images/campaign_types .png
    :alt:   REWARD CAMPAIGNS TYPES
 
 

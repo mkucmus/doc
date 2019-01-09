@@ -6,10 +6,10 @@ TRANSACTION DETAILS
 
 Click **View** icon |view| in the Action column to open the transaction details – customer detail information and purchased items
 
-.. |view| image:: /_images/view.png 
+.. |view| image:: /userguide/_images/view.png
 
 
-.. image:: /_images/transaction_details2.png
+.. image:: /userguide/_images/transaction_details2.png
    :alt:   Transaction Record Preview
 
 Field description

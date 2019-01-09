@@ -14,7 +14,7 @@ MARKETING AUTOMATION TOOL
     **The data from your account will be needed to set up integration** 
 
 
-.. image:: /_images/marketing_automation.png
+.. image:: /userguide/_images/marketing_automation.png
    :alt:   Marketing Automation Tool integration 
 
    
@@ -23,7 +23,7 @@ To set up integration with SALESmanago:
 
 1. In the upper-right corner, tap the **Settings** icon |settings| . Then on the menu, choose **Configuration**. 
 
-.. |settings| image:: /_images/icon.png
+.. |settings| image:: /userguide/_images/icon.png
 
 2. Scroll down to **Marketing Automation Tool** section 
 
@@ -31,7 +31,7 @@ To set up integration with SALESmanago:
 
 4. Additional fields to complete will appear. 
 
-.. image:: /_images/marketing_settings.png
+.. image:: /userguide/_images/marketing_settings.png
    :alt:   SalesManago settings
 
 5. To find information to fill them, open your SALESmanago account and choose: **Settings -> Integration -> API Access**. Then do the following: 

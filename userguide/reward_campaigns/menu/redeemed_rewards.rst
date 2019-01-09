@@ -27,7 +27,7 @@ REDEEMED REWARDS
 
 | Moreover, you can check whether reward is **Delivered** (customer choose reward and spent points but he has not used it yet) or **Used** (customer used coupon code during purchase, gift was sent to customer etc.)
 
-.. image:: /_images/redeemed.png
+.. image:: /userguide/_images/redeemed.png
    :alt:   Redeemed Rewards
 
 | Use the standard controls to sort the list by **Date and time** and filter list to get a register of re-ward that are **Delivered** or **Used**. By default Redeemed rewards grid show both – delivered and used reward.

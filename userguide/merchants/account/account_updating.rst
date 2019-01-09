@@ -8,7 +8,7 @@ You can edit information about your merchants, including all their data provided
 
 Obviously Merchant can also edited all listed data (including password) from his account in POS Cockpit. 
 
-.. image:: /_images/edit_merchant.png
+.. image:: /userguide/_images/edit_merchant.png
    :alt:   Merchant Account Editing
 
 To edit a a merchant account:
@@ -18,7 +18,7 @@ To edit a a merchant account:
 
 2. In the merchants list, find the record to be edited and click **Edit** icon |edit| in the Action column to open the merchant in edit mode
 
-.. |edit| image:: /_images/edit.png
+.. |edit| image:: /userguide/_images/edit.png
  
 3. Make any necessary changes to the merchant account information
 
@@ -32,7 +32,7 @@ To change a password to merchant account:
 
 2. In the merchants list, find the record to be edited and click **Edit** icon |edit| in the Action column to open the merchant in edit mode
 
-.. |edit| image:: /_images/edit.png
+.. |edit| image:: /userguide/_images/edit.png
 
 3. In **Password** field click **Change password** link. After clicking the field will be blank.
 

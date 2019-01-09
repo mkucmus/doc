@@ -13,7 +13,7 @@ To create only Average transaction value type segment:
 
 1. On the Admin sidebar, tap **Segments**. Then, choose **Add segment**. You can also add rule directly from **All segments** list by clicking ``Add segment`` at the top of the page 
 
-.. image:: /_images/add_segment_button.png
+.. image:: /userguide/_images/add_segment_button.png
    :alt:   Add Segment Options  
 
 
@@ -24,7 +24,7 @@ To create only Average transaction value type segment:
  - To activate the customer segment, in **Active** field select "**Active**" from the dropdown list
 
    
-.. image:: /_images/basic_segment.png
+.. image:: /userguide/_images/basic_segment.png
    :alt:   Basic Informations Section
 
 3. In **Segment Parts** set the conditions that must be met to assign the customer to *only* **Average transaction value** segment. 
@@ -34,7 +34,7 @@ To create only Average transaction value type segment:
  - in **Min value** field provide the minimum value of the average transaction amount that customer must fulfil to be assigned to this segment 
  - in **Max value** field provide the maximum value of the average transaction amount that let customer to be assigned to this segment     
 
-.. image:: /_images/average_transaction.png
+.. image:: /userguide/_images/average_transaction.png
    :alt:   Average transaction value
    
 .. note:: 
@@ -57,8 +57,7 @@ To learn more about conditions type, see :doc:`Segment parts types </segments/cr
 
 4. You can simply **remove condition** by clicking **bin** icon |bin| in a particular row
 
-.. |bin| image:: /_images/bin.png
+.. |bin| image:: /userguide/_images/bin.png
 
 5. When complete, tap ``SAVE``  
 
-  

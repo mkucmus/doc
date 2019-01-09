@@ -12,7 +12,7 @@ You can optimize marketing initiatives based on targeted segments. You can also 
 
 Because customer segment information is constantly refreshed, customers can become associated and disassociated from a segment as they shop in your store. 
 
-.. image:: /_images/segment2.png
+.. image:: /userguide/_images/segment2.png
    :alt:   Segments
 
 
@@ -29,7 +29,7 @@ Lists all customer segments within your loyalty program with brief description o
 
 There is also possibility to preview and export the list of targeted customers
 
-.. image:: /_images/segment2.png
+.. image:: /userguide/_images/segment2.png
    :alt:   Segments
 
 
@@ -37,6 +37,6 @@ Add segment
 ***********
 Lists all data that need to be filled out to create new segment
 
-.. image:: /_images/add_segment.png
+.. image:: /userguide/_images/add_segment.png
    :alt:   Add segment
 

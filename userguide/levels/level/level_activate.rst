@@ -17,7 +17,7 @@ To activate/deactivate level:
 
    The button in the column change to Inactive and appear as a grey-out.
 
-.. image:: /_images/active.png
+.. image:: /userguide/_images/active.png
    :alt:   Active Column
 
 .. warning:: 
@@ -33,4 +33,3 @@ To activate/deactivate level:
     Customer can be assigned only to Active levels
        
    
- 

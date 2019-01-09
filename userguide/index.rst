@@ -8,7 +8,7 @@ WELCOME TO THE OPEN LOYALTY PLATFORM!
 
 This guide answers the "why, where, and how" questions that most users have when learning to use Open Loyalty platform. You’ll find lots of step-by-step instructions, screenshots, and examples.
 
-.. image:: /_images/screen.png
+.. image:: /userguide/_images/screen.png
    :height: 400 px
    :width: 1000 px
    :alt:   Open Loyalty platform

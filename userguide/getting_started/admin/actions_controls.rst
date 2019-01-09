@@ -8,7 +8,7 @@ ACTIONS CONTROLS
 
 | For example, for Customer records, you can use the Actions control to edit basic information of a selected customer, view the customer account form, or to deactivate record without a possibility to activate them again.
 
-.. image:: /_images/actions.png
+.. image:: /userguide/_images/actions.png
    :alt:   Applying an Action to selected record
 
    

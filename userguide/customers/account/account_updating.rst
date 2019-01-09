@@ -8,7 +8,7 @@ UPDATING CUSTOMER ACCOUNT
 
 | You can update customer data directly from their **Profile Detail Page** or by selecting it’s record from **All Customers list**.
 
-.. image:: /_images/customer_edit.png
+.. image:: /userguide/_images/customer_edit.png
    :alt:   Customer account editing
 
    
@@ -19,7 +19,7 @@ To edit a Customer Account from Customers list:
 
 2. In the Customers list, find the record to be edited and click **Edit** icon |edit| in the Action column to open the record in edit mode
 
-.. |edit| image:: /_images/edit.png
+.. |edit| image:: /userguide/_images/edit.png
  
 3. Make any necessary changes to the customer account information
 
@@ -29,7 +29,7 @@ To edit a Customer Account from Customers list:
 To edit a Customer Account from Profile Detail Page:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. image:: /_images/customer_edit2.png
+.. image:: /userguide/_images/customer_edit2.png
    :alt:   Edit Option in Profile Details
 
 1. On the Admin sidebar, tap **Customers**. Then, choose **All Customers**

@@ -16,20 +16,20 @@ To lock/unlock an admin account:
 
 2. In the Customers list, find the record to be lock/unlock and click **Deactivate/Activate** icon |remove| in the Action column
 
-.. |remove| image:: /_images/remove.png
+.. |remove| image:: /userguide/_images/remove.png
 
 3. System will display a message asked you to confirm the action
 
-.. image:: /_images/customer_deactivate.png
+.. image:: /userguide/_images/customer_deactivate.png
    :alt:   System Message
 
 4. The deactivated customer account appears on the Customers list as a greyed-out
 
 5. To activate an account click the same icon |remove| and confirm the action
 
-.. |remove| image:: /_images/remove.png
+.. |remove| image:: /userguide/_images/remove.png
 
-.. image:: /_images/customer_deactivate_ok.png
+.. image:: /userguide/_images/customer_deactivate_ok.png
    :alt:   System Message
 
 6. The activated customer account appears on the Customers list as a black

@@ -5,7 +5,7 @@ CUSTOMER EARNING AND SPENDING STATUSES
 ======================================
 The Customer statuses section allows to specify to which customers with particular status, points transfer can be handled. Specify the customer statuses which determines adding and subtracting loyalty points.  
 
-.. image:: /_images/statuses.png
+.. image:: /userguide/_images/statuses.png
    :alt:   Customer Statuses
 
    
@@ -14,7 +14,7 @@ To assigned a status:
 
 1. In the upper-right corner, tap the **Settings** icon |settings| . Then on the menu, choose **Configuration**. 
 
-.. |settings| image:: /_images/icon.png
+.. |settings| image:: /userguide/_images/icon.png
 
 2. Scroll down to **Customer earning and spending statuses** section 
 

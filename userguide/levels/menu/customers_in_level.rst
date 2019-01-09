@@ -14,7 +14,7 @@ To display the list of customers:
 
 After clicking, the list of customers will be opened, filtered according to the assigned level.
 
-.. image:: /_images/customers_in_level.png
+.. image:: /userguide/_images/customers_in_level.png
    :alt:   List of Customers in Level VIP
 
 | Use the standard controls to sort the list, filter and search customer by typing in the field under column header value you want to find, and apply actions to selected customers (edit and view). 

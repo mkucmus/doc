@@ -7,7 +7,7 @@ EMAILS
 | Email templates define the layout, content, and formatting of automated messages sent from Open Loyalty. 
 | Open Loyalty includes a set of responsive email templates that are triggered by a variety of events that take place during the operation of your Loyalty Program. You will find a variety of prepared email templates related to customer activities, admin actions, and system messages that you can customize.
 
-.. image:: /_images/emails.png
+.. image:: /userguide/_images/emails.png
    :alt:   Email Templates
 
 
@@ -16,7 +16,7 @@ Customizing Email templates
 
 Open Loyalty includes a default email template for the body section of each message that is sent by the system. The template for the body content is formatted with HTML and CSS, and can be easily edited, and customized.
 
-.. image:: /_images/email_preview.png
+.. image:: /userguide/_images/email_preview.png
    :alt:   Preview of New Points Email
    
 To edit an email template:
@@ -24,13 +24,13 @@ To edit an email template:
 
 1. In the upper-right corner, tap the **Settings** icon |settings| . Then on the menu, choose **Emails**. 
 
-.. |settings| image:: /_images/icon.png  
+.. |settings| image:: /userguide/_images/icon.png
 
 2. In the **Emails list**, find the record to be edited and click **Edit** icon |edit|  in the Action column to open the record in edit mode	
 
-.. |edit| image:: /_images/edit.png
+.. |edit| image:: /userguide/_images/edit.png
 
-.. image:: /_images/edit_email.png
+.. image:: /userguide/_images/edit_email.png
    :alt:   Template Information
 
 3. Make any necessary changes to the following:	

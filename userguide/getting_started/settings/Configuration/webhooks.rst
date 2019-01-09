@@ -7,7 +7,7 @@ WEBHOOKS
 
 | To setup a webhook all you have to do is register a URL with the company proving the service you’re requesting data from. That URL will accept data and can activate a workflow to turn the data into something useful. 
 
-.. image:: /_images/webhooks.png
+.. image:: /userguide/_images/webhooks.png
    :alt:   Webhooks Enable Option
 
    
@@ -16,7 +16,7 @@ To enable Webhook:
 
 1. In the upper-right corner, tap the **Settings** icon |settings| . Then on the menu, choose **Configuration**
 
-.. |settings| image:: /_images/icon.png
+.. |settings| image:: /userguide/_images/icon.png
 
 2. Scroll down to **Webhooks** section, and to enable mechanism do the following: 
 

@@ -20,14 +20,14 @@ To display Return transactions:
 
 3. To see only returns, choose **Return** from dropdown list
 
-.. image:: /_images/return.png
+.. image:: /userguide/_images/return.png
    :alt:   Return and Sell Transactions Filter
 
 When Returns are enable (see :doc:`Configuration section </getting_started/settings/Configuration/settings>`), if the customer made a Return, in addition to subtracting the transaction value from the total value of transactions assigned to Customer, the number of earned points assigned to a given sell transaction is also reversed.
 
 The reversed points will be listed in **All points transfers** menu with **Type spending**.  
 
-.. image:: /_images/return_points.png
+.. image:: /userguide/_images/return_points.png
    :alt:   Points Transfer as a Result of Return Transaction
 
 After the return, points are subtracted from the pool of Active points, according to the number of points earned within sell transaction and in proportion to the amount of transaction. 

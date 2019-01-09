@@ -6,7 +6,7 @@ DASHBOARD
 
 The dashboard is the default startup page for the Admin – the first page that appears when you log in to the Admin. The dashboard gives an overview of the customer's activity in your loyalty programs.
 
-.. image:: /_images/dashboard.png
+.. image:: /userguide/_images/dashboard.png
    :alt:   dashboard
    
 The blocks at the top of the page provide a **snapshot** of:

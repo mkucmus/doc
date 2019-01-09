@@ -10,7 +10,7 @@ POS menu allows you to define all stores, that transaction should be included wi
 
 You can simply track all stores and theirs transactions details – value and number.  
 
-.. image:: /_images/pos2.png
+.. image:: /userguide/_images/pos2.png
    :alt:   POS
 
 To display the POS menu:
@@ -24,12 +24,12 @@ All POS
 *******
 Lists all POS within your loyalty program with additional information regarding it’s localization and transactions.
 
-.. image:: /_images/pos2.png
+.. image:: /userguide/_images/pos2.png
    :alt:   POS
 
 Add POS
 *******
 Lists all data that need to be filled out to add new POS
 
-.. image:: /_images/add_pos.png
+.. image:: /userguide/_images/add_pos.png
    :alt:   add POS

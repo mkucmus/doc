@@ -9,13 +9,13 @@ To view reward detail information:
 
 2. In the Reward campaigns list, find the reward you want to be preview and click **View** icon |view| in the Action column to open the reward in view mode.
 
-.. |view| image:: /_images/view.png
+.. |view| image:: /userguide/_images/view.png
 
 3. If applicable, you can simply go to **edit mode** to change previewed reward data by clicking **Edit** icon |edit| in the upper right corner  
 
-.. |edit| image:: /_images/edit.png 
+.. |edit| image:: /userguide/_images/edit.png
 
-.. image:: /_images/campaign_details.png
+.. image:: /userguide/_images/campaign_details.png
    :alt:   Campaign Details Preview
 
 

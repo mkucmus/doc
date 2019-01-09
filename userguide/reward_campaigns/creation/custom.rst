@@ -23,7 +23,7 @@ To create Custom campaign reward:
 
 1. On the Admin sidebar, tap **Reward campaigns**. Then, choose **Add reward campaign**. You can also add new reward directly from **All reward campaigns** list by clicking ``Add reward campaign`` at the top of the page 
 
-.. image:: /_images/add_reward_button.png
+.. image:: /userguide/_images/add_reward_button.png
    :alt:   Add Reward Options  
 
 2. Scroll down to **Campaign type** section and select a **Custom campaign** reward type from a dropdown list (by default Discount code is displaying)
@@ -34,7 +34,7 @@ To create Custom campaign reward:
     
     Different fields are required for *Cashback, Custom reward and Percentage discount code* , than for other types i.e. discount code, free delivery etc.     
 
-.. image:: /_images/custom_basic.png
+.. image:: /userguide/_images/custom_basic.png
    :alt:   Custom Campaign Basic Information
 
 3. When you choose *Custom campaign*, in the **Basic information** section related to the default language version do the following
@@ -46,7 +46,7 @@ To create Custom campaign reward:
  - If needed, provide a **Brand description** of the reward campaign using rich media format
  - If applicable, fulfill the same fields in other language version e.g. polish as on a screen above
 
-.. image:: /_images/custom_details.png
+.. image:: /userguide/_images/custom_details.png
    :alt:   Custom campaign details 
 
 4. In the **Campaign details** section do the following
@@ -70,7 +70,7 @@ To create Custom campaign reward:
           
  - Repeat the process for all labels you want to used in your Loyalty Program
   
-.. image:: /_images/reward_label.png
+.. image:: /userguide/_images/reward_label.png
    :alt:   Reward Campaign Labels    
    
 .. note:: 
@@ -83,7 +83,7 @@ To create Custom campaign reward:
 
 6. In the same **Campaign details** section, in **Categories** field, select campaign category or categories to be assign to this reward campaign. You can assign more than one campaign category. 
 
-.. image:: /_images/reward_category.png
+.. image:: /userguide/_images/reward_category.png
    :alt:   Campaign category      
    
 7. In the same **Campaign details** section, in **Connect type** field, set earning rule type that will be linked with this campaign, to one of the following:  
@@ -97,7 +97,7 @@ To create Custom campaign reward:
 
    If you choose any other type than *None*, choose one of the **Earning rule** from a dropdown (related to the type choose in previous step)
 
-.. image:: /_images/custom_rule.png
+.. image:: /userguide/_images/custom_rule.png
    :alt:   Earning rule
 
 .. note:: 
@@ -108,7 +108,7 @@ To create Custom campaign reward:
 
 8. **Brand info** section allow to upload an image of the reward brand, that will be display in Client cockpit
 
-.. image:: /_images/reward_brand.png
+.. image:: /userguide/_images/reward_brand.png
    :alt:   Brand info 
 
 9. A reward can be extended to members of a specific customer group. In the **Target** section identify the customer group that qualifies to receive the reward
@@ -116,7 +116,7 @@ To create Custom campaign reward:
  - In **Target type** field, select from dropdown list Level or Segment to specify whether the reward will be available for customers assigned to particular level or segment
  - Depending on selected *Target type*, field **Segments** to specify segments or **Levels** to specify levels appear.  You can choose one or more levels/segments to used
 
-.. image:: /_images/reward_target.png
+.. image:: /userguide/_images/reward_target.png
    :alt:   Target
 
 
@@ -126,7 +126,7 @@ To create Custom campaign reward:
  - In **Visible to** field set the last date the reward is visible. You can either enter the date or select it from the calendar
  - If you want the reward to be visible all the time mark **All time visible** checkbox. When you choose that option *Visible from and Visible to fields will not be available*. 
 
-.. image:: /_images/reward_visibility.png
+.. image:: /userguide/_images/reward_visibility.png
    :alt:   Reward Visibility
 
 .. note:: 
@@ -140,7 +140,7 @@ To create Custom campaign reward:
  - In **Active to** field set the last date the reward is available. You can either enter the date or select it from the calendar
  - If you want the reward to be active all the time mark **All time active** checkbox. When you choose that option *Active from and Active to fields will not be available*.
  
-.. image:: /_images/reward_activity.png
+.. image:: /userguide/_images/reward_activity.png
    :alt:   Activity
 
 .. note:: 
@@ -160,4 +160,3 @@ To create Custom campaign reward:
 .. warning:: 
 
     Custom campaign is not visible for a customer in Available rewards section in Client Cockpit  
- 

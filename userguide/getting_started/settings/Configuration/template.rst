@@ -5,7 +5,7 @@ TEMPLATE
 ========
 Template management determines the logo, as well as the other content elements e.g. fonts, headers, colors, that are used for all pages within Open Loyalty. 
 
-.. image:: /_images/template.png
+.. image:: /userguide/_images/template.png
    :alt:   Template
 
 The content is formatted with CSS, and can be easily edited and customizes by adding variables and another content element. You can make a color theme on the frontend using your primary color (Accent color). 
@@ -15,7 +15,7 @@ To customize your template:
 
 1. In the upper-right corner, tap the **Settings** icon |settings| . Then on the menu, choose **Configuration**. 
 
-.. |settings| image:: /_images/icon.png
+.. |settings| image:: /userguide/_images/icon.png
 
 
 2. Scroll down to **Template** section and do the following:
@@ -23,7 +23,7 @@ To customize your template:
   - In **Accent color**, define your primary color indicator. Accent color is the color displayed most frequently across your Loyalty Program screens and components. Only Hexadecimal color values are supported.
   - In the **CSS template** box, enter the CSS code as needed. The content consists of a combination of CSS directives, variables, and text
 
-.. image:: /_images/content.png
+.. image:: /userguide/_images/content.png
    :alt:   Content management
   
 | One of the first things you’ll want to do is to change the logo in the header above the menu. Your logo can be saved as either a **PNG, JPG, or JPEG** file type, and uploaded from the Admin of your Open Loyalty. 
@@ -31,7 +31,7 @@ To customize your template:
 
 | In addition, you can also add an oversized banner image, called **Hero image**, that will be placed on a login page. Hero image is the first visual element a customer’s encounters on your site. 
 
-.. image:: /_images/logo.png
+.. image:: /userguide/_images/logo.png
    :alt:   Logo in Header Menu
 
    
@@ -46,7 +46,7 @@ To upload your logo:
   - You can simply remove uploaded logo by taping ``Remove``  
   
   
-.. image:: /_images/logo2.png
+.. image:: /userguide/_images/logo2.png
    :alt:   Logo Updating
    
 2. When complete, tap ``SAVE``
@@ -80,5 +80,4 @@ To upload your logo:
 |   Hero image             | | Large web banner image placed on a Client Cockpit login page in the front.                                              |
 |                          | | Hero image is the first visual element a customer’s encounters on the site and display on mobile and desktop versions.  |
 +--------------------------+---------------------------------------------------------------------------------------------------------------------------+	
-	
 	

@@ -8,7 +8,7 @@ The All POS grid provide information about all stores, which transactions made b
 
 Moreover, list contains address details and brief description about each one and allows modify POS detail. 
 
-.. image:: /_images/pos2.png
+.. image:: /userguide/_images/pos2.png
    :alt:   POS
 
 Use the standard controls to sort the list and apply action (modify) to selected POS records. 

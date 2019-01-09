@@ -6,7 +6,7 @@ PROFITABILITY
 
 **Profitability** include information about basic factors regarding customer transactions within the loyalty program.
 
-.. image:: /_images/customer_profitability.png
+.. image:: /userguide/_images/customer_profitability.png
    :alt:   Customer Profitability
 
 1. **CLV  (Customer Lifetime Value)**

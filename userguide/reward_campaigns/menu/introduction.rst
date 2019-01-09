@@ -20,7 +20,7 @@ INTRODUCTION
  - Reward brand information 
 
 
-.. image:: /_images/reward2.png
+.. image:: /userguide/_images/reward2.png
    :alt:   Reward Campaign Menu
 
 .. note:: 
@@ -45,7 +45,7 @@ All reward campaigns
 ********************
 Lists all rewards within your loyalty program, with additional information about its type, activity, limits, points costs and customers who can redeem each reward.
 
-.. image:: /_images/reward2.png
+.. image:: /userguide/_images/reward2.png
    :alt:   Reward Campaign Menu
 
 
@@ -53,7 +53,7 @@ Add reward campaigns
 ********************
 Lists all data that need to be filled out to add new reward to your Loyalty Program
 
-.. image:: /_images/add_reward.png
+.. image:: /userguide/_images/add_reward.png
    :alt:   Add reward campaign
 
 
@@ -61,7 +61,7 @@ Redeemed rewards
 ****************
 Lists all redeemed rewards with additional information who and when redeemed reward and it’s status – delivered or used. 
 
-.. image:: /_images/redeemed_rewards2.png
+.. image:: /userguide/_images/redeemed_rewards2.png
    :alt:   Redeemed rewards
 
 
@@ -69,6 +69,6 @@ All campaign categories
 ***********************
 Lists all reward campaign categories within your loyalty program, with additional information about its status and sort order
 
-.. image:: /_images/campaign_categories.png
+.. image:: /userguide/_images/campaign_categories.png
    :alt:   All campaign categories
 

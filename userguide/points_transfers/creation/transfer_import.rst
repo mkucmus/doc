@@ -6,7 +6,7 @@ IMPORT POINTS TRANSFERS
 
 If you have a customer list that you want to add points within your Loyalty Program, you can enter it into a Points transfer XML file and then import it in your Open Loyalty Admin. 
 
-.. image:: /_images/points_import.png
+.. image:: /userguide/_images/points_import.png
    :alt:   Import Points Transfers
 
 Importing a  XML file will create a points transfers for each customer:
@@ -52,12 +52,12 @@ To import a points from a file:
 
 2. Click ``Import`` at the top of the page, next to ``Add Transfer``
 
-.. image:: /_images/add_transfer_button.png
+.. image:: /userguide/_images/add_transfer_button.png
    :alt:   Points Import Button
 
 3. In the **Import points transfers** dialog, click ``Upload`` and then choose your customer XML file.
 
-.. image:: /_images/import_points.png
+.. image:: /userguide/_images/import_points.png
    :alt:   Import Points Transfers
 
 4. When file selected, click ``IMPORT``

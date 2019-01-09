@@ -6,25 +6,25 @@ CURRENT LEVEL
 
 **Current level** section provides information about current (assigned to customer) level and rewards if available.
 
-.. image:: /_images/customer_level.png
+.. image:: /userguide/_images/customer_level.png
    :alt:   Level Section
 
 **Special rewards** specify temporary additional discounts that customer assigned to this level can get.
 
-.. image:: /_images/customer_special.png
+.. image:: /userguide/_images/customer_special.png
    :alt:   Special Rewards Preview
 
 To **change manually the level** to which the customer is assigned go to edit mode by clicking **Edit** icon |edit| in the block header or click ``Edit`` above account summary block, at the top of the page. Then, additional field **Assigned manually** appears.
 
-.. |edit| image:: /_images/edit.png
+.. |edit| image:: /userguide/_images/edit.png
 
 To remove manual assignment by Admin, and let customer earn points based on Earning rules click ``Unlink`` 
 
 You can also simply **Unlink manually assignment** also from All customers list by clicking **Unlink** icon |unlink| in the Action column. 
 
-.. |unlink| image:: /_images/unlink.png
+.. |unlink| image:: /userguide/_images/unlink.png
 
-.. image:: /_images/customer_unlink.png
+.. image:: /userguide/_images/customer_unlink.png
    :alt:   Unlink manual assignment
 
 To learn more about levels and special rewards, see :doc:`Levels </levels/index>`

@@ -6,7 +6,7 @@ Your store Admin is the password-protected back office where you can set up poin
 Your initial sign-in credentials were set up during the Open Loyalty installation. If you forget your password, a temporary password can be sent to the email address that is associated with the account. 
 
 
-.. image:: /_images/dashboard.png
+.. image:: /userguide/_images/dashboard.png
    :alt:   Admin dashboard
 
 Contents:

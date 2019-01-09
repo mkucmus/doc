@@ -8,7 +8,7 @@ USERS
 
 | Users list include both active and inactive Admin user’s – inactive are grayed-out. You can also see their status in Active column. Additionally, Users list grid provides basic information about users – name, surname, email address and authenticate method.
 
-.. image:: /_images/users.png
+.. image:: /userguide/_images/users.png
    :alt:   All Users
 
    
@@ -20,11 +20,11 @@ To add new user:
 
 1. In the upper-right corner, tap the **Settings** icon |settings| . Then on the menu, choose **Users**. 
 
-.. |settings| image:: /_images/icon.png
+.. |settings| image:: /userguide/_images/icon.png
 
 2. To add new user, tap ``Add``
 
-.. image:: /_images/add_user.png
+.. image:: /userguide/_images/add_user.png
    :alt:   New User Account Information
 
 3. In the **Create user** section, complete the following information:
@@ -60,7 +60,7 @@ To add new user:
 Admin user edition
 ------------------
 
-.. image:: /_images/edition.png
+.. image:: /userguide/_images/edition.png
    :alt:   Admin User Editing
    
 
@@ -69,11 +69,11 @@ To edit an admin account:
 
 1. In the upper-right corner, tap the **Settings** icon |settings| . Then on the menu, choose **Users**. 
 
-.. |settings| image:: /_images/icon.png	
+.. |settings| image:: /userguide/_images/icon.png
 
 2.	In the Users list, find the record to be edited and click **Edit** icon |edit|  in the Action column to open the record in edit mode.	
 
-.. |edit| image:: /_images/edit.png
+.. |edit| image:: /userguide/_images/edit.png
 
 3. Make any necessary changes to user account information. **If you change password/API key, make sure to inform user about changes**
 
@@ -90,11 +90,11 @@ To lock/unlock an admin account:
 
 1. In the upper-right corner, tap the **Settings** icon |settings| . Then on the menu, choose **Users**. 
 
-.. |settings| image:: /_images/icon.png	
+.. |settings| image:: /userguide/_images/icon.png
 
 2.	In the Users list, find the record to be edited and click **Edit** icon |edit|  in the Action column to open the record in edit mode.	
 
-.. |edit| image:: /_images/edit.png
+.. |edit| image:: /userguide/_images/edit.png
 
 3. Set **Active** field, to one of the following
 

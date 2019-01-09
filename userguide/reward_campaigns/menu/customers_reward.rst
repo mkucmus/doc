@@ -11,7 +11,7 @@ To display the list of customers:
 
 After clicking, the list of customers will be opened, filtered according to the selected reward. 
 
-.. image:: /_images/customers_rewards.png
+.. image:: /userguide/_images/customers_rewards.png
    :alt:   List of Customers in Reward Campaign
 
 | Use the standard controls to apply actions to selected customers (edit and view profile details). 

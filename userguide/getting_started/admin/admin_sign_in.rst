@@ -5,7 +5,7 @@ ADMIN SIGN IN
 =============
 The first thing you will learn is how to sign in and out of the Admin, and to reset your password. All of the instructions in the rest of this guide are written for a user with full administrative privileges, and begin with the assumption that you are logged in to the Admin.
 
-.. image:: /_images/sign_in.png
+.. image:: /userguide/_images/sign_in.png
    :alt:   Admin Sign in
 
    
@@ -32,7 +32,7 @@ To sign in to the Admin:
 To reset your password:
 '''''''''''''''''''''''
 
-.. image:: /_images/forgot_password.png
+.. image:: /userguide/_images/forgot_password.png
    :alt:   Forgot password
 
 #. If you forget your password, click the ``Forgot password?`` Link
@@ -52,7 +52,7 @@ To sign out of the Admin:
 
 In the upper-right corner, tab the **Account** icon. Then on the menu, choose ``Logout``
 
-.. image:: /_images/logout.png
+.. image:: /userguide/_images/logout.png
    :alt:   Logout
 
 When you logout, the Sign-In page returns.

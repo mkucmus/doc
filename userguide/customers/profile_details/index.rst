@@ -5,7 +5,7 @@ CUSTOMER PROFILE DETAILS
 
 | You can view and manage the customer’s loyalty & personal information, history of customer transactions, points transfer and redeemed rewards
 
-.. image:: /_images/customer_profile.png
+.. image:: /userguide/_images/customer_profile.png
    :alt:   Customer Profile
 
 Customer Account details

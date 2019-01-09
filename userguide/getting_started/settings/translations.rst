@@ -15,7 +15,7 @@ TRANSLATIONS
 | **Currently, Open Loyalty is available in two languages: English and Polish**.  
 
 
-.. image:: /_images/translation.png
+.. image:: /userguide/_images/translation.png
    :alt:   Translations Lists
 
    
@@ -36,14 +36,14 @@ To add new translation:
 
 1. In the upper-right corner, tap the **Settings** icon |settings| . Then on the menu, choose **Translations**. 
 
-.. |settings| image:: /_images/icon.png
+.. |settings| image:: /userguide/_images/icon.png
 
 2. To add a new translation, tap ``Create new translations``
 
-.. image:: /_images/button.png
+.. image:: /userguide/_images/button.png
    :alt:   Add new translation button
 
-.. image:: /_images/add.png
+.. image:: /userguide/_images/add.png
    :alt:   New Translations Form
 
 3. Enter a **Code (locale)** in lowercase characters to identify the language. For example: de
@@ -100,7 +100,7 @@ Updating translation:
 
 You can edit all data provided during translation creation process (except Code locale), including change the default language to another. You can update translation data by selecting its record from **Translations list**.
 
-.. image:: /_images/edit_translation.png
+.. image:: /userguide/_images/edit_translation.png
    :alt:   Translation Editing mode
 
 To edit a translation:
@@ -108,11 +108,11 @@ To edit a translation:
 
 1. In the upper-right corner, tap the **Settings** icon |settings| . Then on the menu, choose **Translations**
 
-.. |settings| image:: /_images/icon.png
+.. |settings| image:: /userguide/_images/icon.png
 
 2.	In the **Translations list**, find the record to be edited and click **Edit** icon |edit|  in the Action column to open the record in edit mode	
 
-.. |edit| image:: /_images/edit.png
+.. |edit| image:: /userguide/_images/edit.png
 
 3. Make any necessary changes to the translated text
 
@@ -130,11 +130,11 @@ To change the default language:
 
 1. In the upper-right corner, tap the **Settings** icon |settings| . Then on the menu, choose **Translations** 
 
-.. |settings| image:: /_images/icon.png
+.. |settings| image:: /userguide/_images/icon.png
 
 2.	In the **Translations list**, find the language to be set as default and click **Edit** icon |edit|  in the Action column to open the record in edit mode	
 
-.. |edit| image:: /_images/edit.png
+.. |edit| image:: /userguide/_images/edit.png
 
 3. Mark **Default** checkbox
 

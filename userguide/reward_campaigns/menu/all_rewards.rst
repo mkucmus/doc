@@ -8,7 +8,7 @@ ALL REWARD CAMPAIGNS
 
 | Moreover, you can also see how many customers could use reward and preview theirs details. 
 
-.. image:: /_images/reward2.png
+.. image:: /userguide/_images/reward2.png
    :alt:   Reward Campaign Menu
 
 | Use the standard controls to sort the list, filter and search rewards by typing in the field under Name column header value you want to find, and apply actions to selected rewards record (modify, preview details). 

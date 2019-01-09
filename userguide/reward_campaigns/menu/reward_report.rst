@@ -11,7 +11,7 @@ To download the redeemed reward report:
 
 2. Click ``Export`` at the top of the page
 
-.. image:: /_images/export.png
+.. image:: /userguide/_images/export.png
    :alt:   Redeemed rewards export Button
 
 3. In the Redeemed rewards report dialog, do the following: 
@@ -19,7 +19,7 @@ To download the redeemed reward report:
  - In **Date from** field choose start date from which redeemed rewards data will be included in a report (base on Date and time)
  - In **Date to** field  choose end date until which redeemed rewards data will be included (base on Date and time) 
 
-.. image:: /_images/reward_report.png
+.. image:: /userguide/_images/reward_report.png
    :alt:   Redeemed rewards report
 
 4. When complete, tap ``Download report``

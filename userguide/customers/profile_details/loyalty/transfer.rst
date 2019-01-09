@@ -6,14 +6,14 @@ POINTS TRANSFERS
 
 **Points transfers** tab provide a view of latest points which customer gain or spend. Moreover, list contains information whether points are the result of Earning Rules (system) or they have been manually set by the Admin user (admin) and date until they will be locked.
 
-.. image:: /_images/customer_transfer.png
+.. image:: /userguide/_images/customer_transfer.png
    :alt:   Points Transfers Lists
 
 To cancel points transfer click **Remove** icon |remove| in the Action column. System will display a message asked you to confirm the action.
 
-.. |remove| image:: /_images/remove.png  
+.. |remove| image:: /userguide/_images/remove.png
 
-.. image:: /_images/remove_ok.png
+.. image:: /userguide/_images/remove_ok.png
    :alt:   Removing Transfer Action
 
 After canceling, no action to canceled transfer record will be longer available and the **Remove** icon background change color to blue. The same situation deal with Points transfers with "spending" type. 

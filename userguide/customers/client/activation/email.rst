@@ -6,7 +6,7 @@ ACCOUNT ACTIVATION VIA E-MAIL
 
 On the email address provided by customer in the registration form activation link will be sent. 
 
-.. image:: /_images/activation_mail.png
+.. image:: /userguide/_images/activation_mail.png
    :alt:   Account activation link email message
 
 To activate customer account using link:

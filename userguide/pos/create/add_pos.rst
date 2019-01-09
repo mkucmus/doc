@@ -6,7 +6,7 @@ ADDING NEW POS
 
 You can add unlimited amount of stores where processed transaction within Loyalty Program will be recorded and count. 
 
-.. image:: /_images/add_pos.png
+.. image:: /userguide/_images/add_pos.png
    :alt:   add POS
 
 To add new POS:
@@ -14,10 +14,10 @@ To add new POS:
 
 1. On the Admin sidebar, tap **POS**. Then, choose **Add POS**. You can also add store directly from **All POS** list by clicking ``Add POS`` at the top of the page 
 
-.. image:: /_images/add_pos_button.png
+.. image:: /userguide/_images/add_pos_button.png
    :alt:   Add pos Options 
 
-.. image:: /_images/basic_pos.png
+.. image:: /userguide/_images/basic_pos.png
    :alt:   Add POS Basic Information Section
 
 2. In the **Basic informations** section, do the following:   
@@ -42,5 +42,4 @@ To add new POS:
  - Longitude 
 
 5. When complete, tap ``SAVE``
- 
  

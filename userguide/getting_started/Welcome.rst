@@ -13,7 +13,7 @@ POS Cockpit
 
     Use the POS Cockpit and run your loyalty app in your off-line stores
 
-.. image:: /_images/pos.png
+.. image:: /userguide/_images/pos.png
    :alt:   pos cockpit
    
    
@@ -23,7 +23,7 @@ Admin Cockpit
 
     Use the Admin Cockpit to manage your loyalty application
 
-.. image:: /_images/admin.png
+.. image:: /userguide/_images/admin.png
    :alt:   admin cockpit
 
    
@@ -33,7 +33,7 @@ Client Cockpit
 
     Use the Client Cockpit and create a dedicated web portal for your customers
 
-.. image:: /_images/client.png
+.. image:: /userguide/_images/client.png
    :alt:   client cockpit
 
    
@@ -44,7 +44,7 @@ E-commerce Cockpit
 
     New additional loyalty and gamification features as a seamless part of your webshop
 
-.. image:: /_images/e-commerce.png
+.. image:: /userguide/_images/e-commerce.png
    :alt:   e-commerce cockpit  
    
    
@@ -55,6 +55,5 @@ API & Connectors
 
     Connect Open Loyalty to eCommerce platforms, ERP systems, mobile applications, or any external system
 
-.. image:: /_images/api.png
+.. image:: /userguide/_images/api.png
    :alt:   api 
- 

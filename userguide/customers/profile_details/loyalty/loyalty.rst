@@ -12,7 +12,7 @@ LOYALTY
 Level is calculated with transactions
 -------------------------------------
 
-.. image:: /_images/loyalty_transactions.png
+.. image:: /userguide/_images/loyalty_transactions.png
    :alt:   Loyalty Points Balance 
 
 1. **Total earned points**
@@ -41,7 +41,7 @@ Level is calculated with points
 
 When you set up in Open Loyalty configuration to use points for level recalculation additional information about level expiration date and earned points within specified period amount will be displayed.
 
-.. image:: /_images/loyalty_points.png
+.. image:: /userguide/_images/loyalty_points.png
    :alt:   Loyalty Points Balance    
 
 1. **Total points earned since last level recalculation**
@@ -51,4 +51,3 @@ When you set up in Open Loyalty configuration to use points for level recalculat
 2. **Level will expire in**    
 
    Number of days until customer level recalculation. It is calculated since registration date or last downgrade date plus configured in :doc:`Level downgrade settings </getting_started/settings/Configuration/level_downgrade_settings>` number of days
-   

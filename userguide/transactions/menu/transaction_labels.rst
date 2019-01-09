@@ -10,9 +10,9 @@ Customer from Client cockpit can also add or edit transaction labels but only th
 
 Click **Edit labels** icon |edit2| in the Action column to open the transaction labels editor.
 
-.. |edit2| image:: /_images/edit2.png  
+.. |edit2| image:: /userguide/_images/edit2.png
 
-.. image:: /_images/transaction_labels.png
+.. image:: /userguide/_images/transaction_labels.png
    :alt:   Transaction labels editor
 
 To **create Label**, tap ``Add Label`` and do the following:

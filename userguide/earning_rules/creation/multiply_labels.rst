@@ -17,10 +17,10 @@ To add new Multiply earned points by product labels:
 
 1. On the Admin sidebar, tap **Earning rules**. Then, choose **Add earning rule**. You can also add rule directly from **All earning rules** list by clicking ``Add earning rule`` at the top of the page 
 
-.. image:: /_images/add_rule_button.png
+.. image:: /userguide/_images/add_rule_button.png
    :alt:   Add Rule Options  
    
-.. image:: /_images/basic_rule.png
+.. image:: /userguide/_images/basic_rule.png
    :alt:   Add Earning Rule Form
 
 2. In **Basic informations** section, do the following:  
@@ -29,7 +29,7 @@ To add new Multiply earned points by product labels:
  - Provide a brief **Description** of the rule that explains how to award points and information when the rule is active (thereby using to points calculation) 
  - To activate the rule, in **Active** field select "**Active**" from the dropdown list
 
-.. image:: /_images/multiply_labels.png
+.. image:: /userguide/_images/multiply_labels.png
    :alt:   Multiply earned points by product labels
 
 3. In **Type details** section set rule **type** as Multiply earned points by product labels and complete details as follow: 
@@ -65,7 +65,7 @@ To add new Multiply earned points by product labels:
 
    When a transaction comes from a specific POS, only earning rules assigned to this POS will be used to calculate points. 
 
-.. image:: /_images/rule_pos.png
+.. image:: /userguide/_images/rule_pos.png
    :alt:   Earning rule assignment to POS
    
 6. In **Target** section specify group of customers for which rule will be used. For example, Gold members will get 2 times more points than Bronze   
@@ -73,15 +73,15 @@ To add new Multiply earned points by product labels:
  - In **Target type** choose from dropdown list Level or Segment to specify whether the rule will be active for customers assigned to particular level or segment. 
  - Depending on the **Target type** field **Segments** to specify segments **or Levels** to specify levels appear.  You can choose one or more levels/segments to used
 
-.. image:: /_images/rule_level.png
+.. image:: /userguide/_images/rule_level.png
    :alt:   Earning rule target option
    
-.. image:: /_images/rule_segment.png
+.. image:: /userguide/_images/rule_segment.png
    :alt:   Earning rule target option
 
 7. If applicable, in **Earning rule photo** section upload image for Earning rule
 
-.. image:: /_images/rule_photo.png
+.. image:: /userguide/_images/rule_photo.png
    :alt:   Earning rule photo option
 
 8. When complete, tap ``SAVE``
@@ -105,4 +105,3 @@ In this exceptional case, the sequence of points calculation can be as follow:
 1. **If applicable, General spending rule** 
 2. **Multiply earned points** - *edited rule, the most "current"*
 3. **Multiply earned points by product labels** - *rule with stoppable flag*  
-  

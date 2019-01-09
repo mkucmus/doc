@@ -5,7 +5,7 @@ CUSTOMERS ACCOUNTS
 
 | Customers can access their account dashboard by clicking the link on your website. They can use their account to view and modify their personal information provided during registration process, check and redeem rewards , learn how to earn points, view their transaction history (offline and online) and history of points earned and spent
 
-.. image:: /_images/customer_account.png
+.. image:: /userguide/_images/customer_account.png
    :alt:   Customer Account Home Page
 
 Content

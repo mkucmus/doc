@@ -6,7 +6,7 @@ TRANSACTIONS
 
 Transactions is a tab which contain latest transaction data such as type, place and date of transaction, value of earned points etc. linked with Customer
 
-.. image:: /_images/customer_transaction.png
+.. image:: /userguide/_images/customer_transaction.png
    :alt:   Transactions view
 
 Field description
@@ -35,9 +35,9 @@ Field description
 
 Click **View** icon |view| in the Action column to open the transaction details – customer detail information and purchased items.
 
-.. |view| image:: /_images/view.png 
+.. |view| image:: /userguide/_images/view.png
 
-.. image:: /_images/transaction_details.png
+.. image:: /userguide/_images/transaction_details.png
    :alt:   Transaction Record Preview
 
 To see the list of all your customer transaction (not only the latest) click ``All Transactions`` below the tab.

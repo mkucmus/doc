@@ -15,7 +15,7 @@ PROFILE DETAILS
  - Email address
  - Phone number (in one of acceptable format)
  
-.. image:: /_images/account_summary.png
+.. image:: /userguide/_images/account_summary.png
    :alt:   Customer Account Summary
 
 | Block below, provides a snapshot of customer personal information entered during registration process both required and optional. 
@@ -28,9 +28,9 @@ PROFILE DETAILS
 
 To update customer data go to edit mode by clicking Edit icon |edit| in the block header or Click ``Edit`` above account summary block, at the top of the page   
 
-.. |edit| image:: /_images/edit.png
+.. |edit| image:: /userguide/_images/edit.png
 
-.. image:: /_images/profile_details.png
+.. image:: /userguide/_images/profile_details.png
    :alt:   Customer Profile Details
 
 The following details are displayed in this section:
@@ -54,4 +54,3 @@ The following details are displayed in this section:
   - Flat/Unit name
   - Postal code
   - Country
-  

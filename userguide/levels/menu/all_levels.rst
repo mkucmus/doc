@@ -8,7 +8,7 @@ ALL LEVELS
 
 | You can easily view and modify all levels credentials such as condition value, assigned rewards and special rewards. Tab allows also to preview number of customers assigned to particular levels and see theirs detail or download in .CSV file.
 
-.. image:: /_images/levels2.png
+.. image:: /userguide/_images/levels2.png
    :alt:   Customers Levels
 
 Use the standard controls to sort the list and apply actions (modify and download targeted customer) to selected levels.

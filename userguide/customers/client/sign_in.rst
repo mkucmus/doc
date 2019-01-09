@@ -6,10 +6,10 @@ CUSTOMER SIGN IN
 
 Customer have easy access to their account from main page of your website. Depending on the configuration, customers can be redirected to customer cockpit as subdomain (like club.yourbrand.com) or as loyalty module within your website. 
 
-.. image:: /_images/sign_link.png
+.. image:: /userguide/_images/sign_link.png
    :alt:   Link to Loyalty Module within Webshop 
 
-.. image:: /_images/sign_client.png
+.. image:: /userguide/_images/sign_client.png
    :alt:   Sign In to Customer Account within Subdomain       
 
 When customers forget their passwords, a reset link is sent to the email address that is associated with the account.
@@ -49,10 +49,10 @@ To sign out of the customer account:
 
 In the upper-right corner, tap the **Logout** |logout| icon
 
-.. |logout| image:: /_images/icon_logout.png
+.. |logout| image:: /userguide/_images/icon_logout.png
 
 
-.. image:: /_images/client_logout.png
+.. image:: /userguide/_images/client_logout.png
    :alt:   Logout
 
 

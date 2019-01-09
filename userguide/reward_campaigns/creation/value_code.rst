@@ -25,7 +25,7 @@ To create Value code reward:
 
 1. On the Admin sidebar, tap **Reward campaigns**. Then, choose **Add reward campaign**. You can also add new reward directly from **All reward campaigns** list by clicking ``Add reward campaign`` at the top of the page 
 
-.. image:: /_images/add_reward_button.png
+.. image:: /userguide/_images/add_reward_button.png
    :alt:   Add Reward Options  
 
 2. Scroll down to **Campaign type** section and select a **Value code** reward type from a dropdown list (by default Discount code is displaying)
@@ -37,7 +37,7 @@ To create Value code reward:
     Different fields are required for *Cashback, Custom reward and Percentage discount code* , than for other types i.e. discount code, free delivery etc.  
 
 
-.. image:: /_images/value_basic.png
+.. image:: /userguide/_images/value_basic.png
    :alt:   Value code Basic Information
 
 3. When you choose *Value code*, in the **Basic information** section related to the default language version do the following    
@@ -50,7 +50,7 @@ To create Value code reward:
  - If needed, provide a **Brand description** of the reward campaign using rich media format
  - If applicable, fulfill the same fields in other language version e.g. polish as on a screen above 
 
-.. image:: /_images/value_details.png
+.. image:: /userguide/_images/value_details.png
    :alt:   Value code Campaign Details 
 
 4. In the **Campaign details** section do the following
@@ -80,7 +80,7 @@ To create Value code reward:
           
  - Repeat the process for all labels you want to used in your Loyalty Program
   
-.. image:: /_images/reward_label.png
+.. image:: /userguide/_images/reward_label.png
    :alt:   Reward Campaign Labels    
    
 .. note:: 
@@ -93,12 +93,12 @@ To create Value code reward:
 
 6. In the same **Campaign details** section, in **Categories** field, select campaign category or categories to be assign to this reward campaign. You can assign more than one campaign category. 
 
-.. image:: /_images/reward_category.png
+.. image:: /userguide/_images/reward_category.png
    :alt:   Campaign category    
 
 7. **Brand info** section allow to upload an image of the reward brand, that will be display in Client cockpit
 
-.. image:: /_images/reward_brand.png
+.. image:: /userguide/_images/reward_brand.png
    :alt:   Brand info 
 
 8. A reward can be extended to members of a specific customer group. In the **Target** section identify the customer group that qualifies to receive the reward
@@ -106,7 +106,7 @@ To create Value code reward:
  - In **Target type** field, select from dropdown list Level or Segment to specify whether the reward will be available for customers assigned to particular level or segment
  - Depending on selected *Target type*, field **Segments** to specify segments or **Levels** to specify levels appear.  You can choose one or more levels/segments to used
 
-.. image:: /_images/reward_target.png
+.. image:: /userguide/_images/reward_target.png
    :alt:   Target
 
 9. To limit the number of times each customer can use the coupon, enter the number of usage limits in **Limit** section. *To limit the number of times the coupon can be used*, complete the limits in **Limit** section: 
@@ -116,7 +116,7 @@ To create Value code reward:
  - For unlimited use, mark **Use of the coupon code is not limited** checkbox. When you choose that option *Limit* and *Limit per customer* fields will not be available 
  - Mark **Single Coupon** checkox to allow use the same coupon code by all customers. Unmarked checkbox means that customers receive different coupon codes (depedning on number uploaded in **Coupons** section) 
  
-.. image:: /_images/reward_limit.png
+.. image:: /userguide/_images/reward_limit.png
    :alt:   Limit 
  
  
@@ -124,7 +124,7 @@ To create Value code reward:
 
     Type manually a **Coupons codes** to be used by customer or **Upload coupons** list of codes from CSV file. 
 
-.. image:: /_images/reward_coupons.png
+.. image:: /userguide/_images/reward_coupons.png
    :alt:   Coupons  
 
 
@@ -134,7 +134,7 @@ To create Value code reward:
  - In **Visible to** field set the last date the reward is visible. You can either enter the date or select it from the calendar
  - If you want the reward to be visible all the time mark **All time visible** checkbox. When you choose that option *Visible from and Visible to fields will not be available*. 
 
-.. image:: /_images/reward_visibility.png
+.. image:: /userguide/_images/reward_visibility.png
    :alt:   Reward Visibility
 
 .. note:: 
@@ -148,7 +148,7 @@ To create Value code reward:
  - In **Active to** field set the last date the reward is available. You can either enter the date or select it from the calendar
  - If you want the reward to be active all the time mark **All time active** checkbox. When you choose that option *Active from and Active to fields will not be available*.
  
-.. image:: /_images/reward_activity.png
+.. image:: /userguide/_images/reward_activity.png
    :alt:   Activity
 
 .. note:: 
@@ -169,7 +169,7 @@ To create Value code reward:
     
  All added images will be visible in **Campaign photos** field after *save*
 
-.. image:: /_images/reward_photo.png
+.. image:: /userguide/_images/reward_photo.png
    :alt:   Reward photo
 
 .. note:: 

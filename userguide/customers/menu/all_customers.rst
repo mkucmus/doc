@@ -10,7 +10,7 @@ ALL CUSTOMERS
 
 | Pagination controls appear if there are more customer records than fit on the page, and are used to move from one page to the next.
 
-.. image:: /_images/all_customers.png
+.. image:: /userguide/_images/all_customers.png
    :alt:   All customers
 
 To view customer detail information:
@@ -19,9 +19,9 @@ To view customer detail information:
 
 2. In the Customers list, find the record to be previewed and click **View**  |view|  icon in the Action column to open the record in view mode
 
-.. |view| image:: /_images/view.png
+.. |view| image:: /userguide/_images/view.png
 
-.. image:: /_images/customer_details.png
+.. image:: /userguide/_images/customer_details.png
    :alt:   Customer Record Preview
 
 To learn more about **Customer Profile Detail Page**, see :doc:`Profile details </profile_details/index>`

@@ -13,7 +13,7 @@ INTRODUCTION
 | Customers can redeem points toward rewards, based on the condition (points cost) that you establish.
 
 
-.. image:: /_images/earning_rules.png
+.. image:: /userguide/_images/earning_rules.png
    :alt:   Earning Rules 
 
 To display the Earning rules  menu:
@@ -27,13 +27,12 @@ All earning rules
 *****************
 Lists all Earning Rules within your loyalty program with additional information regarding it’s activity, conditions and general information
 
-.. image:: /_images/earning_rules.png
+.. image:: /userguide/_images/earning_rules.png
    :alt:   Earning Rules 
 
 Add earning rule
 ****************
 Lists all data that need to be filled out to add new earning rule 
 
-.. image:: /_images/add_rule.png
+.. image:: /userguide/_images/add_rule.png
    :alt:   Add Earning Rule
- 

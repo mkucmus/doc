@@ -8,7 +8,7 @@ The All merchants grid provide information about all merchants and its assigned 
 
 Moreover, list contains POS address details and additional information about each one and allows modify merchant data. 
 
-.. image:: /_images/merchant.png
+.. image:: /userguide/_images/merchant.png
    :alt:   Merchants
 
 Use the standard controls to sort the list, filter and search merchant by typing in the field under column header value you want to find, and apply actions to selected merchants (modify or remove). 

@@ -6,7 +6,7 @@ INTRODUCTION
 
 The Points Transfers section lists all – system and imported, increasing and decreasing sum of loyalty points assigned to customer account points transfers that has taken place between your customers account and Open Loyalty, and provides access to more detailed information.
 
-.. image:: /_images/points_transfers.png
+.. image:: /userguide/_images/points_transfers.png
    :alt:   Points Transfers 
 
 To display the Points Transfers menu:

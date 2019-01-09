@@ -14,5 +14,5 @@ To display the address details:
 
 After clicking, the popup with detailed address will be shown. 
 
-.. image:: /_images/pos_details.png
+.. image:: /userguide/_images/pos_details.png
    :alt:   Localization Details Popup

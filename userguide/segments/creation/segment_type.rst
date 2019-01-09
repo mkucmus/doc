@@ -10,7 +10,7 @@ The criteria consist of conditions that can be combined through AND (conjuction 
 
 During creation of Segment you must specify Segment parts type, describing conditions for assigning customer. Every type has its own required fields that must be filled, to specified condition. 
 
-.. image:: /_images/segment_type.png
+.. image:: /userguide/_images/segment_type.png
    :alt:   Segment Parts Types
 
 

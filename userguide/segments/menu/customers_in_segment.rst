@@ -14,7 +14,7 @@ To display the list of customers:
 
 After clicking, the list of customers will be opened, filtered according to the assigned segment.
 
-.. image:: /_images/customers_in_segment.png
+.. image:: /userguide/_images/customers_in_segment.png
    :alt:   List of Customers in Big Spenders Segment
 
 

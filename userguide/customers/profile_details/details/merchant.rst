@@ -8,7 +8,7 @@ ASSIGNED MERCHANT
 
 | Not only merchant from POS assigned to customer account can be selected.
 
-.. image:: /_images/customer_merchant.png
+.. image:: /userguide/_images/customer_merchant.png
    :alt:   Assigned Merchant 
 
 To change the Merchant to which the customer is assigned click ``Edit`` above account summary block, at the top of the page to go to edit mode.

@@ -6,7 +6,7 @@ ACCOUNT ACTIVATION VIA SMS
 
 On the phone number provided by customer in the registration form activation code will be sent. 
 
-.. image:: /_images/activation_code.png
+.. image:: /userguide/_images/activation_code.png
    :alt:   Account activation code SMS message
 
 To activate customer account using SMS code:
@@ -16,12 +16,12 @@ When customer receive that message, he needs to return on Login page and do as f
 
 1. On the login page, tap **Activate an account or resend a code** 
 
-.. image:: /_images/login_page.png
+.. image:: /userguide/_images/login_page.png
    :alt:   Login page
 
 2. When prompted, in the Account activation window, enter the **Activation code** that received. Then tap ``SAVE``
 
-.. image:: /_images/sms_activation.png
+.. image:: /userguide/_images/sms_activation.png
    :alt:   Customer account activation 
 
 
@@ -41,7 +41,7 @@ To resend an activation code:
     - Subscriber number: 123456789
     - In total: +48123456789 / 123456789 / 48123456789
 
-.. image:: /_images/resend.png
+.. image:: /userguide/_images/resend.png
    :alt:   Resend code
 
 4. When complete, tap ``Resend activation code`` 

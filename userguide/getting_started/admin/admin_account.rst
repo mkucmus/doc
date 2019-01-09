@@ -13,7 +13,7 @@ To edit your account information:
 #. Make any necessary changes to your profile information. If you change your password, make sure to write it down.
 #. When complete, tap ``SAVE``
 
-.. image:: /_images/admin_profile.png
+.. image:: /userguide/_images/admin_profile.png
    :alt:   Admin profile
 
 .. warning::

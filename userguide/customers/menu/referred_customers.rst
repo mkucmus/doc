@@ -17,7 +17,7 @@ Administrator can view all invitations sent by customer with current status:
 - **Made purchase** 
    referred customer (recipient) made first purchase in Open Loyalty 
 
-.. image:: /_images/referred_customers.png
+.. image:: /userguide/_images/referred_customers.png
    :alt:   Referred customers
 
 

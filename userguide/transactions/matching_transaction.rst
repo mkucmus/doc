@@ -8,7 +8,7 @@ Usually, transaction come from your store system with information about customer
 
 Depending on Matching transaction with customer identification factors priority (set up in Configuration) customer email, phone number or/and loyalty card number can be used. To remain about identification factors please see  :doc:`Configuration </getting_started/settings/Configuration/identification_factors>`
 
-.. image:: /_images/match_transaction.png
+.. image:: /userguide/_images/match_transaction.png
    :alt:   Match Customer Account with Transaction
 
 To match transaction with customer:
@@ -28,6 +28,6 @@ To match transaction with customer:
 3. When complete, tap ``SAVE`` 
 
 
-.. image:: /_images/match_transaction2.png
+.. image:: /userguide/_images/match_transaction2.png
    :alt:   Matching Customer List
 

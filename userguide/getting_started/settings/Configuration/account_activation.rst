@@ -5,7 +5,7 @@ ACCOUNT ACTIVATION METHOD
 =========================
 In order to use Open Loyalty Client cockpit, your customers must first activate their customer account. In Account activation section you set the method how their accounts will be activated – by clicking link in welcome email or by code received via SMS.  
 
-.. image:: /_images/activation.png
+.. image:: /userguide/_images/activation.png
    :alt:   Account Activation Method
 
    
@@ -14,7 +14,7 @@ To set up account activation method:
 
 1. In the upper-right corner, tap the **Settings** icon |settings| . Then on the menu, choose **Configuration**. 
 
-.. |settings| image:: /_images/icon.png
+.. |settings| image:: /userguide/_images/icon.png
 
 2. Scroll down to **Account activation** section 
 

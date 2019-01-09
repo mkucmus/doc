@@ -8,7 +8,7 @@ SYSTEM LOGS
 
 | In addition, you can control logs results by filter and search option.
 
-.. image:: /_images/logs.png
+.. image:: /userguide/_images/logs.png
    :alt:   System Logs
 
 System monitors and logged following events/operations:
@@ -37,7 +37,7 @@ Search Logs by date range
 
 | The date format is as follows: “YYYY-MM-DD HH:mm” and allows to display logs that have been placed from and up to the specified date.
 
-.. image:: /_images/logs_search.png
+.. image:: /userguide/_images/logs_search.png
    :alt:   Search box 
 
 
@@ -46,7 +46,7 @@ To find a match:
 
 1. In the upper-right corner, tap the **Settings** icon |settings| . Then on the menu, choose **System logs**. 
 
-.. |settings| image:: /_images/icon.png
+.. |settings| image:: /userguide/_images/icon.png
 
 2. Set up the starting date in **From** field by selecting date and time from calendar grid
 
@@ -60,7 +60,7 @@ Search/Filter Logs
 
 The filters in the header of each column can be used to limit the list to specific values. You can simply type the value you want to find and press Enter.
 
-.. image:: /_images/logs_filter.png
+.. image:: /userguide/_images/logs_filter.png
    :alt:   Search/Filter Logs Results
 
 To search the list:

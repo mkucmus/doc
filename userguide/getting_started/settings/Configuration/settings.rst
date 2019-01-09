@@ -5,7 +5,7 @@ SETTINGS
 ========
 The Configuration section determines loyalty program and points details, customer earning and spending statuses, account activation, identification factors of a matching transaction with a customer and other settings that are used throughout the Open Loyalty system.
 
-.. image:: /_images/settings.png
+.. image:: /userguide/_images/settings.png
    :alt:   Open Loyalty Settings
 
    
@@ -16,7 +16,7 @@ To configure Open Loyalty:
 
 | In the **Settings** section, do the following:
 
-.. |settings| image:: /_images/icon.png
+.. |settings| image:: /userguide/_images/icon.png
 
 1. In the **Currency** list, select the currency to be used for the online and offline transaction, to one of the following:
 
@@ -40,7 +40,7 @@ To configure Open Loyalty:
 
 5. If applicable, in **Conditions File (PDF)** field you can upload Loyalty Program Terms & Conditions document in .pdf. After uploading and saving settings a link where a file is available appears. 
   
-.. image:: /_images/condition_file.png
+.. image:: /userguide/_images/condition_file.png
    :alt:   Conditions file uploaded
 
 .. note::
@@ -62,7 +62,7 @@ To configure Open Loyalty:
 11. **Points will be locked for** field is available and required only when **Points are never locked** is *unselected*. 
   Points will be locked for a provided number of days from the date of transaction registration. After passing selected locked time points automatically will get active and customer level will be recalculated
 
-.. image:: /_images/locked_points.png
+.. image:: /userguide/_images/locked_points.png
    :alt:   Locked points options
 
 .. note::
@@ -74,7 +74,7 @@ To configure Open Loyalty:
 13. If you want to get a webhook notification about the customer earned points expiration you can define in **Days before expiring points to notify user** field number of days when notification will be sent.
   For proper operation, it **is necessary to activate the webhook** and provide the URL address to which the information will be sent (more in :doc:`Webhook section </getting_started/settings/Configuration/webhooks>`)
 
-.. image:: /_images/webhook_notification.png
+.. image:: /userguide/_images/webhook_notification.png
    :alt:   Webhook notification option – points expiration
 
 .. code-block:: text
@@ -88,7 +88,7 @@ To configure Open Loyalty:
 14. If you want to get a webhook notification about the customer coupon expiration you can define in **Days before expiring coupons to notify user** field number of days when notification will be sent. 
    For proper operation, it **is necessary to activate the webhook** and provide the URL address to which the information will be sent (more in :doc:`Webhook section </getting_started/settings/Configuration/webhooks>`)   
 
-.. image:: /_images/webhook_notification2.png
+.. image:: /userguide/_images/webhook_notification2.png
    :alt:   Webhook notification option – coupons expiration 
 
 .. code-block:: text

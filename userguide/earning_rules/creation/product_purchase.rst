@@ -11,10 +11,10 @@ To add new Product purchase rule:
 
 1. On the Admin sidebar, tap **Earning rules**. Then, choose **Add earning rule**. You can also add rule directly from **All earning rules** list by clicking ``Add earning rule`` at the top of the page 
 
-.. image:: /_images/add_rule_button.png
+.. image:: /userguide/_images/add_rule_button.png
    :alt:   Add Rule Options  
    
-.. image:: /_images/basic_rule.png
+.. image:: /userguide/_images/basic_rule.png
    :alt:   Add Earning Rule Form
 
 2. In **Basic informations** section, do the following:  
@@ -23,7 +23,7 @@ To add new Product purchase rule:
  - Provide a brief **Description** of the rule that explains how to award points and information when the rule is active (thereby using to points calculation) 
  - To activate the rule, in **Active** field select "**Active**" from the dropdown list
 
-.. image:: /_images/product_purchase.png
+.. image:: /userguide/_images/product_purchase.png
    :alt:   Product purchase
 
 3. In **Type details** section set rule **type** as Product purchase and complete details as follow:
@@ -55,7 +55,7 @@ To add new Product purchase rule:
 
    When a transaction comes from a specific POS, only earning rules assigned to this POS will be used to calculate points. 
 
-.. image:: /_images/rule_pos.png
+.. image:: /userguide/_images/rule_pos.png
    :alt:   Earning rule assignment to POS
    
 6. In **Target** section specify group of customers for which rule will be used. For example, Gold members will get 2 times more points than Bronze   
@@ -63,15 +63,15 @@ To add new Product purchase rule:
  - In **Target type** choose from dropdown list Level or Segment to specify whether the rule will be active for customers assigned to particular level or segment. 
  - Depending on the **Target type** field **Segments** to specify segments **or Levels** to specify levels appear.  You can choose one or more levels/segments to used
 
-.. image:: /_images/rule_level.png
+.. image:: /userguide/_images/rule_level.png
    :alt:   Earning rule target option
    
-.. image:: /_images/rule_segment.png
+.. image:: /userguide/_images/rule_segment.png
    :alt:   Earning rule target option
 
 7. If applicable, in **Earning rule photo** section upload image for Earning rule
 
-.. image:: /_images/rule_photo.png
+.. image:: /userguide/_images/rule_photo.png
    :alt:   Earning rule photo option
 
 8. When complete, tap ``SAVE``
@@ -103,4 +103,3 @@ In this exceptional case, the sequence of points calculation can be as follow:
 3. **3rd  Product purchase rule** - *rule edited today, the most "current"*
 4. **2nd  Product purchase rule** - *rule edited yesterday, more "current" than the flag rule*    
 5. **1st  Product purchase rule** - *rule with stoppable flag, added day before yesterday*
- 

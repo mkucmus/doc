@@ -18,7 +18,7 @@ To assign a Reward campaign to Customer:
 
 2. In the Reward campaigns list, find the active reward campaign to be bought and click **Assign** icon |assign| in the Action column. 
 
-.. |assign| image:: /_images/assign.png
+.. |assign| image:: /userguide/_images/assign.png
 
 
 .. note:: 
@@ -37,7 +37,7 @@ To assign a Reward campaign to Customer:
  - In **Quantity** field provide number of coupons to be assign to customer (remember about the reward campaign limits)  
  - When complete, tap ``SAVE``
 
-.. image:: /_images/buy_reward1.png
+.. image:: /userguide/_images/buy_reward1.png
    :alt:   Buy reward campaign for client
 
 
@@ -47,7 +47,7 @@ To assign a Reward campaign to Customer:
  - Enter **Transaction document number** belonging to selected in previous step customer. Value of this transaction will be a base to calculate percentage discount that customer receive. 
  - When complete, tap ``SAVE``
 
-.. image:: /_images/buy_reward2.png
+.. image:: /userguide/_images/buy_reward2.png
    :alt:   Buy Percentage discount code for Client
 
 5. Bought reward campaign appears on Redeemed rewards list. 

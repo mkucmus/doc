@@ -8,7 +8,7 @@ IDENTIFICATION FACTORS
 
 | Otherwise, these information are used to assign your loyalty program participant with transaction they making and transmitting relevant transaction data to Open Loyalty for completing or validating redemption-related transactions or re-wards, calculating associated rewards or identifying transaction matches.  
 
-.. image:: /_images/identification_factors.png
+.. image:: /userguide/_images/identification_factors.png
    :alt:   Identification factors
 
    
@@ -17,11 +17,11 @@ To set up identification factors:
 
 1. In the upper-right corner, tap the **Settings** icon |settings| . Then on the menu, choose **Configuration**. 
 
-.. |settings| image:: /_images/icon.png
+.. |settings| image:: /userguide/_images/icon.png
 
 2. Scroll down to **Matching transaction with customer** section. Fields in this section are used to prioritize which of factors will be taken first to calculate transaction to customer assignment.
 
-.. image:: /_images/matching.png
+.. image:: /userguide/_images/matching.png
    :alt:   Matching Factors with Priority 
 
 3. The **Priority** field determines the order in which the calculation will be handled. Enter a number to determine the Priority of this factor in relation to other factors that might be active at the same time (number 1 has the highest priority).
@@ -43,7 +43,7 @@ To set up identification factors:
 
 5. You can simply remove factor rule by clicking bin |bin| icon in a particular row 
 
-.. |bin| image:: /_images/bin.png
+.. |bin| image:: /userguide/_images/bin.png
 
 6. When complete, tap ``SAVE``
 

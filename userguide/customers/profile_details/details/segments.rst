@@ -8,6 +8,6 @@ SEGMENTS
 
 | To learn more about segments, see :doc:`Segments </segments/index>`
 
-.. image:: /_images/customer_segments.png
+.. image:: /userguide/_images/customer_segments.png
    :alt:   Segments
 

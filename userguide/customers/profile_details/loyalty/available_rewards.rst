@@ -6,14 +6,14 @@ AVAILABLE REWARDS
 
 Available rewards tab contain view of Reward Campaigns available for particular customer, including cost in points to redeem reward and dates when reward is available.
 
-.. image:: /_images/available_reward.png
+.. image:: /userguide/_images/available_reward.png
    :alt:   Available Rewards
 
 Click **View** icon |view| in the Action column to open the Reward Campaign detail information 
 
-.. |view| image:: /_images/view.png   
+.. |view| image:: /userguide/_images/view.png
 
-.. image:: /_images/reward_details.png
+.. image:: /userguide/_images/reward_details.png
    :alt:   Reward Campaign Details
 
 To see the list of  all rewards available for customer within Loyalty Program click ``All Reward Campaigns`` below the tab

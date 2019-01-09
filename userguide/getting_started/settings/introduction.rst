@@ -24,5 +24,5 @@ Contents:
 #. :doc:`SYSTEM LOGS </getting_started/settings/system_logs>` - informational, error and warning events list related to the Open Loyalty system
 
    
-.. image:: /_images/menu.png
+.. image:: /userguide/_images/menu.png
    :alt:   Open Loyalty Settings

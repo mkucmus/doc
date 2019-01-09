@@ -17,7 +17,7 @@ Home Page
 
     The POS Cockpit Home page provides button links to main details of loyalty activities: transactions, customers, Earning Rules and Reward Campaigns
 
-.. image:: /_images/pos_cockpit.png
+.. image:: /userguide/_images/pos_cockpit.png
    :alt:   POS Cockpit Home Page
 
 
@@ -30,7 +30,7 @@ Match transaction & customer
    
     To remain about identification factors please see :doc:`Configuration </getting_started/settings/Configuration/identification_factors>` 
 
-.. image:: /_images/pos_match.png
+.. image:: /userguide/_images/pos_match.png
    :alt:   Match transaction & customer
 
 
@@ -41,7 +41,7 @@ Register customer
     
     Allows to register new customer directly from the POS. Useful when new customer want to register to Loyalty Program during his shopping in a store. 
    
-.. image:: /_images/pos_register.png
+.. image:: /userguide/_images/pos_register.png
    :alt:   Register customer
 
 
@@ -52,7 +52,7 @@ Find customer
     
     Allows to find specify customer with a link to each to preview his profile details directly from the POS. 
 
-.. image:: /_images/pos_customer.png
+.. image:: /userguide/_images/pos_customer.png
    :alt:   Find customer
 
 
@@ -63,7 +63,7 @@ Find transaction
     
     Allows to find specify transactions and preview its details directly from the POS with a link to each to see more information.
 
-.. image:: /_images/pos_transactions.png
+.. image:: /userguide/_images/pos_transactions.png
    :alt:   Find transaction
 
 
@@ -74,7 +74,7 @@ Reward campaigns
     
     Lists all available rewards with details about target, limits, cost in points and status with a link to each to see more information
 
-.. image:: /_images/pos_reward.png
+.. image:: /userguide/_images/pos_reward.png
    :alt:   Reward campaigns
 
 
@@ -85,7 +85,7 @@ Earning Rules
     
     Lists all available rewards with description and details about type, time boundaries when rule is active and status with a link to each to see more information.
 
-.. image:: /_images/pos_rules.png
+.. image:: /userguide/_images/pos_rules.png
    :alt:   Earning Rules
 
 

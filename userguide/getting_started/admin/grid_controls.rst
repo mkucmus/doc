@@ -5,7 +5,7 @@ GRID CONTROLS
 =============
 Admin pages that manage data display a collection of records in a grid. The controls at the top of each column can be used to sort the data. The current sort order is indicated by an ascending or descending arrow in the column header. The Action column lists operations that can be applied to an individual record.
 
-.. image:: /_images/customer_grid.png
+.. image:: /userguide/_images/customer_grid.png
    :alt:   Customer Grid
 
    
@@ -21,7 +21,7 @@ To paginate the list:
 
 #. Tap **Next** and **Previous** to page through the list, or click a specific **Page Number**
 
-.. image:: /_images/pagination.png
+.. image:: /userguide/_images/pagination.png
    :alt:   Pagination options
 
 
@@ -33,5 +33,5 @@ To search the list:
  - To find an **exact match**, enter the exact word/number you want to find
 2. You can put as many values under different columns headers as needed to describe the conditions that must be met for the search result. Search values from each column create an AND Condition rule. It means that **in search results only records matching all entered values are displayed**.
    
-.. image:: /_images/controls.png
+.. image:: /userguide/_images/controls.png
    :alt:   Customer search controls

@@ -8,7 +8,7 @@ ALL TRANSACTIONS
 
 | Moreover, list contains detail information about store and date when transaction was made, transaction internal number and allows to preview transaction and purchased items detail. 
 
-.. image:: /_images/transactions2.png
+.. image:: /userguide/_images/transactions2.png
    :alt:   Transactions List
 
 | Use the standard controls to sort the list by Purchase date, filter and search transfers by typing in the field under column header value you want to find, and apply action (preview) to selected transaction records. 

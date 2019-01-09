@@ -11,7 +11,7 @@ CREATING CUSTOMER LEVEL
 | **For example**, when default language is English, information are display in English, but when we change it on polish as a default language, all basic information will be displayed in polish (if provided).   
 
 
-.. image:: /_images/add_level.png
+.. image:: /userguide/_images/add_level.png
    :alt:   Add New Level
 
 To create a New Customer Level:
@@ -19,10 +19,10 @@ To create a New Customer Level:
 
 1. On the Admin sidebar, tap **Levels**. Then, choose **Add level**. You can also add customer directly from **All levels** list by clicking ``Add Level`` at the top of the page 
 
-.. image:: /_images/add_level_button.png
+.. image:: /userguide/_images/add_level_button.png
    :alt:   Add Level Options  
    
-.. image:: /_images/basic_level.png
+.. image:: /userguide/_images/basic_level.png
    :alt:   Add Level Form   
 
 2. In the **Basic Information** section, related to the default language version do the following: 

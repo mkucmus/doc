@@ -18,7 +18,7 @@ INTRODUCTION
 
 | Each level can provide fixed discounts and also have exclusive rewards that can only be claimed when a customer is on that level.
 
-.. image:: /_images/levels2.png
+.. image:: /userguide/_images/levels2.png
    :alt:   Customers Levels
 
 
@@ -36,7 +36,7 @@ All Levels
 **********
 Lists all customers level within your loyalty program with additional information regarding conditions values, assigned rewards and possible, limited in time, special rewards
 
-.. image:: /_images/levels2.png
+.. image:: /userguide/_images/levels2.png
    :alt:   Customers Levels
 
 
@@ -44,5 +44,5 @@ Add Level
 *********
 Lists all data that need to be filled out to add new customer level
 
-.. image:: /_images/add_level.png
+.. image:: /userguide/_images/add_level.png
    :alt:   Add level

@@ -8,7 +8,7 @@ You can create from Admin unlimited amount of merchants account and assigned the
 
 Merchant account is needed to log in to POS Cockpit. 
 
-.. image:: /_images/add_merchant.png
+.. image:: /userguide/_images/add_merchant.png
    :alt:   Add Merchant
 
 To add new Merchant:
@@ -16,7 +16,7 @@ To add new Merchant:
 
 1. On the Admin sidebar, tap **Merchants**. Then, choose **Add merchant**. You can also add store directly from **All merchants** list by clicking ``Add Merchants`` at the top of the page 
 
-.. image:: /_images/add_merchant_button.png
+.. image:: /userguide/_images/add_merchant_button.png
    :alt:   Add merchant Options 
 
 2. In the **Merchant details** section, do the following:
@@ -32,7 +32,7 @@ To add new Merchant:
  - Assign **POS** to merchant by selecting from the dropdown list POS name
  - Mark **Allow to add a new transfer points** checkbox to allow merchant to manage customers points transfers (add, spend, cancel, deduct points amount etc.) from the POS Cockpit 
 
-.. image:: /_images/add_merchant_form.png
+.. image:: /userguide/_images/add_merchant_form.png
    :alt:   Add merchant form
 
 3. When complete, tap ``SAVE``
@@ -41,4 +41,3 @@ To add new Merchant:
     
     Your password must be eight or more characters long, and contains at least one upper case letters, one numeric character and one special character
 
-  

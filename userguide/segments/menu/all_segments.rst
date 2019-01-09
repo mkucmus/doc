@@ -8,7 +8,7 @@ The All segments grid provide information about all segments within your Loyalty
 
 Moreover, you can also export the list of targeted customers. 
 
-.. image:: /_images/segment2.png
+.. image:: /userguide/_images/segment2.png
    :alt:   All Segments
 
 

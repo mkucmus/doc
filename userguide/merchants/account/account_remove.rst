@@ -13,9 +13,9 @@ To delete a merchant account:
 
 2. In the Merchants list, find the record to be edited and click **Remove** |remove| icon in the Action column to delete the merchant account
 
-.. |remove| image:: /_images/remove.png
+.. |remove| image:: /userguide/_images/remove.png
 
 3. System display a message asked you to confirm the action. To confirm tap ``Yes`` 
 
-.. image:: /_images/remove_merchant.png
+.. image:: /userguide/_images/remove_merchant.png
    :alt:   Removing Merchant Action

@@ -12,7 +12,7 @@ CREATING CUSTOMER ACCOUNT FROM ADMIN
 
     **The Customer account created from the Admin or POS Cockpit has an active status at once, so there is no need to activate its account by him** 
 
-.. image:: /_images/add_customer.png
+.. image:: /userguide/_images/add_customer.png
    :alt:   New Customer Account Information 
 
 
@@ -21,10 +21,10 @@ To create a New Customer Account:
 
 1. On the Admin sidebar, tap **Customers**. Then, choose **Add Customer**. You can also add customer directly from **All customers** list by clicking ``Add Customer`` at the top of the page 
 
-.. image:: /_images/add_customer_button.png
+.. image:: /userguide/_images/add_customer_button.png
    :alt:   Add Customer Options  
    
-.. image:: /_images/basic_customer.png
+.. image:: /userguide/_images/basic_customer.png
    :alt:   Basic Information 
 
 2. In the **Basic Information** section, complete the following required fields:   
@@ -61,7 +61,7 @@ To create a New Customer Account:
       
  - Repeat the process for all labels you want to used in your Loyalty Program
 
-.. image:: /_images/customer_labels.png
+.. image:: /userguide/_images/customer_labels.png
    :alt:   Customer Labels 
 
 
@@ -73,7 +73,7 @@ To create a New Customer Account:
 
 6. Mark **Address** checkbox, to complete customer address information if needed.
 
-.. image:: /_images/company_and_address.png
+.. image:: /userguide/_images/company_and_address.png
    :alt:   Company Data and Address Sections
 
 7. **Company Data** section is available only when **Company** checkbox is selected. 
@@ -95,7 +95,7 @@ To create a New Customer Account:
 
 9. Mark the **Agreements** that customer has agreed to. **Legal agreement** is required and need to be filled out to set up an account. 
 
-.. image:: /_images/agreements.png
+.. image:: /userguide/_images/agreements.png
    :alt:   Agreements
 
 10. When complete, tap ``SAVE``
