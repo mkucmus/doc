@@ -1,7 +1,7 @@
 .. index::
    single: introduction 
    
-INTRODUCTION
+Introduction
 ============
 
 The Merchant is linked to a store. In Open Loyalty store is called point-of-sale (POS). 
