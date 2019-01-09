@@ -1,7 +1,7 @@
 .. index::
    single: sku
 
-BOUGHT SPECIFIC SKU
+Bought specific SKU
 ===================
 
 | Segment of customers who bought specific products (on the basis of selected SKU).    
