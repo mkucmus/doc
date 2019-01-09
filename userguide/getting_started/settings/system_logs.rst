@@ -1,7 +1,7 @@
 .. index::
    single: system_logs 
 
-SYSTEM LOGS
+System Logs
 ===========
 
 | Logs grid allows monitoring every change on the customer data. The log file is accessible only to Admin users throughout the Admin Cockpit. Logs view allows you to check the date and time that change was made, type and unique ID of change and user name and his unique ID associated with this change. 
