@@ -1,7 +1,7 @@
 .. index::
    single: customer_labels_value
 
-CUSTOMERS WHO HAS SUCH LABELS VALUE
+Customers who has such labels value
 ===================================
 
 | Segment of customers whose label value on is one of the list. Labels are key-value pairs that you can attach to a customer during :doc:`customer account creation </userguide/customers/account/account_creation>`
