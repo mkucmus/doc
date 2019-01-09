@@ -11,8 +11,8 @@ Customers accounts
 Content
 -------
 
-- :doc:`CUSTOMER ACCOUNT ACTIVATION </userguide/customers/client/activation/index>`
+- :doc:`Customer account activation </userguide/customers/client/activation/index>`
 
-- :doc:`CUSTOMER SIGN IN </userguide/customers/client/sign_in>`
+- :doc:`Customer sign in </userguide/customers/client/sign_in>`
 
-- :doc:`CUSTOMER ACCOUNT </userguide/customers/client/account>`
+- :doc:`Customer account </userguide/customers/client/account>`
