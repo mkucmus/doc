@@ -1,7 +1,7 @@
 .. index::
    single: account_updating
 
-UPDATING CUSTOMER ACCOUNT
+Updating Customer account
 =========================
 
 | You can edit information about your customers, including all their data provided during account creation process. 
