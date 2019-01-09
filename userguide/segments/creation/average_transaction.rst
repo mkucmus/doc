@@ -1,7 +1,7 @@
 .. index::
    single: average_transaction
 
-AVERAGE TRANSACTION VALUE
+Average transaction value
 =========================
 
 | Segment of customers whose average transaction value is within the defined range. 
