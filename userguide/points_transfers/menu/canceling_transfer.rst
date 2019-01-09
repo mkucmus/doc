@@ -1,7 +1,7 @@
 .. index::
    single: canceling_transfer
 
-CANCELING POINTS TRANSFER
+Canceling points transfer
 =========================
 
 To cancel points transfer click **Remove** icon |remove| in the Action column. System will display a message asked you to confirm the action. 
