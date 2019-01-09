@@ -1,7 +1,7 @@
 .. index::
    single: brands
 
-BOUGHT SPECIFIC BRANDS
+Bought specific brands
 ======================
 
 | Segment of customers who bought product or products of a given brand.   
