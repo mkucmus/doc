@@ -1,7 +1,7 @@
 .. index::
    single: account
 
-CUSTOMER ACCOUNT
+Customer account
 ================
 
 Customers through theirs account can view all their activity within Loyalty Program, and manage their own personal information.
