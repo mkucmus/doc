@@ -1,4 +1,4 @@
-REWARD CAMPAIGNS TYPES
+Reward campaigns types
 ======================
 
 | Open Loyalty Reward campaigns gives you the ability to create unique rewards that customer can be awarded for a wide range of transaction and activities within your loyalty program. 
