@@ -1,7 +1,7 @@
 .. index::
    single: xml_customer
 
-XML FILE STRUCTURE
+XML file structure
 ==================
 
 .. tip:: 
