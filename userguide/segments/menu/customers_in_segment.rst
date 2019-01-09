@@ -1,7 +1,7 @@
 .. index::
    single: customers_in_segment
 
-CUSTOMERS ASSIGNED TO SEGMENT LIST
+Customers assigned to segment list
 ==================================
 
 You can simply view not only the number but also the list of customers with details assigned to particular segment. 
