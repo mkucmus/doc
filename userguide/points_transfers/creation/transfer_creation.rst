@@ -1,7 +1,7 @@
 .. index::
    single: transfer_creation
    
-CREATING POINTS TRANSFER FROM ADMIN
+Creating Points transfer from admin
 ===================================
 
 | Customers usually earn and spend points within Open Loyalty system – points are added for transaction and activity based on Earning Rules and spent for Reward Campaigns selected by customer within customer cockpit.
