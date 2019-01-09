@@ -1,7 +1,7 @@
 .. index::
    single: buy_reward
 
-BUY REWARD CAMPAIGN FOR CUSTOMER
+Buy reward campaign for customer
 ================================
 
 | Any *active* **Reward campaign** (except Cashback) can be assign manually by Admin user to selected customer account. 
