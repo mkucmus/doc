@@ -1,10 +1,10 @@
 .. index::
    single: all_transactions
 
-ALL TRANSACTIONS
+All transactions
 ================
 
-| The All transactions lists gives you information about type and value of all payment activity referred to customer. 
+| The **All transactions** lists gives you information about type and value of all payment activity referred to customer. 
 
 | Moreover, list contains detail information about store and date when transaction was made, transaction internal number and allows to preview transaction and purchased items detail. 
 
