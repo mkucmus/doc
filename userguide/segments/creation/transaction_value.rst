@@ -1,7 +1,7 @@
 .. index::
    single: transaction_value
 
-TRANSACTION VALUE
+Transaction value
 =================
 
 | Segment of customers whose overall amount of purchases is between the limits.   
