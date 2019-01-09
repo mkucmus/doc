@@ -8,6 +8,7 @@ Identification factors
 
 | Otherwise, these information are used to assign your loyalty program participant with transaction they making and transmitting relevant transaction data to Open Loyalty for completing or validating redemption-related transactions or re-wards, calculating associated rewards or identifying transaction matches.  
 
+
 .. image:: /userguide/_images/identification_factors.png
    :alt:   Identification factors
 
