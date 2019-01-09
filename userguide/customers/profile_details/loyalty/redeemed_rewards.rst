@@ -1,7 +1,7 @@
 .. index::
    single: redeemed_rewards
 
-REDEEMED REWARDS
+Redeemed rewards
 ================
 
 **Redeemed rewards** tab provide information about rewards (Reward Campaigns) that customer has redeemed, divided into used and delivered.
