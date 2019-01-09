@@ -1,7 +1,7 @@
 .. index::
    single: sms
 
-ACCOUNT ACTIVATION VIA SMS
+Account activation via SMS
 ==========================
 
 On the phone number provided by customer in the registration form activation code will be sent. 
