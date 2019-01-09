@@ -1,10 +1,10 @@
 .. index::
    single: all_segments
 
-ALL SEGMENTS
+All segments
 ============
 
-The All segments grid provide information about all segments within your Loyalty Program with information about assigned customers. 
+The **All segments** grid provide information about all segments within your Loyalty Program with information about assigned customers. 
 
 Moreover, you can also export the list of targeted customers. 
 
