@@ -1,4 +1,4 @@
-LIST OF CUSTOMERS ABLE TO REDEEM REWARD
+List of customers able to redeem reward
 =======================================
 
 You can simply view not only the number but also the list of customers with details who could redeem reward. 
