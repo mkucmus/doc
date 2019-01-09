@@ -1,8 +1,9 @@
 .. index::
    single: level_downgrade_settings 
 
-LEVEL DOWNGRADE SETTINGS
+Level downgrade settings
 ========================
+
 | Section appears only when **Levels will be calculated with points option** is chosen and allows to specify if and when customer level should be recalculated. 
 | Here you also determine whether level recalculation should be combined with a customer points reset and define when and which points should be expired
 
