@@ -1,7 +1,7 @@
 .. index::
    single: anniversary
 
-ANNIVERSARY
+Anniversary
 ===========
 
 Segment of customers who have registration or birthday anniversary in specify number of days . 
