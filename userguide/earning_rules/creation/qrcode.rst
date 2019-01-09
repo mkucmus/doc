@@ -1,7 +1,7 @@
 .. index::
    single: qrcode
 
-QR CODE
+QR code
 =======
 
 Reward customer with defined amount of points for scanning QR code e.g. of product. Code for which customer can get points is defined in the Open Loyalty. 
