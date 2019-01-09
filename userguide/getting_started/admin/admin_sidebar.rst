@@ -1,7 +1,7 @@
 .. index::
    single: admin_sidebar
 
-ADMIN SIDEBAR
+Admin sidebar
 =============
 
 The sidebar on the left is the main menu for your Loyalty Platform Admin and is designed for both desktop and mobile devices. The menu provides access to all the tools you need to manage your loyalty programs on a daily basis.
