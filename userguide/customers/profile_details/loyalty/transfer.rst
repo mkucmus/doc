@@ -1,7 +1,7 @@
 .. index::
    single: transfer
 
-POINTS TRANSFERS
+Points transfers
 ================
 
 **Points transfers** tab provide a view of latest points which customer gain or spend. Moreover, list contains information whether points are the result of Earning Rules (system) or they have been manually set by the Admin user (admin) and date until they will be locked.
