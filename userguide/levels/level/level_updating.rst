@@ -1,7 +1,7 @@
 .. index::
    single: level_updating
 
-UPDATING LEVELS DATA
+Updating levels data
 ====================
 
 | You can edit all data provided during level creation process. You can update level data by selecting it’s record from **All levels** list.
