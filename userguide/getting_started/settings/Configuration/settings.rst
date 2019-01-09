@@ -1,8 +1,9 @@
 .. index::
    single: settings2 
 
-SETTINGS
+Settings
 ========
+
 The Configuration section determines loyalty program and points details, customer earning and spending statuses, account activation, identification factors of a matching transaction with a customer and other settings that are used throughout the Open Loyalty system.
 
 .. image:: /userguide/_images/settings.png
