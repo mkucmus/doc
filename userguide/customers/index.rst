@@ -1,4 +1,4 @@
-CUSTOMERS
+Customers
 =========
 
 In this section of the guide, you will become familiar with the customer account menu, and learn to manage customer accounts according to adding, deleting and modifying data. You will also learn how to create customer account that can be referenced in customer levels and segments.
@@ -25,14 +25,14 @@ Customers account creation
 Customer Profile details
 ------------------------
 
-- :doc:`CUSTOMER PROFILE & ACTIVITY DETAILS </userguide/customers/profile_details/index>`
+- :doc:`Customer profile & activity details </userguide/customers/profile_details/index>`
 
 
 Customers Accounts
 ------------------
 
-- :doc:`CUSTOMER ACCOUNT ACTIVATION </userguide/customers/client/activation/index>`
+- :doc:`Customer account activation </userguide/customers/client/activation/index>`
 
-- :doc:`CUSTOMER SIGN IN </userguide/customers/client/sign_in>`
+- :doc:`Customer sign in </userguide/customers/client/sign_in>`
 
-- :doc:`CUSTOMER ACCOUNT </userguide/customers/client/account>`
+- :doc:`Customer account </userguide/customers/client/account>`
