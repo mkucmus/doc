@@ -1,7 +1,7 @@
 .. index::
    single: introduction 
    
-INTRODUCTION
+Introduction
 ============
 
 | Customers can redeem points toward various rewards, based on the cost in points of each that you establish during reward creation. 
