@@ -1,7 +1,7 @@
 .. index::
    single: transaction_count
 
-TRANSACTION COUNT
+Transaction count
 =================
 
 | Segment of customers whose number of purchases is within the defined range.   
