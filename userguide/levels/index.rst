@@ -1,4 +1,4 @@
-LEVELS
+Levels
 ======
 
 | In this section of the guide, you will learn how to create and use customer levels to create opportunities for customer engagement and how to set up targeted discounts and rewards based on a variety of conditions. 
@@ -20,6 +20,7 @@ Levels menu
    
 .. include:: /userguide/levels/menu/map.rst.inc
 
+
 Customer level creation & edition
 ---------------------------------
 .. toctree::
@@ -34,4 +35,4 @@ Customer level creation & edition
 Special rewards
 ---------------
 
-- :doc:`SPECIAL REWARDS </userguide/levels/special_rewards>`
+- :doc:`Special rewards </userguide/levels/special_rewards>`
