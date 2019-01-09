@@ -1,7 +1,7 @@
 .. index::
    single: introduction 
    
-INTRODUCTION
+Introduction
 ============
 
 Customers can make transactions not only in the online store but also in offline stores. Both transactions should be count within your Loyalty Program. 
