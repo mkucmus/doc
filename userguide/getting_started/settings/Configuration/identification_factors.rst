@@ -1,7 +1,7 @@
 .. index::
    single: identification_factors 
 
-IDENTIFICATION FACTORS
+Identification factors
 ======================
 
 | The identification factors determines the priority of factors used to match particular transaction with particular customer. 
