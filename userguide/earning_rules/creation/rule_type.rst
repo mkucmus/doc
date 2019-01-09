@@ -1,7 +1,7 @@
 .. index::
    single: rule_type
 
-EARNING RULES TYPES
+Earning rules types
 ===================
 
 In general, Earning rules can be divided into two types: 
