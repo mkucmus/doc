@@ -1,7 +1,7 @@
 .. index::
    single: level_creation
 
-CREATING CUSTOMER LEVEL
+Creating customer level
 =======================
 
 | You can create unlimited amount customizable customers levels for your loyalty program based on various conditions. 
