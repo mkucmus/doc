@@ -1,7 +1,7 @@
 .. index::
    single: segments
 
-SEGMENTS
+Segments
 ========
 
 | **Segments** box consists list of segments to which the customer is currently assigned. 
