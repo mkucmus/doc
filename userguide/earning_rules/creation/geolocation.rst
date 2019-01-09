@@ -1,7 +1,7 @@
 .. index::
    single: geolocation
 
-GEOLOCATION
+Geolocation
 ===========
 
 Reward customer with defined amount of points for his location. Locations for which customer can get points are defined in the Open Loyalty and related to radius. 
