@@ -1,7 +1,7 @@
 .. index::
    single: available_rewards
 
-AVAILABLE REWARDS
+Available rewards
 =================
 
 Available rewards tab contain view of Reward Campaigns available for particular customer, including cost in points to redeem reward and dates when reward is available.
