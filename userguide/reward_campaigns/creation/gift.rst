@@ -1,7 +1,7 @@
 .. index::
    single: gift
 
-GIFT
+Gift
 ====
 
 Customer can get material reward i.e. gift. Instead of traditional gift, within loyalty program customer need to "buy" reward, using his Active points pool. Cost of this reward is specified during creation in **Cost in points** field.
