@@ -1,7 +1,7 @@
 .. index::
    single: translations 
 
-TRANSLATIONS
+Translations
 ============
 
 | The Translations section allows defining many language versions used throughout the Open Loyalty platform in both, Client cockpit and Admin cockpit. All content elements will appear in the selected **default language**. 
