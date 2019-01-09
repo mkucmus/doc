@@ -1,8 +1,8 @@
 .. index::
    single: account_creation
 
-CREATING CUSTOMER ACCOUNT FROM ADMIN
-====================================
+Creating Customer account from admin
+=====================================
 
 | Customer usually create their own accounts from your webshop or using Customer Cockpit. 
 
