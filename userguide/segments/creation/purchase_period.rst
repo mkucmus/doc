@@ -1,7 +1,7 @@
 .. index::
    single: purchase_period
 
-PURCHASE PERIOD
+Purchase period
 ===============
 
 | Segment of customers who made purchase (at least one) between the specified date range.      
