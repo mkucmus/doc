@@ -1,7 +1,7 @@
 .. index::
    single: level_activate
 
-ACTIVATE/DEACTIVATE A LEVEL
+Activate / Deactivate level
 ===========================
 
 Any levels from the list  can be activated and deactivated by Admin user.
