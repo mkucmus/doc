@@ -1,7 +1,7 @@
 .. index::
    single: updating
 
-UPDATING EARNING RULES
+Updating earning rules
 ======================
 
 You can edit information regarding earning rule used within your Loyalty Program, including all their data provided during rule creation process, **except the rule type**.
