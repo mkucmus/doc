@@ -1,8 +1,8 @@
 .. index::
    single: import_customers
 
-IMPORT CUSTOMER LIST
-====================
+Import Customers list
+=======================
 
 If you have a customer list that you want to add to your Loyalty Program, you can enter it into a customer XML file and then import it in your Open Loyalty Admin. 
 
