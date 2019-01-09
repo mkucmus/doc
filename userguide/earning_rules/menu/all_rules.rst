@@ -1,7 +1,7 @@
 .. index::
    single: all_rules
 
-ALL EARNING RULES
+All earning rules
 =================
 
 The **All earning rules** grid provide information about type and activity of all Earning Rules within Loyalty Program. Moreover, list contains brief description about each one and allows to preview and modify rule detail.
