@@ -1,7 +1,7 @@
 .. index::
    single: transaction_pos
 
-TRANSACTION PERCENT IN POS
+Transaction percent in POS
 ==========================
 
 | Segment of customers whose number of purchases in a specified POS is within defined percent amount.  
