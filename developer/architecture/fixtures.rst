@@ -1,14 +1,14 @@
 Fixtures
 ========
 
-Fixtures are used mainly for testing, but also for setting up the application for a first use or for demonstration purposes.
+Fixtures are used mainly for testing, but also for setting up application for a first use or for demonstration purposes.
 
-There are three types of fixtures used in Open Loyalty.
+There are tree types of fixtures used in Open Loyalty.
 
 Testing fixtures
 ----------------
 
-It puts a software in the certain state so we can test if the application working as we expected.
+It puts a software in certain state so we can test is application working as expected.
 
 To load testing data run:
 
@@ -31,9 +31,9 @@ To load initial data run:
 Demo fixtures
 -------------
 
-The last type of fixtures is the demo. It loads a large amount of data to show the full potential of Open Loyalty.
+Last type of fixtures is demo. It loads a large amount of data to show full potential of Open Loyalty.
 So you will see a lot of customers, points, transactions and so on. It’s really useful when you want to
-present a software to your clients and you need a sample data.
+present a software to your clients and you need sample data.
 
 To load demonstration data run:
 
@@ -47,18 +47,23 @@ Common tasks
 There is also another, simpler way to initialize Open Loyalty. We use a tool called ``phing`` which is a great tool
 to run many commands in sequences. We prepared a few useful commands to automate some common tasks and make them easier.
 
-Here are a few most used commands, but if you are curious about more, check the
+Here are a few most used commands, but if you curious about more, check the
 `build.xml <http://gitlab.divante.pl/open-loyalty/open-loyalty/blob/develop/backend/build.xml>` file
 
 
-Initialize Open Loyalty, load testing data and run unit & integration tests and check the coding standard at the end.
+Initialize Open Loyalty, load testing data and run unit & integration tests and check coding standard at the end.
 
 .. code-block:: bash
 
     $ phing ci-setup-test
 
+Initialize Open Loyalty and load only required data
 
-Initialize Open Loyalty and load initial data
+.. code-block:: bash
+
+    $ phing basic-setup
+
+Initialize Open Loyalty and load test data
 
 .. code-block:: bash
 

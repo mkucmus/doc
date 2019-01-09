@@ -1,11 +1,11 @@
 Events
 ======
 
-There are three types of events dispatched in Open Loyalty: commands, events and system events.
+There are three types of events dispatched in Open Loyalty, commands, events and system events.
 
 Commands
 --------
-It’s a user intention, it’s something that we want to happen but may be rejected for any reason because data
+It’s a user intention, it’s something that we want to happen but may be rejected on any reason, ie. because data
 is not valid. To put it simply, it says “do something” to the software.
 
 Events
@@ -15,8 +15,8 @@ executing a command.
 
 System events
 -------------
-An additional type of events that are thrown during executing a command by the command handler and may be used to trigger
-another command. They’re also used to separate concerns.
+Additional type of events that are thrown during execuing a command by command handler and may be used to trigger
+another commands. They’re also useful to separate concerns.
 
 List of all events
 ------------------

@@ -19,3 +19,5 @@
 * :doc:`/api/settings`
 * :doc:`/api/transactions`
 * :doc:`/api/utility`
+* :doc:`/api/campaign_category`
+* :doc:`/api/acl`
