@@ -1,4 +1,4 @@
-CUSTOMERS ACCOUNTS
+Customers accounts
 ==================
 
 | The main page of your website can display message for customers to log in or register for an account with your Loyalty Program. Customers who open an account with your Loyalty Program enjoy a range of benefits.
