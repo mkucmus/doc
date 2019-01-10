@@ -4,16 +4,17 @@
 All Points transfers
 ====================
 
-| The Points transfers lists gives you information about value of earned and spent points by particular customer with details regarding customers and transfer process. Moreover, list contains information whether points are the result of Earning Rules (system) or they have been manually set by the Admin user (admin).
+The Points transfers lists gives you information about value of earned and spent points by particular customer with details regarding customers and transfer process. Moreover, list contains information whether points are the result of Earning Rules (system) or they have been manually set by the Admin user (admin).
 
-| To learn more about Earning Rules, see :doc:`Rules details </userguide/earning_rules/index>`
+To learn more about Earning Rules, see :doc:`Rules details </userguide/earning_rules/index>`
 
 .. image:: /userguide/_images/points_transfers.png
    :alt:   Points Transfers List
 
-| Use the standard controls to sort the list, filter and search transfers by typing in the field under column header value you want to find, and apply actions to selected transfers records. 
+Use the standard controls to sort the list, filter and search transfers by typing in the field under column header value you want to find, and apply actions to selected transfers records. 
 
-| Pagination controls appear if there are more transfer records than fit on the page, and are used to move from one page to the next.
+Pagination controls appear if there are more transfer records than fit on the page, and are used to move from one page to the next.
+
 
 Field description
 *****************
