@@ -61,7 +61,6 @@ To upload your logo:
      - The size of any one image must not exceed 2 MB 
      - Supported image formats: JPEG, JPG, PNG
 
-	
 +--------------------------+---------------------------------------------------------------------------------------------------------------------------+
 |   Field                  |  Description                                                                                                              |
 +==========================+===========================================================================================================================+
@@ -81,4 +80,3 @@ To upload your logo:
 |   Hero image             | | Large web banner image placed on a Client Cockpit login page in the front.                                              |
 |                          | | Hero image is the first visual element a customer’s encounters on the site and display on mobile and desktop versions.  |
 +--------------------------+---------------------------------------------------------------------------------------------------------------------------+	
-	
