@@ -61,12 +61,12 @@ Field description
 |   Days from lat order      | The number of days since the last registered customer transaction making            |
 +----------------------------+-------------------------------------------------------------------------------------+
 |   Current level            | | Current level that is assigned to customer account.                               |
-|                            | | To learn more about levels see :doc:`Levels </userguide/levels/index>`                      |
+|                            | | To learn more about levels see :doc:`Levels </userguide/levels/index>`            |
 +----------------------------+-------------------------------------------------------------------------------------+
 |   Assigned manually        | | Information whether current customer level was assigned manually by Admin or not. |
 |                            | | **Options include: Yes/No**                                                       |
 |                            | | To learn more about distinction between manually assigned level and system        |
-|                            |   assignment please see :doc:`Levels </userguide/levels/index>`                               |
+|                            |   assignment please see :doc:`Levels </userguide/levels/index>`                     |
 +----------------------------+-------------------------------------------------------------------------------------+
 |   Actions                  | | The operations that can be applied to selected customer record.                   |
 |                            | | **Options include**:                                                              |
