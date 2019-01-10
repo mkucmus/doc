@@ -34,7 +34,8 @@ Menu options:
 
 All Levels
 **********
-Lists all customers level within your loyalty program with additional information regarding conditions values, assigned rewards and possible, limited in time, special rewards
+
+*Lists all customers level within your loyalty program with additional information regarding conditions values, assigned rewards and possible, limited in time, special rewards*
 
 .. image:: /userguide/_images/levels2.png
    :alt:   Customers Levels
@@ -42,7 +43,8 @@ Lists all customers level within your loyalty program with additional informatio
 
 Add Level
 *********
-Lists all data that need to be filled out to add new customer level
+
+*Lists all data that need to be filled out to add new customer level*
 
 .. image:: /userguide/_images/add_level.png
    :alt:   Add level
