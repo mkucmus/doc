@@ -19,20 +19,20 @@ Field description
 +----------------------------+-------------------------------------------------------------------------------------+
 |   Field                    |  Description                                                                        |
 +============================+=====================================================================================+
-|   Name                     | Name of the Customer level, visible when information about level will be displayed  |
+|   Name                     | | Name of the Customer level, visible when information about level will be displayed|
 +----------------------------+-------------------------------------------------------------------------------------+
-|   Description              | Level brief description                                                             |
+|   Description              | | Level brief description                                                           |
 +----------------------------+-------------------------------------------------------------------------------------+
-|   Condition value          | Minimum sum of earned points or sum of all transactions value needed to be assigned |
-|                            | to this level                                                                       |
+|   Condition value          | | Minimum sum of earned points or sum of all transactions value needed to be        |
+|                            |   assigned to this level                                                            |
 +----------------------------+-------------------------------------------------------------------------------------+
-|   Reward name              | Description of level reward (e.g. 5% discount)                                      |
+|   Reward name              | | Description of level reward (e.g. 5% discount)                                    |
 +----------------------------+-------------------------------------------------------------------------------------+
-|   Reward code              | Discount code to be used on                                                         |
+|   Reward code              | | Discount code to be used on                                                       |
 +----------------------------+-------------------------------------------------------------------------------------+
-|   Reward value             | Discount value for this level (e.g. 5)                                              |
+|   Reward value             | | Discount value for this level (e.g. 5)                                            |
 +----------------------------+-------------------------------------------------------------------------------------+
-|   *Min order value*        | Currently not used. "Not set" will be shown                                         |
+|   *Min order value*        | | Currently not used. "Not set" will be shown                                       |
 +----------------------------+-------------------------------------------------------------------------------------+
 |   Customers                | | Show customers account number assigned to this level.                             |
 |                            | | After ``Show`` click, list of these customer details will be shown                |
@@ -41,7 +41,8 @@ Field description
 |                            | | **Option include: Active/Inactive**                                               |
 +----------------------------+-------------------------------------------------------------------------------------+
 |   Special rewards          | | Show Special Reward data related to Level, available when additional conditions   |
-|                            |   will be met. If Level has not defined Special Reward then "Not set" will be shown |                                                           
+|                            |   will be met.                                                                      |
+|                            | | If Level has not defined Special Reward then "Not set" will be shown              |                     
 |                            | | To learn more about special rewards, see                                          |
 |                            |   :doc:`Special rewards </userguide/levels/special_rewards>` section                |
 +----------------------------+-------------------------------------------------------------------------------------+
