@@ -34,6 +34,7 @@ Field description
 |                   | | **Options include: system/admin**                                                                                         |
 +-------------------+-----------------------------------------------------------------------------------------------------------------------------+
 | State             | | Transferred points state:                                                                                                 |
+|                   |                                                                                                                             |
 |                   |    - **Active** : points are available to spend                                                                             |
 |                   |    - **Expired** : points expired and cannot be used to redeem reward                                                       |
 |                   |    - **Pending** : points are locked and cannot be used to redeem reward until locked time will be passing.                 |
