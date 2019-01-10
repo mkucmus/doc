@@ -4,9 +4,9 @@
 Transaction count
 =================
 
-| Segment of customers whose number of purchases is within the defined range.   
+Segment of customers whose number of purchases is within the defined range.   
 
-| **For example**, you can create segment of customers whose number of purchases is between 10 - 20 etc. 
+**For example**, you can create segment of customers whose number of purchases is between 10 - 20 etc. 
 
 To create only Transaction count type segment:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
