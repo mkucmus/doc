@@ -4,9 +4,9 @@
 Bought products with labels
 ===========================
 
-| Segment of customers who bought products where label on product is one of the list. Labels are key-value pairs that you can attach to a products.  
+Segment of customers who bought products where label on product is one of the list. Labels are key-value pairs that you can attach to a products.  
 
-|  **For example**, you can create segment of customers who bought trousers (key) - jeans (value) or leggins (value) 
+**For example**, you can create segment of customers who bought trousers (key) - jeans (value) or leggins (value) 
 
 To create only Bought products with labels type segment:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
