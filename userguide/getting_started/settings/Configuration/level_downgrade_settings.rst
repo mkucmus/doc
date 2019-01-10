@@ -106,23 +106,21 @@ When complete, tap ``SAVE``
 Example of customer level downgrade base on earned points within last X days
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
-.. code-block:: text
-
-    Your customer points credentials to level promotion: 
+Your customer points credentials to level promotion: 
     
-		- Level O - if a customer has no points 
-		- Level 1 – if a customer has 10 points 
-		- Level 2 – if customer has 30 points
-		- Level 3 – if customer has 100 points 
+ - Level O - if a customer has no points 
+ - Level 1 – if a customer has 10 points 
+ - Level 2 – if customer has 30 points
+ - Level 3 – if customer has 100 points 
       
-    You decided to recalculate level every year (365 days) since the customer registration date and to use for this Active points, which will be reset at the end of the year (after level recalculation). 
+You decided to *recalculate level every year* (365 days) since the customer registration date and to use for this Active points, which *will be reset* at the end of the year (after level recalculation). 
     
-    Customer made a two transactions and get 10 points and 20 points. 
+**Customer made a two transactions and get 10 points and 20 points**. 
     
-    After getting 10 points a customer leveled up to 1st level, after getting another 20 points a customer leveled up to 2nd level.
+After getting 10 points a customer leveled up to 1st level, after getting another 20 points a customer leveled up to 2nd level.
    
-    If at the end of year a customer:
+If at the end of year a customer:
    
-		- has only 5 active points then he is downgraded to the Level 0, and all his points are reset
-		- has 10 active points the he is downgraded to the Level 1, and all his points are reset
-		- has 30 active points the he stays in the same Level 2, and all his points are reset
+ - has only **5 active points** then he is *downgraded* to the **Level 0**, and all his points are reset
+ - has **10 active points** the he is *downgraded* to the **Level 1**, and all his points are reset
+ - has **30 active points** the he stays in the same **Level 2**, and all his points are reset
