@@ -13,6 +13,7 @@ To activate/deactivate level:
    
    You can also deactivate/activate level from :doc:`Edit mode </userguide/levels/level/level_updating>`
 
+
 2. In the levels list, find the level to be deactivated and click ``Active`` in the **Active** column. 
 
    The button in the column change to Inactive and appear as a grey-out.
