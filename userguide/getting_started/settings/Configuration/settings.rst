@@ -78,12 +78,12 @@ To configure Open Loyalty:
 .. image:: /userguide/_images/webhook_notification.png
    :alt:   Webhook notification option – points expiration
 
-.. code-block:: text
+.. note:: 
 
-    For example 
-    when you enter 10, it means that every day Open Loyalty will be checking if there is any customer who has points which will expire in 10 days. 
-    If yes webhook event will be sent (on the URL address provided by you in Webhooks section) with information about a customer, a sum of his points 
-    which will expire in 10 days and points expiration date
+    **For example** 
+    when you enter 10, it means that every day Open Loyalty will be checking if there is any customer who has points which will expire       in 10 days. 
+    
+    If **yes** webhook event will be sent (on the URL address provided by you in Webhooks section) with information about a customer, a     sum of his points which will expire in 10 days and points expiration date
 
    
 14. If you want to get a webhook notification about the customer coupon expiration you can define in **Days before expiring coupons to notify user** field number of days when notification will be sent. 
@@ -92,12 +92,12 @@ To configure Open Loyalty:
 .. image:: /userguide/_images/webhook_notification2.png
    :alt:   Webhook notification option – coupons expiration 
 
-.. code-block:: text
+.. note:: 
 
-    For example 
+    **For example** 
     when you enter 10, it means that every day Open Loyalty will be checking if there is any coupon which will expire in 10 days. 
-    If yes webhook event will be sent (on the URL address provided by you in Webhooks section) with information about: customer, coupon code which will expire in 10 days, expiration date and coupon status 
-    (status is calculated based on days inactive and days valid defined during reward campaign creation). 
+    
+    If **yes** webhook event will be sent (on the URL address provided by you in Webhooks section) with information about: customer,         coupon code which will expire in 10 days, expiration date and coupon status (status is calculated based on days inactive and days       valid defined during reward campaign creation). 
 
 15. Set the Levels will be calculated with a field to one of the following:
 
