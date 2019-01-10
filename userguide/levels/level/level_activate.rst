@@ -24,6 +24,7 @@ To activate/deactivate level:
 
     When you deactivate levels, customers accounts assigned to this level will be still display level name but redeeming rewards and special rewards assigned to this level will not be possible
 
+
 3. To activate the level click ``Inactive`` in the **Active** column.
 
    The button in the column change to Active and appears as a red.
