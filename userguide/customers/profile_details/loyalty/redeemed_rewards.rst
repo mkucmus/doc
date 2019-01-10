@@ -9,13 +9,13 @@ Redeemed rewards
 .. image:: /userguide/_images/redeemed_rewards.png
    :alt:   Redeemed Rewards
 
-| All rewards that customer redeemed appears in this tab as a "**delivered**". 
+All rewards that customer redeemed appears in this tab as a "**delivered**". 
 
-| When reward coupon days inactive parameter will pass an empty checkbox appears, to be marked when customer use already redeemed coupon.
+When reward coupon days inactive parameter will pass an empty checkbox appears, to be marked when customer use already redeemed coupon.
 
-| Only when customer uses the reward/discount code during the purchase, reward is treated as "**used**". 
+Only when customer uses the reward/discount code during the purchase, reward is treated as "**used**". 
 
-| On the Redeemed rewards list, **Used** rewards will have a marked checkbox in the column Use of coupon count, unlike to those **Delivered**, which will have an empty checkbox.
+On the Redeemed rewards list, **Used** rewards will have a marked checkbox in the column Use of coupon count, unlike to those **Delivered**, which will have an empty checkbox.
 
 From the Admin you can mark selected redeemed reward record as a Used, when customer used coupon code during purchase, you sent gift which customer selected from his cockpit etc. 
 
