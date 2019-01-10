@@ -43,9 +43,9 @@ To create only Anniversary type segment:
    :alt:   anniversary  
 
 
-.. code-block:: text
+.. tip:: 
 
-    For example
+    **For example**
     
     if Days is equal 0 then all customers who e.g. have birthday today or register account today or at the same date like today but in previous years will be assign to this segment.
     
