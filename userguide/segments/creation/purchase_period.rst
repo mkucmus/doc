@@ -4,9 +4,9 @@
 Purchase period
 ===============
 
-| Segment of customers who made purchase (at least one) between the specified date range.      
+Segment of customers who made purchase (at least one) between the specified date range.      
 
-| **For example**, you can create segment of customers who made purchase in january or within first 2 weeks of February etc.  
+**For example**, you can create segment of customers who made purchase in january or within first 2 weeks of February etc.  
 
 To create only Purchase period type segment:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
