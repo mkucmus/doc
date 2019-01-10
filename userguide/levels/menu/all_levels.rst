@@ -4,9 +4,9 @@
 All levels
 ==========
 
-| The Levels page lists all customers levels available to reach within Loyalty Program. The same list is also visible from the Dashboard.
+The Levels page lists all customers levels available to reach within Loyalty Program. The same list is also visible from the Dashboard.
 
-| You can easily view and modify all levels credentials such as condition value, assigned rewards and special rewards. Tab allows also to preview number of customers assigned to particular levels and see theirs detail or download in .CSV file.
+You can easily view and modify all levels credentials such as condition value, assigned rewards and special rewards. Tab allows also to preview number of customers assigned to particular levels and see theirs detail or download in .CSV file.
 
 .. image:: /userguide/_images/levels2.png
    :alt:   Customers Levels
