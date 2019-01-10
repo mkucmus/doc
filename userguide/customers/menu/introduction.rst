@@ -21,7 +21,8 @@ Menu options:
 
 All Customers
 *************
-Lists all customers who have registered for an account with your loyalty program, or were added by the administrator
+
+*Lists all customers who have registered for an account with your loyalty program, or were added by the administrator*
 
 .. image:: /userguide/_images/all_customers.png
    :alt:   All customers
@@ -29,14 +30,16 @@ Lists all customers who have registered for an account with your loyalty program
 
 Add Customer
 ************
-Lists all data that need to be filled out to add new customer to your Loyalty Program
+
+*Lists all data that need to be filled out to add new customer to your Loyalty Program*
 
 .. image:: /userguide/_images/add_customer.png
    :alt:   Add customer
 
 Referred customers
 ******************
-Lists all referred customers and recipients of their invitations details
+
+*Lists all referred customers and recipients of their invitations details*
 
 .. image:: /userguide/_images/invitation.png
    :alt:   Referred customers
