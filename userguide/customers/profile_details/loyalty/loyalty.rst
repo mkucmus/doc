@@ -4,9 +4,9 @@
 Loyalty
 =======
 
-| In **Loyalty** section you can view Loyalty Points balance in the customer’s account. 
+In **Loyalty** section you can view Loyalty Points balance in the customer’s account. 
 
-| Depending on the :doc:`Configuration </userguide/getting_started/settings/Configuration/settings>` (whether level is calculated with points or transactions) different values will be displayed.
+Depending on the :doc:`Configuration </userguide/getting_started/settings/Configuration/settings>` (whether level is calculated with points or transactions) different values will be displayed.
 
 
 Level is calculated with transactions
