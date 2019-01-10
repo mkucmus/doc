@@ -22,11 +22,11 @@ Field description
 +----------------------------+-------------------------------------------------------------------------------------+
 |   Field                    |  Description                                                                        |
 +============================+=====================================================================================+
-|   Name                     | Name of the segment                                                                 |
+|   Name                     | | Name of the segment                                                               |
 +----------------------------+-------------------------------------------------------------------------------------+
-|   Created at               | The date when segment was created                                                   |
+|   Created at               | | The date when segment was created                                                 |
 +----------------------------+-------------------------------------------------------------------------------------+
-|   Description              | Brief description of the segment                                                    |
+|   Description              | | Brief description of the segment                                                  |
 +----------------------------+-------------------------------------------------------------------------------------+
 |   Customers                | | Show customers account number assigned to this segment.                           |
 |                            | | After ``Show`` click, list of these customer details will be shown                |
