@@ -4,9 +4,9 @@
 Introduction
 ============
 
-| The Customers menu provides access to all customer information required for its existence in your Loyalty Program. 
+The Customers menu provides access to all customer information required for its existence in your Loyalty Program. 
 
-| This applies to both, customer personal data (such as name, surname, gender, date of birth and contact details) and data on its activity in the program (such as registered transactions and points transfer).
+This applies to both, customer personal data (such as name, surname, gender, date of birth and contact details) and data on its activity in the program (such as registered transactions and points transfer).
 
 .. image:: /userguide/_images/customers_menu.png
    :alt:   Customers Menu
