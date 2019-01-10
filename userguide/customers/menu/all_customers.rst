@@ -66,7 +66,7 @@ Field description
 | | Assigned manually        | | Information whether current customer level was assigned manually by Admin or not. |
 |                            | | **Options include: Yes/No**                                                       |
 |                            | | To learn more about distinction between manually assigned level and system        |
-|                            |   assignment please see :doc:`Levels </levels/index>`                               |
+|                            | | assignment please see :doc:`Levels </userguide/levels/index>`                     |
 +----------------------------+-------------------------------------------------------------------------------------+
 | | Actions                  | | The operations that can be applied to selected customer record.                   |
 |                            | | **Options include**:                                                              |
