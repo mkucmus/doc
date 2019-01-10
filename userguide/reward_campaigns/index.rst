@@ -1,11 +1,11 @@
 Reward campaigns
 ================
 
-| In this section of the guide you will be familiar with creating and managing rewards available within your Loyalty Program.  
+In this section of the guide you will be familiar with creating and managing rewards available within your Loyalty Program.  
 
-| You will learn what type of rewards can be choose, how to assigned reward to specify customers, define activity time and manage reward details. 
+You will learn what type of rewards can be choose, how to assigned reward to specify customers, define activity time and manage reward details. 
 
-| You will also learn how to verify which rewards have been already redeemed and by which customers.    
+You will also learn how to verify which rewards have been already redeemed and by which customers.    
 
 Reward campaigns menu
 ---------------------
