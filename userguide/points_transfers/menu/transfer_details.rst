@@ -4,11 +4,11 @@
 Points transfer details preview
 ===============================
 
-| To see more information related with particular point transfer click **View** icon |view| in the Action column.
+To see more information related with particular point transfer click **View** icon |view| in the Action column.
 
 .. |view| image:: /userguide/_images/view.png
 
-| System will display a popup with additional information, with *comment* and points *expires date*. 
+System will display a popup with additional information, with *comment* and points *expires date*. 
 
 .. image:: /userguide/_images/transfer_details.png
    :alt:   Points transfer details
