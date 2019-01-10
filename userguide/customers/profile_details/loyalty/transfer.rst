@@ -37,8 +37,8 @@ Field description
 |                   |    - **Active** : points are available to spend                                                                             |
 |                   |    - **Expired** : points expired and cannot be used to redeem reward                                                       |
 |                   |    - **Pending** : points are locked and cannot be used to redeem reward until locked time will be passing.                 |
-|                   |      Locked time is set in :doc:`Open Loyalty Configuration </userguide/getting_started/settings/Configuration/settings>`    |
-|                   |    - **Canceled** : points are subtracted from the pool of Active Points as a result of canceling the points transfer        |
+|                   |      Locked time is set in :doc:`Open Loyalty Configuration </userguide/getting_started/settings/Configuration/settings>`   |
+|                   |    - **Canceled** : points are subtracted from the pool of Active Points as a result of canceling the points transfer       |
 +-------------------+-----------------------------------------------------------------------------------------------------------------------------+
 | Type              | | Transfer operation type.                                                                                                  |
 |                   | | **Options include: Adding/Spending**                                                                                      |
