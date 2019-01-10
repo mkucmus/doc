@@ -44,7 +44,9 @@ To create a New Customer Level:
 
    To learn how to assigned special reward to particular level, see :doc:`Special rewards </userguide/levels/special_rewards>`
 
+
 5. If applicable, upload a **Level photo** that will be displayed on a storefront 
+
 
 6. When complete, tap ``SAVE``
 
