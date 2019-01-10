@@ -33,42 +33,42 @@ Field description
 +----------------------------+-------------------------------------------------------------------------------------+
 |   Field                    |  Description                                                                        |
 +============================+=====================================================================================+
-|   First name               | The first name of the customer                                                      |
+| | First name               | | The first name of the customer                                                    |
 +----------------------------+-------------------------------------------------------------------------------------+
-|   Last name                | The last name of the customer                                                       |
+| | Last name                | | The last name of the customer                                                     |
 +----------------------------+-------------------------------------------------------------------------------------+
-|   Phone                    | | The customer’s phone number in one of acceptable format.                          |
+| | Phone                    | | The customer’s phone number in one of acceptable format.                          |
 |                            | | Can be used as a login to Customer Cockpit or search/filter option                |
 +----------------------------+-------------------------------------------------------------------------------------+
-|   E-mail                   | | The customer’s email address.                                                     |
+| | E-mail                   | | The customer’s email address.                                                     |
 |                            | | Can be used as a login to Customer Cockpit or search/filter option                |
 +----------------------------+-------------------------------------------------------------------------------------+
-|   Gender                   | Customer gender                                                                     |
+| | Gender                   | | Customer gender                                                                   |
 +----------------------------+-------------------------------------------------------------------------------------+
-|   Birth date               | The customer’s date of birth                                                        |
+| | Birth date               | | The customer’s date of birth                                                      |
 +----------------------------+-------------------------------------------------------------------------------------+
-|   Created at               | The date when customer account was created                                          |
+| | Created at               | | The date when customer account was created                                        |
 +----------------------------+-------------------------------------------------------------------------------------+
-| | CLV                      | The total amount of customer registered transactions                                |
+| | CLV                      | | The total amount of customer registered transactions                              |
 | | (Customer Lifetime Value)|                                                                                     |
 +----------------------------+-------------------------------------------------------------------------------------+
-| | AVO                      | The average amount of customer registered transactions                              |
+| | AVO                      | | The average amount of customer registered transactions                            |
 | | (Average Value of Orders)|                                                                                     |
 +----------------------------+-------------------------------------------------------------------------------------+
-|   Orders                   | The total number of registered transactions (orders) from customer registered       |
-|                            | within the Loyalty Program                                                          |
+| | Orders                   | | The total number of registered transactions (orders) from customer registered     |
+|                            | | within the Loyalty Program                                                        |
 +----------------------------+-------------------------------------------------------------------------------------+
-|   Days from lat order      | The number of days since the last registered customer transaction making            |
+| | Days from lat order      | | The number of days since the last registered customer transaction making          |
 +----------------------------+-------------------------------------------------------------------------------------+
-|   Current level            | | Current level that is assigned to customer account.                               |
-|                            | | To learn more about levels see :doc:`Levels </userguide/levels/index>`            |
+| | Current level            | | Current level that is assigned to customer account.                               |
+|                            | | To learn more about levels see :doc:`Levels </levels/index>`                      |
 +----------------------------+-------------------------------------------------------------------------------------+
-|   Assigned manually        | | Information whether current customer level was assigned manually by Admin or not. |
+| | Assigned manually        | | Information whether current customer level was assigned manually by Admin or not. |
 |                            | | **Options include: Yes/No**                                                       |
 |                            | | To learn more about distinction between manually assigned level and system        |
-|                            |   assignment please see :doc:`Levels </userguide/levels/index>`                     |
+|                            |   assignment please see :doc:`Levels </levels/index>`                               |
 +----------------------------+-------------------------------------------------------------------------------------+
-|   Actions                  | | The operations that can be applied to selected customer record.                   |
+| | Actions                  | | The operations that can be applied to selected customer record.                   |
 |                            | | **Options include**:                                                              |
 |                            |                                                                                     |
 |                            |    - edit customer account                                                          |
@@ -76,5 +76,4 @@ Field description
 |                            |    - deactivate customer account                                                    |
 |                            |    - unlink manually assigned level. Previous system level will be assigned.        |
 +----------------------------+-------------------------------------------------------------------------------------+
-
 
