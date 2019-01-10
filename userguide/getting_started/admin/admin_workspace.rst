@@ -16,7 +16,8 @@ Workspace Controls
 +-----------------+-------------------------------------------------------------------------------------------+
 | Control         | Description                                                                               |
 +=================+===========================================================================================+
-| Search / Filter | The filters in the header of each column can be used to limit the list to specific values.|                    
+| Search / Filter | The filters in the header of each column can be used to limit the list to specific values.|  
+|                 |                                                                                           |
 |                 | You can simply type the value you want to find and press Enter                            |
 +-----------------+-------------------------------------------------------------------------------------------+
 | Sort            | The header of mostly column can be used to sort the list in ascending or descending order |
