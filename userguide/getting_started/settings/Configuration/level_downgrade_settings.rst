@@ -43,9 +43,9 @@ To configure level downgrade options:
 |                          | | No additional settings to configure here                                     |
 +--------------------------+--------------------------------------------------------------------------------+
 |   Every x number of days | | Customer level will be recalculated every provided number of days based      |
-|                          | |  on accumulated points counting from registration date/last downgrade date   |
+|                          | | on accumulated points counting from registration date/last downgrade date    |
 |                          | | or last level change.                                                        |
-|                          | | If at the end of  specified period                                           |
+|                          | | If at the end of specified period                                            |
 |                          | | (registration date/last downgrade date/last level change + number of days    |
 |                          | | every which customer level is recalculated) customer won't reach enough      |
 |                          | | points to stay at the same level, a customer will be relegated to level      |
@@ -73,10 +73,13 @@ To configure level downgrade options:
 +--------------------------+---------------------------------------------------------------------------------------------+
 | | Earned points within   | | Calculate a customer current level based on his earned points since last                  |
 | | last X days            | | level recalculation date (registration date/las level recalulaction).                     |
+|			   | 												 |
 |                          | | It sums up added (Active) points. Used points won't affect on earned points.              | 
 |                          | | Locked points are also excluded from earned points and will be added after unlocking them.|
+|			   | 												 |
 |                          | | Currently earned points from last downgrade date are displaying in **Customer Loyalty**   |
 |                          | | balance as a **Total points earned since last level recalculation**.                      |
+|			   |											         |
 |                          | | At the of every defined period amount of collected within points is reset                 |
 +--------------------------+---------------------------------------------------------------------------------------------+
 | | Earned points since    | | Calculate a customer current level based on his earned points since last                  |
@@ -87,7 +90,7 @@ To configure level downgrade options:
 |                          | | starting from the date of promotion.                                                      |
 |                          | | Currently earned points from last change are displaying in **Customer Loyalty**           |
 |                          | | balance as a **Total points earned since last level recalculation**.                      |
-|                          | | At the END of every defined period, amount of collected within points is reset            |
+|                          | | At the end of every defined period, amount of collected within points is reset            |
 +--------------------------+---------------------------------------------------------------------------------------------+
 
 
