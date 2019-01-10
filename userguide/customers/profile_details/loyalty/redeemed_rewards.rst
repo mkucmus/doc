@@ -34,21 +34,21 @@ To learn more about rewards, see :doc:`Redeemed rewards </userguide/reward_campa
 +-------------------+-----------------------------------------------------------------------------------------------------------------------------+
 | Field             | Description                                                                                                                 |
 +===================+=============================================================================================================================+
-| Name              | Reward name, that is  display to customer                                                                                   |
+| Name              | | Reward name, that is  display to customer                                                                                 |
 +-------------------+-----------------------------------------------------------------------------------------------------------------------------+
-| Cost in points    | Define how much points customer spent to redeem reward                                                                      |
+| Cost in points    | | Define how much points customer spent to redeem reward                                                                    |
 +-------------------+-----------------------------------------------------------------------------------------------------------------------------+
 | Status            | | Reward campaign status.                                                                                                   |
 |                   | | **Option include: Active/Inactive**                                                                                       |
 +-------------------+-----------------------------------------------------------------------------------------------------------------------------+
-| Active from       | Reward campaign start date from which customer can used reward, define during reward campaign creation in Activity section  |
+| Active from       | | Reward campaign start date from which customer can used reward, define during reward campaign creation in Activity section|
 +-------------------+-----------------------------------------------------------------------------------------------------------------------------+
-| Active to         | Reward campaign end date until which customer can used reward, define during reward campaign creation in Activity section   |
+| Active to         | | Reward campaign end date until which customer can used reward, define during reward campaign creation in Activity section |
 +-------------------+-----------------------------------------------------------------------------------------------------------------------------+
-| Purchased at      | The date when reward was redeemed                                                                                           |
+| Purchased at      | | The date when reward was redeemed                                                                                         |
 +-------------------+-----------------------------------------------------------------------------------------------------------------------------+
-| Coupon            | Discount code that was used                                                                                                 |
+| Coupon            | | Discount code that was used                                                                                               |
 +-------------------+-----------------------------------------------------------------------------------------------------------------------------+
-| Use of coupon     | Define whether customer already used the reward or it’s only delivered and can be used by him                               |
+| Use of coupon     | | Define whether customer already used the reward or it’s only delivered and can be used by him                             |
 | count             |                                                                                                                             |
 +-------------------+-----------------------------------------------------------------------------------------------------------------------------+
