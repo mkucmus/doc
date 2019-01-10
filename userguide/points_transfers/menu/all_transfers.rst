@@ -21,13 +21,13 @@ Field description
 +----------------------------+----------------------------------------------------------------------------------------+
 |   Field                    |  Description                                                                           |
 +============================+========================================================================================+
-|   First name               | The first name of customer referred to transfer                                        |
+|   First name               | | The first name of customer referred to transfer                                      |
 +----------------------------+----------------------------------------------------------------------------------------+ 
-|   Last name                | The last name of customer referred to transfer                                         |
+|   Last name                | | The last name of customer referred to transfer                                       |
 +----------------------------+----------------------------------------------------------------------------------------+
-|   Phone                    | The customers referred to transfer phone number                                        |
+|   Phone                    | | The customers referred to transfer phone number                                      |
 +----------------------------+----------------------------------------------------------------------------------------+
-|   Email                    | The customers referred to transfer email address                                       |
+|   Email                    | | The customers referred to transfer email address                                     |
 +----------------------------+----------------------------------------------------------------------------------------+
 |   State                    | | Transferred points state:                                                            |
 |                            |                                                                                        |
@@ -50,7 +50,7 @@ Field description
 |                            |    - **Spending**                                                                      |
 |                            |       customer spent points for campaign reward                                        |
 +----------------------------+----------------------------------------------------------------------------------------+
-|   Value                    | Amount of points earned/spent within the transfer                                      |
+|   Value                    | | Amount of points earned/spent within the transfer                                    |
 +----------------------------+----------------------------------------------------------------------------------------+
 |   Comment                  | | Show details about transfer, e.g. for what Customer gets points, for what Customer   |
 |                            |   spend points.                                                                        |
@@ -61,7 +61,7 @@ Field description
 |                            | | If transfer is created manually by Admin user, field is filled in with information   |
 |                            |   provided by the Admin during transfer creation.                                      |
 +----------------------------+----------------------------------------------------------------------------------------+
-|   Created at               | Date when points transfer was made                                                     |
+|   Created at               | | Date when points transfer was made                                                   |
 +----------------------------+----------------------------------------------------------------------------------------+ 
 |   Loyalty card number      | | Customer loyalty card number linked with transfer.                                   |
 |                            | | If there is no value assign "Not set" is displayed                                   |
