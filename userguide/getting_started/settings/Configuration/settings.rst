@@ -13,9 +13,9 @@ The Configuration section determines loyalty program and points details, custome
 To configure Open Loyalty:
 ''''''''''''''''''''''''''
 
-| In the upper-right corner, tap the **Settings** icon |settings| . Then on the menu, choose **Configuration**. 
+In the upper-right corner, tap the **Settings** icon |settings| . Then on the menu, choose **Configuration**. 
 
-| In the **Settings** section, do the following:
+In the **Settings** section, do the following:
 
 .. |settings| image:: /userguide/_images/icon.png
 
