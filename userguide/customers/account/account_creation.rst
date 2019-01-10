@@ -4,9 +4,9 @@
 Creating Customer account from admin
 =====================================
 
-| Customer usually create their own accounts from your webshop or using Customer Cockpit. 
+Customer usually create their own accounts from your webshop or using Customer Cockpit. 
 
-| However, you can also create customer account directly from the Admin or POS Cockpit, which is useful when customers order by phone or at merchant location. 
+However, you can also create customer account directly from the Admin or POS Cockpit, which is useful when customers order by phone or at merchant location. 
 
 .. note:: 
 
@@ -100,9 +100,9 @@ To create a New Customer Account:
 
 10. When complete, tap ``SAVE``
 
-| When the customer account is saved, it’s record appears at **All customers** list. 
+When the customer account is saved, it’s record appears at **All customers** list. 
 
-| The Customer Profile Details tab displays a summary of account activity and data provided during account creation. To learn more about Customer Profile, see :doc:`Profile details </profile_details/index>` 
+The Customer Profile Details tab displays a summary of account activity and data provided during account creation. To learn more about Customer Profile, see :doc:`Profile details </profile_details/index>` 
 
 
 Field description
