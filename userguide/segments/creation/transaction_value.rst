@@ -4,9 +4,9 @@
 Transaction value
 =================
 
-| Segment of customers whose overall amount of purchases is between the limits.   
+Segment of customers whose overall amount of purchases is between the limits.   
 
-| **For example**, you can create segment of customers whose value of purchases is between 100 $ - 200 $ etc. 
+**For example**, you can create segment of customers whose value of purchases is between 100 $ - 200 $ etc. 
 
 To create only Transaction value type segment:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
