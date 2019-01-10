@@ -35,16 +35,20 @@ To configure level downgrade options:
 |                          | | No additional settings to configure here                                     |
 +--------------------------+--------------------------------------------------------------------------------+
 |   Automatic              | | Default Open Loyalty logic.                                                  |
+|			   |										    | 
 |                          | | The only scenarios when customer can return to previous level is when        | 
-|                          | | transaction (order), which caused this promotion,  will be returned          | 
+|                          | | transaction (order), which caused this promotion, will be returned           | 
 |                          | | or his level will be changed manually by Admin.                              |
+|			   |										    |
 |                          | | His accumulated points are not reset – Loyalty points pool based on          |
-|                          |   :doc:`Points transfers </userguide/points_transfers/index>`.                 |
+|                          | | :doc:`Points transfers </userguide/points_transfers/index>`.                 |
+|			   | 										    |
 |                          | | No additional settings to configure here                                     |
 +--------------------------+--------------------------------------------------------------------------------+
 |   Every x number of days | | Customer level will be recalculated every provided number of days based      |
 |                          | | on accumulated points counting from registration date/last downgrade date    |
 |                          | | or last level change.                                                        |
+|			   | 										    |
 |                          | | If at the end of specified period                                            |
 |                          | | (registration date/last downgrade date/last level change + number of days    |
 |                          | | every which customer level is recalculated) customer won't reach enough      |
@@ -83,13 +87,16 @@ To configure level downgrade options:
 |                          | | At the of every defined period amount of collected within points is reset                 |
 +--------------------------+---------------------------------------------------------------------------------------------+
 | | Earned points since    | | Calculate a customer current level based on his earned points since last                  |
-| | last level change      | | level change date (base on his activity within loyalty program). For example,             |
-|                          | | after registration customer is assigned to the basic level and from the registration date,|
-|                          | | days till level recalculation is counted. If in the middle time, customer will earn points|
-|                          | | that implicate promotion to the next level days are counted from the beginning            |
-|                          | | starting from the date of promotion.                                                      |
+| | last level change      | | level change date (base on his activity within loyalty program).                          |
+|			   |												 |
+|                          | | **For example**, after registration customer is assigned to the basic level and from the  |
+|                          | | registration date, days till level recalculation is counted. If in the middle time, 	 |
+|                          | | customer will earn points that implicate promotion to the next level days are             |
+|                          | | counted from the beginning starting from the date of promotion.                           |
+|			   |												 |
 |                          | | Currently earned points from last change are displaying in **Customer Loyalty**           |
-|                          | | balance as a **Total points earned since last level recalculation**.                      |
+|                          | | points balance as a **Total points earned since last level recalculation**.               |
+|			   | 												 |
 |                          | | At the end of every defined period, amount of collected within points is reset            |
 +--------------------------+---------------------------------------------------------------------------------------------+
 
@@ -119,7 +126,7 @@ When complete, tap ``SAVE``
 Example of customer level downgrade base on earned points within last X days
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
-Your customer points credentials to level promotion: 
+Your customer **points credentials to level promotion**: 
     
  - Level O - if a customer has no points 
  - Level 1 – if a customer has 10 points 
