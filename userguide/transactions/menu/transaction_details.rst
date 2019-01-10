@@ -33,8 +33,7 @@ Field description
 +----------------------------+--------------------------------------------------------------------------------------+
 |   Street                   | | The street address of the customer                                                 |
 +----------------------------+--------------------------------------------------------------------------------------+
-|   Building name            | | The name/number of a building or property where the customer resides               |
-|                   		     | | at this address                                                                    |                   
+|   Building name            | | The name/number of a building or property where the customer resides               |                
 +----------------------------+--------------------------------------------------------------------------------------+
 |   Postal code              | | The postal code of the customer at this address                                    |
 +----------------------------+--------------------------------------------------------------------------------------+
