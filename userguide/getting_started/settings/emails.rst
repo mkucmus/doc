@@ -4,8 +4,9 @@
 Emails
 ======
 
-| Email templates define the layout, content, and formatting of automated messages sent from Open Loyalty. 
-| Open Loyalty includes a set of responsive email templates that are triggered by a variety of events that take place during the operation of your Loyalty Program. You will find a variety of prepared email templates related to customer activities, admin actions, and system messages that you can customize.
+Email templates define the layout, content, and formatting of automated messages sent from Open Loyalty. 
+
+Open Loyalty includes a set of responsive email templates that are triggered by a variety of events that take place during the operation of your Loyalty Program. You will find a variety of prepared email templates related to customer activities, admin actions, and system messages that you can customize.
 
 .. image:: /userguide/_images/emails.png
    :alt:   Email Templates
