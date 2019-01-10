@@ -40,7 +40,7 @@ For better understanding please see **Example** below
 
 
 Example of customer points and profitability factors behavior after return 
-******************************************************************************
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 Your customer **transaction value is 40 €** and include following products: 
     
