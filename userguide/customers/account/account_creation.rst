@@ -10,7 +10,7 @@ Creating Customer account from admin
 
 .. note:: 
 
-    **The Customer account created from the Admin or POS Cockpit has an active status at once, so there is no need to activate its account by him** 
+    **The Customer account created from the Admin or POS Cockpit has an active status instantly, so there is no need to activate its account by him** 
 
 .. image:: /userguide/_images/add_customer.png
    :alt:   New Customer Account Information 
