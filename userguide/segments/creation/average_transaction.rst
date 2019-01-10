@@ -4,9 +4,9 @@
 Average transaction value
 =========================
 
-| Segment of customers whose average transaction value is within the defined range. 
+Segment of customers whose average transaction value is within the defined range. 
 
-| **For example**, you can create segment of customers whose all transactions average value is between 150 $ - 300 $  
+**For example**, you can create segment of customers whose all transactions average value is between 150 $ - 300 $  
 
 To create only Average transaction value type segment:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
