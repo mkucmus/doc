@@ -126,6 +126,7 @@ Field description
 |                    | | Is used as a login name while logging to Customer Cockpit.          |                             
 +--------------------+-----------------------------------------------------------------------+
 | Phone              | | The customer’s phone number. Formatting is as on follow example:    |
+|                    |                                                                       |
 |                    |    - Country Code: +48/48                                             |
 |                    |    - Subscriber number: 123456789                                     |
 |                    |    - In total: +48123456789 / 123456789 / 48123456789                 |
