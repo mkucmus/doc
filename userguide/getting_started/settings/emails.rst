@@ -65,8 +65,8 @@ Email templates
 +------------------+-----------------------------------------------------------------------+--------------------------------------------------------------------------------------+
 |  ACCOUNT CREATED                                                                                                                                                                |
 +------------------+-----------------------------------------------------------------------+--------------------------------------------------------------------------------------+
-|                  | E-mail send after registering new Customer Account using Admin        | It contains temporary password to activate an account and link to download           | 
-|                  | Cocpit, POS Cockpit and API                                           | Terms & Conditions file (.PDF)                                                       |
+|                  | | E-mail send after registering new Customer Account using Admin      | It contains temporary password to activate an account and link to download           | 
+|                  | | Cocpit, POS Cockpit and API                                         | Terms & Conditions file (.PDF)                                                       |
 +------------------+-----------------------------------------------------------------------+--------------------------------------------------------------------------------------+
 |  PASSWORD RESET REQUESTED                                                                                                                                                       |
 +------------------+-----------------------------------------------------------------------+--------------------------------------------------------------------------------------+
