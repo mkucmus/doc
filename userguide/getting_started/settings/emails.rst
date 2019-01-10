@@ -36,7 +36,8 @@ To edit an email template:
 3. Make any necessary changes to the following:	
 
   - Enter new **Subject** of the email message which will be displayed when the recipient gets an email. 
-   | For example OpenLoyalty – new points. The Template Subject appears also in the Subject column in **Emails list** grid 
+  
+    For example OpenLoyalty – new points. The Template Subject appears also in the Subject column in **Emails list** grid 
   - In **Sender** name field enter the name which will be displayed when the recipient opens an email in the external email system, as the reference so that your recipient knows it was you who sent the message
   - In **Sender email** field  provide an email address which will be displayed when the recipient opens an email in the external system
   - Every template has predefined variables added to content in **Variables** field. The selection of available variables depends on the template and can not be changed
