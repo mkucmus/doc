@@ -4,9 +4,9 @@
 Identification factors
 ======================
 
-| The identification factors determines the priority of factors used to match particular transaction with particular customer. 
+The identification factors determines the priority of factors used to match particular transaction with particular customer. 
 
-| Otherwise, these information are used to assign your loyalty program participant with transaction they making and transmitting relevant transaction data to Open Loyalty for completing or validating redemption-related transactions or re-wards, calculating associated rewards or identifying transaction matches.  
+Otherwise, these information are used to assign your loyalty program participant with transaction they making and transmitting relevant transaction data to Open Loyalty for completing or validating redemption-related transactions or re-wards, calculating associated rewards or identifying transaction matches.  
 
 
 .. image:: /userguide/_images/identification_factors.png
@@ -45,9 +45,11 @@ To set up identification factors:
   - **phone**  
       when matching transaction with the Customer phone number will be used (e.g. phone number must be provided during  account in Loyalty Program creation)
 
+
 5. You can simply remove factor rule by clicking bin |bin| icon in a particular row 
 
 .. |bin| image:: /userguide/_images/bin.png
+
 
 6. When complete, tap ``SAVE``
 
