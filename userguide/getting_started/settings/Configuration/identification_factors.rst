@@ -27,12 +27,15 @@ To set up identification factors:
 
 3. The **Priority** field determines the order in which the calculation will be handled. Enter a number to determine the Priority of this factor in relation to other factors that might be active at the same time (number 1 has the highest priority).
 
-.. code-block:: text
+.. note:: 
 
-    For example
-    If there are three factors, with a priority of one, two, and three, the one with the highest priority (number one) is calculated before the others. 
+    **For example**
+    
+    If there are three factors, with a priority of one, two, and three, the one with the highest priority (number one) is calculated 	before the others. 
+    
     If there will be no clear result, factor with the second highest priority is verified etc. 	  
-	  
+	 
+	 
 4. Set the **Field** to one of the following: 
 
   - **email**  
