@@ -4,9 +4,9 @@
 Actions controls
 ================
 
-| When working with a collection of records in the grid, you can use the Actions control to apply an operation to the records. The **Actions** control lists each operation that is available for the specific type of data. 
+When working with a collection of records in the grid, you can use the Actions control to apply an operation to the records. The **Actions** control lists each operation that is available for the specific type of data. 
 
-| For example, for Customer records, you can use the Actions control to edit basic information of a selected customer, view the customer account form, or to deactivate record without a possibility to activate them again.
+**For example**, for Customer records, you can use the Actions control to edit basic information of a selected customer, view the customer account form, or to deactivate record without a possibility to activate them again.
 
 .. image:: /userguide/_images/actions.png
    :alt:   Applying an Action to selected record
