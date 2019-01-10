@@ -58,34 +58,35 @@ Email templates
 +------------------+-----------------------------------------------------------------------+--------------------------------------------------------------------------------------+
 |  Email           |  Event                                                                | Description                                                                          | 
 +==================+=======================================================================+======================================================================================+
-|  ACCOUNT CREATED                                                                                                                                                                |
+|  **Account created**                                                                                                                                                            |
 +------------------+-----------------------------------------------------------------------+--------------------------------------------------------------------------------------+
-|                  | E-mail send when Customer register to program using Customer Cockpit  | Email with link to activate account (password is entered by customer during          |
-|                  |                                                                       | filling out registration form) and link to download Terms & Conditions file (.PDF)   |
+|                  | | E-mail send when Customer register to program using Customer Cockpit| | Email with link to activate account (password is entered by customer during        |
+|                  |                                                                       | | filling out registration form) and link to download Terms & Conditions file (.PDF) |
 +------------------+-----------------------------------------------------------------------+--------------------------------------------------------------------------------------+
-|  ACCOUNT CREATED                                                                                                                                                                |
+|  **Account created**                                                                                                                                                            |
 +------------------+-----------------------------------------------------------------------+--------------------------------------------------------------------------------------+
-|                  | | E-mail send after registering new Customer Account using Admin      | It contains temporary password to activate an account and link to download           | 
-|                  | | Cocpit, POS Cockpit and API                                         | Terms & Conditions file (.PDF)                                                       |
+|                  | | E-mail send after registering new Customer Account using Admin      | | It contains temporary password to activate an account and link to download         | 
+|                  | | Cocpit, POS Cockpit and API                                         | | Terms & Conditions file (.PDF)                                                     |
 +------------------+-----------------------------------------------------------------------+--------------------------------------------------------------------------------------+
-|  PASSWORD RESET REQUESTED                                                                                                                                                       |
+|  **Password reset requested**                                                                                                                                                   |
 +------------------+-----------------------------------------------------------------------+--------------------------------------------------------------------------------------+
-|                  | Send when user click on Forgot password and provide email address     | E-mail with reset password link                                                      |  
+|                  | | Send when user click on Forgot password and provide email address   | | E-mail with reset password link                                                    |  
 +------------------+-----------------------------------------------------------------------+--------------------------------------------------------------------------------------+
-|  NEW REWARD                                                                                                                                                                     |
+|  **New reward**                                                                                                                                                                 |
 +------------------+-----------------------------------------------------------------------+--------------------------------------------------------------------------------------+
-|                  | Send after Customer confirm reward redemption                         | It contains coupon code and reward campaign name                                     |  
+|                  | | Send after Customer confirm reward redemption                       | | It contains coupon code and reward campaign name                                   |  
 +------------------+-----------------------------------------------------------------------+--------------------------------------------------------------------------------------+
-|  NEW POINTS                                                                                                                                                                     |
+|  **New points**                                                                                                                                                                 |
 +------------------+-----------------------------------------------------------------------+--------------------------------------------------------------------------------------+
-|                  | Send after Customer earn points                                       | It contains new points value and current amount of all active points                 |  
+|                  | | Send after Customer earn points                                     | | It contains new points value and current amount of all active points               |  
 +------------------+-----------------------------------------------------------------------+--------------------------------------------------------------------------------------+
-|  NEW LEVEL                                                                                                                                                                      |
+|  **New level**                                                                                                                                                                  |
 +------------------+-----------------------------------------------------------------------+--------------------------------------------------------------------------------------+
-|                  | Send after Customer reach next level                                  | It contains information about customer new level and new discount                    |  
+|                  | | Send after Customer reach next level                                | | It contains information about customer new level and new discount                  |  
 +------------------+-----------------------------------------------------------------------+--------------------------------------------------------------------------------------+
-|  INVITATION                                                                                                                                                                     |
+|  **Invitation**                                                                                                                                                                 |
 +------------------+-----------------------------------------------------------------------+--------------------------------------------------------------------------------------+
-|                  | Send after Customer invite his friend to loyalty program              | It contains referrer customer name and registration link for his friend              |
-|                  | (refer a friend)                                                      |                                                                                      |
+|                  | | Send after Customer invite his friend to loyalty program            | | It contains referrer customer name and registration link for his friend            |
+|                  | | (refer a friend)                                                    |                                                                                      |
 +------------------+-----------------------------------------------------------------------+--------------------------------------------------------------------------------------+
+
