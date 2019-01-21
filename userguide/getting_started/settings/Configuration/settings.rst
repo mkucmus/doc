@@ -63,7 +63,10 @@ In the **Settings** section, do the following:
       Points accumulated by the participant will expire at the end of the month when he got it 
   - **At the end of the year**
       Points accumulated by the participant will expire at the end of the year when he got it 
-      
+
+.. image:: /userguide/_images/points_expiration.PNG
+   :alt:   Expire points method
+   
 9. Mark the **Points are never locked** checkbox if you want to assign points to Active points pool and recalculate customer level instantly when his transaction will be registered in Open Loyalty
 
 10. **Points will be locked for** field is available and required only when **Points are never locked** is *unselected*. 
