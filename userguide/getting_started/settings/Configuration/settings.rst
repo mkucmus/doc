@@ -53,14 +53,20 @@ In the **Settings** section, do the following:
 
 7. Set **Help e-mail**, where a customer can write to find help and support for your Loyalty Program
 
-8. Mark the **All time active** checkbox, if you want the points accumulated by the participants of your loyalty program don’t expire
+8. In **Expire points method** field define customers gathered *Active points* expiration time boundaries to one of following:
 
-9. **Points will expire after** field is available and required only when **All time active checkbox** is *unselected*. 
-  Points will expire after a provided number of days from the date of adding Points transfer
+  - **After X days**  
+      Points will expire, after a provided in **Points will expire after** field number of days, from the date of adding Points transfer
+  - **All time active**
+      Points accumulated by the participants of your loyalty program don’t expire
+  - **At the end of the month**
+      Points accumulated by the participant will expire at the end of the month when he got it 
+  - **At the end of the year**
+      Points accumulated by the participant will expire at the end of the year when he got it 
+      
+9. Mark the **Points are never locked** checkbox if you want to assign points to Active points pool and recalculate customer level instantly when his transaction will be registered in Open Loyalty
 
-10. Mark the **Points are never locked** checkbox if you want to assign points to Active points pool and recalculate customer level instantly when his transaction will be registered in Open Loyalty
-
-11. **Points will be locked for** field is available and required only when **Points are never locked** is *unselected*. 
+10. **Points will be locked for** field is available and required only when **Points are never locked** is *unselected*. 
   Points will be locked for a provided number of days from the date of transaction registration. After passing selected locked time points automatically will get active and customer level will be recalculated
 
 .. image:: /userguide/_images/locked_points.png
@@ -70,9 +76,9 @@ In the **Settings** section, do the following:
 
     **Date until points will be locked and amount of locked points is displaying in Customer profile details from the Admin and for customers via Client Cockpit**
 
-12. If you marked **Returns** checkbox, then after Return process completed amount of points earned for a returned transaction will be subtracted
+11. If you marked **Returns** checkbox, then after Return process completed amount of points earned for a returned transaction will be subtracted
 
-13. If you want to get a webhook notification about the customer earned points expiration you can define in **Days before expiring points to notify user** field number of days when notification will be sent.
+12. If you want to get a webhook notification about the customer earned points expiration you can define in **Days before expiring points to notify user** field number of days when notification will be sent.
   For proper operation, it **is necessary to activate the webhook** and provide the URL address to which the information will be sent (more in :doc:`Webhook section </userguide/getting_started/settings/Configuration/webhooks>`)
 
 .. image:: /userguide/_images/webhook_notification.png
@@ -86,7 +92,7 @@ In the **Settings** section, do the following:
     If **yes** webhook event will be sent (on the URL address provided by you in Webhooks section) with information about a customer, a     sum of his points which will expire in 10 days and points expiration date
 
    
-14. If you want to get a webhook notification about the customer coupon expiration you can define in **Days before expiring coupons to notify user** field number of days when notification will be sent. 
+13. If you want to get a webhook notification about the customer coupon expiration you can define in **Days before expiring coupons to notify user** field number of days when notification will be sent. 
    For proper operation, it **is necessary to activate the webhook** and provide the URL address to which the information will be sent (more in :doc:`Webhook section </userguide/getting_started/settings/Configuration/webhooks>`)
 
 .. image:: /userguide/_images/webhook_notification2.png
@@ -99,7 +105,7 @@ In the **Settings** section, do the following:
     
     If **yes** webhook event will be sent (on the URL address provided by you in Webhooks section) with information about: customer,         coupon code which will expire in 10 days, expiration date and coupon status (status is calculated based on days inactive and days       valid defined during reward campaign creation). 
 
-15. Set the Levels will be calculated with a field to one of the following:
+14. Set the Levels will be calculated with a field to one of the following:
 
    - **Points** 
       current level assignment will be calculated on the basis of the sum of points earned from transactions (with use of earning rules)
@@ -108,12 +114,12 @@ In the **Settings** section, do the following:
 
    When **Points** is selected additional section appears below. Please see :doc:`Level downgrade settings </userguide/getting_started/settings/Configuration/level_downgrade_settings>` to learn how to configure reset points after a selected time period and level expiration
 
-16. When **Delivery costs** checkbox is selected then delivery cost will not be included in order value used for earned points calculation
+15. When **Delivery costs** checkbox is selected then delivery cost will not be included in order value used for earned points calculation
 
-17. **Excluded SKUs of delivery cost** field is available and required only when **Delivery costs** checkbox is selected. 
+16. **Excluded SKUs of delivery cost** field is available and required only when **Delivery costs** checkbox is selected. 
   SKU's provided in this field will be excluded from the calculation of earned points
 
-18. In the **SKUs excluded from levels** enter SKUs that will not be included in order value used for earned points calculation
+17. In the **SKUs excluded from levels** enter SKUs that will not be included in order value used for earned points calculation
 
 
 When complete, tap ``SAVE``
