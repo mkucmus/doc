@@ -60,9 +60,9 @@ In the **Settings** section, do the following:
   - **All time active**
       Points accumulated by the participants of your loyalty program don’t expire
   - **At the end of the month**
-      Points accumulated by the participant will expire at the end of the month when he got it 
+      Points accumulated by the participant will expire at the end of the month when he got it i.e. points earned on January 22nd will expire at midnight on February 1st
   - **At the end of the year**
-      Points accumulated by the participant will expire at the end of the year when he got it 
+      Points accumulated by the participant will expire at the end of the year when he got it i.e. points earned in 2018 will expire at midnight on January 1st, 2019
 
 .. image:: /userguide/_images/points_expiration.PNG
    :alt:   Expire points method
