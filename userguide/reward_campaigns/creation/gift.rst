@@ -30,6 +30,9 @@ To create Gift reward:
 
 2. Scroll down to **Campaign type** section and select a **Gift** reward type from a dropdown list (by default Discount code is displaying)
 
+3. If you want to manage the reward delivery statuses and monitor them mark **Fulfillment tracking process** checkbox. More information about these feature you will find :doc:`here </userguide/reward_campaigns/creation/fulfillment_tracking>`
+
+
 .. note:: 
 
     Depending on the selected **Campaign type**, a Basic information and next section - Campaign details, will display different fields to filled in.
