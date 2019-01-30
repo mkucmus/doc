@@ -27,6 +27,13 @@ Redeemed rewards list grid provide an information about which customer and when 
 
 Moreover, you can check whether reward is **Delivered** (customer choose reward and spent points but he has not used it yet) or **Used** (customer used coupon code during purchase, gift was sent to customer etc.)
 
+.. note::
+
+    You can mark selected reward/coupon record as Used or unmark if is not used only if it's status is **Active** 
+    
+    When coupon status changed to **Expired** none of the above operations is possible.
+    
+
 .. image:: /userguide/_images/redeemed.png
    :alt:   Redeemed Rewards
 
@@ -90,7 +97,7 @@ Field description
 |                            |   - Delivered                                                                          |
 |                            |   - Used                                                                               |
 |                            |                                                                                        |
-|                            | | To learn how to select reward as a used, see                                           |
+|                            | | To learn how to select reward as a used, see                                         |
 |                            | :doc:`Redeemed rewards </userguide/customers/profile_details/loyalty/redeemed_rewards>`|
 |                            | in profile detail section                                                              |
 +----------------------------+----------------------------------------------------------------------------------------+
