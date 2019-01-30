@@ -19,6 +19,13 @@ On the Redeemed rewards list, **Used** rewards will have a marked checkbox in th
 
 From the Admin you can mark selected redeemed reward record as a Used, when customer used coupon code during purchase, you sent gift which customer selected from his cockpit etc. 
 
+.. note::
+
+    You can mark selected reward/coupon record as Used or unmark if is not used only if it's status is **Active** 
+    
+    When coupon status changed to **Expired** none of the above operations is possible.
+    
+
 To mark coupon as used:
 ^^^^^^^^^^^^^^^^^^^^^^^
 
