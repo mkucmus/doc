@@ -23,6 +23,7 @@ You can create unlimited amount customizable customers segments for your loyalty
 
 - :doc:`Reward campaigns types  </userguide/reward_campaigns/creation/reward_type>`
 - :doc:`Conditions of reward availability for customers  </userguide/reward_campaigns/reward_availability>`
+- :doc:`Gift fulfillment tracking process  </userguide/reward_campaigns/creation/fulfillment_tracking>`
 
 **Reward campaigns**
 
