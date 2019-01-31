@@ -8,7 +8,7 @@ Email templates define the layout, content, and formatting of automated messages
 
 Open Loyalty includes a set of responsive email templates that are triggered by a variety of events that take place during the operation of your Loyalty Program. You will find a variety of prepared email templates related to customer activities, admin actions, and system messages that you can customize.
 
-.. image:: /userguide/_images/emails.png
+.. image:: /userguide/_images/emails2.PNG
    :alt:   Email Templates
 
 
@@ -48,9 +48,16 @@ To edit an email template:
 
     **When working in the template code, be careful not to overwrite anything that is enclosed in double braces**
 
-4. When you are ready to review your work, tap ``Preview``. Then, make adjustments to the template as needed
+4. If you want to edit **Reward Redeemed**, additional field to be filled in appear. 
 
-5. When complete, tap ``SAVE``
+  - In **Receiver email** field provide an email address or addresses (after *coma* ",") on which notification about *used gift reward* will be sent. 
+
+.. image:: /userguide/_images/gift_email.png
+   :alt:   Reward Redeemed template
+
+5. When you are ready to review your work, tap ``Preview``. Then, make adjustments to the template as needed
+
+6. When complete, tap ``SAVE``
 
 	
 	 
