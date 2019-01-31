@@ -103,3 +103,11 @@ Email templates
 | | Send after Customer invite his friend to   | | It contains referrer customer name and registration      |
 | | loyalty program (refer a friend)           | | link for his friend                                      |
 +----------------------------------------------+------------------------------------------------------------+
+|  **Reward Redeemed**                                                                                      |
++----------------------------------------------+------------------------------------------------------------+
+| | Send after gift reward is marked as used   | | It contains basic information of the reward and customer |
+| 				               | | who used it and address assigned to his account to which |
+|					       | | the prize is to be sent				    |
++----------------------------------------------+------------------------------------------------------------+
+
+
