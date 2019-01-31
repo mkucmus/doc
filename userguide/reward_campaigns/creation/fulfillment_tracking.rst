@@ -16,14 +16,14 @@ When you mark reward as used you will receive :doc:`Reward Redeemed  </userguide
 
 Depedning on the shipping process, you can freely change your **Delivery status** to one of the following:
 
- - Ordered
+ - **Ordered**
     when reward is mark as used and you can start the shipping process
     
- - Shipped
+ - **Shipped**
     when the reward was sent to the customer's address
     
- - Delivered
+ - **Delivered**
     when the reward was received by the customer
     
- - Canceled 
+ - **Canceled** 
     when reward shipping process was canceled e.g. when the customer has given up the reward. You can change status to canceled at any time, regardless of previous one.   
