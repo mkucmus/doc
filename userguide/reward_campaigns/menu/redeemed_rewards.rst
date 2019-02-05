@@ -117,7 +117,7 @@ Field description
 |                            | | **Options include**:                                                                   |
 |                            |                                                                                          |
 |                            |   - Delivered: *empty checkbox*                                                          |
-|                            |   - Used: *mark checkbox*                                                                |
+|                            |   - Used: *marked checkbox*                                                              |
 |                            |                                                                                          |
 |                            | | To learn how to select reward as a used, see                                           |
 |                            |   :doc:`Redeemed rewards </userguide/customers/profile_details/loyalty/redeemed_rewards>`|
