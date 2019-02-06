@@ -16,6 +16,10 @@ Customer **total amount of transaction is 100 EUR**. Base on point value, if he 
 
 If he exchange part of his points e.g. 20, he will receive 40 EUR discount, and will have to pay 60 EUR for his order (instead 100 EUR) 
 
+.. note:: 
+
+    If more than one Cashback campaign is available and active only ONE of them will be used - the one with the best conversion rate at given time (better *Point value*) 
+    
 
 To create Cashback reward:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
