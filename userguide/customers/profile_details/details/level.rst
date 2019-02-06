@@ -18,18 +18,7 @@ To **change manually the level** to which the customer is assigned go to edit mo
 
 .. |edit| image:: /userguide/_images/edit.png
 
-.. note:: 
-
-    When customer has manually assigned level, he still earns points and can be promoted to the next level but can not fall below assigned one. 
-
-To remove manual assignment by Admin, and allow customer to be automatically assigned to the level based on the earned points click ``Unlink`` 
-
-You can also simply **Unlink manually assignment** also from All customers list by clicking **Unlink** icon |unlink| in the Action column. 
-
-.. |unlink| image:: /userguide/_images/unlink.png
-
-.. image:: /userguide/_images/customer_unlink.png
-   :alt:   Unlink manual assignment
+More information about Level manually assignement you will find :doc:`here </userguide/customers/account/level_assigned>` 
 
 To learn more about levels and special rewards, see :doc:`Levels </userguide/levels/index>`
 
