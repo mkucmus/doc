@@ -39,6 +39,9 @@ After few days, for some reason he decided to make full refund of transaction to
  - returned coupon *expiration date* is the same as used within transaction 
  - returned coupon status is *Delivered*
  - the old coupon status remain *Used* (marked checkbox)
+ 
+.. image:: /userguide/_images/full_refund.PNG	
+   :alt:   Full refund voucher 
 
 2. Partial refund
 '''''''''''''''''''
@@ -55,3 +58,9 @@ After return transaction registration, customer:
  - returned coupon *expiration date* is the same as used within transaction 
  - returned coupon status is *Delivered*
  - the old coupon status remain *Used* (marked checkbox)
+
+
+.. image:: /userguide/_images/partial_refund.PNG	
+   :alt:   Partial refund voucher 
+   
+   
