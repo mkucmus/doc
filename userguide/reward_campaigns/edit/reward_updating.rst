@@ -21,3 +21,10 @@ To edit a Reward campaign:
 3. Make any necessary changes to the reward data
 
 4. When complete, tap ``SAVE``
+
+
+.. warning:: 
+
+    During reward with coupons codes edition, in **Coupons** section you will be **able to remove or change only those coupon codes that have not yet been redeemed** by the customers. 
+    
+    If coupon code has been assigned to a customer (when heredeemed the reward), it will not be possible to change it. 
