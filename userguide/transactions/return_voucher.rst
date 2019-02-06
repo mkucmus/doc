@@ -17,6 +17,9 @@ If Customer total amount of transaction is **100 EUR**, and *Transaction percent
 
 Received value code can be used for next purchase to reduce the value of the order. But what happens if the customer decides to return the transaction to which he used the value code?
 
+.. image:: /userguide/_images/voucher_transactions.PNG
+   :alt:   Transactions with Voucher
+
 What will happen to customer's points and indicators of profitability is described in the :doc:`Return transactions </userguide/transactions/menu/returns>`.  
 
 Used value code will be returned to Customer for next purchase, but it's value will depend on the return transaction value in propotion to the **registered order amount before reduction**. Returned value code will have **the same expiration date as the one used**   
