@@ -49,6 +49,14 @@ To create a New Customer Account:
  - Select POS 
  - Select merchant
 
+.. warning:: 
+
+    For successful account created customer need to be assigne to any **Level**, so one of the following situations must exist: 
+    
+    - Level with *Condition value* equal **0** must be created. Customer will be automatically assigned to it. 
+    - during account creation you will manually assign any level in *Select level* field
+
+
 4. If applicable, create **Label(s)** you want refer to customer. Labels are intended to be used to specify identifying attributes of customer. 
   
    Labels can be used to organize and to select subsets of customers at customer segmentation process. To learn more about Customer segmentation, see :doc:`Segments </userguide/segments/index>`
