@@ -6,6 +6,13 @@ Percentage discount code
 
 After purchase customer can receive value discount for next purchase base on registered order amount. Discount is calculated base on **Transaction percentage value**. Discount will be equal percentage value of transaction provided in **Transaction percentage value** field. 
 
+.. note:: 
+
+    If more than one Percentage discount code campaign is available and active all will be applied. 
+    
+    So it is possible that the customer will receive several value codes of different value.
+    
+
 **For example**
 
 - local currency is EUR 
