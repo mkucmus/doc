@@ -108,7 +108,7 @@ In the **Settings** section, do the following:
     
     If **yes** webhook event will be sent (on the URL address provided by you in Webhooks section) with information about: customer,         coupon code which will expire in 10 days, expiration date and coupon status (status is calculated based on days inactive and days       valid defined during reward campaign creation). 
 
-14. If you want to get a webhook notification about the customer level recalculation you can define in **Days before level recalculation to notify user** field number of days when notification will be sent. 
+14. If you want to get a webhook notification about the customer level which he will receive after the recalculation (at the current state of points) you can define in **Days before level recalculation to notify user** field number of days when notification will be sent. 
    For proper operation, it **is necessary to activate the webhook** and provide the URL address to which the information will be sent (more in :doc:`Webhook section </userguide/getting_started/settings/Configuration/webhooks>`)
 
 .. image:: /userguide/_images/webhook_notification3.PNG
@@ -119,7 +119,7 @@ In the **Settings** section, do the following:
     **For example** 
     when you enter 10, it means that every day Open Loyalty will be checking if there is any customer which level will be recalculated       in 10 days. 
     
-    If **yes** webhook event will be sent (on the URL address provided by you in Webhooks section) with information about: customer,         current level which will be recalculated in 10 days, recalculation date. 
+    If **yes** webhook event will be sent (on the URL address provided by you in Webhooks section) with information about: customer,         current level which will be recalculated in 10 days and new level, which he will receive after the recalculation if his loyalty         points balance doesn't change  
 
 15. Set the Levels will be calculated with a field to one of the following:
 
