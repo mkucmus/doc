@@ -36,9 +36,13 @@ To add new Custom event rule:
  - **Period** field is visible and required if *Usage limit active* is marked.
    
    It defines period of time within customer can be rewarded for this rule. Option include: 
-    - 1 day 
-    - 1 week
-    - 1 month
+    - 1 Day 
+    - 1 Week
+    - 1 Month
+    - 1 year
+    - 3 months
+    - 6 months
+    - Forever
  - **Limit** field is visible and required if *Usage limit active* is marked. 
 
    Provided number defines how many times customer could be rewarded for this rule in specified period of time. 
