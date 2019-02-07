@@ -67,7 +67,7 @@ To create Gift reward:
 
  - In **Days valid** specify number of days during which coupon assign to this campaign will be active since the inactive time boundaries finished. After provided here number of days voucher will expired. 
  
-    **If you want your coupons never expired, provide 0**
+   **If you want your coupons never expired, provide 0**
  
  - In **Cost in points** field, enter the number of points represented by the reward to define how many points customer needs to spend to get a reward
  - If applicable, In **Reward value** field provide a monetary value of reward
