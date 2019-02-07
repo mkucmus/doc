@@ -7,6 +7,7 @@ Open Loyalty Settings
    introduction
    configuration/index
    users
+   acl
    translations
    emails
    System logs
