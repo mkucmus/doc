@@ -46,13 +46,14 @@ To create Custom campaign reward:
  - If needed, provide a **Brand description** of the reward campaign using rich media format
  - If applicable, fulfill the same fields in other language version e.g. polish as on a screen above
 
-.. image:: /userguide/_images/custom_details.png
+.. image:: /userguide/_images/custom_details.PNG
    :alt:   Custom campaign details 
 
 4. In the **Campaign details** section do the following
 
  - To make reward available for customer, in **Active** field select "**Active**" from the dropdown list
  - If needed, enter URL to the content page in **More information link field**, that explains your reward campaign or to external web with reward details 
+ - If applicable, in **Push notification text** provide a text message that will be displayed as a push notification for Customer, when reward become available for him
  - If applicable, In **Reward value** field provide a monetary value of reward
  - If needed, enter **Tax** rate that applies to the reward and monetary value of tax for reward in **Tax value**
  - If applicable, mark **Featured** checkbox to differentiate campaign from the others. **Feature is used when you want to filter campaigns using API**
