@@ -60,11 +60,15 @@ To create Gift reward:
 
  - To make reward available for customer, in **Active** field select "**Active**" from the dropdown list
  - If needed, enter URL to the content page in **More information link field**, that explains your reward campaign or to external web with reward details 
+ - If applicable, in **Push notification text** provide a text message that will be displayed as a push notification for Customer, when reward become available for him
  - In **Days inactive** define number of days during which coupons assign to this campaign will be inactive since the transaction date. 
 
    **If you want make coupon valid instantly, provide 0**  
 
- - In **Days valid** specify number of days during which coupon assign to this campaign will be active since the inactive time boundaries finished. After provided here number of days voucher will be inactive. 
+ - In **Days valid** specify number of days during which coupon assign to this campaign will be active since the inactive time boundaries finished. After provided here number of days voucher will expired. 
+ 
+    **If you want your coupons never expired, provide 0**
+ 
  - In **Cost in points** field, enter the number of points represented by the reward to define how many points customer needs to spend to get a reward
  - If applicable, In **Reward value** field provide a monetary value of reward
  - If needed, enter **Tax** rate that applies to the reward and monetary value of tax for reward in **Tax value**
