@@ -6,6 +6,13 @@ Users
 
 When your store is first set up, you receive a set of login credentials for the Administrator role that has full permissions. If there are others on your team or service providers who need access, you can create a separate user account for each from this section.
 
+To limit the sections or elements that admin users can access when they log in, you must first create a role with limited permissions and access only to the necessary resources. See :doc:`ACL </userguide/getting_started/settings/acl>` section to learn more about the roles.Then, you can assign the role to a specific user account. 
+
+.. note::
+
+    **Admin users who are assigned to a restricted role can see and/or change data only for resources that are associated with the role**
+
+
 Users list include both active and inactive Admin user’s – inactive are grayed-out. You can also see their status in Active column. Additionally, Users list grid provides basic information about users – name, surname, email address and authenticate method.
 
 .. image:: /userguide/_images/users.png
