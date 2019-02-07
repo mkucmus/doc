@@ -50,7 +50,7 @@ To create Free delivery reward:
  - If needed, provide a **Brand description** of the reward campaign using rich media format
  - If applicable, fulfill the same fields in other language version e.g. polish as on a screen above 
 
-.. image:: /userguide/_images/delivery_details.PNG
+.. image:: /userguide/_images/delivery_details2.PNG
    :alt:   Free delivery Campaign Details 
 
 4. In the **Campaign details** section do the following
