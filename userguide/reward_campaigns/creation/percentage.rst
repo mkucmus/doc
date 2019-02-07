@@ -57,13 +57,17 @@ To create Percentage discount code reward:
  - If needed, provide a **Brand description** of the reward campaign using rich media format
  - If applicable, fulfill the same fields in other language version e.g. polish as on a screen above
 
-.. image:: /userguide/_images/percentage_details.png
+.. image:: /userguide/_images/percentage_details.PNG
    :alt:   Percentage discount code campaign details
 
 4. In the **Campaign details** section do the following
 
  - To make reward available for customer, in **Active** field select "**Active**" from the dropdown list
+ 
  - If needed, enter URL to the content page in **More information link field**, that explains your reward campaign or to external web with reward details 
+ 
+ - If applicable, in **Push notification text** provide a text message that will be displayed as a push notification for Customer, when reward become available for him
+ 
  - In **Transaction percentage value** field provide a value of voucher which is calculated based on the transaction amount.  
  
    **For example**, if you enter 10, customer receive voucher worth 10% of the transaction value. 
@@ -72,11 +76,18 @@ To create Percentage discount code reward:
 
    **If you want make coupon valid instantly, provide 0**  
 
- - In **Days valid** specified number of days during which coupon assign to this campaign will be active since the inactive time boundaries finished.After provided here number of days voucher will be inactive. 
+ - In **Days valid** specified number of days during which coupon assign to this campaign will be active since the inactive time boundaries finished.After provided here number of days voucher will expired. 
+ 
+   **If you want your coupons never expired, provide 0**
+ 
  - If applicable, In **Reward value** field provide a monetary value of reward
+ 
  - If needed, enter **Tax** rate that applies to the reward and monetary value of tax for reward in **Tax value**
+ 
  - If applicable, mark **Featured** checkbox to differentiate campaign from the others. **Feature is used when you want to filter campaigns using API**
+ 
  - If applicable, mark **Public** checkbox to differentiate campaign from the others. **Feature is used when you want to filter campaigns using API** 
+ 
 
 5. In the same **Campaign details** section, if applicable, create **Label(s)** you want refer to reward. Labels are intended to be used to specify identifying attributes of reward campaign. 
  
