@@ -31,7 +31,7 @@ To add new user:
 
 2. To add new user, tap ``Add``
 
-.. image:: /userguide/_images/add_user.png
+.. image:: /userguide/_images/add_user2.PNG
    :alt:   New User Account Information
 
 3. In the **Create user** section, complete the following information:
@@ -43,7 +43,9 @@ To add new user:
 
   This email address must be different from the one that is associated with your original Admin account
 	 
-4. Then you have to decide which of the following user authentication method to choose:
+4. Assign one of the existing **Roles** to the user account 
+
+5. Then you have to decide which of the following user authentication method to choose:
 
   - To authenticate user via an **API key**, do the following:
   
@@ -55,9 +57,9 @@ To add new user:
     - Leave **External** checkbox blank
     - Assign a **Password** to the account
 
-5. Set **Active** field to "Active"
+6. Set **Active** field to "Active"
 
-6. When complete, tap ``SAVE``
+7. When complete, tap ``SAVE``
 
 .. note::
 
@@ -67,7 +69,7 @@ To add new user:
 Admin user edition
 ------------------
 
-.. image:: /userguide/_images/edition.png
+.. image:: /userguide/_images/admin_edition.PNG
    :alt:   Admin User Editing
    
 
@@ -82,7 +84,7 @@ To edit an admin account:
 
 .. |edit| image:: /userguide/_images/edit.png
 
-3. Make any necessary changes to user account information. **If you change password/API key, make sure to inform user about changes**
+3. Make any necessary changes to user account information. **If you change password/API key or role, make sure to inform user about changes**
 
 4. When complete, tap ``SAVE``
 
