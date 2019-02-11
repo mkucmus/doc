@@ -25,7 +25,10 @@ If an Admin user’s access is restricted to specific sections and/or elements, 
     The grid lists all the existing roles. After first installed, **Super admin** is the only role available.
 
 
-To create new Role:
+New role creation
+-----------------------
+
+To add new Role:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. In the upper-right corner, tap the **Settings** icon |settings| . Then on the menu, choose **ACL**. 
@@ -83,7 +86,7 @@ The role now appears in the grid, and can be assigned to new user accounts.
 |                    | | not assigne to him.                                                 |
 +--------------------+-----------------------------------------------------------------------+
 
-To learn more about Role resources please find :doc:`Role resources </userguide/getting_started/settings/role_resources>`section
+To learn more about Role resources please find :doc:`Role resources </userguide/getting_started/settings/role_resources>` section
 
 .. warning::
 
@@ -98,6 +101,9 @@ To learn more about Role resources please find :doc:`Role resources </userguide/
 
     **When assigning resources, be sure to include all sections containing resources to which user should have an access. Otherwise, users will not be able to modify or view them all.**
 
+
+Users roles management
+------------------------
 
 To edit a Role:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -118,6 +124,26 @@ To edit a Role:
    You can simply remove permission by clicking bin |bin| icon in a particular row 
 
 .. |bin| image:: /userguide/_images/bin.png
+
+
+To remove a Role:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You can also delete existing role from the Admin.
+
+1. In the upper-right corner, tap the **Settings** icon |settings| . Then on the menu, choose **ACL**. 
+
+.. |settings| image:: /userguide/_images/icon.png
+
+2. In the Roles list, find the record to be deleted and click **Remove** icon |remove| in the Action column to delete the role
+
+.. |remove| image:: /userguide/_images/remove.png
+
+3. System display a message asked you to confirm the action. To confirm tap ``Yes``
+
+.. image:: /userguide/_images/remove_role.PNG
+   :alt:   Removing Role Action
+
 
 4. When complete, tap ``SAVE``
 
