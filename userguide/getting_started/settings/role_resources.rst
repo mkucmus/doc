@@ -18,7 +18,7 @@ See the **Resources** linked page to learn more about the capabilities thyat are
 ACL 
 ^^^^^^
 
-*Defines access to the :doc:`ACL  </userguide/getting_started/settings/acl>` settings section and its individual elements*
+Defines access to the :doc:`ACL  </userguide/getting_started/settings/acl>` settings section and its individual elements
 
 +----------------------------------------+----------------------------------------+
 | VIEW                                   | MODIFY                                 |
@@ -45,7 +45,7 @@ ACL
 Admins 
 ^^^^^^
 
-*Defines access to the Admin :doc:`Users  </userguide/getting_started/settings/users>` settings section and its individual elements*
+Defines access to the Admin :doc:`Users  </userguide/getting_started/settings/users>` settings section and its individual elements
 
 +----------------------------------------+----------------------------------------+
 | VIEW                                   | MODIFY                                 |
@@ -72,7 +72,7 @@ Admins
 Audit
 ^^^^^^
 
-*Defines access to the :doc:`System logs  </userguide/getting_started/settings/system_logs>` settings section and its individual elements*
+Defines access to the :doc:`System logs  </userguide/getting_started/settings/system_logs>` settings section and its individual elements
 
 
 +-------------------------------------------------+
@@ -92,7 +92,7 @@ Audit
 Customers
 ^^^^^^^^^^
 
-*Defines access to the :doc:`Customers  </userguide/customers/index>` section and its individual menu elements*
+Defines access to the :doc:`Customers  </userguide/customers/index>` section and its individual menu elements
 
 +---------------------------------------------------------+
 | VIEW                                                    | 
@@ -154,19 +154,30 @@ Customers
 Dashboard
 ^^^^^^^^^^
 
-*Defines access to the :doc:`Dashboard  </userguide/getting_started/admin/dashboard>` section and its individual elements*
+Defines access to the :doc:`Dashboard  </userguide/getting_started/admin/dashboard>` section and its individual elements
 
-+-------------------------------------------------+
-| VIEW & MODIFY                                   |                                 
-+=================================================+
-|- System logs list preview                       |    
-|- filter and sorting options of system logs list |
-|- search logs from time period                   | 
-+-------------------------------------------------+
++-------------------------------------------------------------------------------+
+| VIEW & MODIFY                                                                 |                                 
++===============================================================================+
+|- Blocks with factors describing the current state of referral program preview |    
+|- Chart shows the number of new customer accounts within last 30 days          |
+|- Levels grid preview*                                                         | 
++-------------------------------------------------------------------------------+
 
 .. tip:: 
 
     Regardless of access level, user has the same options in both - **View and Modify**
+
+.. note:: 
+
+    To enable Levels grid preview you must have at least an **Levels View access**. 
+    
+    If there is no Levels access, then you can not see the grid. 
+
+.. note:: 
+
+    Remember, that granting *View* access for Levels section (to enable levels grid preview), you give an access to the entire Levels menu section (in accordance with the permissions listed in the Levels table in *View* column) 
+
 
 
 Earning rules
