@@ -18,7 +18,7 @@ See the **Resources** linked page to learn more about the capabilities thyat are
 ACL 
 ^^^^^^
 
-*Defines access to the :doc:`ACL </userguide/getting_started/settings/acl>` settings section and its individual elements*
+*Defines access to the :doc:`ACL  </userguide/getting_started/settings/acl>` settings section and its individual elements*
 
 +----------------------------------------+----------------------------------------+
 | VIEW                                   | MODIFY                                 |
@@ -45,7 +45,7 @@ ACL
 Admins 
 ^^^^^^
 
-*Defines access to the Admin :doc:`Users </userguide/getting_started/settings/users>` settings section and its individual elements*
+*Defines access to the Admin :doc:`Users  </userguide/getting_started/settings/users>` settings section and its individual elements*
 
 +----------------------------------------+----------------------------------------+
 | VIEW                                   | MODIFY                                 |
@@ -72,7 +72,7 @@ Admins
 Audit
 ^^^^^^
 
-*Defines access to the :doc:`System logs </userguide/getting_started/settings/system_logs>` settings section and its individual elements*
+*Defines access to the :doc:`System logs  </userguide/getting_started/settings/system_logs>` settings section and its individual elements*
 
 
 +-------------------------------------------------+
@@ -92,19 +92,32 @@ Audit
 Customers
 ^^^^^^^^^^
 
-*Defines access to the :doc:`Customers </userguide/customers/index>` section and its individual menu elements*
+*Defines access to the :doc:`Customers  </userguide/customers/index>` section and its individual menu elements*
 
-+---------------------------------------------------------+--------------------------------------------------------+
-| VIEW                                                    | MODIFY                                                 |
-+=========================================================+========================================================+
-|- List of customers accounts preview*                    | All **View** permissions, and more:                    |     
-|- Filter and sorting options of customers accounts list  |                                                        |
-|- Referred customers list preview                        | - Customer account creation**                          |
-|- Filter and sorting options of referred customers list  | - Import customers list                                |
-|- Customer profile details: Profitability, Loyalty       | - Updating Customer account**                          |
-|  Profile details and Agreements sections (defualt)**    | - Deactivate a Customer’s account                      |
-|                                                         | - Level assigned manually mechanism**                  | 
-+---------------------------------------------------------+--------------------------------------------------------+
++---------------------------------------------------------+
+| VIEW                                                    | 
++=========================================================+
+|- List of customers accounts preview*                    | 
+|- Filter and sorting options of customers accounts list  |  
+|- Referred customers list preview                        | 
+|- Filter and sorting options of referred customers list  | 
+|- Customer profile details: Profitability, Loyalty       | 
+|  Profile details and Agreements sections (defualt)**    | 
+|                                                         | 
++---------------------------------------------------------+
+
++--------------------------------------------------------+
+| MODIFY                                                 |
++========================================================+
+| All **View** permissions, and more:                    |     
+|                                                        |
+| - Customer account creation**                          |
+| - Import customers list                                |
+| - Updating Customer account**                          |
+| - Deactivate a Customer’s account                      |
+| - Level assigned manually mechanism**                  | 
++--------------------------------------------------------+
+
 
 .. tip:: 
 
@@ -141,7 +154,19 @@ Customers
 Dashboard
 ^^^^^^^^^^
 
-*Defines access to the :doc:`Dashboard </userguide/getting_started/admin/dashboard>` section and its individual elements*
+*Defines access to the :doc:`Dashboard  </userguide/getting_started/admin/dashboard>` section and its individual elements*
+
++-------------------------------------------------+
+| VIEW & MODIFY                                   |                                 
++=================================================+
+|- System logs list preview                       |    
+|- filter and sorting options of system logs list |
+|- search logs from time period                   | 
++-------------------------------------------------+
+
+.. tip:: 
+
+    Regardless of access level, user has the same options in both - **View and Modify**
 
 
 Earning rules
