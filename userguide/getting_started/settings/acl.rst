@@ -147,3 +147,9 @@ You can also delete existing role from the Admin.
 
 4. When complete, tap ``SAVE``
 
+
+.. warning::
+
+    When removing role, be sure to don't delete role which is currently assigned to any user.  
+    
+    **Otherwise, user will not be able to login to Admin Cockpit** 
