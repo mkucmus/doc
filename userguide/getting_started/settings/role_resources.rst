@@ -136,8 +136,7 @@ Defines access to the :doc:`Customers  </userguide/customers/index>` section and
      - *Segments* - to display segments to which customer belongs in Profile details 
      - *Transactions* - to display all customer registered transactions in Profile details 
      - *Points transfers* - to display all customer adding/spending points transfer in Profile details 
-     - *Available rewards* - to display all rewards accessible for customer in Profile details 
-     - *Redeemed rewards* - to display all redeemed rewards by customer in Profile details 
+     - *Reward Campaign* - to display customer available and redeemed rewards in Profile details 
     
     If there is no access to any of this section, then you can not see options or tabs. 
 
@@ -363,8 +362,60 @@ Defines access to the :doc:`Reward campaigns  </userguide/reward_campaigns/index
 
     **Redeemed rewards list and details preview****
     
-    Even if User has no access to the Customers, in *Redeemed rewards* details and grid information about customer who redeemed particular reward will be visible  
+    Even if User has no access to the Customers, in *Redeemed rewards* details and grid, information about customer who redeemed particular reward will be visible  
 
+
++------------------------------------------------------------+
+| MODIFY                                                     |
++============================================================+
+| All **View** permissions, and more:                        |     
+|                                                            |
+| - Reward campaigns creation*                               |
+| - Updating reward data*                                    |
+| - Activate / Deactivate reward campaign                    |
+| - Buy reward campaign for customer**                       |
+| - List of customers able to redeem reward preview***       | 
+| - Mark reward as *Unused/used* on Redeemed rewards list    |
+| - Change reward *Delivery status* on Redeemed rewards list |
+| - New campaign category creation                           |
+| - Updating campaign category                               |
+| - Activate / Deactivate campaign category                  |
++------------------------------------------------------------+
+
+.. note:: 
+
+    **Reward campaign creation & edition***
+
+    To enable reward campaign edition and creation, you must have at least an **Levels and/or Segments View access** (*Target* section is required). 
+    
+    If there is no Levels or Segment access, then you can see *Target* but without possibility to change it
+    
+
+.. note:: 
+
+    **Buy reward campaign for customer****
+
+    To enable reward manually assignment for customer, you must have at least a **Customers View access** (*E-mail or phone* field is required). 
+    
+    In case of *Percentage discount code* reward type, also at least a **Transactions View access** is required. 
+    
+    If there is no Customers (and Transactions) access, then you can not provide any value to find customer and assigne reward.  
+
+
+.. note:: 
+
+    **List of customers able to redeem reward preview***** 
+    
+    To enable customers who could redeem reward details preview you must have at least an **Customers View access**. 
+    
+    If there is no Customers access, then you can not see the ``Show`` button to preview customers details. You can see only number of customers who could redeem reward.
+
+
+.. warning:: 
+
+    Remember, that granting *View* access for every section (to enable earning rule creation and edition), you give an access to the entire menu section (in accordance with the permissions listed in the particular tables in *View* column) 
+    
+    
 
 Segments
 ^^^^^^^^^^^^^^^^^^
