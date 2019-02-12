@@ -183,6 +183,26 @@ Defines access to the :doc:`Dashboard  </userguide/getting_started/admin/dashboa
 Earning rules
 ^^^^^^^^^^^^^^
 
+Defines access to the :doc:`Earning rules  </userguide//earning_rules/index>` section and its individual menu elements
+
++----------------------------------------+----------------------------------------+
+| VIEW                                   | MODIFY                                 |
++========================================+========================================+
+|- Earning rules list preview            | All **View** permissions, and more:    |     
+|- Sorting options of earning rules list |                                        |
+|- Earning rules details preview*        | - Earning Rules creation               |
+|                                        | - New role creation                    |
+|                                        | - Existing roles edition               |
+|                                        | - Existing role deletion               | 
++----------------------------------------+----------------------------------------+
+
+.. tip:: 
+
+    **Earning rules details preview***
+    
+    Even if User has no access to the Levels, Segments and POS sections, in *Earning rules details preview* information about assigne target and POS will be visible  
+
+
 
 Levels
 ^^^^^^^^^^^^^^
