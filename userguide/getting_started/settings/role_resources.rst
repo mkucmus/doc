@@ -246,7 +246,7 @@ Defines access to the :doc:`Levels  </userguide/levels/index>` section and its i
 
     **Download the customers list**** 
     
-    To download a list of customers assigned to particular level details preview you must have at least an **View access** to the following: 
+    To download a list of customers assigned to particular level you must have at least an **View access** to the following: 
      - *Customers* - to view customers details 
      - *Utilities* - to export the list of customers  
     
@@ -413,12 +413,49 @@ Defines access to the :doc:`Reward campaigns  </userguide/reward_campaigns/index
 
 .. warning:: 
 
-    Remember, that granting *View* access for every section (to enable earning rule creation and edition), you give an access to the entire menu section (in accordance with the permissions listed in the particular tables in *View* column) 
+    Remember, that granting *View* access for every section (to enable creation and edition etc.), you give an access to the entire menu section (in accordance with the permissions listed in the particular tables in *View* column) 
     
     
 
 Segments
 ^^^^^^^^^^^^^^^^^^
+
+Defines access to the :doc:`Segments  </userguide/segments/index>` section and its individual menu elements
+
++---------------------------------------------+----------------------------------------+
+| VIEW                                        | MODIFY                                 |
++=============================================+========================================+
+|- Segments list preview                      | All **View** permissions, and more:    |     
+|- Sorting options of segment list            |                                        |
+|- Customers assigned to segment list preview*| - Creating customer segment            |
+|- Download the customers list**              | - Updating segments data               |
+|                                             | - Activate / Deactivate segment        |
+|                                             | - Remove segment                       |
++---------------------------------------------+----------------------------------------+
+
+.. note:: 
+
+    **Customers assigned to segment list preview*** 
+    
+    To enable customer assigned to particular segment details preview you must have at least an **Customers View access**. 
+    
+    If there is no Customers access, then you can not see the ``Show`` button to preview customers details. You can only see customers account number assigned to this segment.
+
+
+.. note:: 
+
+    **Download the customers list**** 
+    
+    To download a list of customers assigned to particular segment you must have at least an **View access** to the following: 
+     - *Customers* - to view customers details 
+     - *Utilities* - to export the list of customers  
+    
+    If there is no Customers access, then you can not even see the download icon.
+
+
+.. warning:: 
+
+    Remember, that granting *View* access for Customers section (to enable customer details preview), you give an access to the entire Customers menu section (in accordance with the permissions listed in the Customers table in *View* column) 
 
 
 
