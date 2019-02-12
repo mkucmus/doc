@@ -62,7 +62,7 @@ Defines access to the Admin :doc:`Users  </userguide/getting_started/settings/us
     
     If there is no ACL access, then you can not even see roles in the drop-down list. 
 
-.. note:: 
+.. warning:: 
 
     Remember, that granting *View* access for ACL section (to enable new users account creation and edition), you give an access to the entire ACL section (in accordance with the permissions listed in the ACL table in *View* column) 
     
@@ -145,7 +145,7 @@ Defines access to the :doc:`Customers  </userguide/customers/index>` section and
    :alt:   No levels, merchants and pos access 
 
 
-.. note:: 
+.. warning:: 
 
     Remember, that granting *View* access for every section (to enable new users account creation and edition or display information in profile details), you give an access to the entire menu section (in accordance with the permissions listed in the particular tables in *View* column) 
 
@@ -170,11 +170,13 @@ Defines access to the :doc:`Dashboard  </userguide/getting_started/admin/dashboa
 
 .. note:: 
 
+    **Levels grid preview*** 
+    
     To enable Levels grid preview you must have at least an **Levels View access**. 
     
     If there is no Levels access, then you can not see the grid. 
 
-.. note:: 
+.. warning:: 
 
     Remember, that granting *View* access for Levels section (to enable levels grid preview), you give an access to the entire Levels menu section (in accordance with the permissions listed in the Levels table in *View* column) 
 
@@ -183,17 +185,16 @@ Defines access to the :doc:`Dashboard  </userguide/getting_started/admin/dashboa
 Earning rules
 ^^^^^^^^^^^^^^
 
-Defines access to the :doc:`Earning rules  </userguide//earning_rules/index>` section and its individual menu elements
+Defines access to the :doc:`Earning rules  </userguide/earning_rules/index>` section and its individual menu elements
 
 +----------------------------------------+----------------------------------------+
 | VIEW                                   | MODIFY                                 |
 +========================================+========================================+
 |- Earning rules list preview            | All **View** permissions, and more:    |     
 |- Sorting options of earning rules list |                                        |
-|- Earning rules details preview*        | - Earning Rules creation               |
-|                                        | - New role creation                    |
-|                                        | - Existing roles edition               |
-|                                        | - Existing role deletion               | 
+|- Earning rules details preview*        | - Earning rules creation**             |
+|                                        | - Updating earning rules**             |
+|                                        | - Activate / Deactivate earning rule   |
 +----------------------------------------+----------------------------------------+
 
 .. tip:: 
@@ -202,28 +203,159 @@ Defines access to the :doc:`Earning rules  </userguide//earning_rules/index>` se
     
     Even if User has no access to the Levels, Segments and POS sections, in *Earning rules details preview* information about assigne target and POS will be visible  
 
+.. note:: 
+
+    **Earning rule creation & edition****
+
+    To enable earning rule edition and creation, you must have at least an **Levels and/or Segments View access** (*Target* section is required). 
+    
+    If there is no Levels or Segment access, then you can see *Target* but without possibility to change it
+    
+    To allow assign POS(es) to which rule will be applied, you should also give at least an **POS View access**  
+
+.. warning:: 
+
+    Remember, that granting *View* access for every section (to enable earning rule creation and edition), you give an access to the entire menu section (in accordance with the permissions listed in the particular tables in *View* column) 
+
 
 
 Levels
 ^^^^^^^^^^^^^^
 
+Defines access to the :doc:`Levels  </userguide/levels/index>` section and its individual menu elements
+
++--------------------------------------------+----------------------------------------+
+| VIEW                                       | MODIFY                                 |
++============================================+========================================+
+|- Levels list preview                       | All **View** permissions, and more:    |     
+|- Special reward details preview            |                                        |
+|- Customers assigned to level list preview* | - Creating customer level              |
+|- Download the customers list**             | - Updating levels data                 |
+|                                            | - Activate / Deactivate level          |
++--------------------------------------------+----------------------------------------+
+
+.. note:: 
+
+    **Customers assigned to level list preview*** 
+    
+    To enable customer assigned to particular level details preview you must have at least an **Customers View access**. 
+    
+    If there is no Customers access, then you can not see the ``Show`` button to preview customers details. You can only see customers account number assigned to this level.
+
+
+.. note:: 
+
+    **Download the customers list**** 
+    
+    To download a list of customers assigned to particular level details preview you must have at least an **View access** to the following: 
+     - *Customers* - to view customers details 
+     - *Utilities* - to export the list of customers  
+    
+    If there is no Customers access, then you can not even see the download icon.
+
+
+.. warning:: 
+
+    Remember, that granting *View* access for Customers section (to enable customer details preview), you give an access to the entire Customers menu section (in accordance with the permissions listed in the Customers table in *View* column) 
 
 
 Merchants
 ^^^^^^^^^^^^^^
 
+Defines access to the :doc:`Merchants  </userguide/merchants/index>` section and its individual menu elements
 
++----------------------------------------------+-----------------------------------------+
+| VIEW                                         | MODIFY**                                |
++==============================================+=========================================+
+|- Merchants list preview*                     | All **View** permissions, and more:     |     
+|- Filter and sorting options of merchant list |                                         |
+|                                              | - Creating merchant account**           |
+|                                              | - Updating merchant account**           |
+|                                              | - Activate/Deactivate Merchant account**|
+|                                              | - Remove merchant account**             | 
++----------------------------------------------+-----------------------------------------+
+
+.. tip:: 
+
+    **Merchants list preview***
+    
+    Even if User has no access to the POS sections, in *All merchants* grid information about assigne POS will be visible  
+
+.. note:: 
+
+    **Merchant Modify access**** 
+    
+    To enable all **Modify access** permissions you must have **POS Modify access**. 
+    
+    If there is no or only view POS access, then you have only Merchant *View* permissions. 
+
+.. warning:: 
+
+    Remember, that granting *Modify* access for POS section (to enable Merchant modify access), you give an access to the entire POS menu section (in accordance with the permissions listed in the POS table in *Modify* column) 
+
+    
 
 Points transfers
 ^^^^^^^^^^^^^^^^^^
+
+Defines access to the :doc:`Points transfers  </userguide/points_transfers/index>` section and its individual menu elements
+
++------------------------------------------------------+----------------------------------------+
+| VIEW                                                 | MODIFY                                 |
++======================================================+========================================+
+|- Points transfers list preview*                      | All **View** permissions, and more:    |     
+|- Filter and sorting options of points transfers list |                                        |
+|- Points transfers details preview                    | - Creating Points transfer             |
+|                                                      | - Import points transfers              |
+|                                                      | - Canceling points transfer            |
++------------------------------------------------------+----------------------------------------+
+
+.. tip:: 
+
+    **Points transfers list preview***
+    
+    Even if User has no access to the *Customer* section, in *All points transfers* grid information about customer affected by the transfer will be visible
+
 
 
 POS
 ^^^^^^^
 
+Defines access to the :doc:`POS  </userguide/pos/index>` section and its individual menu elements
+
++----------------------------------------+----------------------------------------+
+| VIEW                                   | MODIFY                                 |
++========================================+========================================+
+|- POS list preview                      | All **View** permissions, and more:    |     
+|- POS localization details              |                                        |
+|                                        | - Adding new POS                       |
+|                                        | - Updating POS information             |
++----------------------------------------+----------------------------------------+
+
+
 
 Reward Campaign
 ^^^^^^^^^^^^^^^^^^
+
+Defines access to the :doc:`Reward campaigns  </userguide/reward_campaigns/index>` section and its individual menu elements
+
++-----------------------------------------------------+-----------------------------------------+
+| VIEW                                                | MODIFY**                                |
++=====================================================+=========================================+
+|- Reward campaign list preview                       | All **View** permissions, and more:     |     
+|- Filter and sorting options of reward campaign list |                                         |
+|- Reward campaign details preview*                   | - Creating merchant account**           |
+|                                                     | - Updating merchant account**           |
+|                                                     | - Activate/Deactivate Merchant account**|
+|                                                     | - Remove merchant account**             | 
++-----------------------------------------------------+-----------------------------------------+
+
+.. tip:: 
+
+    **Reward campaign details preview***
+    
+    Even if User has no access to the Levels or Segments, in *Reward campaign details preview* information about assigne target will be visible  
+
 
 
 
