@@ -86,7 +86,8 @@ Audit
 .. tip:: 
 
     Regardless of access level, user has the same options in both - **View and Modify**
-    
+  
+  
 
 Customers
 ^^^^^^^^^^
@@ -136,9 +137,11 @@ Customers
     Remember, that granting *View* access for every section (to enable new users account creation and edition or display information in profile details), you give an access to the entire menu section (in accordance with the permissions listed in the particular tables in *View* column) 
 
 
+
 Dashboard
 ^^^^^^^^^^
 
+*Defines access to the :doc:`Dashboard </userguide/getting_started/admin/dashboard>` section and its individual elements*
 
 
 Earning rules
