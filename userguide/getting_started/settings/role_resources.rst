@@ -339,16 +339,19 @@ Reward Campaign
 
 Defines access to the :doc:`Reward campaigns  </userguide/reward_campaigns/index>` section and its individual menu elements
 
-+-----------------------------------------------------+-----------------------------------------+
-| VIEW                                                | MODIFY**                                |
-+=====================================================+=========================================+
-|- Reward campaign list preview                       | All **View** permissions, and more:     |     
-|- Filter and sorting options of reward campaign list |                                         |
-|- Reward campaign details preview*                   | - Creating merchant account**           |
-|                                                     | - Updating merchant account**           |
-|                                                     | - Activate/Deactivate Merchant account**|
-|                                                     | - Remove merchant account**             | 
-+-----------------------------------------------------+-----------------------------------------+
++---------------------------------------------------------+
+| VIEW                                                    | 
++=========================================================+
+|- Reward campaign list preview                           | 
+|- Filter and sorting options of reward campaign list     | 
+|- Reward campaign details preview*                       | 
+|- Redeemed rewards list preview**                        | 
+|- Redeemed rewards details preview**                     | 
+|- Filter and sorting options of redeemed rewards list    | 
+|- Download redeemed rewards report                       |
+|- Campaign categories list preview                       |
+|- Filter and sorting options of Campaign categories list |
++---------------------------------------------------------+
 
 .. tip:: 
 
@@ -356,7 +359,11 @@ Defines access to the :doc:`Reward campaigns  </userguide/reward_campaigns/index
     
     Even if User has no access to the Levels or Segments, in *Reward campaign details preview* information about assigne target will be visible  
 
+.. tip:: 
 
+    **Redeemed rewards list and details preview****
+    
+    Even if User has no access to the Customers, in *Redeemed rewards* details and grid information about customer who redeemed particular reward will be visible  
 
 
 Segments
