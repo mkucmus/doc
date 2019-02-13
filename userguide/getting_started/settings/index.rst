@@ -8,6 +8,7 @@ Open Loyalty Settings
    configuration/index
    users
    acl
+      Role resources
    translations
    emails
    System logs
