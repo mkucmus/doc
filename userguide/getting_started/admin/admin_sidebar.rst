@@ -20,7 +20,7 @@ Customers
 
 *The Customers menu is where you can manage customer registered in your loyalty programs, and see referred customers list*
 
-.. image:: /userguide/_images/customers.png
+.. image:: /userguide/_images/all_customers.png
    :alt:   Customers
 
    
