@@ -395,7 +395,7 @@ Defines access to the :doc:`Reward campaigns  </userguide/reward_campaigns/index
 
     **Buy reward campaign for customer****
 
-    To enable reward manually assignment for customer, you must have at least a **Customers View access** (*E-mail or phone* field is required). 
+    To enable manually assignment reward for customer, you must have at least a **Customers View access** (*E-mail or phone* field is required). 
     
     In case of *Percentage discount code* reward type, also at least a **Transactions View access** is required. 
     
@@ -462,11 +462,74 @@ Defines access to the :doc:`Segments  </userguide/segments/index>` section and i
 Settings
 ^^^^^^^^^^^^^^^^^^
 
+Defines access to the :doc:`Emails  </userguide/getting_started/settings/emails>` , :doc:`Translations  </userguide/getting_started/settings/translations>` and :doc:`Configuration  </userguide/getting_started/settings/Configuration/index>`  settings sections and its individual elements
+
++---------------------------------------------+----------------------------------------+
+| VIEW                                        | MODIFY                                 |
++=============================================+========================================+
+|- Translations list preview                  | All **View** permissions, and more:    |     
+|- Emails list                                |                                        |
+|                                             | - Create new translations              |
+|                                             | - Updating translation                 |
+|                                             | - Delete non-default translations      |
+|                                             | - Updating an email template           |
+|                                             | - Email template preview               |
+|                                             | - Configuration section management     |
++---------------------------------------------+----------------------------------------+
+
 
 Transactions
 ^^^^^^^^^^^^^^^^^^
 
+Defines access to the :doc:`Transactions  </userguide/ransactions/index>` section and its individual menu elements
 
++-------------------------------------------------+----------------------------------------+
+| VIEW                                            | MODIFY                                 |
++=================================================+========================================+
+|- Transactions list preview*                     | All **View** permissions, and more:    |     
+|- Filter and sorting options of transactions list|                                        |
+|- Transactions details preview*                  | - Match transaction with customer**    |
+|                                                 | - Transaction labels ceation           |
+|                                                 | - Transaction labels edition           |
+|                                                 | - Importing transactions from a file   |
++-------------------------------------------------+----------------------------------------+
+
+.. tip:: 
+
+    **Transactions list and it's details preview***
+    
+    Even if User has no access to the *Customer* section, in *All transactions* grid and in transaction details, informations about customer related with transaction will be visible. 
+  
+  
+.. note:: 
+
+    **Match transaction with customer****
+
+    To enable manually assignment transaction to customer, you must have at least a **Customers View access** (*E-mail or phone* field is required).  
+    
+    If there is no Customers access, then you can not provide any value to find customer and assigne transaction.   
+  
 
 Utilities
 ^^^^^^^^^^^^^^^^^^
+
+Enable export options
+
+
++-------------------------------------------------+
+| VIEW & MODIFY                                   |                                 
++=================================================+
+|- download customer assigned to level list       |    
+|- download customer assigned to segment list     |
++-------------------------------------------------+
+
+.. tip:: 
+
+    Regardless of access level, user has the same options in both - **View and Modify**
+    
+.. tip:: 
+
+    To download redeemed rewards report *Utilities* resource is not needed - *Reward Campaign View access* is enough   
+    
+    
+  
