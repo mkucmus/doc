@@ -131,6 +131,11 @@ To remove a Role:
 
 You can also delete existing role from the Admin.
 
+.. warning:: 
+
+    Default **Super admin** role can not be deleted 
+    
+
 1. In the upper-right corner, tap the **Settings** icon |settings| . Then on the menu, choose **ACL**. 
 
 .. |settings| image:: /userguide/_images/icon.png
