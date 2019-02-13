@@ -481,7 +481,7 @@ Defines access to the :doc:`Emails  </userguide/getting_started/settings/emails>
 Transactions
 ^^^^^^^^^^^^^^^^^^
 
-Defines access to the :doc:`Transactions  </userguide/ransactions/index>` section and its individual menu elements
+Defines access to the :doc:`Transactions  </userguide/transactions/index>` section and its individual menu elements
 
 +-------------------------------------------------+----------------------------------------+
 | VIEW                                            | MODIFY                                 |
