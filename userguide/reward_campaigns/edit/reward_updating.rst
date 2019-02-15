@@ -4,7 +4,9 @@
 Updating reward data
 ====================
 
-You can edit all data provided during  Reward campaign creation process. You can update reward data by selecting it’s record from **All reward campaigns** list.
+You can edit all data provided during  Reward campaign creation process, except the **Campaign type**. 
+
+You can update reward data by selecting it’s record from **All reward campaigns** list.
 
 .. image:: /userguide/_images/edit_reward.png
    :alt:   Reward Campaign Edition
