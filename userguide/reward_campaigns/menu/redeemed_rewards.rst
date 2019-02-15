@@ -12,6 +12,11 @@ There is possibility to get:
  - physical reward - which will be send to Customer, e.g. printed coupon, gift, etc.
  - cashback
 
+.. note::
+
+    When "buying" reward campaign using customer points, points that are expiring soon are use first
+    
+
 **Not enough points from Customer perspective**
 
 In the Client Cockpit, if Customer does not have enough points to redeem reward then Redeem reward button will be disabled (greyed out).
