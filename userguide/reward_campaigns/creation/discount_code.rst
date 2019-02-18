@@ -170,11 +170,13 @@ To create Discount code reward:
 
  - To **add** a photo tap ``Upload`` to import main image
  - To **add more** images click ``Add photo`` and then upload another photo. Reapeat it for all photos that you want add. 
- - To **remove** a photo click remove |remove_photo| icon near by particular field (during *creation*) or bin |bin| icon in the photo upper right corner (in *edit mode*)
+ - To **remove** a photo click remove |remove_photo| icon near by particular field (during *creation*)
  
-.. |bin| image:: /userguide/_images/bin.png    
+   .. |remove_photo| image:: /userguide/_images/photo_remove_icon.PNG    
+ 
+ - To **remove** images after creation click bin |bin| icon in the photo upper right corner (in *edit mode*)
 
-.. |remove_photo| image:: /userguide/_images/photo_remove_icon.PNG
+   .. |bin| image:: /userguide/_images/bin.png 
 
  All added images will be visible in **Campaign photos** field after *save*
 
