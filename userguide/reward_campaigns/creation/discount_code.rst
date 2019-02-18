@@ -168,12 +168,17 @@ To create Discount code reward:
 
 13. If applicable, in **Campaign photo** section upload reward images that will be visible on the storefront
 
- - To add a photo tap ``Upload`` to import main image
- - To add more images click ``Add photo`` and then upload another photo. Reapeat it for all photos that you want add. 
-    
+ - To **add** a photo tap ``Upload`` to import main image
+ - To **add more** images click ``Add photo`` and then upload another photo. Reapeat it for all photos that you want add. 
+ - To **remove** a photo click remove |remove_photo| icon near by particular field (during *creation*) or bin |bin| icon in the photo upper right corner (in *edit mode*)
+ 
+.. |bin| image:: /userguide/_images/bin.png    
+
+.. |remove_photo| image:: /userguide/_images/photo_remove_icon.PNG
+
  All added images will be visible in **Campaign photos** field after *save*
 
-.. image:: /userguide/_images/reward_photo.png
+.. image:: /userguide/_images/reward_photo2.PNG
    :alt:   Reward photo
 
 .. note:: 
