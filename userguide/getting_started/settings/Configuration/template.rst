@@ -69,7 +69,8 @@ To upload your logo:
 |                          | | Applicable image size: 512 x 512 pixels                                                       |
 +--------------------------+-------------------------------------------------------------------------------------------------+
 |   Big logo               | | Big logo image in the Client cockpit placed above login credentials section on a login page.  |
-|                          | | Image is display on desktop version of application in Client Cockpit.                         | 
+|                          | | Image is display on desktop version of application in Client Cockpit.                         |
+|			   | | Image is also display in upper left corner of the Client Cockpit after login. 		     | 
 |                          | | Applicable image size: 512 x 512 pixels                                                       |
 +--------------------------+-------------------------------------------------------------------------------------------------+
 |   Small logo             | | Small logo image in the Client cockpit placed above login credentials section on a login page.|
