@@ -68,13 +68,14 @@ To upload your logo:
 |                          | | Image is display on desktop version of application.                                           |
 |                          | | Applicable image size: 512 x 512 pixels                                                       |
 +--------------------------+-------------------------------------------------------------------------------------------------+
-|   Big logo               | | Big logo image in the Client cockpit placed above login credentials section on a login page.  |
-|                          | | Image is display on desktop version of application in Client Cockpit.                         |
+|   Big logo               | | **Image is display on desktop version of application in Client Cockpit**.  		     |
+|                          | | Big logo image in the Client cockpit placed above login credentials section on a login page.  |
 |			   | | Image is also display in upper left corner of the Client Cockpit after login. 		     | 
 |                          | | Applicable image size: 512 x 512 pixels                                                       |
 +--------------------------+-------------------------------------------------------------------------------------------------+
-|   Small logo             | | Small logo image in the Client cockpit placed above login credentials section on a login page.|
-|                          | | Small image is display on mobile version of application in Client Cockpit.                    |
+|   Small logo             | | **Small image is display on mobile or tablet version of application in Client Cockpit**.	     |
+|                          | | Small logo image in the Client cockpit placed above login credentials section on a login page.|
+|			   | | Image is also display in upper left corner of the Client Cockpit after login.		     |
 |                          | | It can be also used as an icon of the application on the mobile device.                       |
 |                          | | Applicable image size: 192 x 192 pixels                                                       |
 +--------------------------+-------------------------------------------------------------------------------------------------+
