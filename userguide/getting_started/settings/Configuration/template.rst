@@ -67,12 +67,12 @@ To upload your logo:
 |   Logo                   | | Main logo image in the Admin cockpit placed in the header above the menu.                     |
 |                          | | Image is display on desktop version of application.                                           |
 +--------------------------+-------------------------------------------------------------------------------------------------+
-|   Big logo               | | **Image is display on desktop version of application in Client Cockpit**.  		     |
-|                          | | Big logo image in the Client cockpit placed above login credentials section on a login page.  |
-|			   | | Image is also display in upper left corner of the Client Cockpit after login. 		     | 
+|   Big logo               | | Image is display **on desktop version of application** in Client Cockpit, in the upper left   |
+|			   | | corner after login. 									     |
+|                          | | Big logo image in the Client cockpit placed above login credentials section on a login page   |
+|			   | | is display on **mobile, tablet and desktop** versions.					     |
 +--------------------------+-------------------------------------------------------------------------------------------------+
 |   Small logo             | | **Small image is display on mobile or tablet version of application in Client Cockpit**.	     |
-|                          | | Small logo image in the Client cockpit placed above login credentials section on a login page.|
 |			   | | Image is also display in upper left corner of the Client Cockpit after login.		     |
 |                          | | It can be also used as an icon of the application on the mobile device.                       |
 +--------------------------+-------------------------------------------------------------------------------------------------+
