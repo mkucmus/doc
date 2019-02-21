@@ -57,21 +57,18 @@ To create Cashback reward:
 
  - To make reward available for customer, in **Active** field select "**Active**" from the dropdown list
  - If needed, enter URL to the content page in **More information link field**, that explains your reward campaign or to external web with reward details 
- - If applicable, in **Push notification text** provide a text message that will be displayed as a push notification for Customer, when reward become available for him
-
-
-.. note:: 
-
-    If *Push notification text* is not provided, notification about new reward availability will not be displayed. 
-    
-    It does not change the fact that the reward will be available for customer and display in *Available rewards* section in Admin and Client cockpit. 
- 
- 
+ - If applicable, in **Push notification text** provide a text message that will be displayed as a push notification for Customer, when reward become available for him 
  - In **Point value** field, enter the monetary value of the points to define the number of points that can be applied as a refund towards the amount of order 
  - If applicable, In **Reward value** field provide a monetary value of reward
  - If needed, enter **Tax** rate that applies to the reward and monetary value of tax for reward in **Tax value**
  - If applicable, mark **Featured** checkbox to differentiate campaign from the others. **Feature is used when you want to filter campaigns using API**
  - If applicable, mark **Public** checkbox to differentiate campaign from the others. **Feature is used when you want to filter campaigns using API** 
+
+.. note:: 
+
+    If **Push notification text** is not provided, notification about new reward availability will not be displayed. 
+    
+    It does not change the fact that the reward will be available for customer and display in **Available rewards** section in Admin and Client cockpit. 
 
 5. In the same **Campaign details** section, if applicable, create **Label(s)** you want refer to reward. Labels are intended to be used to specify identifying attributes of reward campaign. 
  
