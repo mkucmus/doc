@@ -58,12 +58,14 @@ To create Cashback reward:
  - To make reward available for customer, in **Active** field select "**Active**" from the dropdown list
  - If needed, enter URL to the content page in **More information link field**, that explains your reward campaign or to external web with reward details 
  - If applicable, in **Push notification text** provide a text message that will be displayed as a push notification for Customer, when reward become available for him
- 
+
+
 .. note:: 
 
     If *Push notification text* is not provided, notification about new reward availability will not be displayed. 
     
     It does not change the fact that the reward will be available for customer and display in *Available rewards* section in Admin and Client cockpit. 
+ 
  
  - In **Point value** field, enter the monetary value of the points to define the number of points that can be applied as a refund towards the amount of order 
  - If applicable, In **Reward value** field provide a monetary value of reward
