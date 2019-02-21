@@ -72,6 +72,12 @@ To create Discount code reward:
  - If applicable, mark **Featured** checkbox to differentiate campaign from the others. **Feature is used when you want to filter campaigns using API**
  - If applicable, mark **Public** checkbox to differentiate campaign from the others. **Feature is used when you want to filter campaigns using API** 
 
+.. note:: 
+
+    If **Push notification text** is not provided, notification about new reward availability will not be displayed. 
+    
+    It does not change the fact that the reward will be available for customer and display in **Available rewards** section in Admin and Client cockpit. 
+
 5. In the same **Campaign details** section, if applicable, create **Label(s)** you want refer to reward. Labels are intended to be used to specify identifying attributes of reward campaign. 
  
    Labels can be used only when you use API to organize subsets of rewards and make filtering/searching rewards campaign easier.  Through API you will be able to get list of all rewards with specified key or key and value. 
