@@ -48,20 +48,3 @@ Field description
 Content
 ^^^^^^^
 - :doc:`Creating new campaign category </userguide/reward_campaigns/menu/new_campaign_category>`
-
-
-
-+------------+------------+-------------------+
-| Nagłówek 1 | Nagłówek 2 | **Pogrubiony      |
-|            |            | nagłówek 3**      |   
-+============+============+===================+
-| | treść  1 | treść 2    | *kursywa treść 3* |
-| | kończy   | kończy     |                   |
-| | się tu   | się tu     |                   |
-+------------+------------+-------------------+
-| wiersz 2   | **scalone pogrubione kolumny** |
-+------------+------------+-------------------+
-| wiersz 3   | scalone    | - punkt 1         |
-+------------+ wiersze    | - punkt 2         |
-| wiersz 4   |            | - punkt 3         |
-+------------+------------+-------------------+
