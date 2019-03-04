@@ -36,6 +36,8 @@ To edit a Customer Account from Profile Detail Page:
 
 2. In the Customers list, find the record to be previewed and click View icon |view| in the Action column to open the record in view mode
 
+.. |view| image:: /userguide/_images/view.png
+
 3. Click ``Edit`` at the top of the page. The same editor will be opened like in example above.
 
 4. Make any necessary changes to the customer account information
