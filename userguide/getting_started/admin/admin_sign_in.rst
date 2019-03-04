@@ -18,13 +18,13 @@ To sign in to the Admin:
 
   The default **Admin URL** look as follow:
 
-    .. code-block:: text
+.. code-block:: text
 
-       https://www.domain.com/admin
+   https://www.domain.com/admin
+  
 
-   
+2. Enter your Admin **Login** and **Password**    
 
-2. Enter your Admin **Login** and **Password**     
 #. If you want to log in automatically every time you open the website without needing to enter your login and password mark ``Keep me logged in`` checkbox
 #. Tap  ``SIGN IN``
 
