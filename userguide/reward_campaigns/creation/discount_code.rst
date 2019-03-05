@@ -30,6 +30,9 @@ To create Discount code reward:
 
 2. In the **Campaign type** section select a **Discount code** reward type from a dropdown list (by default Discount code is displaying)
 
+.. image:: /userguide/_images/discount_type.PNG
+   :alt:   Discount code type 
+
 .. note:: 
 
     Depending on the selected **Campaign type**, a **Basic information** and next section - **Campaign details**, will display different fields to filled in.
@@ -124,10 +127,10 @@ To create Discount code reward:
  
 10. Add batch of **Coupons** to be used with the reward. 
 
-    Type manually a **Coupons codes** to be used by customer or **Upload coupons** list of codes from CSV file. 
-
 .. image:: /userguide/_images/coupons.PNG
    :alt:   Coupons  
+
+    Type manually a **Coupons codes** to be used by customer or **Upload coupons** list of codes from CSV file. 
 
  - In **Days inactive** define number of days during which coupons assign to this campaign will be inactive since the transaction date. 
 
