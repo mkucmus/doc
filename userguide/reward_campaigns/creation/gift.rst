@@ -30,7 +30,10 @@ To create Gift reward:
 
 2. Scroll down to **Campaign type** section and select a **Gift** reward type from a dropdown list (by default Discount code is displaying)
 
-3. If you want to manage the reward delivery statuses and monitor them mark **Fulfillment tracking process** checkbox. More information about these feature you will find :doc:`here </userguide/reward_campaigns/creation/fulfillment_tracking>`
+.. image:: /userguide/_images/gift_type.PNG
+   :alt:   Gift type 
+
+If you want to manage the reward delivery statuses and monitor them mark **Fulfillment tracking process** checkbox. More information about these feature you will find :doc:`here </userguide/reward_campaigns/creation/fulfillment_tracking>`
 
 
 .. note:: 
@@ -40,7 +43,7 @@ To create Gift reward:
     Different fields are required for *Cashback, Custom reward and Percentage discount code* , than for other types i.e. discount code, free delivery etc.  
 
 
-.. image:: /userguide/_images/gift_basic.PNG
+.. image:: /userguide/_images/discount_basic2.PNG
    :alt:   Gift Basic Information
 
 3. When you choose *Gift*, in the **Basic information** section related to the default language version do the following    
@@ -53,7 +56,7 @@ To create Gift reward:
  - If needed, provide a **Brand description** of the reward campaign using rich media format
  - If applicable, fulfill the same fields in other language version e.g. polish as on a screen above 
 
-.. image:: /userguide/_images/gift_details2.PNG
+.. image:: /userguide/_images/details_discount.PNG
    :alt:   Gift Campaign Details 
 
 4. In the **Campaign details** section do the following
@@ -61,14 +64,6 @@ To create Gift reward:
  - To make reward available for customer, in **Active** field select "**Active**" from the dropdown list
  - If needed, enter URL to the content page in **More information link field**, that explains your reward campaign or to external web with reward details 
  - If applicable, in **Push notification text** provide a text message that will be displayed as a push notification for Customer, when reward become available for him
- - In **Days inactive** define number of days during which coupons assign to this campaign will be inactive since the transaction date. 
-
-   **If you want make coupon valid instantly, provide 0**  
-
- - In **Days valid** specify number of days during which coupon assign to this campaign will be active since the inactive time boundaries finished. After provided here number of days voucher will expired. 
- 
-   **If you want your coupons never expired, provide 0**
- 
  - In **Cost in points** field, enter the number of points represented by the reward to define how many points customer needs to spend to get a reward
  - If applicable, In **Reward value** field provide a monetary value of reward
  - If needed, enter **Tax** rate that applies to the reward and monetary value of tax for reward in **Tax value**
@@ -140,9 +135,18 @@ To create Gift reward:
 
     Type manually a **Coupons codes** to be used by customer or **Upload coupons** list of codes from CSV file. 
 
-.. image:: /userguide/_images/reward_coupons.png
-   :alt:   Coupons  
+ - In **Days inactive** define number of days during which coupons assign to this campaign will be inactive since the transaction date. 
 
+   **If you want make coupons valid instantly, provide 0**  
+
+ - In **Days valid** specify number of days during which coupon assign to this campaign will be active since the inactive time boundaries finished. After provided here number of days voucher will expired. 
+ 
+   **If you want your coupons never expired, provide 0**
+
+.. image:: /userguide/_images/coupons.PNG
+   :alt:   Coupons  
+   
+   
 .. note:: 
 
     Uploaded Coupon codes will not be displayed to customers on a storefront in Client Cockpit (after reward redemption). They will be visible from the admin in the **Redeemed reward** grid.
