@@ -8,7 +8,7 @@ You can edit all data provided during  Reward campaign creation process, except 
 
 You can update reward data by selecting it’s record from **All reward campaigns** list.
 
-.. image:: /userguide/_images/edit_reward.png
+.. image:: /userguide/_images/reward_edit.PNG
    :alt:   Reward Campaign Edition
 
 To edit a Reward campaign:
@@ -29,4 +29,4 @@ To edit a Reward campaign:
 
     During reward with coupons codes edition, in **Coupons** section you will be **able to remove or change only those coupon codes that have not yet been redeemed** by the customers. 
     
-    If coupon code has been assigned to a customer (when heredeemed the reward), it will not be possible to change it. 
+    If coupon code has been assigned to a customer (when he redeemed the reward), it will not be possible to change it. 
