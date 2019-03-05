@@ -53,7 +53,7 @@ To create Cashback reward:
  - If applicable, fulfill the same fields in other language version e.g. polish as on a screen above
 
 
-.. image:: /userguide/_images/cashback_details2.PNG
+.. image:: /userguide/_images/cashback_details.PNG
    :alt:   Cashback Campaign Details 
 
 4. In the **Campaign details** section do the following
