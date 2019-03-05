@@ -127,9 +127,6 @@ To create Discount code reward:
  
 10. Add batch of **Coupons** to be used with the reward. 
 
-.. image:: /userguide/_images/coupons.PNG
-   :alt:   Coupons  
-
     Type manually a **Coupons codes** to be used by customer or **Upload coupons** list of codes from CSV file. 
 
  - In **Days inactive** define number of days during which coupons assign to this campaign will be inactive since the transaction date. 
@@ -139,6 +136,9 @@ To create Discount code reward:
  - In **Days valid** specify number of days during which coupon assign to this campaign will be active since the inactive time boundaries finished. After provided here number of days voucher will expired. 
  
    **If you want your coupons never expired, provide 0**
+
+.. image:: /userguide/_images/coupons.PNG
+   :alt:   Coupons  
 
 11. To make the reward *visible on the storefront for a limited period of time*, complete the **From and To dates** in **Visibility** section
 
