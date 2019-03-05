@@ -29,16 +29,19 @@ To create Cashback reward:
 .. image:: /userguide/_images/add_reward_button.png
    :alt:   Add Reward Options  
 
-2. Scroll down to **Campaign type** section and select a **Cashback** reward type from a dropdown list (by default Discount code is displaying)
+2. In **Campaign type** section select a **Cashback** reward type from a dropdown list (by default Discount code is displaying)
+
+.. image:: /userguide/_images/cashback_type.PNG
+   :alt:   Cashback type
 
 .. note:: 
 
-    Depending on the selected **Campaign type**, a Basic information and next section - Campaign details, will display different fields to filled in.
+    Depending on the selected **Campaign type**, a Basic information and next section - **Campaign details**, will display different fields to filled in.
     
     Different fields are required for *Cashback, Custom reward and Percentage discount code* , than for other types i.e. discount code, free delivery etc.  
 
 
-.. image:: /userguide/_images/cashback_basic.png
+.. image:: /userguide/_images/cashback_basic.PNG
    :alt:   Cashback Basic Information
 
 3. When you choose *Cashback*, in the **Basic information** section related to the default language version do the following
