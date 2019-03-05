@@ -10,7 +10,7 @@ Segment of customers who bought specific products (on the basis of selected SKU)
 
 .. tip::
 
-   SKUs can contains spaces or any other special characters
+   **SKUs can contains spaces or any other special characters, but remember that "SKU 123." is not equal "sku 123."**
    
 
 To create only Bought specific SKU type segment:
