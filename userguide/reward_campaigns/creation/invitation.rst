@@ -28,7 +28,10 @@ To create Invitation for the event reward:
 .. image:: /userguide/_images/add_reward_button.png
    :alt:   Add Reward Options  
 
-2. Scroll down to **Campaign type** section and select a **Invitation for the event** reward type from a dropdown list (by default Discount code is displaying)
+2. In the **Campaign type** section select an **Invitation for the event** reward type from a dropdown list (by default Discount code is displaying)
+
+.. image:: /userguide/_images/invitation_type.PNG
+   :alt:   Invitation for the event type
 
 .. note:: 
 
@@ -37,7 +40,7 @@ To create Invitation for the event reward:
     Different fields are required for *Cashback, Custom reward and Percentage discount code* , than for other types i.e. discount code, free delivery etc.  
 
 
-.. image:: /userguide/_images/invitation_basic.PNG
+.. image:: /userguide/_images/discount_basic2.PNG
    :alt:   Invitation Basic Information
 
 3. When you choose *Invitation for the event*, in the **Basic information** section related to the default language version do the following    
@@ -50,7 +53,7 @@ To create Invitation for the event reward:
  - If needed, provide a **Brand description** of the reward campaign using rich media format
  - If applicable, fulfill the same fields in other language version e.g. polish as on a screen above 
 
-.. image:: /userguide/_images/invitation_details2.PNG
+.. image:: /userguide/_images/details_discount.PNG
    :alt:   Invitation Campaign Details 
 
 4. In the **Campaign details** section do the following
@@ -58,14 +61,6 @@ To create Invitation for the event reward:
  - To make reward available for customer, in **Active** field select "**Active**" from the dropdown list
  - If needed, enter URL to the content page in **More information link field**, that explains your reward campaign or to external web with reward details 
  - If applicable, in **Push notification text** provide a text message that will be displayed as a push notification for Customer, when reward become available for him
- - In **Days inactive** define number of days during which coupons assign to this campaign will be inactive since the transaction date. 
-
-   **If you want make coupon valid instantly, provide 0**  
-
- - In **Days valid** specify number of days during which coupon assign to this campaign will be active since the inactive time boundaries finished. After provided here number of days voucher will expired. 
- 
-  **If you want your coupons never expired, provide 0**
- 
  - In **Cost in points** field, enter the number of points represented by the reward to define how many points customer needs to spend to get a reward
  - If applicable, In **Reward value** field provide a monetary value of reward
  - If needed, enter **Tax** rate that applies to the reward and monetary value of tax for reward in **Tax value**
@@ -133,12 +128,16 @@ To create Invitation for the event reward:
 
     Type manually a **Coupons codes** to be used by customer or **Upload coupons** list of codes from CSV file. 
 
-.. image:: /userguide/_images/reward_coupons.png
+ - In **Days inactive** define number of days during which coupons assign to this campaign will be inactive since the transaction date. 
+
+   **If you want make coupons valid instantly, provide 0**  
+
+ - In **Days valid** specify number of days during which coupon assign to this campaign will be active since the inactive time boundaries finished. After provided here number of days voucher will expired. 
+ 
+   **If you want your coupons never expired, provide 0**
+
+.. image:: /userguide/_images/coupons.PNG
    :alt:   Coupons  
-
-.. note:: 
-
-    Uploaded Coupon codes will not be displayed to customers on a storefront in Client Cockpit (after reward redemption). They will be visible from the admin in the **Redeemed reward** grid.
  
 
 11. To make the reward *visible on the storefront for a limited period of time*, complete the **From and To dates** in **Visibility** section
