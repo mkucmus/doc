@@ -45,8 +45,8 @@ To learn more about rewards, see :doc:`Redeemed rewards </userguide/reward_campa
 +-------------------+-----------------------------------------------------------------------------------------------------------------------------+
 | Cost in points    | | Define how much points customer spent to redeem reward                                                                    |
 +-------------------+-----------------------------------------------------------------------------------------------------------------------------+
-| Status            | | Reward campaign status.                                                                                                   |
-|                   | | **Option include: Active/Inactive**                                                                                       |
+| Status            | | Reward campaign coupon status.                                                                                             |
+|                   | | **Option include: Active/Inactive/Expired**                                                                               |
 +-------------------+-----------------------------------------------------------------------------------------------------------------------------+
 | Active from       | | Reward campaign start date from which customer can used reward, define during reward campaign creation in Activity section|
 +-------------------+-----------------------------------------------------------------------------------------------------------------------------+
