@@ -7,6 +7,70 @@ These endpoints will allow you to easily manage Reward Campaigns.
 
     Each role in the Open Loyalty has individual endpoints to manage reward campaigns.
 
+Reedem cashback
+---------------
+
+To reedem cashback you will need to call the ``/api/admin/campaign/cashback/redeem`` endpoint with the ``POST`` method.
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    POST /api/admin/campaign/cashback/redeem
+
++---------------------------------------------------+----------------+------------------------------------------------------------------------------+
+| Parameter                                         | Parameter type |  Description                                                                 |
++===================================================+================+==============================================================================+
+| Authorization                                     | header         | Token received during authentication                                         |
++---------------------------------------------------+----------------+------------------------------------------------------------------------------+
+| customerId                                        | request        |  Customer ID                                                                 |
++---------------------------------------------------+----------------+------------------------------------------------------------------------------+
+| pointsAmount                                      | request        |  Points amount                                                               |
++---------------------------------------------------+----------------+------------------------------------------------------------------------------+
+| pointValue                                        | request        |  Point value                                                                 |
++---------------------------------------------------+----------------+------------------------------------------------------------------------------+
+| rewardAmount                                      | request        |  Reward amount                                                               |
++---------------------------------------------------+----------------+------------------------------------------------------------------------------+
+
+Example
+^^^^^^^
+
+.. code-block:: bash
+
+    curl http://localhost:8181/api/admin/campaign/cashback/redeem \
+        -X "POST" \
+        -H "Accept: application/json" \
+        -H "Content-type: application/x-www-form-urlencoded" \
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
+        -d "customerId=6102cef9-d263-46de-974d-ad2e89f6e81d" \
+		-d "pointsAmount=5" \
+		-d "rewardAmount=10" \
+		-d "pointValue=100" 
+
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+
+Exemplary Response
+^^^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
+
+.. code-block:: json
+
+    {
+        "customerId": "6102cef9-d263-46de-974d-ad2e89f6e81d",
+        "pointsAmount": 5,
+        "pointValue": 10,
+        "rewardAmount": 100
+    }
+
+
+
 Create a new campaign
 ---------------------
 
