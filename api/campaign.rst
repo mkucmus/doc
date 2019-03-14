@@ -98,7 +98,7 @@ Example
 
 .. code-block:: bash
 
-curl http://localhost:8181/api/admin/campaign/cashback/simulate \
+    curl http://localhost:8181/api/admin/campaign/cashback/simulate \
         -X "POST" \
         -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
