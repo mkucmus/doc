@@ -71,7 +71,7 @@ Exemplary Response
   "totalProcessed": 2,
   "totalSuccess": 1,
   "totalFailed": 1
-}
+  }
 	
 	
 Assign customer to specific transaction (admin)
