@@ -634,6 +634,128 @@ Exemplary Response
       "total": 3
     }
 
+Get the collection of active campaigns
+--------------------------------------
+
+To retrieve a paginated list of active campaigns you will need to call the ``/api/campaign/active`` endpoint with the ``GET`` method.
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    GET /api/campaign/active	
+	
++---------------------------------------------------+----------------+------------------------------------------------------------------------------+
+| Parameter                                         | Parameter type |  Description                                                                 |
++===================================================+================+==============================================================================+
+| Authorization                                     | header         | Token received during authentication                                         |
++---------------------------------------------------+----------------+------------------------------------------------------------------------------+
+| format                                            | query          |  If set to html, the descriptions will be in HTML format                     |
++---------------------------------------------------+----------------+------------------------------------------------------------------------------+
+
+Example
+^^^^^^^
+
+To see the first page of all campaigns use the below method:
+
+.. code-block:: bash
+
+    curl http://localhost:8181/api/campaign/active \
+        -X "GET" -H "Accept: application/json" \
+        -H "Content-type: application/x-www-form-urlencoded" \
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+
+Exemplary Response
+^^^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
+
+.. code-block:: json
+    
+	{
+    "campaigns": [
+    {
+      "id": "000096cf-6361-4d70-e169-676e00000001",
+      "name": "Test configured campaign"
+    },
+    {
+      "id": "000096cf-6361-4d70-e169-676e00000003",
+      "name": "Test reward campaign"
+    },
+    {
+      "id": "000096cf-6361-4d70-e169-676e11111111",
+      "name": "cashback"
+    },
+    {
+      "id": "000096cf-6361-4d70-e169-676e22222222",
+      "name": "Percentage discount code"
+    },
+    {
+      "id": "000096cf-6361-4d70-e169-676e55555555",
+      "name": "Percentage discount code"
+    },
+    {
+      "id": "000096cf-6361-4d70-e169-676e66666666",
+      "name": "Percentage discount code"
+    },
+    {
+      "id": "000096cf-6361-4d70-e169-676e44444444",
+      "name": "GEO custom campaign"
+    },
+    {
+      "id": "fce61034-a48e-39f5-af3b-c8aa294601f9"
+    },
+    {
+      "id": "a58388e4-bf99-34d7-9d4a-848efd5b6687",
+      "name": "2"
+    },
+    {
+      "id": "8500766f-1aa3-3117-9423-70c6851294c7",
+      "name": "4"
+    },
+    {
+      "id": "9ea077ae-6d9f-3547-b43f-cb89471ce4d3",
+      "name": "6"
+    },
+    {
+      "id": "0c1f68bc-529f-39b5-99df-b5740048a84a",
+      "name": "8"
+    },
+    {
+      "id": "1942beff-5375-3455-ad1d-f608c18b0707",
+      "name": "10"
+    },
+    {
+      "id": "2bca67fd-2ece-47ea-a556-2ec0b3faeba3",
+      "name": "tertrt"
+    },
+    {
+      "id": "5413dff3-47ba-4342-a669-cc9bb54ea1fa",
+      "name": "dddddd"
+    },
+    {
+      "id": "4cd1415d-6c20-4642-a2eb-cd985c1f88aa",
+      "name": "testowe"
+    },
+    {
+      "id": "40d4b8c5-3be4-4f76-8804-d1dc3c9a9732",
+      "name": "test"
+    },
+    {
+      "id": "110d39ce-47ab-4c2c-b0f8-a71c95e0520a",
+      "name": "cashback"
+    }
+  ]
+}
+
 Update a campaign
 -----------------
 
