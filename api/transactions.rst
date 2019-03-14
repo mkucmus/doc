@@ -3,9 +3,79 @@ Transactions
 
 These endpoints will allow you to easily manage transactions.
 
+Import transactions.
+--------------------
 
-Assign customer to specific transaction
----------------------------------------
+To import XML file with transactions you will need to call the ``/api/admin/transaction/import`` endpoint with the ``POST`` method.
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    POST /api/admin/transaction/import
+
++-------------------------------------+----------------+---------------------------------------------------+
+| Parameter                           | Parameter type | Description                                       |
++=====================================+================+===================================================+
+| Authorization                       | header         | Token received during authentication              |
++-------------------------------------+----------------+---------------------------------------------------+
+| file[file]                          | query          | XML file with transactions                        |
++-------------------------------------+----------------+---------------------------------------------------+
+
+
+Example
+^^^^^^^
+
+.. code-block:: bash
+
+    curl http://localhost:8181/api/admin/transaction/import \
+        -X "POST" \
+        -H "Accept: application/json" \
+        -H "Content-type: application/x-www-form-urlencoded" \
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
+        -d "file[file]=C:\\fakepath\\transaction.xml"
+
+
+		.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+
+Exemplary Response
+^^^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
+
+.. code-block:: json
+
+    {
+  "items": [
+    {
+      "status": "error",
+      "message": "Convert exception: Value \"00000000-0000-474c-1111-b0dd880c07e\" is not a valid UUID.",
+      "identifier": "0001_pos2_zzleID"
+    },
+    {
+      "status": "success",
+      "processImportResult": {
+        "object": {
+          "transactionId": "98b15ef5-94ad-43ef-9984-0d41197d14e6"
+        }
+      },
+      "identifier": "id_bez_tymrazem"
+    }
+  ],
+  "totalProcessed": 2,
+  "totalSuccess": 1,
+  "totalFailed": 1
+}
+	
+	
+Assign customer to specific transaction (admin)
+-----------------------------------------------
 
 To assign customer to specific transaction you will need to call the ``/api/admin/transaction/customer/assign`` endpoint with the ``POST`` method.
 
@@ -88,18 +158,17 @@ Exemplary Response
       "errors": []
     }
 
+Method allows to assign customer to specific transaction (customer)
+-------------------------------------------------------------------
 
-Assign customer to specific transaction (seller)
-------------------------------------------------
-
-To assign customer to specific transaction you will need to call the ``/api/seller/transaction/customer/assign`` endpoint with the ``POST`` method.
+To assign customer to specific transaction you will need to call the ``/api/customer/transaction/customer/assign`` endpoint with the ``POST`` method.
 
 Definition
 ^^^^^^^^^^
 
 .. code-block:: text
 
-    POST /api/seller/transaction/customer/assign
+    POST /api/customer/transaction/customer/assign
 
 +-------------------------------------+----------------+---------------------------------------------------+
 | Parameter                           | Parameter type | Description                                       |
@@ -120,7 +189,67 @@ Example
 
 .. code-block:: bash
 
-    curl http://localhost:8181/api/seller/transaction/customer/assign \
+    curl http://localhost:8181/api/customer/transaction/customer/assign \
+        -X "POST" \
+        -H "Accept: application/json" \
+        -H "Content-type: application/x-www-form-urlencoded" \
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+        -d "assign[transactionDocumentNumber]=888" \
+        -d "assign[customerId]=00000000-0000-474c-b092-b0dd880c07e1" \
+        -d "assign[customerLoyaltyCardNumber]=12345" \
+        -d "assign[customerPhoneNumber]=665332665"
+
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+
+Exemplary Response
+^^^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
+
+.. code-block:: json
+
+    {
+      "transactionId": "9f805211-9326-4b47-b5a6-8155d6ae9d2c"
+    }
+
+
+Method allows to assign customer to specific transaction (pos)
+--------------------------------------------------------------
+
+To assign customer to specific transaction you will need to call the ``/api/pos/transaction/customer/assign`` endpoint with the ``POST`` method.
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    POST /api/pos/transaction/customer/assign
+
++-------------------------------------+----------------+---------------------------------------------------+
+| Parameter                           | Parameter type | Description                                       |
++=====================================+================+===================================================+
+| Authorization                       | header         | Token received during authentication              |
++-------------------------------------+----------------+---------------------------------------------------+
+| assign[transactionDocumentNumber]   | query          | Transaction Document Number                       |
++-------------------------------------+----------------+---------------------------------------------------+
+| assign[customerId]                  | query          | Customer ID                                       |
++-------------------------------------+----------------+---------------------------------------------------+
+| assign[customerLoyaltyCardNumber]   | query          | Customer Loyalty Number                           |
++-------------------------------------+----------------+---------------------------------------------------+
+| assign[customerPhoneNumber]         | query          | Customer Phone Number                             |
++-------------------------------------+----------------+---------------------------------------------------+
+
+Example
+^^^^^^^
+
+.. code-block:: bash
+
+    curl http://localhost:8181/api/pos/transaction/customer/assign \
         -X "POST" \
         -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
