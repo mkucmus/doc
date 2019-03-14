@@ -1,4 +1,4 @@
- Reward Campaigns API
+Reward Campaigns API
 ====================
 
 These endpoints will allow you to easily manage Reward Campaigns.
