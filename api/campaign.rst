@@ -26,9 +26,10 @@ Definition
 +---------------------------------------------------+----------------+------------------------------------------------------------------------------+
 | customerId                                        | request        |  Customer ID                                                                 |
 +---------------------------------------------------+----------------+------------------------------------------------------------------------------+
-| pointsAmount                                      | request        |  Points amount                                                               |
+| pointsAmount                                      | request        |  Points amount to spend                                                      |
 +---------------------------------------------------+----------------+------------------------------------------------------------------------------+
-| pointValue                                        | request        |  Point value                                                                 |
+| pointValue                                        | request        |  Monetary value of the points to define the number of points that can be     | 
+|                                                   |                |  applied as a refund towards the amount of order                             +                                   |
 +---------------------------------------------------+----------------+------------------------------------------------------------------------------+
 | rewardAmount                                      | request        |  Reward amount                                                               |
 +---------------------------------------------------+----------------+------------------------------------------------------------------------------+
@@ -68,8 +69,63 @@ Exemplary Response
         "pointValue": 10,
         "rewardAmount": 100
     }
+	
+	
+Simulate cashback
+-----------------
 
+To simulate cashback you will need to call the ``/api/admin/campaign/cashback/simulate`` endpoint with the ``POST`` method.
 
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    POST /api/admin/campaign/cashback/simulate
+	
++---------------------------------------------------+----------------+------------------------------------------------------------------------------+
+| Parameter                                         | Parameter type |  Description                                                                 |
++===================================================+================+==============================================================================+
+| Authorization                                     | header         | Token received during authentication                                         |
++---------------------------------------------------+----------------+------------------------------------------------------------------------------+
+| customerId                                        | request        |  Customer ID                                                                 |
++---------------------------------------------------+----------------+------------------------------------------------------------------------------+
+| pointsAmount                                      | request        |  Points amount to spend                                                      |
++---------------------------------------------------+----------------+------------------------------------------------------------------------------+
+
+Example
+^^^^^^^
+
+.. code-block:: bash
+
+curl http://localhost:8181/api/admin/campaign/cashback/simulate \
+        -X "POST" \
+        -H "Accept: application/json" \
+        -H "Content-type: application/x-www-form-urlencoded" \
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
+        -d "customerId=5bfded09-0931-4eac-baad-0d663cfd8976" \
+		-d "pointsAmount=5" 
+
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+
+Exemplary Response
+^^^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
+
+.. code-block:: json
+
+    {
+        "customerId": "5bfded09-0931-4eac-baad-0d663cfd8976",
+        "pointsAmount": 10,
+        "pointValue": "3.00",
+        "rewardAmount": 30
+    }
 
 Create a new campaign
 ---------------------
