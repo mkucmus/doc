@@ -829,8 +829,8 @@ Exemplary Response
 
 .. code-block:: json
 
-   {
-  "boughtCampaigns": [
+    {
+    "boughtCampaigns": [
     {
       "canBeUsed": true,
       "rewardCampaignId": "000096cf-6361-4d70-e169-676e22222222",
@@ -912,9 +912,9 @@ Exemplary Response
         "status": ""
       }
     }
-  ],
-  "total": 3
-}
+    ],
+    "total": 3
+    }
 
 
 Get the collection of exported campaigns to csv file
