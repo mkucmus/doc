@@ -1356,6 +1356,7 @@ Exemplary Response
     STATUS: 200 OK
 
 .. code-block:: json
+
     {
       "transactionId": "d5b1119a-698b-40b4-9ac4-8ef704fa4433"
     }
@@ -1416,6 +1417,7 @@ Exemplary Response
     STATUS: 200 OK
 
 .. code-block:: json
+
     {
       "transactionId": "d5b1119a-698b-40b4-9ac4-8ef704fa4433"
     }
