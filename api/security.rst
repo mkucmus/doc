@@ -64,6 +64,64 @@ Exemplary Response
       "success": true
     }
 
+
+Purpose of this method is to provide "Forgot password" functionality
+--------------------------------------------------------------------
+
+Invoking this method will send message to the user with password reset url. You will need to call the ``/api/customer/password/reset/request`` endpoint with the ``POST`` method.
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    POST /api/customer/password/reset/request
+	
++-------------------------------------+----------------+---------------------------------------------------+
+| Parameter                           | Parameter type | Description                                       |
++=====================================+================+===================================================+
+| Authorization                       | header         | Token received during authentication              |
++-------------------------------------+----------------+---------------------------------------------------+
+| username                            | string         | Customer email address                            |
++-------------------------------------+----------------+---------------------------------------------------+
+
+Example
+^^^^^^^
+
+.. code-block:: bash
+
+    curl http://localhost:8181/api/customer/password/reset/request \
+        -X "POST" \
+        -H "Accept: application/json" \
+        -H "Content-type: application/x-www-form-urlencoded" \
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
+        -d "username=user@oloy.com"
+
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+
+.. note::
+
+     Your password must be at least 8 characters long.
+     Your password must include both upper and lower case letters.
+     Your password must include at least one number.
+     Your password must contain at least one special character.
+
+Exemplary Response
+^^^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
+
+.. code-block:: json
+
+    {
+      "success": true
+    }
+
 Change logged user password (customer)
 --------------------------------------
 
@@ -343,5 +401,3 @@ Exemplary Response
 .. code-block:: json
 
     []
-
-
