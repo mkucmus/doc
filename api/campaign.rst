@@ -1765,6 +1765,55 @@ Exemplary Not Found Response
       }
     }
 
+Change campaign state action to active or inactive
+--------------------------------------------------
+
+To change campaign to active or inactive you will need to call the ``/api/campaign/<campaign>/<active>`` endpoint with the ``POST`` method.
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    POST /api/campaign/<campaign>/<active>	
+	
++-------------------------------------+----------------+---------------------------------------------------+
+| Parameter                           | Parameter type | Description                                       |
++=====================================+================+===================================================+
+| Authorization                       | header         | Token received during authentication              |
++-------------------------------------+----------------+---------------------------------------------------+
+| <active>                            | query          | active or inactive status                         |
++-------------------------------------+----------------+---------------------------------------------------+
+| <campaign>                          | request        | Campaign ID                                       |
++-------------------------------------+----------------+---------------------------------------------------+	
+	
+To make campaign active ``campaign = 40d4b8c5-3be4-4f76-8804-d1dc3c9a9732`` use the below method:
+
+.. code-block:: bash
+
+    curl http://localhost:8181/api/campaign/40d4b8c5-3be4-4f76-8804-d1dc3c9a9732/<active> \
+        -X "POST" \
+        -H "Accept: application/json" \
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+	
+Exemplary Response
+^^^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
+
+.. code-block:: json
+
+    {
+      "campaignId": "40d4b8c5-3be4-4f76-8804-d1dc3c9a9732"
+    }
+
 Get campaign collection (seller)
 --------------------------------
 
