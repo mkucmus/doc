@@ -1268,21 +1268,21 @@ Definition
 +----------------------------------------------+----------------+---------------------------------------------------+
 | transaction[items][][quantity]               | query          | Quantity                                          |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[items][][grossValue]               | query          | Gross value                                       |
+| transaction[items][][grossValue]             | query          | Gross value                                       |
 +----------------------------------------------+----------------+---------------------------------------------------+
 | transaction[items][][category]               | query          | Category Name                                     |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[items][][maker]                   | query          | Brand name                                        |
+| transaction[items][][maker]                  | query          | Brand name                                        |
 +----------------------------------------------+----------------+---------------------------------------------------+
 | transaction[items][][labels][][key]          | query          | Label key                                         |
 +----------------------------------------------+----------------+---------------------------------------------------+
 | transaction[items][][labels][][value]        | query          | Label value                                       |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[customerData][name]               | query          | Customer name                                     |
+| transaction[customerData][name]              | query          | Customer name                                     |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[customerData][email]               | query          | *(optional)* Customer email                       |
+| transaction[customerData][email]             | query          | *(optional)* Customer email                       |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[customerData][phone]               | query          | *(optional)* Customer phone                       |
+| transaction[customerData][phone]             | query          | *(optional)* Customer phone                       |
 +----------------------------------------------+----------------+---------------------------------------------------+
 | transaction[customerData][loyaltyCardNumber] | query          | *(optional)* Customer Loyalty card number         |
 +----------------------------------------------+----------------+---------------------------------------------------+
@@ -1294,7 +1294,7 @@ Definition
 +----------------------------------------------+----------------+---------------------------------------------------+
 | transaction[customerData][address][postal]   | query          | *(optional)* Postal code                          |
 +----------------------------------------------+----------------+---------------------------------------------------+
-| transaction[customerData][address][city]       | query          | *(optional)* City                                 |
+| transaction[customerData][address][city]     | query          | *(optional)* City                                 |
 +----------------------------------------------+----------------+---------------------------------------------------+
 | transaction[customerData][address][province] | query          | *(optional)* Province                             |
 +----------------------------------------------+----------------+---------------------------------------------------+
