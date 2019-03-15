@@ -799,9 +799,9 @@ Definition
 +-------------------------------------+----------------+----------------------------------------------------+
 | activeToTo                          | query          | *(optional)* Active to date to filter              |
 +-------------------------------------+----------------+----------------------------------------------------+
-| deliveryStatus                      | query          | *(optional)* Delivery status filter                +
-|                                     |                |  Possible values: ordered, canceled, shipped,      +   
-|                                     |                |  delivered                                         +
+| deliveryStatus                      | query          | *(optional)* Delivery status filter                |
+|                                     |                |  Possible values: ordered, canceled, shipped,      |   
+|                                     |                |  delivered                                         |
 +-------------------------------------+----------------+----------------------------------------------------+
 
 Example
@@ -977,6 +977,182 @@ Exemplary Response
     "Percentage discount code","2019-03-14 09:29:50",0,,user-return@oloy.com,,TestUser,ForCouponTest,2410,
     cashback,"2019-03-14 13:45:21",0,,maxnowacki209528@test.pl,,Max,Nowacki,100,
    "Percentage discount code","2019-03-14 13:48:11",0,,test@test.pl,,alajna,user,100,
+
+Get the collection of publicly available campaigns
+--------------------------------------------------
+
+To retrieve a paginated list of campaigns that are publicly available you will need to call the ``/api/campaign/public/available`` endpoint with the ``GET`` method.
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    GET /api/campaign/public/available
+
++-------------------------------------+----------------+----------------------------------------------------+
+| Parameter                           | Parameter type | Description                                        |
++=====================================+================+====================================================+
+| Authorization                       | header         | Token received during authentication               |
++-------------------------------------+----------------+----------------------------------------------------+
+| labels                              | request        | *(optional)* Filter by labels                      |
++-------------------------------------+----------------+----------------------------------------------------+
+| isFeatured                          | request        | *(optional)* Filter by featured tag                |
++-------------------------------------+----------------+----------------------------------------------------+
+| campaignType                        | request        | *(optional)* Filter by campaign type               |
++-------------------------------------+----------------+----------------------------------------------------+
+| name                                | request        | *(optional)* Filter by campaign name               |
++-------------------------------------+----------------+----------------------------------------------------+
+| page                                | query          | *(optional)* Start from page, by default 1         |
++-------------------------------------+----------------+----------------------------------------------------+
+| perPage                             | query          | *(optional)* Number of items to display per page,  |
+|                                     |                | by default = 10                                    |
++-------------------------------------+----------------+----------------------------------------------------+
+| sort                                | query          | *(optional)* Sort by column name                   |
++-------------------------------------+----------------+----------------------------------------------------+
+| direction                           | query          | *(optional)* Direction of sorting [ASC, DESC],     |
+|                                     |                | by default = ASC                                   |
++-------------------------------------+----------------+----------------------------------------------------+
+| categoryId[]                        | query          | *(optional)* Array of category Ids                 |
++-------------------------------------+----------------+----------------------------------------------------+
+| format                              | query          | *(optional)* Format of descriptions [html].        |
+|                                     |                | Default is RAW.                                    |
++-------------------------------------+----------------+----------------------------------------------------+
+
+Example
+^^^^^^^
+
+To see the first page of all publicly available campaigns use the below method:
+
+.. code-block:: bash
+
+    curl http://localhost:8181/api/campaign/public/available \
+        -X "GET" -H "Accept: application/json" \
+        -H "Content-type: application/x-www-form-urlencoded" \
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+
+Exemplary Response
+^^^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
+
+.. code-block:: json
+	
+   {
+      "name": "testowe",
+      "brandIcon": false,
+      "rewardCampaignId": "4cd1415d-6c20-4642-a2eb-cd985c1f88aa",
+      "campaignId": "4cd1415d-6c20-4642-a2eb-cd985c1f88aa",
+      "reward": "gift_code",
+      "active": true,
+      "costInPoints": 10,
+      "singleCoupon": false,
+      "unlimited": true,
+      "campaignActivity": {
+        "allTimeActive": true
+      },
+      "campaignVisibility": {
+        "allTimeVisible": true
+      },
+      "labels": [],
+      "daysInactive": 28,
+      "daysValid": 90,
+      "featured": false,
+      "photos": [],
+      "public": true,
+      "fulfillmentTracking": false,
+      "createdAt": "2019-03-14T10:27:38+0100",
+      "translations": [
+        {
+          "name": "testowe",
+          "id": 42,
+          "locale": "en"
+        }
+      ],
+      "segmentNames": {},
+      "levelNames": {
+        "e82c96cf-32a3-43bd-9034-4df343e50000": "level0"
+      },
+      "categoryNames": [],
+      "usageLeft": 0,
+      "visibleForCustomersCount": 12,
+      "usersWhoUsedThisCampaignCount": 1,
+      "brandDescription": null,
+      "shortDescription": null,
+      "conditionsDescription": null,
+      "usageInstruction": null
+    },
+	{
+      "name": "Test reward campaign",
+      "brandIcon": false,
+      "rewardCampaignId": "000096cf-6361-4d70-e169-676e00000003",
+      "campaignId": "000096cf-6361-4d70-e169-676e00000003",
+      "reward": "discount_code",
+      "active": true,
+      "costInPoints": 5,
+      "singleCoupon": false,
+      "unlimited": false,
+      "limit": 10,
+      "limitPerUser": 2,
+      "campaignActivity": {
+        "allTimeActive": false,
+        "activeFrom": "2016-01-01T00:00:00+0100",
+        "activeTo": "2037-01-01T00:00:00+0100"
+      },
+      "campaignVisibility": {
+        "allTimeVisible": false,
+        "visibleFrom": "2016-01-01T00:00:00+0100",
+        "visibleTo": "2037-01-01T00:00:00+0100"
+      },
+      "labels": [
+        {
+          "key": "type",
+          "value": "test"
+        }
+      ],
+      "daysInactive": 10,
+      "daysValid": 20,
+      "featured": false,
+      "photos": [],
+      "public": true,
+      "fulfillmentTracking": false,
+      "createdAt": "2019-03-14T08:29:42+0100",
+      "translations": [
+        {
+          "name": "Test reward campaign",
+          "id": 5,
+          "locale": "en"
+        },
+        {
+          "name": "Testowa kampania z nagrodą",
+          "id": 6,
+          "locale": "pl"
+        }
+      ],
+      "segmentNames": {
+        "00000000-0000-0000-0000-000000000011": "customer list with label",
+        "873407dd-c434-4b6a-aa8c-a9418ce68abf": "anniversary_testowe"
+      },
+      "levelNames": {},
+      "categoryNames": [],
+      "usageLeft": 3,
+      "visibleForCustomersCount": 1,
+      "usersWhoUsedThisCampaignCount": 0,
+      "brandDescription": null,
+      "shortDescription": null,
+      "conditionsDescription": null,
+      "usageInstruction": null
+    }
+  ],
+  "total": 2
+}
 
 Update a campaign
 -----------------
