@@ -756,6 +756,228 @@ Exemplary Response
   ]
 }
 
+Get the collection of bought campaigns
+--------------------------------------
+
+To retrieve a paginated list of bought campaigns you will need to call the ``/api/campaign/bought`` endpoint with the ``GET`` method.
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    GET /api/campaign/bought
+	
++-------------------------------------+----------------+----------------------------------------------------+
+| Parameter                           | Parameter type | Description                                        |
++=====================================+================+====================================================+
+| Authorization                       | header         | Token received during authentication               |
++-----------------------------------------------------------------------------------------------------------+
+| used                                | request        | *(optional)* Possible values : true/false          |
++-------------------------------------+----------------+----------------------------------------------------+
+| page                                | query          | *(optional)* Start from page, by default 1         |
++-------------------------------------+----------------+----------------------------------------------------+
+| perPage                             | query          | *(optional)* Number of items to display per page,  |
+|                                     |                | by default = 10                                    |
++-------------------------------------+----------------+----------------------------------------------------+
+| sort                                | query          | *(optional)* Sort by column name                   |
++-------------------------------------+----------------+----------------------------------------------------+
+| direction                           | query          | *(optional)* Direction of sorting [ASC, DESC],     |
+|                                     |                | by default = ASC                                   |
++-------------------------------------+----------------+----------------------------------------------------+
+| purchasedAtFrom                     | query          | *(optional)* Purchase date from filter             |
++-------------------------------------+----------------+----------------------------------------------------+
+| purchasedAtTo                       | query          | *(optional)* Purchase date to filter               |
++-------------------------------------+----------------+----------------------------------------------------+
+| usageDateFrom                       | query          | *(optional)* Usage date from filter                |
++-------------------------------------+----------------+----------------------------------------------------+
+| usageDateTo                         | query          | *(optional)* Usage date to filter                  |
++-------------------------------------+----------------+----------------------------------------------------+
+| activeSinceFrom                     | query          | *(optional)* Active since date from filter         |
++-------------------------------------+----------------+----------------------------------------------------+
+| activeToFrom                        | query          | *(optional)* Active since date to filter           |
++-------------------------------------+----------------+----------------------------------------------------+
+| activeToTo                          | query          | *(optional)* Active to date to filter              |
++-------------------------------------+----------------+----------------------------------------------------+
+| deliveryStatus                      | query          | *(optional)* Delivery status filter                +
+|                                     |                |  Possible values: ordered, canceled, shipped,      +   
+|                                     |                |  delivered                                         +
++-------------------------------------+----------------+----------------------------------------------------+
+
+Example
+^^^^^^^
+
+To see the first page of all bought campaigns use the below method:
+
+.. code-block:: bash
+
+    curl http://localhost:8181/api/campaign/bought \
+        -X "GET" -H "Accept: application/json" \
+        -H "Content-type: application/x-www-form-urlencoded" \
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+
+Exemplary Response
+^^^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
+
+.. code-block:: json
+
+   {
+  "boughtCampaigns": [
+    {
+      "canBeUsed": true,
+      "rewardCampaignId": "000096cf-6361-4d70-e169-676e22222222",
+      "campaignId": "000096cf-6361-4d70-e169-676e22222222",
+      "customerId": "7ae0712b-f029-4839-9c53-278c37c6fd35",
+      "purchasedAt": "2019-03-14T10:29:05+0100",
+      "coupon": {
+        "code": "10",
+        "id": "d481c4f2-fa88-476a-9e12-a39f728d94d8"
+      },
+      "campaignType": "percentage_discount_code",
+      "campaignName": "Percentage discount code",
+      "customerEmail": "maxnowacki690711@test.pl",
+      "customerName": "Max",
+      "customerLastname": "Nowacki",
+      "campaignShippingAddress": {},
+      "costInPoints": 0,
+      "currentPointsAmount": 100,
+      "used": false,
+      "status": "active",
+      "transactionId": {
+        "transactionId": "33fbedb5-ff71-4a18-9711-4352d3b9e317"
+      },
+      "returnedAmount": 0,
+      "deliveryStatus": {
+        "status": ""
+      }
+    },
+	{
+      "canBeUsed": true,
+      "rewardCampaignId": "000096cf-6361-4d70-e169-676e11111111",
+      "campaignId": "000096cf-6361-4d70-e169-676e11111111",
+      "customerId": "6102cef9-d263-46de-974d-ad2e89f6e81d",
+      "purchasedAt": "2019-03-14T13:45:21+0100",
+      "coupon": {
+        "code": "",
+        "id": "6797ed0a-65eb-4a75-b1a2-500b18077dc3"
+      },
+      "campaignType": "cashback",
+      "campaignName": "cashback",
+      "customerEmail": "maxnowacki209528@test.pl",
+      "customerName": "Max",
+      "customerLastname": "Nowacki",
+      "campaignShippingAddress": {},
+      "costInPoints": 0,
+      "currentPointsAmount": 100,
+      "used": false,
+      "status": "active",
+      "returnedAmount": 0,
+      "deliveryStatus": {
+        "status": ""
+      }
+    },
+    {
+      "canBeUsed": true,
+      "rewardCampaignId": "000096cf-6361-4d70-e169-676e22222222",
+      "campaignId": "000096cf-6361-4d70-e169-676e22222222",
+      "customerId": "79b5c229-5f9a-4c4b-9acc-7620fb95b38a",
+      "purchasedAt": "2019-03-14T13:48:11+0100",
+      "coupon": {
+        "code": "40",
+        "id": "1a4d7e14-fffc-4049-be41-60e824b5102e"
+      },
+      "campaignType": "percentage_discount_code",
+      "campaignName": "Percentage discount code",
+      "customerEmail": "test@test.pl",
+      "customerName": "alajna",
+      "customerLastname": "user",
+      "campaignShippingAddress": {},
+      "costInPoints": 0,
+      "currentPointsAmount": 100,
+      "used": false,
+      "status": "active",
+      "transactionId": {
+        "transactionId": "98b15ef5-94ad-43ef-9984-0d41197d14e6"
+      },
+      "returnedAmount": 0,
+      "deliveryStatus": {
+        "status": ""
+      }
+    }
+  ],
+  "total": 3
+}
+
+
+Get the collection of exported campaigns to csv file
+----------------------------------------------------
+
+To retrieve a paginated list of exported campaigns to csv file you will need to call the ``/api/campaign/bought/export/csv`` endpoint with the ``GET`` method.
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    GET /api/campaign/bought/export/csv
+	
++-------------------------------------+----------------+----------------------------------------------------+
+| Parameter                           | Parameter type | Description                                        |
++=====================================+================+====================================================+
+| Authorization                       | header         | Token received during authentication               |
++-----------------------------------------------------------------------------------------------------------+
+| purchasedAtFrom                     | query          | *(optional)* Purchase date from filter             |
++-------------------------------------+----------------+----------------------------------------------------+
+| purchasedAtTo                       | query          | *(optional)* Purchase date to filter               |
++-------------------------------------+----------------+----------------------------------------------------+
+
+Example
+^^^^^^^
+
+To see the first page of all exported campaigns to csv file use the below method:
+
+.. code-block:: bash
+
+    curl http://localhost:8181/api/campaign/bought/export/csv \
+        -X "GET" -H "Accept: application/json" \
+        -H "Content-type: application/x-www-form-urlencoded" \
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+
+Exemplary Response
+^^^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
+
+.. code-block:: json
+   
+   0.Name,1.Date,2.Cost,"3.Tax value",4.email,5.phone,6.Firstname,7.Surname,"8.Points balance","9.Is used"
+   "Percentage discount code","2019-03-14 10:29:05",0,,maxnowacki690711@test.pl,,Max,Nowacki,100,
+   "Percentage discount code","2019-03-14 10:30:18",0,,maxnowacki974845@test.pl,,Max,Nowacki,340,
+   "Percentage discount code","2019-03-14 10:20:01",0,,test@test.pl,,alajna,user,100,
+   "Percentage discount code","2019-03-14 10:29:32",0,,maxnowacki856039@test.pl,,Max,Nowacki,340,
+    gift123,"2019-03-15 08:40:24",3,,maxnowacki209528@test.pl,,Max,Nowacki,95,1
+    test,"2019-03-15 08:15:14",10,,maxnowacki160093@test.pl,,Max,Nowacki,290,
+    testowe,"2019-03-14 10:28:20",10,,maxnowacki160093@test.pl,,Max,Nowacki,300,
+    "Percentage discount code","2019-03-14 09:29:50",0,,user-return@oloy.com,,TestUser,ForCouponTest,2410,
+    cashback,"2019-03-14 13:45:21",0,,maxnowacki209528@test.pl,,Max,Nowacki,100,
+   "Percentage discount code","2019-03-14 13:48:11",0,,test@test.pl,,alajna,user,100,
+
 Update a campaign
 -----------------
 
