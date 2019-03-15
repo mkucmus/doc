@@ -1044,7 +1044,7 @@ Exemplary Response
     STATUS: 200 OK
 
 .. code-block:: json
-	{
+   	{
      "campaigns": [
      {
       "name": "testowe",
@@ -1151,10 +1151,10 @@ Exemplary Response
       "conditionsDescription": null,
       "usageInstruction": null
     }
-  ],
-  "total": 2
-  }
-  
+    ],
+    "total": 2
+    }  
+
 Update a campaign
 -----------------
 
