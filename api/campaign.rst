@@ -662,7 +662,8 @@ To see the first page of all campaigns use the below method:
 .. code-block:: bash
 
     curl http://localhost:8181/api/campaign/active \
-        -X "GET" -H "Accept: application/json" \
+        -X "GET" \
+	-H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
 
@@ -811,7 +812,8 @@ To see the first page of all bought campaigns use the below method:
 .. code-block:: bash
 
     curl http://localhost:8181/api/campaign/bought \
-        -X "GET" -H "Accept: application/json" \
+        -X "GET" \
+	-H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
 
@@ -947,7 +949,8 @@ To see the first page of all exported campaigns to csv file use the below method
 .. code-block:: bash
 
     curl http://localhost:8181/api/campaign/bought/export/csv \
-        -X "GET" -H "Accept: application/json" \
+        -X "GET" \
+	-H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
 
@@ -1026,7 +1029,8 @@ To see the first page of all publicly available campaigns use the below method:
 .. code-block:: bash
 
     curl http://localhost:8181/api/campaign/public/available \
-        -X "GET" -H "Accept: application/json" \
+        -X "GET" \
+	-H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
 
@@ -1341,7 +1345,8 @@ To see the details of the admin user with ``campaign = 3062c881-93f3-496b-9669-4
 .. code-block:: bash
 
     curl http://localhost:8181/api/campaign/3062c881-93f3-496b-9669-4238c0a62be8 \
-        -X "GET" -H "Accept: application/json" \
+        -X "GET" \ 
+	-H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
 
@@ -1679,7 +1684,8 @@ Example
 .. code-block:: bash
 
     curl http://localhost:8181/api/admin/customer/campaign/coupons/mark_as_used \
-        -X "GET" -H "Accept: application/json" \
+        -X "GET" \
+	-H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
         -d "coupons[0][campaignId]=00000000-0000-0000-0000-000000000001" \
@@ -2392,7 +2398,8 @@ To see the details of the admin user with ``campaign = 3062c881-93f3-496b-9669-4
 .. code-block:: bash
 
     curl http://localhost:8181/api/seller/campaign/3062c881-93f3-496b-9669-4238c0a62be8 \
-        -X "GET" -H "Accept: application/json" \
+        -X "GET" \
+	-H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
 
@@ -2631,9 +2638,9 @@ use the below method:
 .. code-block:: bash
 
     curl http://localhost:8181/api/seller/customer/00000000-0000-474c-b092-b0dd880c07e2/campaign/000096cf-32a3-43bd-9034-4df343e5fd93/buy
-        -X "POST"
-        -H "Accept: application/json"
-        -H "Content-type: application/x-www-form-urlencoded"
+        -X "POST" \
+        -H "Accept: application/json" \
+        -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
 
 .. note::
@@ -2709,9 +2716,9 @@ Get all campaigns available for logged in customer.
 .. code-block:: bash
 
     curl http://localhost:8181/api/customer/campaign/available
-        -X "POST"
-        -H "Accept: application/json"
-        -H "Content-type: application/x-www-form-urlencoded"
+        -X "POST" \
+        -H "Accept: application/json" \
+        -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
 
 .. note::
@@ -2753,10 +2760,10 @@ To change delivery status for customer ID
 .. code-block:: bash
 
     curl http://localhost:8181/api/admin/customer/00000000-0000-474c-b092-b0dd880c07e2/bought/coupon/00000000-0000-0000-0000-b0dd880c07e2/changeDeliveryStatus
-        -X "POST"
-        -H "Accept: application/json"
-        -H "Content-type: application/x-www-form-urlencoded"
-        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+        -X "POST" \
+        -H "Accept: application/json" \
+        -H "Content-type: application/x-www-form-urlencoded" \
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
         -d "deliveryStatus[status]=canceled"
 
 .. note::
