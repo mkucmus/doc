@@ -735,3 +735,187 @@ Exemplary Response
 .. code-block:: json
 
     []
+
+Import transfers points
+------------------------
+
+To import file with points transfer you will need to call the ``/api/points/transfer/import`` endpoint with the ``POST`` method.
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    POST /api/points/transfer/import
+	
++-------------------------------------+----------------+---------------------------------------------------+
+| Parameter                           | Parameter type | Description                                       |
++=====================================+================+===================================================+
+| Authorization                       | header         | Token received during authentication              |
++-------------------------------------+----------------+---------------------------------------------------+
+| file[file]                          | query          | XML file                                          |
++-------------------------------------+----------------+---------------------------------------------------+	
+
+Example
+^^^^^^^
+
+.. code-block:: bash
+
+    curl http://localhost:8181/api/points/transfer/import \
+        -X "POST" \
+        -H "Accept: application/json" \
+        -H "Content-type: application/x-www-form-urlencoded" \
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
+		-d "file[file]=C:\\fakepath\\points.xml"
+
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+
+
+Exemplary Response
+^^^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
+
+.. code-block:: json
+
+    {
+  "items": [
+    {
+      "status": "success",
+      "processImportResult": {
+        "object": {
+          "pointsTransferId": "e08cf828-989b-4bd0-8221-cf44c3be8a64"
+        }
+      },
+      "identifier": "11000000-0000-474c-b092-b0dd880c07e2x/(adding 15)"
+    }
+    ],
+      "totalProcessed": 1,
+      "totalSuccess": 1,
+      "totalFailed": 0
+    }	
+Method allows to add points to customer (pos)
+---------------------------------------------
+
+To add a new points as seller you will need to call the ``/api/pos/points/transfer/add`` endpoint with the ``POST`` method.
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    POST /api/pos/points/transfer/add
+
++-------------------------------------+----------------+---------------------------------------------------+
+| Parameter                           | Parameter type | Description                                       |
++=====================================+================+===================================================+
+| Authorization                       | header         | Token received during authentication              |
++-------------------------------------+----------------+---------------------------------------------------+
+| transfer[customer]                  | query          | Customer ID                                       |
++-------------------------------------+----------------+---------------------------------------------------+
+| transfer[points]                    | query          | How many points customer can get                  |
++-------------------------------------+----------------+---------------------------------------------------+
+| transfer[comment]                   | query          | *(optional)* Comment                              |
++-------------------------------------+----------------+---------------------------------------------------+
+| transfer[validityDuration]          | query          | *(optional)* Validity of points given in days     |
++-------------------------------------+----------------+---------------------------------------------------+
+| transfer                            | query          | *(optional)* Points transfer ID                   |
++-------------------------------------+----------------+---------------------------------------------------+
+
+Example
+^^^^^^^
+
+.. code-block:: bash
+
+    curl http://localhost:8181/api/pos/points/transfer/add \
+        -X "POST" \
+        -H "Accept: application/json" \
+        -H "Content-type: application/x-www-form-urlencoded" \
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
+        -d "transfer[customer]=b9af6a8c-9cc5-4924-989c-e4af614ab2a3" \
+        -d "transfer[points]=10"
+
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+
+
+Exemplary Response
+^^^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
+
+.. code-block:: json
+
+    {
+      "pointsTransferId": "481b60c5-ccba-4ce9-9b40-2567513cb555"
+    }
+
+
+Method allows to spend customer points (pos)
+--------------------------------------------
+
+To spend customer points as seller you will need to call the ``/api/pos/points/transfer/spend`` endpoint with the ``POST`` method.
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    POST /api/pos/points/transfer/spend
+
++-------------------------------------+----------------+---------------------------------------------------+
+| Parameter                           | Parameter type | Description                                       |
++=====================================+================+===================================================+
+| Authorization                       | header         | Token received during authentication              |
++-------------------------------------+----------------+---------------------------------------------------+
+| transfer[customer]                  | query          | Customer ID                                       |
++-------------------------------------+----------------+---------------------------------------------------+
+| transfer[points]                    | query          | How many points customer can get                  |
++-------------------------------------+----------------+---------------------------------------------------+
+| transfer[comment]                   | query          | *(optional)* Comment                              |
++-------------------------------------+----------------+---------------------------------------------------+
+| transfer                            | query          | *(optional)* Points transfer ID                   |
++-------------------------------------+----------------+---------------------------------------------------+
+| transfer[validityDuration]          | query          | *(optional)* Validity of points given in days     |
++-------------------------------------+----------------+---------------------------------------------------+
+
+Example
+^^^^^^^
+
+.. code-block:: bash
+
+    curl http://localhost:8181/api/pos/points/transfer/spend \
+        -X "POST" \
+        -H "Accept: application/json" \
+        -H "Content-type: application/x-www-form-urlencoded" \
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
+        -d "transfer[customer]=b9af6a8c-9cc5-4924-989c-e4af614ab2a3" \
+        -d "transfer[points]=1"
+
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+
+
+Exemplary Response
+^^^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
+
+.. code-block:: json
+
+    {
+      "pointsTransferId": "ff4698aa-5d3b-4b58-952e-90d08fe94e30"
+    }
