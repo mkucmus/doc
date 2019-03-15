@@ -680,7 +680,7 @@ Exemplary Response
 
 .. code-block:: json
     
-	{
+   	{
     "campaigns": [
     {
       "id": "000096cf-6361-4d70-e169-676e00000001",
@@ -753,9 +753,8 @@ Exemplary Response
       "id": "110d39ce-47ab-4c2c-b0f8-a71c95e0520a",
       "name": "cashback"
     }
-  ]
-}
-
+    ]}
+    
 Get the collection of bought campaigns
 --------------------------------------
 
