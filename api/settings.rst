@@ -849,8 +849,90 @@ Exemplary Response
       "id": "f4f0e1f9-3677-4bdb-9685-416a961bc319"
     }
 
+Method will return all public system settings
+---------------------------------------------
 
+To retrieve list of public system settings you will need to call the ``/api/settings/public`` endpoint with the ``GET`` method.
 
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    GET /api/settings/public
+
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+| Parameter                                      | Parameter type |  Description                                                               |
++================================================+================+============================================================================+
+| Authorization                                  | header         | Token received during authentication                                       |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+
+Example
+^^^^^^^
+
+.. code-block:: bash
+
+    curl http://localhost:8181/api/settings/public \
+        -X "GET" \
+        -H "Accept: application/json" \
+        -H "Content-type: application/x-www-form-urlencoded" \
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+
+Exemplary Response
+^^^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
+
+.. code-block:: json
+
+	{
+  "settings": {
+    "allowCustomersProfileEdits": false
+  }
+  }
+
+Remove conditions file
+----------------------
+
+To remove a conditions file you will need to call the ``/api/settings/conditions-file`` endpoint with the ``DELETE`` method.
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    DELETE /api/settings/conditions-file
+	
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+| Parameter                                      | Parameter type |  Description                                                               |
++================================================+================+============================================================================+
+| Authorization                                  | header         | Token received during authentication                                       |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+
+Example
+^^^^^^^
+
+.. code-block:: bash
+
+    curl http://localhost:8181/api/settings/conditions-file \
+        -X "DELETE" \
+        -H "Accept: application/json" \
+        -H "Content-type: application/x-www-form-urlencoded" \
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+
+Exemplary Response
+^^^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
+
+.. code-block:: json
+
+    No Content
+	
 Remove logo
 -----------
 
@@ -890,8 +972,6 @@ Exemplary Response
 .. code-block:: json
 
     No Content
-
-
 
 
 Get logo
@@ -1022,7 +1102,7 @@ Exemplary Response
 
 
 Get named photo
---------
+---------------
 
 To retrieve a named photo you will need to call the ``/api/settings/photo/{name}`` endpoint with the ``GET`` method.
 
