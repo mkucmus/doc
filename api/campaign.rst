@@ -1044,8 +1044,9 @@ Exemplary Response
     STATUS: 200 OK
 
 .. code-block:: json
-	
-   {
+	{
+     "campaigns": [
+     {
       "name": "testowe",
       "brandIcon": false,
       "rewardCampaignId": "4cd1415d-6c20-4642-a2eb-cd985c1f88aa",
@@ -1152,8 +1153,8 @@ Exemplary Response
     }
   ],
   "total": 2
-}
-
+  }
+  
 Update a campaign
 -----------------
 
