@@ -1791,7 +1791,7 @@ To make campaign active ``campaign = 40d4b8c5-3be4-4f76-8804-d1dc3c9a9732`` use 
 
 .. code-block:: bash
 
-    curl http://localhost:8181/api/campaign/40d4b8c5-3be4-4f76-8804-d1dc3c9a9732/<active> \
+    curl http://localhost:8181/api/campaign/40d4b8c5-3be4-4f76-8804-d1dc3c9a9732/active \
         -X "POST" \
         -H "Accept: application/json" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
