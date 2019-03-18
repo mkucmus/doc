@@ -849,8 +849,8 @@ Exemplary Response
       "id": "f4f0e1f9-3677-4bdb-9685-416a961bc319"
     }
 
-Method will return all public system settings
----------------------------------------------
+Return all public system settings
+---------------------------------
 
 To retrieve list of public system settings you will need to call the ``/api/settings/public`` endpoint with the ``GET`` method.
 
