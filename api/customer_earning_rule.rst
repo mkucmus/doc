@@ -8,10 +8,10 @@ These endpoints will allow you to easily viewing active earning rules.
     Each role in the Open Loyalty has individual endpoints to viewing active earning rules.
 
 
-Method will return all active earning rules.
---------------------------------------------
+Return all active earning rules
+-------------------------------
 
-To viewing active earning rules you will need to call the ``/api/customer/earningRule`` endpoint with the ``GET`` method.
+To view active earning rules you will need to call the ``/api/customer/earningRule`` endpoint with the ``GET`` method.
 
 
 
@@ -130,8 +130,8 @@ Exemplary Response
       "currency": "eur"
     }
 
-Method allows to use a custom event earning rule
--------------------------------------------------
+Use a custom event earning rule
+-------------------------------
 
 To trigger custom event earning rules you will need to call the ``/api/customer/earningRule/<eventName>`` endpoint with the ``POST`` method.
 
