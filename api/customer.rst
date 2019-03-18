@@ -505,6 +505,55 @@ Example Response
 
     ""
 
+Check if customer with given phone number or email exists
+---------------------------------------------------------
+
+To check if customer with given phone number or email exists you need to call the ``/api/customer/check`` endpoint with the ``GET`` method.
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    GET /api/customer/check
+
++------------------------------------+----------------+------------------------------------------------------------------------+
+| Parameter                          | Parameter type |  Description                                                           |
++====================================+================+========================================================================+
+| Authorization                      | header         |  Token received during authentication                                  |
++------------------------------------+----------------+------------------------------------------------------------------------+
+| emailOrPhone                       | request        |  Customer's email or phone                                             |
++------------------------------------+----------------+------------------------------------------------------------------------+	
+	
+Example
+^^^^^^^
+
+.. code-block:: bash
+
+    curl http://localhost:8181/api/customer/check?emailOrPhone=899000333 \
+        -X "GET" \
+        -H "Accept: application/json" \
+        -H "Content-type: application/x-www-form-urlencoded" \
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+	
+Example Response
+^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
+
+.. code-block:: json
+
+{
+    "total": 1
+}
+
 Create a new customer
 ---------------------
 
