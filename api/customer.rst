@@ -1080,3 +1080,54 @@ Example Response
 .. code-block:: json
 
     []
+
+Assign POS to customer
+----------------------
+
+To assign POS to customer using a token you need to call the ``/api/customer/{customer}/pos`` endpoint with the ``POST`` method.
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    POST /api/customer/{customer}/pos
+
++------------------------------------+----------------+----------------------------------------------------------------+
+| Parameter                          | Parameter type |  Description                                                   |
++====================================+================+================================================================+
+| Authorization                      | header         |  Token received during authentication                          |
++------------------------------------+----------------+----------------------------------------------------------------+
+| <customer>                         | query          |  Customer's ID                                                 |
++------------------------------------+----------------+----------------------------------------------------------------+
+| posId                              | request        |  POS ID                                                        |
++------------------------------------+----------------+----------------------------------------------------------------+
+
+
+Example
+^^^^^^^
+
+.. code-block:: bash
+
+    curl http://localhost:8181/api/customer/1cb6d205-8b77-40e1-a801-052185ed52d9/pos \
+        -X "POST" \
+        -H "Accept: application/json" \
+        -H "Content-type: application/x-www-form-urlencoded" \
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
+		-d "posId=00000000-0000-474c-1111-b0dd880c07e3"
+
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+
+Example Response
+^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
+
+.. code-block:: json
+
+    []
