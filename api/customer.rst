@@ -550,9 +550,9 @@ Example Response
 
 .. code-block:: json
 
-{
-    "total": 1
-}
+    {
+        "total": 1
+    }
 
 Create a new customer
 ---------------------
