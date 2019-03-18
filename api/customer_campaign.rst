@@ -444,6 +444,100 @@ Example Response
       "total": 1
     }
 
+
+Mark multiple coupons as used/unused by customer.
+-------------------------------------------------
+
+Mark customer coupons as used/unused  using ``/api/admin/campaign/coupons/mark_as_used`` endpoint with the ``POST`` method.
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    POST /api/admin/campaign/coupons/mark_as_used
+
++---------------------------+----------------+-------------------------------------------------------------+
+| Parameter                 | Parameter type |  Description                                                |
++===========================+================+=============================================================+
+| Authorization             | header         | Token received during authentication                        |
++---------------------------+----------------+-------------------------------------------------------------+
+| coupons[][campaignId]     | request        | Campaign UUID                                               |
++---------------------------+----------------+-------------------------------------------------------------+
+| coupons[][couponId]       | request        | Coupon UUID                                                 |
++---------------------------+----------------+-------------------------------------------------------------+
+| coupons[][code]           | request        | Coupon code                                                 |
++---------------------------+----------------+-------------------------------------------------------------+
+| coupons[][used]           | request        | Is coupon used, 1 if true, 0 if not used                    |
++---------------------------+----------------+-------------------------------------------------------------+
+| coupons[][transactionId]  | request        | *(optional)* Transaction ID for which coupon has been used  |
++---------------------------+----------------+-------------------------------------------------------------+
+| coupons[][customerId]     | request        | Customer UUID                                               |
++---------------------------+----------------+-------------------------------------------------------------+
+
+Example
+^^^^^^^
+
+.. code-block:: bash
+
+    curl http://localhost:8181/api/admin/campaign/coupons/mark_as_used \
+        -X "POST" -H "Accept: application/json" \
+        -H "Content-type: application/x-www-form-urlencoded" \
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
+        -d "coupons[0][campaignId]=f1eddc46-e985-43e8-bc2a-8007dca3df95" \
+        -d "coupons[0][couponId]=83d6a65e-d237-4049-84aa-bb107cd6f9a4" \
+        -d "coupons[0][code]=test1" \
+        -d "coupons[0][used]=1" \
+        -d "coupons[0][customerId]=00000000-0000-474c-b092-b0dd880c07e1" \        
+		-d "coupons[0][campaignId]=f1eddc46-e985-43e8-bc2a-8007dca3df95" \
+        -d "coupons[0][couponId]=6a2456ec-49b3-4970-9ac4-75ca01eab0ee" \
+        -d "coupons[0][code]=test2" \
+        -d "coupons[0][used]=1" \
+        -d "coupons[0][customerId]=00000000-0000-474c-b092-b0dd880c07e1"
+		
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+
+.. note::
+
+    The *campaignId = f1eddc46-e985-43e8-bc2a-8007dca3df95* id is an example value. Your value can be different.
+
+.. note::
+
+    The *couponId = 6a2456ec-49b3-4970-9ac4-75ca01eab0ee* id is an example value. Your value can be different.
+
+.. note::
+
+    The *customerId = 00000000-0000-474c-b092-b0dd880c07e1* id is an example value. Your value can be different.
+
+Example Response
+^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
+
+.. code-block:: json
+
+    {
+  "coupons": [
+    {
+      "name": "test1",
+      "used": true,
+      "campaignId": "f1eddc46-e985-43e8-bc2a-8007dca3df95",
+      "customerId": "00000000-0000-474c-b092-b0dd880c07e1"
+    },
+    {
+      "name": "test2",
+      "used": true,
+      "campaignId": "f1eddc46-e985-43e8-bc2a-8007dca3df95",
+      "customerId": "00000000-0000-474c-b092-b0dd880c07e1"
+    }
+     ]
+    }
+	
 Mark logged in customer coupons as used
 ---------------------------------------
 
@@ -478,7 +572,7 @@ Example
 .. code-block:: bash
 
     curl http://localhost:8181/api/customer/campaign/coupons/mark_as_used \
-        -X "GET" -H "Accept: application/json" \
+        -X "POST" -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
         -d "coupons[0][campaignId]=00000000-0000-0000-0000-000000000001" \
