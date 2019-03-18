@@ -1029,3 +1029,54 @@ Example Response
       "2018-02-03": 0,
       "2018-02-04": 0
     }
+
+Assign level to customer
+------------------------
+
+To assign level to customer using a token you need to call the ``/api/customer/{customer}/level`` endpoint with the ``POST`` method.
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    POST /api/customer/{customer}/level
+
++------------------------------------+----------------+----------------------------------------------------------------+
+| Parameter                          | Parameter type |  Description                                                   |
++====================================+================+================================================================+
+| Authorization                      | header         |  Token received during authentication                          |
++------------------------------------+----------------+----------------------------------------------------------------+
+| <customer>                         | query          |  Customer's ID                                                 |
++------------------------------------+----------------+----------------------------------------------------------------+
+| levelId                            | request        |  Level ID                                                      |
++------------------------------------+----------------+----------------------------------------------------------------+
+
+
+Example
+^^^^^^^
+
+.. code-block:: bash
+
+    curl http://localhost:8181/api/customer/1cb6d205-8b77-40e1-a801-052185ed52d9/level \
+        -X "POST" \
+        -H "Accept: application/json" \
+        -H "Content-type: application/x-www-form-urlencoded" \
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
+		-d "levelId=e82c96cf-32a3-43bd-9034-4df343e52222"
+
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+
+Example Response
+^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
+
+.. code-block:: json
+
+    []
