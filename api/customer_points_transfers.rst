@@ -101,3 +101,58 @@ Exemplary Response
       ],
       "total": 2
     }
+
+
+Method allows to transfer points between customers
+---------------------------------------------------
+
+To transfer points by a specific customer to other customer use ``/api/customer/points/p2p-transfer`` endpoint with the ``POST`` method.
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    POST  /api/customer/points/p2p-transfer
+
++----------------------+----------------+--------------------------------------------------------+
+| Parameter            | Parameter type |  Description                                           |
++======================+================+========================================================+
+| Authorization        | header         | Token received during authentication                   |
++----------------------+----------------+--------------------------------------------------------+
+| transfer[receiver]   | string         | Customer ID                                            |
++----------------------+----------------+--------------------------------------------------------+
+| transfer[points]     | float          | Number of point                                        |
++----------------------+----------------+--------------------------------------------------------+
+
+Example
+^^^^^^^
+
+.. code-block:: bash
+
+    curl http://localhost:8181/api/customer/points/p2p-transfer \
+        -X "POST" \
+        -H "Accept:application/json" \
+        -H "Content-type: application/x-www-form-urlencoded" \
+        -H "Authorization:\ Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
+		-d "transfer[receiver]=00000000-0000-474c-b092-b0dd880c07f5" \
+		-d "transfer[points]=11"
+
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+
+
+Exemplary Response
+^^^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
+
+.. code-block:: json
+
+    {
+     "pointsTransferId": "5db67ae4-ddc8-4590-ac2d-0b3e0b8f4c7e"
+    }
