@@ -1274,8 +1274,8 @@ Example Response
 
     STATUS: 204 No Content
     
-Method will return customer status
------------------------------------
+Return customer status
+----------------------
 
 To retrieve a status of specific customer you will need to call the ``/api/seller/customer/{customer}/status`` endpoint with the ``GET`` method.
 
@@ -1354,8 +1354,8 @@ Exemplary Response
 	}
 	}
 	
-Method allows to activate customer
------------------------------------
+Activate customer
+-----------------
 
 To send sms activation code to specific customer you will need to call the ``/api/seller/customer/{customer}/send-sms-code`` endpoint with the ``POST`` method.
 
@@ -1405,8 +1405,8 @@ Exemplary Response
 
     No Content
 	
-Method allows to assign POS to customer
-----------------------------------------
+Assign POS to customer
+----------------------
 
 To assign POS to specific customer you will need to call the ``/api/seller/customer/{customer}/pos` endpoint with the ``POST`` method.
 
