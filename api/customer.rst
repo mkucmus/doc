@@ -1175,3 +1175,193 @@ Example Response
 .. code-block:: text
 
     STATUS: 204 No Content
+    
+Method will return customer status
+-----------------------------------
+
+To retrieve a status of specific customer you will need to call the ``/api/seller/customer/{customer}/status`` endpoint with the ``GET`` method.
+
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    GET /api/seller/customer/{customer}/status
+
++----------------------+----------------+--------------------------------------------------------+
+| Parameter            | Parameter type |  Description                                           |
++======================+================+========================================================+
+| Authorization        | header         | Token received during authentication                   |
++----------------------+----------------+--------------------------------------------------------+
+| customer             | query          | Customer UUID                                          |
++----------------------+----------------+--------------------------------------------------------+
+
+Example
+^^^^^^^
+
+.. code-block:: bash
+
+    curl http://localhost:8181/api/seller/customer/00000000-0000-474c-b092-b0dd880c07e1/status \
+        -X "GET" \
+        -H "Accept:\ application/json" \
+        -H "Content-type:\ application/x-www-form-urlencoded" \
+        -H "Authorization:\ Bearer\ eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+		
+.. note::
+
+    When you will use endpoints starting with ``/api/seller`` you need to authorize using seller account credentials.
+	
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+
+Exemplary Response
+^^^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
+
+.. code-block:: json
+
+    {
+	"firstName": "John",
+	"lastName": "Doe",
+	"customerId": "00000000-0000-474c-b092-b0dd880c07e1",
+	"points": 161.9,
+	"p2pPoints": 0,
+	"totalEarnedPoints": 274.9,
+	"usedPoints": 25,
+	"expiredPoints": 88,
+	"lockedPoints": 0,
+	"level": "0.00%",
+	"levelName": "level0",
+	"levelConditionValue": 0,
+	"nextLevel": "5.00%",
+	"nextLevelName": "level1",
+	"nextLevelConditionValue": 20,
+	"transactionsAmountWithoutDeliveryCosts": 3,
+	"transactionsAmountToNextLevel": 17,
+	"averageTransactionsAmount": "1.50",
+	"transactionsCount": 2,
+	"transactionsAmount": 3,
+	"currency": "eur",
+	"pointsExpiringNextMonth": 161.9,
+	"pointsExpiringBreakdown": {
+		"2019-04-14": 33,
+		"2019-04-15": 116.9,
+		"2019-04-17": 12
+	}
+	}
+	
+Method allows to activate customer
+-----------------------------------
+
+To send sms activation code to specific customer you will need to call the ``/api/seller/customer/{customer}/send-sms-code`` endpoint with the ``POST`` method.
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    POST /api/seller/customer/{customer}/send-sms-code
+
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+| Parameter                                      | Parameter type |  Description                                                               |
++================================================+================+============================================================================+
+| Authorization                                  | header         | Token received during authentication                                       |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+| <customer>                                     | query          |  Customer UUID                                                             |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+
+Example
+^^^^^^^
+
+.. code-block:: bash
+
+    curl http://localhost:8181/api/seller/customer/{customer}/send-sms-code \
+        -X "POST" \
+        -H "Accept:\ application/json" \
+        -H "Content-type:\ application/x-www-form-urlencoded" \
+        -H "Authorization:\ Bearer\ eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+		
+.. note::
+
+    When you will use endpoints starting with ``/api/seller`` you need to authorize using seller account credentials.
+	
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+
+Exemplary Response
+^^^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
+
+.. code-block:: json
+
+    No Content
+	
+Method allows to assign POS to customer
+----------------------------------------
+
+To assign POS to specific customer you will need to call the ``/api/seller/customer/{customer}/pos` endpoint with the ``POST`` method.
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    POST /api/seller/customer/{customer}/pos
+
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+| Parameter                                      | Parameter type |  Description                                                               |
++================================================+================+============================================================================+
+| Authorization                                  | header         | Token received during authentication                                       |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+| <customer>                                     | query          |  Customer UUID                                                             |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+| posId                                          | query          |  pos UUID                                                                  |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+
+Example
+^^^^^^^
+
+.. code-block:: bash
+
+    curl http://localhost:8181/api/seller/customer/{customer}/pos \
+        -X "POST" \
+        -H "Accept:\ application/json" \
+        -H "Content-type:\ application/x-www-form-urlencoded" \
+        -H "Authorization:\ Bearer\ eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
+		-d "posId=00000000-0000-474c-1111-b0dd880c07e3"
+
+.. note::
+
+    When you will use endpoints starting with ``/api/seller`` you need to authorize using seller account credentials.
+	
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+	
+.. note::
+
+    The *posId = 00000000-0000-474c-1111-b0dd880c07e3* id is an exemplary value. Your value can be different.
+
+	
+Exemplary Response
+^^^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
+
+.. code-block:: json
+
+    No Content
