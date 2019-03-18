@@ -129,3 +129,55 @@ Exemplary Response
       ],
       "currency": "eur"
     }
+
+Mthod allows to use a custom event earning rule
+------------------------------------------------
+
+To trigger custom event earning rules you will need to call the ``/api/customer/earningRule/<eventName>`` endpoint with the ``POST`` method.
+
+
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    POST  /api/customer/earningRule/<eventName>
+
++------------------------------------+----------------+-----------------------------------------------------------------------------------------------+
+| Parameter                          | Parameter type |  Description                                                                                  |
++====================================+================+===============================================================================================+
+| Authorization                      | header         |  Token received during authentication                                                         |
++------------------------------------+----------------+-----------------------------------------------------------------------------------------------+
+| eventName                          | string         |  Name of custom event                                                                         |
++------------------------------------+----------------+-----------------------------------------------------------------------------------------------+
+
+
+Example
+^^^^^^^
+
+.. code-block:: bash
+
+    curl http://localhost:8181/api/customer/earningRule/<eventName> \
+        -X "POST" \
+        -H "Accept: application/json" \
+        -H "Content-type: application/x-www-form-urlencoded" \
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXUyJ9..." 	
+
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXUyJ9...* authorization token is an exemplary value.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+
+Exemplary Response
+^^^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
+
+.. code-block:: json
+
+    {
+     "points": 12
+    }
