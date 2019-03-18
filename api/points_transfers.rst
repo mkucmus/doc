@@ -799,8 +799,8 @@ Exemplary Response
       "totalSuccess": 1,
       "totalFailed": 0
     }	
-Method allows to add points to customer (pos)
----------------------------------------------
+Add points to customer (pos)
+----------------------------
 
 To add a new points as seller you will need to call the ``/api/pos/points/transfer/add`` endpoint with the ``POST`` method.
 
@@ -860,8 +860,8 @@ Exemplary Response
     }
 
 
-Method allows to spend customer points (pos)
---------------------------------------------
+Spend customer points (pos)
+---------------------------
 
 To spend customer points as seller you will need to call the ``/api/pos/points/transfer/spend`` endpoint with the ``POST`` method.
 
