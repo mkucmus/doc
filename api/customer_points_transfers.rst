@@ -103,8 +103,8 @@ Exemplary Response
     }
 
 
-Method allows to transfer points between customers
----------------------------------------------------
+Transfer points between customers
+---------------------------------
 
 To transfer points by a specific customer to other customer use ``/api/customer/points/p2p-transfer`` endpoint with the ``POST`` method.
 
