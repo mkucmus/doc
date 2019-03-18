@@ -1131,3 +1131,47 @@ Example Response
 .. code-block:: json
 
     []
+
+Remove customer from manually assigned level
+--------------------------------------------
+
+To  remove customer from manually assigned level using a token you need to call the ``/api/customer/{customer}/remove-manually-level`` endpoint with the ``POST`` method.
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    POST /api/customer/{customer}/remove-manually-level
+
++------------------------------------+----------------+----------------------------------------------------------------+
+| Parameter                          | Parameter type |  Description                                                   |
++====================================+================+================================================================+
+| Authorization                      | header         |  Token received during authentication                          |
++------------------------------------+----------------+----------------------------------------------------------------+
+| <customer>                         | query          |  Customer's ID                                                 |
++------------------------------------+----------------+----------------------------------------------------------------+
+
+
+Example
+^^^^^^^
+
+.. code-block:: bash
+
+    curl http://localhost:8181/api/customer/1cb6d205-8b77-40e1-a801-052185ed52d9/remove-manually-level \
+        -X "POST" \
+        -H "Accept: application/json" \
+        -H "Content-type: application/x-www-form-urlencoded" \
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+
+Example Response
+^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 204 No Content
