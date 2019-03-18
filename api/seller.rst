@@ -314,7 +314,7 @@ Definition
 Example
 ^^^^^^^
 
-To see the deactivated user with ``seller = 00000000-0000-474c-b092-b0dd880c07e4`` use the below method:
+To activated user with ``seller = 00000000-0000-474c-b092-b0dd880c07e4`` use the below method:
 
 
 .. code-block:: bash
@@ -426,3 +426,4 @@ Exemplary Response
 .. code-block:: json
 
     No Content
+	
