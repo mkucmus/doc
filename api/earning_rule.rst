@@ -993,7 +993,7 @@ Definition
 +-------------------------------------+----------------+----------------------------------------------------------------------------------------------+
 | earningRule[code]                   | string         | QR code                                                                                      |
 +-------------------------------------+----------------+----------------------------------------------------------------------------------------------+
-| earningRule[earningRuleId]          | query          | *(optional)* UUID of the earning rule. If specified, only this one geo rule will be executed.|  |                                     |                | If comitted, all rules applicable to the customer will be executed                           |
+| earningRule[earningRuleId]          | query          | *(optional)* UUID of the earning rule. If specified, only this one geo rule will be executed.| |                                     |                | If comitted, all rules applicable to the customer will be executed                           |
 +-------------------------------------+----------------+----------------------------------------------------------------------------------------------+
 
 Exemplary Response
@@ -1049,8 +1049,9 @@ Definition
 +-------------------------------------+----------------+-------------------------------------------------------------------------------------------------+
 | earningRule[longitude]              | body           | Current customer's latitude. Positive and negative values can be used.                          |
 +-------------------------------------+----------------+-------------------------------------------------------------------------------------------------+
-| earningRule[earningRuleId]          | query          | *(optional)* UUID of the earning rule. If specified, only this one geo rule will be executed.   |  |                                     |                | If comitted, all rules applicable to the customer will be executed                              |
+| earningRule[earningRuleId]          | query          | *(optional)* UUID of the earning rule. If specified, only this one geo rule will be executed.   | |                                     |                | If comitted, all rules applicable to the customer will be executed                              |
 +-------------------------------------+----------------+-------------------------------------------------------------------------------------------------+
+
 
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
