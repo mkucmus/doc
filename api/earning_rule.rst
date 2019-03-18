@@ -545,7 +545,7 @@ Definition
 | <earningRule>                                  | query          |  EarningRule ID                                                            |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
 | earningRule[type]                              | request        |  The type of earning points. Possible types: Custom event rule, Customer   |
-|                                                |                |     Referral, Event Rule, General spending rule, Multiple earned points,      |
+|                                                |                |  Referral, Event Rule, General spending rule, Multiple earned points,      |
 |                                                |                |  Product Purchase, Multiple by product labels                              |
 +------------------------------------------------+----------------+----------------------------------------------------------------------------+
 | earningRule[rewardType]                        | request        |  Who will be rewarded. Possible types:                                     |
@@ -972,8 +972,62 @@ Exemplary Response
 
     STATUS: 200 OK
 
+QR code
+--------
+
+This method allows calculating points using qrcode you will need to call the ``/api/earningRule/qrcode/customer/<customer>`` endpoint with the ``POST`` method.
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    POST /api/earningRule/qrcode/customer/<customer>
+	
++-------------------------------------+----------------+----------------------------------------------------------------------------------------------+
+| Parameter                           | Parameter type | Description                                                                                  |
++=====================================+================+==============================================================================================+
+| Authorization                       | header         | Token received during authentication                                                         |
++-------------------------------------+----------------+----------------------------------------------------------------------------------------------+
+| <customer>                          | query          | Customer ID                                                                                  |
++-------------------------------------+----------------+----------------------------------------------------------------------------------------------+
+| earningRule[code]                   | string         | QR code                                                                                      |
++-------------------------------------+----------------+----------------------------------------------------------------------------------------------+
+| earningRule[earningRuleId]          | query          | *(optional)* UUID of the earning rule. If specified, only this one geo rule will be executed.|  |                                     |                | If comitted, all rules applicable to the customer will be executed                           |
++-------------------------------------+----------------+----------------------------------------------------------------------------------------------+
+
+Exemplary Response
+^^^^^^^^^^^^^^^^^^
+.. code-block:: bash
+
+    curl http://localhost:8181/api/earningRule/qrcode/customer/00000000-0000-474c-b092-b0dd880c07e1 \
+        -X "POST" \
+        -H "Accept: application/json" \
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
+        -d "earningRule[code]=abccode" \
+        -d "earningRule[earningRuleId]=e378c813-2116-448a-b125-564cef15f932"
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+
+.. note::
+
+    The *00000000-0000-474c-b092-b0dd880c07e1* customer UUID, *e378c813-2116-448a-b125-564cef15f932* earning rule UUID, *abccode* qr code are example values.
+    Your values can be different.
+
+.. code-block:: text
+
+    STATUS: 200 OK
+
+.. code-block:: json
+
+    {
+      "points": 10
+    }
+
 Geolocation
--------------------------------
+-------------
 
 This method allows calculating points using geolocation you will need to call the ``/api/earningRule/geolocation/customer/<customer>`` endpoint with the ``POST`` method.
 
@@ -983,20 +1037,21 @@ Definition
 .. code-block:: text
 
     POST /api/earningRule/geolocation/customer/<customer>
+	
++-------------------------------------+----------------+----------------------------------------------------------------------------------------------+
+| Parameter                           | Parameter type | Description                                                                                  |
++=====================================+================+==============================================================================================+
+| Authorization                       | header         | Token received during authentication                                                         |
++-------------------------------------+----------------+----------------------------------------------------------------------------------------------+
+| <customer>                          | query          | Customer ID                                                                                  |
++-------------------------------------+----------------+----------------------------------------------------------------------------------------------+
+| earningRule[latitude]               | body           | Current customer's latitude. Positive and negative values can be used.                       |
++-------------------------------------+----------------+----------------------------------------------------------------------------------------------+
+| earningRule[longitude]              | body           | Current customer's latitude. Positive and negative values can be used.                       |
++-------------------------------------+----------------+----------------------------------------------------------------------------------------------+
+| earningRule[earningRuleId]          | query          | *(optional)* UUID of the earning rule. If specified, only this one geo rule will be executed.|  |                                     |                | If comitted, all rules applicable to the customer will be executed                           |
++-------------------------------------+----------------+----------------------------------------------------------------------------------------------+
 
-+-------------------------------------+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Parameter                           | Parameter type | Description                                                                                                                                                     |
-+=====================================+================+=================================================================================================================================================================+
-| Authorization                       | header         | Token received during authentication                                                                                                                            |
-+-------------------------------------+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| <customer>                          | query          | Customer ID                                                                                                                                                     |
-+-------------------------------------+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| earningRule[latitude]               | body           | Current customer's latitude. Positive and negative values can be used.                                                                                                                                     |
-+-------------------------------------+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| earningRule[longitude]              | body           | Current customer's longitude. Positive and negative values can be used.                                                                                                                                    |
-+-------------------------------------+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| earningRule[earningRuleId]          | body           | *(optional)* UUID of the earning rule. If specified, only this one geo rule will be executed. If omitted, all rules applicable to the customer will be executed |
-+-------------------------------------+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
