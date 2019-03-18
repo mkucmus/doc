@@ -130,8 +130,8 @@ Exemplary Response
       "currency": "eur"
     }
 
-Mthod allows to use a custom event earning rule
-------------------------------------------------
+Method allows to use a custom event earning rule
+-------------------------------------------------
 
 To trigger custom event earning rules you will need to call the ``/api/customer/earningRule/<eventName>`` endpoint with the ``POST`` method.
 
