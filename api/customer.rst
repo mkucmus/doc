@@ -1030,6 +1030,157 @@ Example Response
       "2018-02-04": 0
     }
 
+Remove customer's avatar
+------------------------
+
+To remove customer's avatar using a token you need to call the ``/api/customer/{customer}/avatar`` endpoint with the ``DELETE`` method.
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    DELETE /api/customer/{customer}/avatar
+
++------------------------------------+----------------+----------------------------------------------------------------+
+| Parameter                          | Parameter type |  Description                                                   |
++====================================+================+================================================================+
+| Authorization                      | header         |  Token received during authentication                          |
++------------------------------------+----------------+----------------------------------------------------------------+
+| <customer>                         | query          |  Customer ID                                                   |
++------------------------------------+----------------+----------------------------------------------------------------+
+
+
+Example
+^^^^^^^
+
+.. code-block:: bash
+
+    curl http://localhost:8181/api/customer/1cb6d205-8b77-40e1-a801-052185ed52d9/avatar \
+        -X "DELETE" \
+        -H "Accept: application/json" \
+        -H "Content-type: application/x-www-form-urlencoded" \
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.	
+
+Example Response
+^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 204 No Content
+
+.. code-block:: json
+
+    []		
+	
+Get customer's avatar
+---------------------
+
+To get customer's avatar using a token you need to call the ``/api/customer/{customer}/avatar`` endpoint with the ``GET`` method.
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    GET /api/customer/{customer}/avatar
+
++------------------------------------+----------------+----------------------------------------------------------------+
+| Parameter                          | Parameter type |  Description                                                   |
++====================================+================+================================================================+
+| Authorization                      | header         |  Token received during authentication                          |
++------------------------------------+----------------+----------------------------------------------------------------+
+| <customer>                         | query          |  Customer ID                                                   |
++------------------------------------+----------------+----------------------------------------------------------------+
+
+
+Example
+^^^^^^^
+
+.. code-block:: bash
+
+    curl http://localhost:8181/api/customer/1cb6d205-8b77-40e1-a801-052185ed52d9/avatar \
+        -X "GET" \
+        -H "Accept: application/json" \
+        -H "Content-type: application/x-www-form-urlencoded" \
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.	
+
+Example Response
+^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 204 No Content
+
+.. code-block:: json
+
+    []	
+	
+Set customer's avatar
+---------------------
+
+To set customer's avatar using a token you need to call the ``/api/customer/{customer}/avatar`` endpoint with the ``POST`` method.
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    POST /api/customer/{customer}/avatar
+
++------------------------------------+----------------+----------------------------------------------------------------+
+| Parameter                          | Parameter type |  Description                                                   |
++====================================+================+================================================================+
+| Authorization                      | header         |  Token received during authentication                          |
++------------------------------------+----------------+----------------------------------------------------------------+
+| <customer>                         | query          |  Customer ID                                                   |
++------------------------------------+----------------+----------------------------------------------------------------+
+| avatar[file]                       | request        |  Avatar file                                                   |
++------------------------------------+----------------+----------------------------------------------------------------+
+
+
+Example
+^^^^^^^
+
+.. code-block:: bash
+
+    curl http://localhost:8181/api/customer/1cb6d205-8b77-40e1-a801-052185ed52d9/avatar \
+        -X "POST" \
+        -H "Accept: application/json" \
+        -H "Content-type: application/x-www-form-urlencoded" \
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
+		-d "avatar[file]=C:\\fakepath\\avatar.jpg"
+
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+
+.. note::
+
+    The *photo[file]=C:\fakepath\avatar.png* is an exemplary value. Your value can be different.	
+
+Example Response
+^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 204 No Content
+
+.. code-block:: json
+
+    []
+
 Assign level to customer
 ------------------------
 
