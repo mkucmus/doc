@@ -209,7 +209,8 @@ To see the details of the admin user with ``pos = testid9`` use the below method
 .. code-block:: bash
 
     curl http://localhost:8181/api/identifier/testid9 \
-        -X "GET" -H "Accept: application/json" \
+        -X "GET" \
+        -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
 
@@ -271,7 +272,8 @@ To see the details of the admin user with ``pos = 00000000-0000-474c-1111-b0dd88
 .. code-block:: bash
 
     curl http://localhost:8181/api/pos/00000000-0000-474c-1111-b0dd880c07e3 \
-        -X "GET" -H "Accept: application/json" \
+        -X "GET" \
+        -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
 
