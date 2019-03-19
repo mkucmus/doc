@@ -2731,22 +2731,26 @@ Get all campaigns available for logged in customer.
     Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
 
 
-Change delivery status in bought campaign by customer.
-----------------------------------------------------
+Change delivery status in bought campaign by customer
+-----------------------------------------------------
 
-To change delivery status ``/api/admin/customer/{customerId}/bought/coupon/{couponId}/changeDeliveryStatus`` endpoint with the ``PUT`` method.
+To change delivery status ``/api/admin/customer/{customer}/bought/coupon/{couponId}/changeDeliveryStatus`` endpoint with the ``PUT`` method.
 
 Definition
 ^^^^^^^^^^
 
 .. code-block:: text
 
-    POST /api/admin/customer/{customerId}/bought/coupon/{couponId}/changeDeliveryStatus
+    PUT /api/admin/customer/{customer}/bought/coupon/{couponId}/changeDeliveryStatus
 
 +---------------------------+----------------+----------------------------------------------------------------------------+
 | Parameter                 | Parameter type | Description                                                                |
 +===========================+================+============================================================================+
 | Authorization             | header         | Token received during authentication                                       |
++---------------------------+----------------+----------------------------------------------------------------------------+
+| <customer>                | query          | Customer ID                                                                |
++---------------------------+----------------+----------------------------------------------------------------------------+
+| <couponId>                | query          | Coupon ID                                                                  |
 +---------------------------+----------------+----------------------------------------------------------------------------+
 | deliveryStatus[status]    | query          | Available statuses: ["canceled","delivered","ordered","shipped"] (required)|
 +---------------------------+----------------+----------------------------------------------------------------------------+
@@ -2755,12 +2759,12 @@ Definition
 Example
 ^^^^^^^
 
-To change delivery status for customer ID
+To change delivery status for customer ID.
 
 .. code-block:: bash
 
-    curl http://localhost:8181/api/admin/customer/00000000-0000-474c-b092-b0dd880c07e2/bought/coupon/00000000-0000-0000-0000-b0dd880c07e2/changeDeliveryStatus
-        -X "POST" \
+    curl http://localhost:8181/api/admin/customer/5bdab759-5b31-48d6-a38b-ba4628ca1a91/bought/coupon/42d74422-ca0b-46f4-8871-be26f5a0497e/changeDeliveryStatus
+        -X "PUT" \
         -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
@@ -2768,13 +2772,26 @@ To change delivery status for customer ID
 
 .. note::
 
-    You can get all avialable statuses via settings choice request ``/api/settings/choices/deliveryStatus``
+    You can get all available statuses via settings choice request ``/api/settings/choices/deliveryStatus``
 
 .. note::
 
-    When you will use endpoints starting with ``/api/admin/customer/{customerId}/bought/coupon/{couponId}/changeDeliveryStatus`` you need to authorize using admin account credentials.
+    When you will use endpoints starting with ``/api/admin/customer/{customer}/bought/coupon/{couponId}/changeDeliveryStatus`` you need to authorize using admin account credentials.
 
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
     Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+
+Exemplary Response
+^^^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
+
+.. code-block:: json
+
+    {
+    "success": "Delivery status changed!"
+    }
