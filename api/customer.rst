@@ -1201,7 +1201,7 @@ Definition
 +====================================+================+================================================================+
 | Authorization                      | header         |  Token received during authentication                          |
 +------------------------------------+----------------+----------------------------------------------------------------+
-| <customer>                         | query          |  Customer's ID                                                 |
+| <customer>                         | query          |  Customer ID                                                   |
 +------------------------------------+----------------+----------------------------------------------------------------+
 | customer[pushyToken]               | request        |  Customer's pushy Token                                        |
 +------------------------------------+----------------+----------------------------------------------------------------+	
@@ -1229,6 +1229,51 @@ Example Response
 .. code-block:: text
 
     STATUS: 204 No Content
+
+Remove Pushy token
+------------------
+
+To remove pushy token you need to call the ``/api/customer/{customer}/pushy-token/{tokenToRemove}`` endpoint with the ``DELETE`` method.
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    DELETE /api/customer/{customer}/pushy-token/{tokenToRemove}
+
++------------------------------------+----------------+----------------------------------------------------------------+
+| Parameter                          | Parameter type |  Description                                                   |
++====================================+================+================================================================+
+| Authorization                      | header         |  Token received during authentication                          |
++------------------------------------+----------------+----------------------------------------------------------------+
+| <customer>                         | query          |  Customer ID                                                   |
++------------------------------------+----------------+----------------------------------------------------------------+
+| <tokenToRemove>                    | query          |  Pushy token to remove                                         |
++------------------------------------+----------------+----------------------------------------------------------------+
+
+Example
+^^^^^^^
+
+.. code-block:: bash
+
+    curl http://localhost:8181/api/customer/1cb6d205-8b77-40e1-a801-052185ed52d9/pushy-token/pushy_token \
+        -X "DELETE" \
+        -H "Accept: application/json" \
+        -H "Content-type: application/x-www-form-urlencoded" \
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+
+Example Response
+^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 204 No Content	
 
 Remove customer from manually assigned level
 --------------------------------------------
