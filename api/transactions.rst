@@ -1433,7 +1433,7 @@ Definition
 
 .. code-block:: text
 
-    POST  /api/customer/transaction/labels/append
+    PUT  /api/customer/transaction/labels/append
 
 +----------------------------------------------+----------------+---------------------------------------------------+
 | Parameter                                    | Parameter type | Description                                       |
@@ -1456,8 +1456,8 @@ Example
 
 .. code-block:: bash
 
-    curl http://localhost:8181/api/transaction \
-        -X "POST" \
+    curl http://localhost:8181/api/customer/transaction/labels/append \
+        -X "PUT" \
         -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
@@ -1479,10 +1479,11 @@ Exemplary Response
     STATUS: 200 OK
 
 .. code-block:: json
+
     {
       "transactionId": "d5b1119a-698b-40b4-9ac4-8ef704fa4433"
     }
-
+    
 Get available item labels
 -------------------------
 
