@@ -366,6 +366,8 @@ Definition
 
 .. code-block:: text
 
+    GET /api/admin/acl/role/{role}
+
 +---------------+----------------+--------------------------------------+
 | Parameter     | Parameter type | Description                          |
 +===============+================+======================================+
