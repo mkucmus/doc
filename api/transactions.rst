@@ -158,8 +158,8 @@ Exemplary Response
       "errors": []
     }
 
-Method allows to assign customer to specific transaction (customer)
--------------------------------------------------------------------
+Assign customer to specific transaction (customer)
+--------------------------------------------------
 
 To assign customer to specific transaction you will need to call the ``/api/customer/transaction/customer/assign`` endpoint with the ``POST`` method.
 
@@ -218,8 +218,8 @@ Exemplary Response
     }
 
 
-Method allows to assign customer to specific transaction (pos)
---------------------------------------------------------------
+Assign customer to specific transaction (pos)
+---------------------------------------------
 
 To assign customer to specific transaction you will need to call the ``/api/pos/transaction/customer/assign`` endpoint with the ``POST`` method.
 
@@ -484,8 +484,8 @@ Exemplary Response
       "total": 2
     }
 
-Get transaction details
------------------------
+Get transaction details (customer)
+----------------------------------
 
 To return transaction details you will need to call the ``/api/customer/transaction/<transaction>`` endpoint with the ``GET`` method.
 
@@ -916,9 +916,6 @@ Exemplary Response
       "total": 1
     }
 
-
-
-
 Get transactions with provided document number (seller)
 -------------------------------------------------------
 
@@ -1022,12 +1019,8 @@ Exemplary Response
       "total": 1
     }
 
-
-
-
-
-Get complete list of all transactions
--------------------------------------
+Get complete list of all transactions (admin)
+---------------------------------------------
 
 To return complete list of all transactions you will need to call the ``/api/transaction`` endpoint with the ``GET`` method.
 
@@ -1622,8 +1615,8 @@ Exemplary Response
     }
 
 
-Get transaction details
------------------------
+Get transaction details (admin)
+-------------------------------
 
 To get transaction details you will need to call the ``/api/transaction/<transaction>`` endpoint with the ``GET`` method.
 
