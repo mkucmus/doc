@@ -1408,7 +1408,7 @@ Exemplary Response
 Assign POS to customer
 ----------------------
 
-To assign POS to specific customer you will need to call the ``/api/seller/customer/{customer}/pos` endpoint with the ``POST`` method.
+To assign POS to specific customer you will need to call the ``/api/seller/customer/{customer}/pos endpoint with the ``POST`` method.
 
 Definition
 ^^^^^^^^^^
