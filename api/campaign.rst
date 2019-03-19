@@ -2913,7 +2913,7 @@ Definition
 Example
 ^^^^^^^
 
-To change delivery status for customer ID.
+To change delivery status for customer with id = ``id = 5bdab759-5b31-48d6-a38b-ba4628ca1a91`` and coupon id = ``id = 42d74422-ca0b-46f4-8871-be26f5a0497e``  use the below method:.
 
 .. code-block:: bash
 
@@ -2947,5 +2947,5 @@ Exemplary Response
 .. code-block:: json
 
     {
-    "success": "Delivery status changed!"
+        "success": "Delivery status changed!"
     }
