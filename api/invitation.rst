@@ -150,6 +150,11 @@ Example
         -d "translation[type]=email" \
         -d "translation[recipientEmail]=smith@example.com"
 
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
 
