@@ -28,8 +28,8 @@ Definition
 +---------------------------------------------------+----------------+------------------------------------------------------------------------------+
 | pointsAmount                                      | request        |  Points amount to spend                                                      |
 +---------------------------------------------------+----------------+------------------------------------------------------------------------------+
-| pointValue                                        | request        |  Monetary value of the points to define the number of points that can be     | 
-|                                                   |                |  applied as a refund towards the amount of order                             +                                   |
+| pointValue                                        | request        |  Monetary value of the points to define the number of points that can be     |
+|                                                   |                |  applied as a refund towards the amount of order                             |
 +---------------------------------------------------+----------------+------------------------------------------------------------------------------+
 | rewardAmount                                      | request        |  Reward amount                                                               |
 +---------------------------------------------------+----------------+------------------------------------------------------------------------------+
@@ -141,7 +141,7 @@ Definition
 
 +---------------------------------------------------+----------------+------------------------------------------------------------------------------+
 | Parameter                                         | Parameter type |  Description                                                                 |
-+===================================================+================+============================================================================+
++===================================================+================+==============================================================================+
 | Authorization                                     | header         | Token received during authentication                                         |
 +---------------------------------------------------+----------------+------------------------------------------------------------------------------+
 | campaign[reward]                                  | request        |  Campaign type. Possible types:                                              |
@@ -201,7 +201,7 @@ Definition
 | campaign[daysInactive]                            | request        |  Number of days, while coupon will not be active after purchase              |
 |                                                   |                |  0 means "active immediately"                                                |
 |                                                   |                |  Required for all rewards besides cashback                                   |
-+---------------------------------------------------+----------------+-------------------------------------------------------------------------------+
++---------------------------------------------------+----------------+------------------------------------------------------------------------------+
 | campaign[daysValid]                               | request        |  Number of days, while coupon will be valid, after activation                |
 |                                                   |                |  0 means "valid forever"                                                     |
 |                                                   |                |  Required for all rewards besides cashback                                   |
@@ -1684,7 +1684,7 @@ Example
 .. code-block:: bash
 
     curl http://localhost:8181/api/admin/customer/campaign/coupons/mark_as_used \
-        -X "GET" \
+        -X "POST" \
 	-H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
@@ -1698,7 +1698,7 @@ Example
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>` .
 
 .. note::
 
@@ -2399,7 +2399,7 @@ To see the details of the admin user with ``campaign = 3062c881-93f3-496b-9669-4
 
     curl http://localhost:8181/api/seller/campaign/3062c881-93f3-496b-9669-4238c0a62be8 \
         -X "GET" \
-	-H "Accept: application/json" \
+	    -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
 
@@ -2687,7 +2687,7 @@ Definition
 
 .. code-block:: text
 
-    POST /api/customer/campaign/available
+    GET /api/customer/campaign/available
 
 +---------------+----------------+--------------------------------------+
 | Parameter     | Parameter type | Description                          |
@@ -2716,7 +2716,7 @@ Get all campaigns available for logged in customer.
 .. code-block:: bash
 
     curl http://localhost:8181/api/customer/campaign/available
-        -X "POST" \
+        -X "GET" \
         -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
