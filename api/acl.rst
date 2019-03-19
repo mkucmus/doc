@@ -62,7 +62,7 @@ Definition
 
 .. code-block:: text
 
-    GET /api/admin/data/<admin>
+    GET /api/admin/acl/role/<role>
 
 +---------------+----------------+--------------------------------------+
 | Parameter     | Parameter type | Description                          |
@@ -327,7 +327,7 @@ Example
 
 .. code-block:: bash
 
-    curl http://localhost:8181/api/admin/acl/resources \
+    curl http://localhost:8181/api/admin/acl/accesses \
         -X "GET" -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
@@ -366,7 +366,7 @@ Definition
 
 .. code-block:: text
 
-    GET /api/admin/acl/role/{role}
+    DELETE /api/admin/acl/role/{role}
 
 +---------------+----------------+--------------------------------------+
 | Parameter     | Parameter type | Description                          |
