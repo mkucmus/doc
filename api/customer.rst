@@ -3,8 +3,6 @@ Customer API
 
 These endpoints will allow you to easily manage customers.
 
-Read more about :doc:`Authorization in the </authorization>
-
 .. note::
 
     Each role in the Open Loyalty has individual endpoints to manage customers.
