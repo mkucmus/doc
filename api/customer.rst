@@ -3,6 +3,8 @@ Customer API
 
 These endpoints will allow you to easily manage customers.
 
+Read more about :doc:`Authorization in the </authorization>
+
 .. note::
 
     Each role in the Open Loyalty has individual endpoints to manage customers.
@@ -588,6 +590,57 @@ Example Response
     }
 
 
+Activate a customer using activation sms token
+-----------------------------------------------
+
+To activate a customer using a token (sms code) you need to call the ``/api/customer/activate-sms/{token}`` endpoint with the ``POST`` method.
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    POST /api/customer/activate-sms/{token}
+
++------------------------------------+----------------+----------------------------------------------------------------+
+| Parameter                          | Parameter type |  Description                                                   |
++====================================+================+================================================================+
+| Authorization                      | header         |  Token received during authentication                          |
++------------------------------------+----------------+----------------------------------------------------------------+
+| token                              | request        |  Customer's token, SMS activation code                         |
++------------------------------------+----------------+----------------------------------------------------------------+
+
+Example
+^^^^^^^
+
+.. code-block:: bash
+
+    curl http://localhost:8181/api/customer/activate-sms/954604\
+        -X "POST" \
+        -H "Accept: application/json" \
+        -H "Content-type: application/x-www-form-urlencoded" \
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+
+.. note::
+
+    The *token = 954604* is an example value. Your value can be different.
+
+Example Response
+^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
+
+.. code-block:: json
+
+    No Content
+	
 Activate a customer using activation token
 ------------------------------------------
 
@@ -638,7 +691,7 @@ Example Response
 
 .. code-block:: json
 
-    ""
+    No content
 
 Check if customer with given phone number or email exists
 ---------------------------------------------------------
@@ -902,6 +955,115 @@ Example Response
       },
       "errors": []
     }
+
+Get customer details
+---------------------
+
+To get details about customer you need to call the ``/api/customer/<customer>`` endpoint with the ``GET`` method.
+
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    GET /api/customer/{customer}
+
++------------------------------------+----------------+-----------------------------------------------------------------------------------------------+
+| Parameter                          | Parameter type |  Description                                                                                  |
++====================================+================+===============================================================================================+
+| Authorization                      | header         |  Token received during authentication                                                         |
++------------------------------------+----------------+-----------------------------------------------------------------------------------------------+
+| <customer>                         | query          |  Customer ID                                                                                  |
++------------------------------------+----------------+-----------------------------------------------------------------------------------------------+
+
+Example
+^^^^^^^
+
+.. code-block:: bash
+
+    curl http://localhost:8181/api/customer/00000000-0000-474c-b092-b0dd880c07e1 \
+        -X "GET" \
+        -H "Accept: application/json" \
+        -H "Content-type: application/x-www-form-urlencoded" \
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." 
+
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+
+Example Response
+^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
+
+.. code-block:: json
+
+	{
+	"customerId": "00000000-0000-474c-b092-b0dd880c07e1",
+	"active": true,
+	"firstName": "John",
+	"lastName": "Doe",
+	  "gender": "male",
+	  "email": "user@oloy.com",
+	  "phone": "+48234234000",
+	  "birthDate": "1990-09-11T02:00:00+0200",
+	  "lastLevelRecalculation": "2019-03-19T12:00:09+0100",
+	  "loyaltyCardNumber": "47834433524",
+	  "createdAt": "2016-08-08T10:53:14+0200",
+	  "id": "e82c96cf-32a3-43bd-9034-4df343e50000",
+	  "levelId": "e82c96cf-32a3-43bd-9034-4df343e50000",
+	  "agreement1": false,
+	  "agreement2": false,
+	  "agreement3": false,
+	  "status": {
+		"availableTypes": [
+		  "new",
+		  "active",
+		  "blocked",
+		  "deleted"
+		],
+		"availableStates": [
+		  "no-card",
+		  "card-sent",
+		  "with-card"
+		],
+		"type": "active",
+		"state": "no-card"
+	  },
+	  "updatedAt": "2019-03-19T11:52:49+0100",
+	  "campaignPurchases": [],
+	  "transactionsCount": 2,
+	  "transactionsAmount": 3,
+	  "transactionsAmountWithoutDeliveryCosts": 3,
+	  "amountExcludedForLevel": 0,
+	  "averageTransactionAmount": 1.5,
+	  "lastTransactionDate": "2019-03-20T11:52:56+0100",
+	  "labels": [],
+	  "level": {
+		"levelId": {
+		  "id": "e82c96cf-32a3-43bd-9034-4df343e50000",
+		  "levelId": "e82c96cf-32a3-43bd-9034-4df343e50000"
+		},
+		"name": "level0",
+		"translations": {
+		  "en": {
+			"name": "level0"
+		  },
+		  "pl": {
+			"name": "poziom0"
+		  }
+		}
+	  },
+	  "version": 7,
+	  "currency": "eur",
+	  "segments": [],
+	  "levelPercent": "0.00%"
+	}
+
 
 Update a customer
 ---------------------
@@ -1604,9 +1766,87 @@ Example Response
 .. code-block:: text
 
     STATUS: 204 No Content
+	
+	
+Return customer status (customer)
+---------------------------------
+
+To retrieve a status of customer you will need to call the ``/api/customer/customer/{customer}/status`` endpoint with the ``GET`` method.
+
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    GET /api/customer/customer/{customer}/status
+
++----------------------+----------------+--------------------------------------------------------+
+| Parameter            | Parameter type |  Description                                           |
++======================+================+========================================================+
+| Authorization        | header         | Token received during authentication                   |
++----------------------+----------------+--------------------------------------------------------+
+| customer             | query          | Customer UUID                                          |
++----------------------+----------------+--------------------------------------------------------+
+
+Example
+^^^^^^^
+
+.. code-block:: bash
+
+    curl http://localhost:8181/api/customer/customer/00000000-0000-474c-b092-b0dd880c07e1/status \
+        -X "GET" \
+        -H "Accept:\ application/json" \
+        -H "Content-type:\ application/x-www-form-urlencoded" \
+        -H "Authorization:\ Bearer\ eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+		
+	
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+
+Exemplary Response
+^^^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
+
+.. code-block:: json
+
+    {
+	"firstName": "John",
+	"lastName": "Doe",
+	"customerId": "00000000-0000-474c-b092-b0dd880c07e1",
+	"points": 161.9,
+	"p2pPoints": 0,
+	"totalEarnedPoints": 274.9,
+	"usedPoints": 25,
+	"expiredPoints": 88,
+	"lockedPoints": 0,
+	"level": "0.00%",
+	"levelName": "level0",
+	"levelConditionValue": 0,
+	"nextLevel": "5.00%",
+	"nextLevelName": "level1",
+	"nextLevelConditionValue": 20,
+	"transactionsAmountWithoutDeliveryCosts": 3,
+	"transactionsAmountToNextLevel": 17,
+	"averageTransactionsAmount": "1.50",
+	"transactionsCount": 2,
+	"transactionsAmount": 3,
+	"currency": "eur",
+	"pointsExpiringNextMonth": 161.9,
+	"pointsExpiringBreakdown": {
+		"2019-04-14": 33,
+		"2019-04-15": 116.9,
+		"2019-04-17": 12
+	}
+	}
     
-Return customer status
-----------------------
+Return customer status (seller)
+-------------------------------
 
 To retrieve a status of specific customer you will need to call the ``/api/seller/customer/{customer}/status`` endpoint with the ``GET`` method.
 
@@ -1736,6 +1976,53 @@ Exemplary Response
 
     No Content
 	
+Activate customer (customer)
+----------------------------
+
+To send/resend sms activation code you will need to call the ``/api/customer/customer/{customer}/activate`` endpoint with the ``POST`` method.
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    POST /api/customer/customer/{customer}/activate
+
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+| Parameter                                      | Parameter type |  Description                                                               |
++================================================+================+============================================================================+
+| Authorization                                  | header         | Token received during authentication                                       |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+| customer[phone]                                | query          |  Customer phone number                                                     |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+
+Example
+^^^^^^^
+
+.. code-block:: bash
+
+    curl http://localhost:8181/api/customer/customer/{customer}/activate \
+        -X "POST" \
+        -H "Accept:\ application/json" \
+        -H "Content-type:\ application/x-www-form-urlencoded" \
+        -H "Authorization:\ Bearer\ eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+		
+	
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+
+Exemplary Response
+^^^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
+
+.. code-block:: json
+
+    No Content
 Activate customer (seller)
 --------------------------
 
@@ -2334,9 +2621,7 @@ Example
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
     Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
 	
-    Read more about :doc:`Authorization in the </authorization>
-	
-	
+    	
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
 
