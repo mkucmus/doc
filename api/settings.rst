@@ -1659,3 +1659,107 @@ Exemplary Response
 .. code-block:: css
 
     .text { color: #123123; }
+
+Method will return activation method (email|sms)
+-------------------------------------------------
+
+To check activation method you will need to call the ``/api/settings/activation-method`` endpoint with the ``GET`` method.
+
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    GET /api/settings/activation-method
+
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+| Parameter                                      | Parameter type |  Description                                                               |
++================================================+================+============================================================================+
+| Authorization                                  | header         | Token received during authentication                                       |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+
+Example
+^^^^^^^
+
+.. code-block:: bash
+
+    curl http://localhost:8181/api/settings/activation-method \
+        -X "GET" \
+        -H "Accept: application/json" \
+        -H "Content-type: application/x-www-form-urlencoded" \
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+
+Exemplary Response
+^^^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
+
+.. code-block:: json
+
+	{
+	  "method": "sms"
+	}
+	
+Get manifest file
+-----------------
+
+To get manifest file you will need to call the ``/api/settings/manifest`` endpoint with the ``GET`` method.
+
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    GET /api/settings/manifest
+
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+| Parameter                                      | Parameter type |  Description                                                               |
++================================================+================+============================================================================+
+| Authorization                                  | header         | Token received during authentication                                       |
++------------------------------------------------+----------------+----------------------------------------------------------------------------+
+
+Example
+^^^^^^^
+
+.. code-block:: bash
+
+    curl http://localhost:8181/api/settings/manifest \
+        -X "GET" \
+        -H "Accept: application/json" \
+        -H "Content-type: application/x-www-form-urlencoded" \
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+
+Exemplary Response
+^^^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
+
+.. code-block:: json
+
+	{
+	  "name": "Loyalty Program",
+	  "short_name": "Loyalty Program",
+	  "icons": [
+		{
+		  "src": "backend.openloyalty3.test.openloyalty.io/api/settings/small-logo",
+		  "sizes": "192x192",
+		  "type": "image/png"
+		},
+		{
+		  "src": "backend.openloyalty3.test.openloyalty.io/api/settings/logo",
+		  "sizes": "512x512",
+		  "type": "image/png"
+		}
+	  ],
+	  "start_url": "/",
+	  "display": "standalone",
+	  "scope": "/",
+	  "background_color": "#FFFFFF",
+	  "theme_color": "#FFFFFF"
+	}
