@@ -489,7 +489,7 @@ To update the details of a segment with ``segment = 17347292-0aaf-4c25-9118-17eb
 .. code-block:: bash
 
     curl http://localhost:8181/api/segment/17347292-0aaf-4c25-9118-17eb2c55b58b \
-        -X "POST" \
+        -X "PUT" \
         -H "Accept:\ application/json" \
         -H "Content-type:\ application/x-www-form-urlencoded" \
         -H "Authorization:\ Bearer\ eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
