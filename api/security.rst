@@ -65,8 +65,8 @@ Exemplary Response
     }
 
 
-Purpose of this method is to provide "Forgot password" functionality
---------------------------------------------------------------------
+"Forgot password" functionality (customer)
+------------------------------------------
 
 Invoking this method will send message to the user with password reset url. You will need to call the ``/api/customer/password/reset/request`` endpoint with the ``POST`` method.
 
@@ -304,8 +304,8 @@ Exemplary Response
     }
 
 
-"Forgot password" functionality
--------------------------------
+"Forgot password" functionality (admin)
+---------------------------------------
 
 To provide "Forgot password" functionality you will need to call the ``/api/password/reset/request`` endpoint with the ``POST`` method.
 
