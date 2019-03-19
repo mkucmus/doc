@@ -242,7 +242,8 @@ To see the details of the admin user with ``level = 000096cf-32a3-43bd-9034-4df3
 .. code-block:: bash
 
     curl http://localhost:8181/api/level/000096cf-32a3-43bd-9034-4df343e5fd93 \
-        -X "GET" -H "Accept: application/json" \
+        -X "GET" \
+        -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
 
