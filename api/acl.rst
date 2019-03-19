@@ -354,3 +354,47 @@ Exemplary Response
       ],
       "total": 2
     }
+    
+  
+Deleting a single role
+---------------------
+
+To delete specific role you will need to call the ``/api/admin/acl/role/{role}`` endpoint with the ``DELETE`` method.
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
++---------------+----------------+--------------------------------------+
+| Parameter     | Parameter type | Description                          |
++===============+================+======================================+
+| Authorization | header         | Token received during authentication |
++---------------+----------------+--------------------------------------+
+| <role>        | query          | Id of the role                       |
++---------------+----------------+--------------------------------------+
+
+Example
+^^^^^^^
+
+.. code-block:: bash
+
+    curl http://localhost:8181/api/admin/acl/role/37
+        -X "DELETE" -H "Accept: application/json"
+        -H "Content-type: application/x-www-form-urlencoded"
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+
+Exemplary Response
+^^^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
+
+.. code-block:: json
+
+    204 No Content
+
+.. note::
+
+    The *37* id is an exemplary value. Your value can be different.
