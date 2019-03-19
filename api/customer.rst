@@ -1064,7 +1064,7 @@ Example Response
 
 
 Update a customer
----------------------
+-----------------
 
 To update an existing customer you need to call the ``/api/customer/<customer>`` endpoint with the ``PUT`` method.
 
@@ -1273,7 +1273,7 @@ Example
 .. code-block:: bash
 
     curl http://localhost:8181/api/customer/registrations/daily \
-        -X "POST" \
+        -X "GET" \
         -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
@@ -1493,7 +1493,7 @@ Definition
 +====================================+================+================================================================+
 | Authorization                      | header         |  Token received during authentication                          |
 +------------------------------------+----------------+----------------------------------------------------------------+
-| <customer>                         | query          |  Customer's ID                                                 |
+| <customer>                         | query          |  Customer ID                                                   |
 +------------------------------------+----------------+----------------------------------------------------------------+
 | levelId                            | request        |  Level ID                                                      |
 +------------------------------------+----------------+----------------------------------------------------------------+
@@ -1544,7 +1544,7 @@ Definition
 +====================================+================+================================================================+
 | Authorization                      | header         |  Token received during authentication                          |
 +------------------------------------+----------------+----------------------------------------------------------------+
-| <customer>                         | query          |  Customer's ID                                                 |
+| <customer>                         | query          |  Customer ID                                                   |
 +------------------------------------+----------------+----------------------------------------------------------------+
 | posId                              | request        |  POS ID                                                        |
 +------------------------------------+----------------+----------------------------------------------------------------+
@@ -1738,7 +1738,7 @@ Definition
 +====================================+================+================================================================+
 | Authorization                      | header         |  Token received during authentication                          |
 +------------------------------------+----------------+----------------------------------------------------------------+
-| <customer>                         | query          |  Customer's ID                                                 |
+| <customer>                         | query          |  Customer ID                                                   |
 +------------------------------------+----------------+----------------------------------------------------------------+
 
 
@@ -1784,7 +1784,7 @@ Definition
 +======================+================+========================================================+
 | Authorization        | header         | Token received during authentication                   |
 +----------------------+----------------+--------------------------------------------------------+
-| customer             | query          | Customer UUID                                          |
+| <customer>           | query          | Customer UUID                                          |
 +----------------------+----------------+--------------------------------------------------------+
 
 Example
@@ -1861,7 +1861,7 @@ Definition
 +======================+================+========================================================+
 | Authorization        | header         | Token received during authentication                   |
 +----------------------+----------------+--------------------------------------------------------+
-| customer             | query          | Customer UUID                                          |
+| <customer>           | query          | Customer UUID                                          |
 +----------------------+----------------+--------------------------------------------------------+
 
 Example
@@ -2021,6 +2021,7 @@ Exemplary Response
 .. code-block:: json
 
     No Content
+    
 Activate customer (seller)
 --------------------------
 
@@ -2132,8 +2133,8 @@ Exemplary Response
     No Content
     
  	
-Method allows to activate customer (seller)
--------------------------------------------
+Activate customer (seller)
+--------------------------
 
 To activate specific customer you will need to call the ``/api/seller/customer/{customer}/activate` endpoint with the ``POST`` method.
 
@@ -2158,7 +2159,7 @@ Example
 
 .. code-block:: bash
 
-    curl http://localhost:8181/api/seller/customer/{customer}/activate \
+    curl http://localhost:8181/api/seller/customer/00000000-0000-474c-b092-b0dd880c07e1/activate \
         -X "POST" \
         -H "Accept:\ application/json" \
         -H "Content-type:\ application/x-www-form-urlencoded" \
@@ -2190,8 +2191,8 @@ Exemplary Response
 
     No Content
 	
-Method allows to deactivate customer (seller)
----------------------------------------------
+Deactivate customer (seller)
+----------------------------
 
 To deactivate specific customer you will need to call the ``/api/seller/customer/{customer}/deactivate` endpoint with the ``POST`` method.
 
@@ -2216,7 +2217,7 @@ Example
 
 .. code-block:: bash
 
-    curl http://localhost:8181/api/seller/customer/{customer}/deactivate \
+    curl http://localhost:8181/api/seller/customer/00000000-0000-474c-b092-b0dd880c07e1/deactivate \
         -X "POST" \
         -H "Accept:\ application/json" \
         -H "Content-type:\ application/x-www-form-urlencoded" \
@@ -2248,8 +2249,8 @@ Exemplary Response
 
     No Content
 	
-Method allows to register new customer (seller)
------------------------------------------------
+Register new customer (seller)
+------------------------------
 
 To register customer you will need to call the ``/api/seller/customer/register` endpoint with the ``POST`` method.
 
@@ -2358,8 +2359,8 @@ Example Response
       "email": "test@openloyalty.com"
     }
 	
-This method should be used to search customers (seller)
--------------------------------------------------------
+Search customers (seller)
+-------------------------
 
 To search customer in POS you need to call the ``/api/pos/search/customer`` endpoint with the ``POST`` method.
 
@@ -2706,8 +2707,8 @@ Exemplary Response
 	"totalFailed": 4
 	}
 	
-Method allows to register new customer (admin)
-----------------------------------------------
+Register new customer (admin)
+-----------------------------
 
 To create a new customer you need to call the ``/api/admin/customer/register`` endpoint with the ``POST`` method.
 
