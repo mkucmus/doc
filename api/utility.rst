@@ -50,7 +50,11 @@ Exemplary Response
     alina,test,qwe@test.pl,male,1212121212,,"2018-03-19 00:00:00","2018-02-19 14:24:18",1,,
     Tomasz,Test7,tomasztest7@wp.pl,,,,,"2018-02-20 08:21:39",1,,
     user,user,user@user.pl,male,123456789876543,,"2018-02-23 00:00:00","2018-02-23 13:29:11",1,,
+    
+.. note::
 
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
 
 Get csv with customers assigned to specific segment
 ---------------------------------------------------
@@ -95,3 +99,8 @@ Exemplary Response
 .. code-block:: json
 
     "First name","Last name","E-mail address",Gender,Telephone,"Loyalty card number",Birthdate,"Created at","Legal agreement","Marketing agreement","Data processing agreement"
+    
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
