@@ -357,7 +357,7 @@ Exemplary Response
     
   
 Deleting a single role
----------------------
+----------------------
 
 To delete specific role you will need to call the ``/api/admin/acl/role/{role}`` endpoint with the ``DELETE`` method.
 
