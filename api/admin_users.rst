@@ -57,6 +57,11 @@ To create a new admin user use the below method:
         -d "admin[isActive]=1" \
         -d "admin[roles][0]=37"
 
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
+    Your value can be different. Read more about :doc:`Authorization in the </api/doc/authorization>`.
+    
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
 
@@ -128,10 +133,16 @@ To see the details of the admin user with ``admin = 22200000-0000-474c-b092-b0dd
 .. code-block:: bash
 
     curl http://localhost:8181/api/admin/data/22200000-0000-474c-b092-b0dd880c07e2
-        -X "GET" -H "Accept: application/json"
+        -X "GET" \
+        -H "Accept: application/json"
         -H "Content-type: application/x-www-form-urlencoded"
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
 
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
+    Your value can be different. Read more about :doc:`Authorization in the </api/doc/authorization>`.
+    
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
 
@@ -193,10 +204,16 @@ Example
 .. code-block:: bash
 
     curl http://localhost:8181/api/admin \
-        -X "GET" -H "Accept: application/json" \
+        -X "GET" \
+        -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
 
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
+    Your value can be different. Read more about :doc:`Authorization in the </api/doc/authorization>`.
+    
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
 
@@ -320,7 +337,11 @@ Example
         -d "admin[plainPassword]=newPassword12!" \
         -d "admin[external]=0" \
         -d "admin[roles][0]=37"
+.. note::
 
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
+    Your value can be different. Read more about :doc:`Authorization in the </api/doc/authorization>`.
+    
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
 
@@ -348,6 +369,11 @@ Example
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
         -X "PUT"
 
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
+    Your value can be different. Read more about :doc:`Authorization in the </api/doc/authorization>`.
+    
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
 
