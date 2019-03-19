@@ -1314,6 +1314,160 @@ Exemplary Response
         "campaignId": "3062c881-93f3-496b-9669-4238c0a62be8"
     }
 
+Remove campaign's brand icon
+----------------------------
+
+To remove campaign's brand icon to the campaign you will need to call the ``/api/campaign/{campaign}/brand_icon`` endpoint with the ``DELETE`` method.
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    DELETE /api/campaign/<campaign>/brand_icon
+
++-----------------+----------------+--------------------------------------+
+| Parameter       | Parameter type | Description                          |
++=================+================+======================================+
+| Authorization   | header         | Token received during authentication |
++-----------------+----------------+--------------------------------------+
+| <campaign>      | query          | Campaign ID                          |
++-----------------+----------------+--------------------------------------+
+
+Example
+^^^^^^^
+
+To remove an brand icon for campaign ``campaign = 000096cf-32a3-43bd-9034-4df343e5fd93`` use the below method:
+
+.. code-block:: bash
+
+    curl http://localhost:8181/api/campaign/000096cf-32a3-43bd-9034-4df343e5fd93/brand_icon \
+        -X "DELETE" \
+        -H "Accept: application/json" \
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+
+.. note::
+
+    The *campaign = 000096cf-32a3-43bd-9034-4df343e5fd93* id is an exemplary value. Your value can be different.
+    Check in the list of all campaigns if you are not sure which id should be used.
+
+Exemplary Response
+^^^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 204 No Content	
+	
+Get campaign's brand icon
+-------------------------
+
+To get campaign's brand icon to the campaign you will need to call the ``/api/campaign/{campaign}/brand_icon`` endpoint with the ``GET`` method.
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    GET /api/campaign/<campaign>/brand_icon
+
++-----------------+----------------+--------------------------------------+
+| Parameter       | Parameter type | Description                          |
++=================+================+======================================+
+| Authorization   | header         | Token received during authentication |
++-----------------+----------------+--------------------------------------+
+| <campaign>      | query          | Campaign ID                          |
++-----------------+----------------+--------------------------------------+
+
+Example
+^^^^^^^
+
+To get an brand icon for campaign ``campaign = 000096cf-32a3-43bd-9034-4df343e5fd93`` use the below method:
+
+.. code-block:: bash
+
+    curl http://localhost:8181/api/campaign/000096cf-32a3-43bd-9034-4df343e5fd93/brand_icon \
+        -X "GET" \
+        -H "Accept: application/json" \
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+
+.. note::
+
+    The *campaign = 000096cf-32a3-43bd-9034-4df343e5fd93* id is an exemplary value. Your value can be different.
+    Check in the list of all campaigns if you are not sure which id should be used.
+
+Exemplary Response
+^^^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
+	
+Add an brand icon to the campaign
+---------------------------------
+
+To add an brand icon to the campaign you will need to call the ``/api/campaign/{campaign}/brand_icon`` endpoint with the ``POST`` method.
+
+Definition
+^^^^^^^^^^
+
+.. code-block:: text
+
+    POST /api/campaign/<campaign>/brand_icon
+
++-----------------+----------------+--------------------------------------+
+| Parameter       | Parameter type | Description                          |
++=================+================+======================================+
+| Authorization   | header         | Token received during authentication |
++-----------------+----------------+--------------------------------------+
+| <campaign>      | query          | Campaign ID                          |
++-----------------+----------------+--------------------------------------+
+| brand_icon[file]| request        | Absolute path to the photo           |
++-----------------+----------------+--------------------------------------+
+
+Example
+^^^^^^^
+
+To add an brand icon for campaign ``campaign = 000096cf-32a3-43bd-9034-4df343e5fd93`` use the below method:
+
+.. code-block:: bash
+
+    curl http://localhost:8181/api/campaign/000096cf-32a3-43bd-9034-4df343e5fd93/brand_icon \
+        -X "POST" \
+        -H "Accept: application/json" \
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
+        -d "brand_icon[file]=C:\fakepath\Photo.png"
+
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+
+.. note::
+
+    The *campaign = 000096cf-32a3-43bd-9034-4df343e5fd93* id is an exemplary value. Your value can be different.
+    Check in the list of all campaigns if you are not sure which id should be used.
+
+.. note::
+
+    The *brand_icon[file]=C:\fakepath\Photo.png* is an exemplary value. Your value can be different.
+
+Exemplary Response
+^^^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 204 No Content
+
 Get campaign details
 --------------------
 
@@ -1577,7 +1731,7 @@ Exemplary Response
 Buy reward campaign for a specific customer
 -------------------------------------------
 
-To buy reward campaign for a specific customer you will need to cal the ``/api/admin/customer/<customer>/campaign/<campaign>/buy`` endpoint with the ``POST`` method.
+To buy reward campaign for a specific customer you will need to call the ``/api/admin/customer/<customer>/campaign/<campaign>/buy`` endpoint with the ``POST`` method.
 
 Definition
 ^^^^^^^^^^
@@ -1753,7 +1907,7 @@ If there is no more coupons left, you'll receive follow responses.
 Check campaign visibility for the customers
 -------------------------------------------
 
-To check reward campaign visibility for the customers you will need to cal the ``/api/campaign/<campaign>/customers/visible`` endpoint with the ``GET`` method.
+To check reward campaign visibility for the customers you will need to call the ``/api/campaign/<campaign>/customers/visible`` endpoint with the ``GET`` method.
 
 Definition
 ^^^^^^^^^^
@@ -1885,7 +2039,7 @@ Exemplary Response
 Get campaign's photo
 --------------------
 
-To get campaign's photo you will need to cal the ``/api/campaign/<campaign>/photo`` endpoint with the ``GET`` method.
+To get campaign's photo you will need to call the ``/api/campaign/<campaign>/photo`` endpoint with the ``GET`` method.
 
 Definition
 ^^^^^^^^^^
@@ -1958,7 +2112,7 @@ The campaign may not have photo at all and you will receive a below response.
 Remove campaign's photo
 -----------------------
 
-To remove campaign's photo you will need to cal the ``/api/campaign/<campaign>/photo`` endpoint with the ``DELETE`` method.
+To remove campaign's photo you will need to call the ``/api/campaign/<campaign>/photo`` endpoint with the ``DELETE`` method.
 
 Definition
 ^^^^^^^^^^
@@ -2008,7 +2162,7 @@ Exemplary Response
 Add a photo to the campaign
 ---------------------------
 
-To add a photo to the campaign you will need to cal the ``/api/campaign/<campaign>/photo`` endpoint with the ``POST`` method.
+To add a photo to the campaign you will need to call the ``/api/campaign/<campaign>/photo`` endpoint with the ``POST`` method.
 
 Definition
 ^^^^^^^^^^
@@ -2064,7 +2218,7 @@ Exemplary Response
 Change campaign's status
 ------------------------
 
-To make campaign active or inactive you will need to cal the ``/api/campaign/<campaign>/<status>`` endpoint with the ``POST`` method.
+To make campaign active or inactive you will need to call the ``/api/campaign/<campaign>/<status>`` endpoint with the ``POST`` method.
 
 Definition
 ^^^^^^^^^^
@@ -2606,7 +2760,7 @@ Exemplary Response
 Buy reward campaign for a specific customer (seller)
 ----------------------------------------------------
 
-To buy reward campaign for a specific customer you will need to cal the ``/api/seller/customer/<customer>/campaign/<campaign>/buy`` endpoint with the ``POST`` method.
+To buy reward campaign for a specific customer you will need to call the ``/api/seller/customer/<customer>/campaign/<campaign>/buy`` endpoint with the ``POST`` method.
 
 Definition
 ^^^^^^^^^^
@@ -2677,10 +2831,10 @@ Exemplary Response
       }]
     }
 
-Get all campaigns available for logged in customer.
-----------------------------------------------------
+Get all campaigns available for logged in customer
+--------------------------------------------------
 
-To get all campaigns available you will need to cal the ``/api/customer/campaign/available`` endpoint with the ``GET`` method.
+To get all campaigns available you will need to call the ``/api/customer/campaign/available`` endpoint with the ``GET`` method.
 
 Definition
 ^^^^^^^^^^
