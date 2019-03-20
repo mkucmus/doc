@@ -321,11 +321,11 @@ Example
 
 .. code-block:: bash
 
-    curl http://localhost:8181/api/api/campaignCategory/{campaignCategory}/active \
+    curl http://localhost:8181/api/campaignCategory/00ca7e90-6361-4465-e76f-727900000001/active \
         -X "GET" -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
-		-d "active=0"
+	-d "active=1"
 
 .. note::
 
