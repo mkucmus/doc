@@ -60,7 +60,7 @@ To create a new admin user use the below method:
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </api/doc/authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
     
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
@@ -141,7 +141,7 @@ To see the details of the admin user with ``admin = 22200000-0000-474c-b092-b0dd
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </api/doc/authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
     
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
@@ -212,7 +212,7 @@ Example
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </api/doc/authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`..
     
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
@@ -340,7 +340,7 @@ Example
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </api/doc/authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
     
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
@@ -372,7 +372,7 @@ Example
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </api/doc/authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
     
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
