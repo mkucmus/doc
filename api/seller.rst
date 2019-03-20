@@ -52,6 +52,11 @@ Example
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
 
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
+
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
 
@@ -146,6 +151,11 @@ Example
         -d "seller[posId]=00000000-0000-474c-1111-b0dd880c07e3" \
         -d "seller[plainPassword]=admin123"
 
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
+
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
 
@@ -197,6 +207,11 @@ To see the details of the customer user with ``seller = 00000000-0000-474c-b092-
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
 
 
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
+
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
 
@@ -219,7 +234,6 @@ Exemplary Response
       "active": true,
       "deleted": false
     }
-
 
 
 
@@ -277,6 +291,11 @@ Example
         -d "seller[plainPassword]=admin"
 
 
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
+
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
 
@@ -325,6 +344,11 @@ To activated user with ``seller = 00000000-0000-474c-b092-b0dd880c07e4`` use the
         -H "Content-type:\ application/x-www-form-urlencoded" \
         -H "Authorization:\ Bearer\ eyJhbGciOiJSUzI1NiIsInR5cCI6..."
 
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
+
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
 
@@ -371,6 +395,11 @@ To see the deactivated user with ``seller = 00000000-0000-474c-b092-b0dd880c07e4
         -H "Content-type:\ application/x-www-form-urlencoded" \
         -H "Authorization:\ Bearer\ eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
 
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
+
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
 
@@ -415,6 +444,11 @@ To see the deactivated user with ``seller = 00000000-0000-474c-b092-b0dd880c07e4
         -H "Accept:\ application/json" \
         -H "Content-type:\ application/x-www-form-urlencoded" \
         -H "Authorization:\ Bearer\ eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
