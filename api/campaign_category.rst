@@ -297,3 +297,48 @@ Exemplary Response
         }
       ]
     }
+
+Method allows to activate or deactivate campaign category
+----------------------------------------------------------
+
+To activate or deactivate campaign category you will need to call the ``/api/campaignCategory/{campaignCategory}/active`` endpoint with the ``GET`` method.
+
+Definition
+^^^^^^^^^^
+
++-----------------------+----------------+----------------------------------------------------+
+| Parameter             | Parameter type | Description                                        |
++=======================+================+====================================================+
+| Authorization         | header         | Token received during authentication               |
++-----------------------+----------------+----------------------------------------------------+
+| <campaignCategory>    | query          | Id of the campaign category                        |
++-----------------------+----------------+----------------------------------------------------+
+| active                | boolean        | True of False                                      |
++-----------------------+----------------+----------------------------------------------------+
+
+Example
+^^^^^^^
+
+.. code-block:: bash
+
+    curl http://localhost:8181/api/api/campaignCategory/{campaignCategory}/active \
+        -X "GET" -H "Accept: application/json" \
+        -H "Content-type: application/x-www-form-urlencoded" \
+        -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
+		-d "active=0"
+
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
+    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+
+
+Exemplary Response
+^^^^^^^^^^^^^^^^^^
+
+.. code-block:: text
+
+    STATUS: 200 OK
+
+.. code-block:: json
+
