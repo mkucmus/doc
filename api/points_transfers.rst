@@ -62,7 +62,7 @@ Example
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 
 Exemplary Response
@@ -212,7 +212,7 @@ Example
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 
 Exemplary Response
@@ -351,7 +351,7 @@ Example
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 
 Exemplary Response
@@ -487,7 +487,7 @@ Example
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 
 Exemplary Response
@@ -547,7 +547,7 @@ Example
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 
 Exemplary Response
@@ -607,7 +607,7 @@ Example
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 
 Exemplary Response
@@ -667,7 +667,7 @@ Example
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 
 Exemplary Response
@@ -722,7 +722,7 @@ Example
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 
 Exemplary Response
@@ -771,7 +771,7 @@ Example
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 
 Exemplary Response
@@ -798,7 +798,8 @@ Exemplary Response
       "totalProcessed": 1,
       "totalSuccess": 1,
       "totalFailed": 0
-    }	
+    }
+    
 Add points to customer (pos)
 ----------------------------
 
@@ -843,7 +844,7 @@ Example
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 
 Exemplary Response
@@ -904,7 +905,7 @@ Example
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 
 Exemplary Response
