@@ -44,6 +44,11 @@ Example
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
 
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
+
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
 
@@ -167,6 +172,11 @@ Example
         -d "pos[location][lat]=latitude" \
         -d "pos[location][long]=longitude"
 
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
+
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
 
@@ -213,6 +223,11 @@ To see the details of the admin user with ``pos = testid9`` use the below method
         -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
@@ -276,6 +291,11 @@ To see the details of the admin user with ``pos = 00000000-0000-474c-1111-b0dd88
         -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
@@ -380,6 +400,11 @@ Example
         -d "pos[location][long]=longitude8"
 
 
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
+
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
 
@@ -436,6 +461,10 @@ Example
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
 
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
@@ -529,6 +558,10 @@ To see the details of the customer user with ``pos = 857b2a26-b490-4356-8828-e13
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
 
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
