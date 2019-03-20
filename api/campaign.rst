@@ -52,7 +52,7 @@ Example
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </api/doc/authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
@@ -109,7 +109,7 @@ Example
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
@@ -290,7 +290,7 @@ Example
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
@@ -413,7 +413,7 @@ Example
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 
 .. note::
@@ -670,7 +670,7 @@ To see the first page of all campaigns use the below method:
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`..
 
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
@@ -820,7 +820,7 @@ To see the first page of all bought campaigns use the below method:
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
@@ -957,7 +957,7 @@ To see the first page of all exported campaigns to csv file use the below method
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
@@ -1037,7 +1037,7 @@ To see the first page of all publicly available campaigns use the below method:
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
@@ -1290,7 +1290,7 @@ Example
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 .. note::
 
@@ -1349,7 +1349,7 @@ To remove an brand icon for campaign ``campaign = 000096cf-32a3-43bd-9034-4df343
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 .. note::
 
@@ -1398,7 +1398,7 @@ To get an brand icon for campaign ``campaign = 000096cf-32a3-43bd-9034-4df343e5f
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 .. note::
 
@@ -1450,7 +1450,7 @@ To add an brand icon for campaign ``campaign = 000096cf-32a3-43bd-9034-4df343e5f
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 .. note::
 
@@ -1507,7 +1507,7 @@ To see the details of the admin user with ``campaign = 3062c881-93f3-496b-9669-4
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 .. note::
 
@@ -1656,8 +1656,8 @@ To see the list of campaigns for a customer with ID ``customer = 00000000-0000-4
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
-
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
+    
 .. note::
 
     The *00000000-0000-474c-b092-b0dd880c07e2* id is an exemplary value. Your value can be different.
@@ -1775,7 +1775,7 @@ use the below method:
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 .. note::
 
@@ -1940,7 +1940,7 @@ To check reward campaign visibility for the customers ``campaign = 000096cf-32a3
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 .. note::
 
@@ -2074,7 +2074,7 @@ To get photo ``photoId = 08ae48fd-04b0-4a08-a2a7-fcfca3c4caf5`` for campaign ``c
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 .. note::
 
@@ -2149,7 +2149,7 @@ To remove photo ``photoId = 08ae48fd-04b0-4a08-a2a7-fcfca3c4caf5`` for campaign 
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 .. note::
 
@@ -2201,7 +2201,7 @@ To get campaign's photo ``campaign = 000096cf-32a3-43bd-9034-4df343e5fd93`` use 
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 .. note::
 
@@ -2256,7 +2256,7 @@ To make campaign active ``campaign = 000096cf-32a3-43bd-9034-4df343e5fd93`` use 
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 .. note::
 
@@ -2291,7 +2291,7 @@ To make campaign inactive ``campaign = 000096cf-32a3-43bd-9034-4df343e5fd93`` us
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 .. note::
 
@@ -2361,7 +2361,7 @@ To make campaign active ``campaign = 40d4b8c5-3be4-4f76-8804-d1dc3c9a9732`` use 
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 	
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
@@ -2427,7 +2427,7 @@ Example
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
@@ -2568,7 +2568,7 @@ To see the details of the admin user with ``campaign = 3062c881-93f3-496b-9669-4
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 .. note::
 
@@ -2692,7 +2692,7 @@ To see the list of campaigns for a customer with ID ``customer = 00000000-0000-4
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 .. note::
 
@@ -2808,7 +2808,7 @@ use the below method:
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 .. note::
 
@@ -2886,7 +2886,7 @@ Get all campaigns available for logged in customer.
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 
 Change delivery status in bought campaign by customer
@@ -2939,7 +2939,7 @@ To change delivery status for customer with id = ``id = 5bdab759-5b31-48d6-a38b-
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
