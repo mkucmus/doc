@@ -46,6 +46,11 @@ Example
 
 .. note::
 
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
+
+.. note::
+
     Translatable fields (name, description etc.) are returned in given locale.
 
 
@@ -197,6 +202,10 @@ Example
         -d "level[specialRewards][0][endAt]=2018-02-15+11:27"
 
 .. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
+.. note::
     To add new special reward for level you will need to add special reward.
 
 Exemplary Response
@@ -246,6 +255,11 @@ To see the details of the admin user with ``level = 000096cf-32a3-43bd-9034-4df3
         -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
@@ -363,6 +377,11 @@ To see the details of the admin user with ``level = c343a12d-b4dd-4dee-b2cd-d6fe
         -d "level[specialRewards][0][endAt]=2017-10-15+13:07"
 
 
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
+
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
 
@@ -413,6 +432,11 @@ To see the activated user with ``level = c343a12d-b4dd-4dee-b2cd-d6fe1b021115`` 
         -H "Content-type:\ application/x-www-form-urlencoded" \
         -H "Authorization:\ Bearer\ eyJhbGciOiJSUzI1NiIsInR5cCI6..." \
 
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
+
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
 
@@ -460,6 +484,10 @@ To see the list of campaigns for a level with ID ``customer = 000096cf-32a3-43bd
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
 
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
@@ -541,6 +569,10 @@ Example
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
 
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
@@ -644,6 +676,11 @@ To see the details of the customer user with ``level = 000096cf-32a3-43bd-9034-4
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
 
 
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
+
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
 
@@ -725,8 +762,8 @@ To get level's photo ``level = 00096cf-32a3-43bd-9034-4df343e5fd94`` use the bel
 
 .. note::
 
-    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 .. note::
 
@@ -798,8 +835,8 @@ To remove level's photo ``level = 00096cf-32a3-43bd-9034-4df343e5fd94`` use the 
 
 .. note::
 
-    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 .. note::
 
@@ -850,8 +887,8 @@ To get level's photo ``level = 00096cf-32a3-43bd-9034-4df343e5fd94`` use the bel
 
 .. note::
 
-    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 .. note::
 
