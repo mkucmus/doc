@@ -50,7 +50,7 @@ Example
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
@@ -152,7 +152,7 @@ Example
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 .. note::
 
@@ -246,7 +246,7 @@ Example
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
@@ -345,7 +345,7 @@ Example
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 .. note::
 
@@ -506,7 +506,7 @@ Example
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 .. note::
 
@@ -652,7 +652,7 @@ To fully update a earningRule with ``earningRule = 00000000-0000-474c-b092-b0dd8
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 .. note::
 
@@ -712,7 +712,7 @@ To make earning rule active ``earningRule = 7d482776-318a-48dd-90cd-6b3f06a3f4e8
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 .. note::
 
@@ -773,7 +773,7 @@ Example
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 .. note::
 
@@ -829,7 +829,7 @@ To get earning rule's photo ``earningRule = 000096cf-32a3-43bd-9034-4df343e5fd93
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 .. note::
 
@@ -902,7 +902,7 @@ To remove earning rule's photo ``earningRule = 000096cf-32a3-43bd-9034-4df343e5f
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 .. note::
 
@@ -954,7 +954,7 @@ To get earning rule's photo ``earningRule = 000096cf-32a3-43bd-9034-4df343e5fd93
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an exemplary value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 .. note::
 
@@ -1010,7 +1010,7 @@ Exemplary Response
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 .. note::
 
@@ -1069,7 +1069,7 @@ Exemplary Response
 .. note::
 
     The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
-    Your value can be different. Read more about :doc:`Authorization in the </authorization>`.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 .. note::
 
