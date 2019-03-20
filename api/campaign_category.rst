@@ -342,3 +342,5 @@ Exemplary Response
 
 .. code-block:: json
 
+    204 No Content
+
