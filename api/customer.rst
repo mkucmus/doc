@@ -2076,7 +2076,7 @@ Exemplary Response
 Assign POS to customer
 ----------------------
 
-To assign POS to specific customer you will need to call the ``/api/seller/customer/{customer}/pos endpoint with the ``POST`` method.
+To assign POS to specific customer you will need to call the ``/api/seller/customer/{customer}/pos`` endpoint with the ``POST`` method.
 
 Definition
 ^^^^^^^^^^
@@ -2136,7 +2136,7 @@ Exemplary Response
 Activate customer (seller)
 --------------------------
 
-To activate specific customer you will need to call the ``/api/seller/customer/{customer}/activate` endpoint with the ``POST`` method.
+To activate specific customer you will need to call the ``/api/seller/customer/{customer}/activate`` endpoint with the ``POST`` method.
 
 Definition
 ^^^^^^^^^^
@@ -2194,7 +2194,7 @@ Exemplary Response
 Deactivate customer (seller)
 ----------------------------
 
-To deactivate specific customer you will need to call the ``/api/seller/customer/{customer}/deactivate` endpoint with the ``POST`` method.
+To deactivate specific customer you will need to call the ``/api/seller/customer/{customer}/deactivate`` endpoint with the ``POST`` method.
 
 Definition
 ^^^^^^^^^^
