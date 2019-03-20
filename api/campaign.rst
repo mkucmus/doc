@@ -2039,14 +2039,14 @@ Exemplary Response
 Get campaign's photo
 --------------------
 
-To get campaign's photo you will need to call the ``/api/campaign/<campaign>/photo`` endpoint with the ``GET`` method.
+To get campaign's photo you will need to call the ``/api/campaign/<campaign>/photo/{photoId}`` endpoint with the ``GET`` method.
 
 Definition
 ^^^^^^^^^^
 
 .. code-block:: text
 
-    GET /api/campaign/<campaign>/photo
+    GET /api/campaign/<campaign>/photo/<photoId>
 
 +---------------+----------------+--------------------------------------+
 | Parameter     | Parameter type | Description                          |
@@ -2055,15 +2055,17 @@ Definition
 +---------------+----------------+--------------------------------------+
 | <campaign>    | query          | Campaign ID                          |
 +---------------+----------------+--------------------------------------+
+| <photoId>     | query          | Photo ID                             |
++---------------+----------------+--------------------------------------+
 
 Example
 ^^^^^^^
 
-To get campaign's photo ``campaign = 000096cf-32a3-43bd-9034-4df343e5fd93`` use the below method:
+To get photo ``photoId = 08ae48fd-04b0-4a08-a2a7-fcfca3c4caf5`` for campaign ``campaign = 000096cf-32a3-43bd-9034-4df343e5fd93`` use the below method:
 
 .. code-block:: bash
 
-    curl http://localhost:8181/api/campaign/000096cf-32a3-43bd-9034-4df343e5fd93/photo \
+    curl http://localhost:8181/api/campaign/000096cf-32a3-43bd-9034-4df343e5fd93/photo/08ae48fd-04b0-4a08-a2a7-fcfca3c4caf5 \
         -X "GET" \
         -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
@@ -2076,7 +2078,7 @@ To get campaign's photo ``campaign = 000096cf-32a3-43bd-9034-4df343e5fd93`` use 
 
 .. note::
 
-    The *campaign = 000096cf-32a3-43bd-9034-4df343e5fd93* id is an exemplary value. Your value can be different.
+    The *campaign = 000096cf-32a3-43bd-9034-4df343e5fd93* id and *photoId = 08ae48fd-04b0-4a08-a2a7-fcfca3c4caf5* are the exemplary values. Your values can be different.
     Check in the list of all campaigns if you are not sure which id should be used.
 
 Exemplary Response
@@ -2112,14 +2114,14 @@ The campaign may not have photo at all and you will receive a below response.
 Remove campaign's photo
 -----------------------
 
-To remove campaign's photo you will need to call the ``/api/campaign/<campaign>/photo`` endpoint with the ``DELETE`` method.
+To remove campaign's photo you will need to call the ``/api/campaign/<campaign>/photo/{photoId}`` endpoint with the ``DELETE`` method.
 
 Definition
 ^^^^^^^^^^
 
 .. code-block:: text
 
-    DELETE /api/campaign/<campaign>/photo
+    DELETE /api/campaign/<campaign>/photo/<photoId>
 
 +---------------+----------------+--------------------------------------+
 | Parameter     | Parameter type | Description                          |
@@ -2128,15 +2130,17 @@ Definition
 +---------------+----------------+--------------------------------------+
 | <campaign>    | query          | Campaign ID                          |
 +---------------+----------------+--------------------------------------+
+| <photoId>     | query          | Photo ID                             |
++---------------+----------------+--------------------------------------+
 
 Example
 ^^^^^^^
 
-To remove campaign's photo ``campaign = 000096cf-32a3-43bd-9034-4df343e5fd93`` use the below method:
+To remove photo ``photoId = 08ae48fd-04b0-4a08-a2a7-fcfca3c4caf5`` for campaign ``campaign = 000096cf-32a3-43bd-9034-4df343e5fd93`` use the below method:
 
 .. code-block:: bash
 
-    curl http://localhost:8181/api/campaign/000096cf-32a3-43bd-9034-4df343e5fd93/photo \
+    curl http://localhost:8181/api/campaign/000096cf-32a3-43bd-9034-4df343e5fd93/photo/08ae48fd-04b0-4a08-a2a7-fcfca3c4caf5 \
         -X "DELETE" \
         -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
@@ -2149,7 +2153,7 @@ To remove campaign's photo ``campaign = 000096cf-32a3-43bd-9034-4df343e5fd93`` u
 
 .. note::
 
-    The *campaign = 000096cf-32a3-43bd-9034-4df343e5fd93* id is an exemplary value. Your value can be different.
+    The *campaign = 000096cf-32a3-43bd-9034-4df343e5fd93* id and *photoId = 08ae48fd-04b0-4a08-a2a7-fcfca3c4caf5* are the exemplary values. Your values can be different.
     Check in the list of all campaigns if you are not sure which id should be used.
 
 Exemplary Response
@@ -2157,8 +2161,8 @@ Exemplary Response
 
 .. code-block:: text
 
-    STATUS: 200 OK
-
+    STATUS: 204 No Content
+    
 Add a photo to the campaign
 ---------------------------
 
