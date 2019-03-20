@@ -2252,7 +2252,7 @@ Exemplary Response
 Register new customer (seller)
 ------------------------------
 
-To register customer you will need to call the ``/api/seller/customer/register` endpoint with the ``POST`` method.
+To register customer you will need to call the ``/api/seller/customer/register`` endpoint with the ``POST`` method.
 
 Definition
 ^^^^^^^^^^
@@ -2580,7 +2580,7 @@ Example Response
 Import customers
 ----------------
 
-To import customers you will need to call the ``/api/admin/customer/import` endpoint with the ``POST`` method.
+To import customers you will need to call the ``/api/admin/customer/import`` endpoint with the ``POST`` method.
 
 Definition
 ^^^^^^^^^^
