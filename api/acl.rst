@@ -45,6 +45,11 @@ To create a new role use the below method:
         -d "role[permissions][1]['resource']=EARNING_RULE" \
         -d "role[permissions][1]['access']=MODIFY" \
 
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
+
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
 
@@ -83,6 +88,11 @@ To see the details of the admin user with ``role = 37`` use the below method:
         -X "GET" -H "Accept: application/json"
         -H "Content-type: application/x-www-form-urlencoded"
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+
+.. note::
+
+    The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
+    Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
 
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
@@ -150,6 +160,12 @@ Example
         -X "GET" -H "Accept: application/json" \
         -H "Content-type: application/x-www-form-urlencoded" \
         -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6..."
+        
+.. note::
+
+   The *eyJhbGciOiJSUzI1NiIsInR5cCI6...* authorization token is an example value.
+   Your value can be different. Read more about Authorization :doc:`here </api/authorization>`.
+    
 
 Exemplary Response
 ^^^^^^^^^^^^^^^^^^
