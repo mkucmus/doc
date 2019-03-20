@@ -298,8 +298,8 @@ Exemplary Response
       ]
     }
 
-Method allows to activate or deactivate campaign category
-----------------------------------------------------------
+Activate or deactivate campaign category
+----------------------------------------
 
 To activate or deactivate campaign category you will need to call the ``/api/campaignCategory/{campaignCategory}/active`` endpoint with the ``GET`` method.
 
