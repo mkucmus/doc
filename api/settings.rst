@@ -1660,8 +1660,8 @@ Exemplary Response
 
     .text { color: #123123; }
 
-Method will return activation method (email|sms)
--------------------------------------------------
+Return activation method (email|sms)
+------------------------------------
 
 To check activation method you will need to call the ``/api/settings/activation-method`` endpoint with the ``GET`` method.
 
