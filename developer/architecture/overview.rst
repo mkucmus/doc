@@ -7,7 +7,8 @@ Fullstack Symfony
 Open Loyalty is based on Symfony, which is a leading PHP framework to create web applications. Using Symfony
 allows developers to work better and faster by providing them with certainty of developing an application that
 is fully compatible with the business rules, that is structured, maintainable and upgradable, but also it allows
-to save time by providing generic re-usable modules.
+
+hasdkfjfksdfowrjwiglfjlsdkkfjksdkf
 
 Doctrine
 --------
